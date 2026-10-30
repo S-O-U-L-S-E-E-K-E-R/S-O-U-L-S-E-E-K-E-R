@@ -10,13 +10,13 @@
 
 ---
 
-```console
+```
 $ whoami
-SoulSeeker — RF / SIGINT engineer. I build tools that find things in the spectrum.
+SoulSeeker — DevOps engineer · penetration tester · red teamer. I build the tooling.
 
-focus   drone detection + direction-finding (C-UAS), SDR, offensive security, OSINT
-stack   HackRF · USRP B210 · KrakenSDR · Raspberry Pi · Kotlin/Android · Python · C++
-now     STORM (counter-UAS sensor grid) · phantom-drone (RF decoy) · ShadowLens (news intel)
+focus   offensive security · red team · RF / SIGINT · drone detection (C-UAS) · OSINT
+stack   Docker · Linux · CI/CD · Python · Bash · Kotlin/Android · C++ · HackRF · B210 · KrakenSDR
+now     STORM (C-UAS sensor grid) · phantom-drone (RF decoy) · ShadowLens (news intel)
 ```
 
 ### ▞ DOSSIER LINKS
