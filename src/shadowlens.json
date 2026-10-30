@@ -1,27 +1,23 @@
 {
-  "updated": "2026-10-30 09:49 UTC",
-  "feed_time": "2026-10-30T09:49:01.349376",
-  "total": 890,
-  "coded": 259,
-  "outlets": 62,
+  "updated": "2026-10-30 10:50 UTC",
+  "feed_time": "2026-10-30T10:49:56.864925",
+  "total": 887,
+  "coded": 255,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 69,
+    "material conflict": 115,
+    "verbal conflict": 63,
     "verbal cooperation": 59,
-    "material cooperation": 19
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
-    },
-    {
-      "label": "Investigate",
-      "n": 19
+      "n": 22
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Demonstrate or rally",
@@ -30,6 +26,10 @@
     {
       "label": "Attack cybernetically",
       "n": 14
+    },
+    {
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -67,14 +67,14 @@
       "outlets": 1
     },
     {
-      "title": "Spain continues to investigate causes of deadly Toledo train crash \u2013 Europe\u2026",
+      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "Spain",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
@@ -86,6 +86,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Ukraine war live: Russia strikes Kyiv as aid convoy enters stricken city of\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "073",
+      "label": "Provide humanitarian aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 1
     },
     {
@@ -108,17 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Air defenses intercept 21 UAVs heading toward Moscow \u2014 city mayor",
-      "source": "TASS",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
