@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="vendor/fonts.css">
+<link rel="stylesheet" href="vendor/fonts2.css">
+<style>
+  :root{--page:#0a0a0b;--box:#0d0d0f;--bd:#29292c;--red:#e3252b;--red2:#ff3a3f;--cream:#ebe5d8;--g1:#9a9a9a;--g2:#7c7c7c;--g3:#5a5a5c;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--page)}
+  body{width:1300px;height:330px}
+  .mono{font-family:'Share Tech Mono',monospace}
+  #cap{position:relative;width:1300px;height:330px;background:radial-gradient(ellipse at 75% 15%,#121114 0%,var(--page) 55%)}
+  #panel{position:absolute;left:10px;top:12px;width:1280px;height:300px;background:var(--box);border:1px solid var(--bd)}
+  .abs{position:absolute}
+  .brk{position:absolute;width:15px;height:15px;border-color:var(--red);border-style:solid;border-width:0}
+  .brk.tl{border-top-width:2px;border-left-width:2px}.brk.tr{border-top-width:2px;border-right-width:2px}
+  .brk.bl{border-bottom-width:2px;border-left-width:2px}.brk.br{border-bottom-width:2px;border-right-width:2px}
+  .shead{color:var(--g1);font-size:11.5px;letter-spacing:3.4px}
+  .kebab{position:absolute;display:flex;gap:3px}.kebab i{width:3px;height:3px;border-radius:50%;background:#b9b9b9}
+  .lbl{color:var(--g2);font-size:11px;letter-spacing:2.4px}
+  .big{font-family:'Saira Stencil One',sans-serif;color:var(--cream);line-height:.9}
+  .sub{color:var(--g3);font-size:10px;letter-spacing:1.6px}
+  .vline{position:absolute;width:1px;background:var(--bd)}
+  .lrow{position:absolute;display:flex;align-items:center;font-family:'Share Tech Mono',monospace}
+  .lname{color:#c9c6bf;font-size:13px;letter-spacing:1px}
+  .lpct{color:var(--g2);font-size:12px}
+</style>
+</head>
+<body>
+<div id="cap">
+  <div id="panel"></div>
+  <!-- header -->
+  <svg class="abs" style="left:26px;top:20px" width="17" height="14" viewBox="0 0 17 14" fill="none" stroke="#9a9a9a" stroke-width="1.3"><path d="M1 2.5h5l1.5 1.8H16v8.7H1z"/></svg>
+  <div class="abs mono shead" style="left:51px;top:20px">FIELD TELEMETRY</div>
+  <div class="abs mono" id="sync" style="left:1030px;top:22px;color:#5f5f62;font-size:9px;letter-spacing:1.4px;text-align:right;width:220px"></div>
+  <div class="kebab" style="left:1250px;top:25px"><i></i><i></i><i></i></div>
+
+  <!-- corners -->
+  <div class="brk tl" style="left:9px;top:11px"></div><div class="brk tr" style="left:1276px;top:11px"></div>
+  <div class="brk bl" style="left:9px;top:297px"></div><div class="brk br" style="left:1276px;top:297px"></div>
+
+  <!-- content built by script -->
+  <div class="abs" id="left" style="left:40px;top:70px;width:470px;height:220px"></div>
+  <div class="vline" style="left:540px;top:70px;height:212px"></div>
+  <div class="abs" id="right" style="left:590px;top:70px;width:660px;height:220px"></div>
+</div>
+
+<script>
+(async function(){
+  let d={}; try{const r=await fetch('data.json'); if(r.ok) d=await r.json();}catch(e){}
+  const t=d.totals||{}, langs=d.langs||[];
+  const el=(h)=>{const x=document.createElement('div');x.innerHTML=h;return x.firstElementChild;};
+  const L=document.getElementById('left');
+  const contrib=t.contributions!=null?t.contributions:'—';
+  const cur=t.current!=null?t.current:'—', lng=t.longest!=null?t.longest:'—';
+  L.appendChild(el(`<div class="abs mono lbl" style="left:0;top:0">TOTAL CONTRIBUTIONS</div>`));
+  L.appendChild(el(`<div class="abs big" style="left:-2px;top:16px;font-size:62px">${contrib}</div>`));
+  L.appendChild(el(`<div class="abs mono sub" style="left:2px;top:88px">LAST 12 MONTHS</div>`));
+  // streak blocks
+  L.appendChild(el(`<div class="abs mono lbl" style="left:0;top:132px">CURRENT STREAK</div>`));
+  L.appendChild(el(`<div class="abs big" style="left:-2px;top:148px;font-size:40px;color:#ff3a3f">${cur}<span style="font-size:18px;color:#7c7c7c"> d</span></div>`));
+  L.appendChild(el(`<div class="abs mono lbl" style="left:250px;top:132px">LONGEST STREAK</div>`));
+  L.appendChild(el(`<div class="abs big" style="left:248px;top:148px;font-size:40px">${lng}<span style="font-size:18px;color:#7c7c7c"> d</span></div>`));
+  L.appendChild(el(`<div class="vline" style="left:232px;top:130px;height:66px"></div>`));
+
+  // right: language mix
+  const R=document.getElementById('right');
+  R.appendChild(el(`<div class="abs mono lbl" style="left:0;top:0">LANGUAGE MIX <span style="color:#3a3a3d">· OWNED REPOS</span></div>`));
+  // stacked bar
+  const barW=640, barX=0, barY=26, barH=16;
+  let acc=0;
+  const bar=document.createElementNS('http://www.w3.org/2000/svg','svg');
+  bar.setAttribute('width',barW); bar.setAttribute('height',barH);
+  bar.style.position='absolute'; bar.style.left=barX+'px'; bar.style.top=barY+'px';
+  langs.forEach(l=>{
+    const w=barW*l.pct/100;
+    const r=document.createElementNS('http://www.w3.org/2000/svg','rect');
+    r.setAttribute('x',acc); r.setAttribute('y',0); r.setAttribute('width',Math.max(0,w-1.5));
+    r.setAttribute('height',barH); r.setAttribute('fill',l.color); r.setAttribute('rx',1.5);
+    bar.appendChild(r); acc+=w;
+  });
+  R.appendChild(bar);
+  // legend grid (2 cols x 3)
+  langs.forEach((l,i)=>{
+    const col=Math.floor(i/3), row=i%3;
+    const x=col*330, y=64+row*44;
+    const item=el(`<div class="lrow" style="left:${x}px;top:${y}px;width:300px">
+      <span style="width:12px;height:12px;border-radius:3px;background:${l.color};display:inline-block;margin-right:11px"></span>
+      <span class="lname" style="flex:1">${l.name}</span>
+      <span class="lpct">${l.pct}%</span></div>`);
+    R.appendChild(item);
+  });
+
+  const sync=document.getElementById('sync');
+  if(sync) sync.textContent=`SYNC ${d.updated||'—'}`;
+  document.body.dataset.ready='1';
+})();
+</script>
+</body>
+</html>

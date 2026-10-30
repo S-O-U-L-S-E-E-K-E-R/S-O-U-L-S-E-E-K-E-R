@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30 02:10 UTC",
+  "updated": "2026-10-30 03:08 UTC",
   "cards": [
     {
       "id": "01",
@@ -541,5 +541,43 @@
       0
     ]
   ],
-  "followers": 1
+  "followers": 1,
+  "langs": [
+    {
+      "name": "TypeScript",
+      "pct": 67.2,
+      "color": "#3178c6"
+    },
+    {
+      "name": "Python",
+      "pct": 17.8,
+      "color": "#3572A5"
+    },
+    {
+      "name": "C",
+      "pct": 5.8,
+      "color": "#555555"
+    },
+    {
+      "name": "Kotlin",
+      "pct": 4.5,
+      "color": "#A97BFF"
+    },
+    {
+      "name": "C++",
+      "pct": 1.6,
+      "color": "#f34b7d"
+    },
+    {
+      "name": "Shell",
+      "pct": 0.9,
+      "color": "#89e051"
+    }
+  ],
+  "totals": {
+    "contributions": 974,
+    "current": 84,
+    "longest": 92,
+    "since": "2025-10-26"
+  }
 }

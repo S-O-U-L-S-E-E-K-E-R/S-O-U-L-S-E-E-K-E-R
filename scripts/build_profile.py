@@ -68,7 +68,15 @@ def main():
         followers {{ totalCount }}
         contributionsCollection {{
           contributionCalendar {{
-            weeks {{ contributionDays {{ contributionCount weekday }} }}
+            totalContributions
+            weeks {{ contributionDays {{ contributionCount weekday date }} }}
+          }}
+        }}
+        repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {{
+          nodes {{
+            languages(first: 8, orderBy: {{field: SIZE, direction: DESC}}) {{
+              edges {{ size node {{ name color }} }}
+            }}
           }}
         }}
       }}
@@ -83,11 +91,14 @@ def main():
         prior = {c["title"]: c for c in prev.get("cards", [])}
         prior["__cal__"] = prev.get("calendar", [])
         prior["__flw__"] = prev.get("followers")
+        prior["__lang__"] = prev.get("langs", [])
+        prior["__tot__"] = prev.get("totals", {})
     except Exception:
         pass
 
     data = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
-            "cards": [], "calendar": [], "followers": None}
+            "cards": [], "calendar": [], "followers": None,
+            "langs": [], "totals": {}}
     try:
         res = gql(query)
         d = res.get("data") or {}
@@ -99,7 +110,8 @@ def main():
         if data["followers"] is None:
             data["followers"] = prior.get("__flw__")
         # calendar -> list of weeks, each 7 ints (level 0..4 by magnitude)
-        cal = (((u.get("contributionsCollection") or {}).get("contributionCalendar")) or {}).get("weeks") or []
+        ccal = ((u.get("contributionsCollection") or {}).get("contributionCalendar")) or {}
+        cal = ccal.get("weeks") or []
         allc = [day["contributionCount"] for w in cal for day in w["contributionDays"]]
         mx = max(allc) if allc else 0
         def lvl(n):
@@ -113,6 +125,47 @@ def main():
             data["calendar"].append(col)
         if not data["calendar"]:
             data["calendar"] = prior.get("__cal__", [])
+
+        # totals + streaks from ordered days
+        days = sorted(({"date": day["date"], "n": day["contributionCount"]}
+                       for w in cal for day in w["contributionDays"]), key=lambda x: x["date"])
+        total = ccal.get("totalContributions")
+        cur = longest = run = 0
+        for day in days:
+            if day["n"] > 0:
+                run += 1; longest = max(longest, run)
+            else:
+                run = 0
+        # current streak: walk backwards; allow today to be 0 (not over yet)
+        for i, day in enumerate(reversed(days)):
+            if day["n"] > 0:
+                cur += 1
+            elif i == 0:
+                continue  # today still open
+            else:
+                break
+        since = days[0]["date"] if days else None
+        if total is not None:
+            data["totals"] = {"contributions": total, "current": cur, "longest": longest, "since": since}
+        else:
+            data["totals"] = prior.get("__tot__", {})
+
+        # language mix across all owned non-fork repos
+        repos = ((u.get("repositories") or {}).get("nodes")) or []
+        agg = {}
+        for rp in repos:
+            for e in ((rp.get("languages") or {}).get("edges") or []):
+                nm = e["node"]["name"]
+                if nm not in agg:
+                    agg[nm] = {"size": 0, "color": e["node"].get("color") or "#888"}
+                agg[nm]["size"] += e.get("size", 0)
+        tot_sz = sum(v["size"] for v in agg.values()) or 1
+        top = sorted(agg.items(), key=lambda kv: kv[1]["size"], reverse=True)[:6]
+        if top:
+            data["langs"] = [{"name": k, "pct": round(v["size"] * 100.0 / tot_sz, 1),
+                              "color": v["color"]} for k, v in top]
+        else:
+            data["langs"] = prior.get("__lang__", [])
         # cards — reuse prior stats when this token can't read the repo
         for i, c in enumerate(CARDS):
             r = d.get(f"r{i}")
@@ -135,6 +188,8 @@ def main():
         print("fetch failed, preserving prior stats:", e, file=sys.stderr)
         data["calendar"] = prior.get("__cal__", [])
         data["followers"] = prior.get("__flw__")
+        data["langs"] = prior.get("__lang__", [])
+        data["totals"] = prior.get("__tot__", {})
         for c in CARDS:
             p = prior.get(c["title"], {})
             data["cards"].append({"id": c["id"], "title": c["title"], "role": c["role"],
@@ -147,7 +202,8 @@ def main():
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(data, indent=2))
-    print(f"wrote {OUT} | cards={len(data['cards'])} weeks={len(data['calendar'])} followers={data['followers']}")
+    print(f"wrote {OUT} | cards={len(data['cards'])} weeks={len(data['calendar'])} "
+          f"followers={data['followers']} langs={len(data['langs'])} totals={data['totals']}")
 
 
 if __name__ == "__main__":

@@ -8,6 +8,7 @@ on:
     branches: [main]
     paths:
       - "src/hero.html"
+      - "src/telemetry.html"
       - "scripts/build_profile.py"
       - ".github/workflows/profile.yml"
 
@@ -43,23 +44,27 @@ jobs:
         with:
           chrome-version: stable
 
-      - name: render hero.png
+      - name: render panels
         run: |
-          "${{ steps.chrome.outputs.chrome-path }}" \
-            --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+          CH="${{ steps.chrome.outputs.chrome-path }}"
+          "$CH" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
             --allow-file-access-from-files --force-device-scale-factor=2 \
             --virtual-time-budget=20000 --window-size=1300,1000 \
-            --screenshot="$PWD/src/_raw.png" \
-            "file://$PWD/src/hero.html"
-          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
-          convert src/_raw.png -crop 2600x1684+0+0 +repage assets/hero.png
-          rm -f src/_raw.png
+            --screenshot="$PWD/src/_hero.png" "file://$PWD/src/hero.html"
+          "$CH" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+            --allow-file-access-from-files --force-device-scale-factor=2 \
+            --virtual-time-budget=15000 --window-size=1300,340 \
+            --screenshot="$PWD/src/_tel.png" "file://$PWD/src/telemetry.html"
+          convert src/_hero.png -crop 2600x1684+0+0 +repage assets/hero.png
+          convert src/_tel.png  -crop 2600x660+0+0  +repage assets/telemetry.png
+          rm -f src/_hero.png src/_tel.png
 
       - name: commit if changed
         run: |
           git config user.name  "profile-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add assets/hero.png src/data.json
+          git add assets/hero.png assets/telemetry.png src/data.json
           if git diff --cached --quiet; then
             echo "no changes"
           else

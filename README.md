@@ -58,10 +58,7 @@ disposition   = builds the tool rather than waits for it
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=S-O-U-L-S-E-E-K-E-R&show_icons=true&hide_border=true&bg_color=0a0a0b&title_color=E4322B&icon_color=E4322B&text_color=c9d1d9&include_all_commits=true&count_private=true" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=S-O-U-L-S-E-E-K-E-R&hide_border=true&background=0a0a0b&stroke=E4322B&ring=E4322B&fire=E4322B&currStreakLabel=E4322B&sideLabels=c9d1d9&dates=8b949e&currStreakNum=c9d1d9&sideNums=c9d1d9" />
-
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=S-O-U-L-S-E-E-K-E-R&layout=compact&hide_border=true&bg_color=0a0a0b&title_color=E4322B&text_color=c9d1d9&langs_count=8" />
+<img src="./assets/telemetry.png" alt="Field telemetry — total contributions, streaks, language mix" width="100%" />
 
 </div>
 
