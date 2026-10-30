@@ -84,16 +84,6 @@ now     STORM (C-UAS sensor grid) · phantom-drone (RF decoy) · ShadowLens (new
 
 ---
 
-### ▞ 3D CONTRIBUTION MATRIX
-
-<div align="center">
-
-<img src="./profile-3d-contrib/profile-customize.svg" alt="3D isometric contribution calendar" width="100%" />
-
-</div>
-
----
-
 ### ▞ GOSPEL OF THE MACHINE &nbsp;`// VERSE OF THE DAY`
 
 <div align="center">
