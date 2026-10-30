@@ -66,8 +66,12 @@ jobs:
           git config user.email "actions@users.noreply.github.com"
           git add assets/hero.png assets/telemetry.png src/data.json
           if git diff --cached --quiet; then
-            echo "no changes"
-          else
-            git commit -m "chore: refresh profile hero [skip ci]"
-            git push
+            echo "no changes"; exit 0
           fi
+          git commit -m "chore: refresh profile hero [skip ci]"
+          for i in 1 2 3; do
+            git pull --rebase -X ours -q origin main || true
+            if git push -q origin main; then echo "pushed (attempt $i)"; exit 0; fi
+            sleep 4
+          done
+          echo "push failed after retries"; exit 1
