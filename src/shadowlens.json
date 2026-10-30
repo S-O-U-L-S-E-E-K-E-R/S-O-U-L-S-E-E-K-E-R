@@ -1,31 +1,31 @@
 {
-  "updated": "2026-10-30 15:55 UTC",
-  "feed_time": "2026-10-30T15:55:01.623439",
-  "total": 862,
-  "coded": 245,
-  "outlets": 66,
+  "updated": "2026-10-30 16:56 UTC",
+  "feed_time": "2026-10-30T16:55:57.631474",
+  "total": 880,
+  "coded": 258,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 47,
-    "verbal cooperation": 57,
-    "material cooperation": 23
+    "material conflict": 124,
+    "verbal conflict": 48,
+    "verbal cooperation": 64,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
+      "n": 22
+    },
+    {
+      "label": "Demonstrate or rally",
       "n": 21
     },
     {
       "label": "Use unconventional violence",
-      "n": 19
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 16
     },
     {
       "label": "Use conventional military force",
@@ -42,17 +42,17 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
-      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
-      "source": "Sputnik",
+      "title": "Call of Duty makers apologize, agree to remove footage of deadly 2022 Seoul\u2026",
+      "source": "Anadolu Agency",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "South Korea",
+      "code": "057",
+      "label": "Sign formal agreement",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
       "outlets": 2
     },
     {
