@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-30 12:52 UTC",
-  "feed_time": "2026-10-30T12:52:01.402495",
-  "total": 891,
-  "coded": 257,
-  "outlets": 65,
+  "updated": "2026-10-30 13:53 UTC",
+  "feed_time": "2026-10-30T13:53:01.599247",
+  "total": 876,
+  "coded": 255,
+  "outlets": 66,
   "quad_hist": {
     "material conflict": 116,
-    "verbal conflict": 60,
-    "verbal cooperation": 59,
-    "material cooperation": 22
+    "verbal conflict": 56,
+    "verbal cooperation": 60,
+    "material cooperation": 23
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 21
+      "label": "Attack cybernetically",
+      "n": 22
     },
     {
-      "label": "Attack cybernetically",
-      "n": 21
+      "label": "Use unconventional violence",
+      "n": 19
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 15
     },
     {
       "label": "Investigate",
-      "n": 17
+      "n": 15
     },
     {
       "label": "Threaten",
       "n": 14
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 13
     }
   ],
   "ticker": [
@@ -45,14 +45,14 @@
       "outlets": 3
     },
     {
-      "title": "Russian strikes on Kyiv kill one, injure another, damage homes and business\u2026",
+      "title": "Air defenses down three missiles, 96 drones used by Russia to attack Ukrain\u2026",
       "source": "Ukrinform",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
