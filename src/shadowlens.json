@@ -1,41 +1,41 @@
 {
-  "updated": "2026-10-30 10:50 UTC",
-  "feed_time": "2026-10-30T10:49:56.864925",
+  "updated": "2026-10-30 11:51 UTC",
+  "feed_time": "2026-10-30T11:51:08.479709",
   "total": 887,
-  "coded": 255,
-  "outlets": 63,
+  "coded": 250,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 63,
-    "verbal cooperation": 59,
-    "material cooperation": 18
+    "material conflict": 117,
+    "verbal conflict": 59,
+    "verbal cooperation": 57,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Consult",
-      "n": 14
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 14
+      "n": 23
     },
     {
       "label": "Attack cybernetically",
-      "n": 14
+      "n": 19
+    },
+    {
+      "label": "Investigate",
+      "n": 15
     },
     {
       "label": "Threaten",
+      "n": 13
+    },
+    {
+      "label": "Make a visit",
       "n": 13
     }
   ],
   "ticker": [
     {
-      "title": "IN BRIEF: Russia pounds Ukraine\u2019s defense plants, energy sites in massive o\u2026",
-      "source": "TASS",
+      "title": "Russian strikes on Kyiv kill one, injure another, damage homes and business\u2026",
+      "source": "Ukrinform",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "195",
@@ -89,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of m\u2026",
+      "source": "CNBC World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 1
+    },
+    {
       "title": "Ukraine war live: Russia strikes Kyiv as aid convoy enters stricken city of\u2026",
       "source": "France24",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 1
-    },
-    {
-      "title": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "North Korea",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
