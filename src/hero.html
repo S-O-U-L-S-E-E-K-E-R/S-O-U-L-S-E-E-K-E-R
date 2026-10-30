@@ -60,7 +60,8 @@
   .lang i{width:10px;height:10px;border-radius:50%;background:var(--red3);box-shadow:0 0 7px rgba(246,28,51,.8);display:block}
   .lock{position:absolute;right:18px;top:15px;display:flex;align-items:center;gap:4px;color:#75757a;
         font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:1.4px}
-  svg.art{position:absolute;left:0;top:-4px;overflow:visible}
+  .artimg{position:absolute;right:0;top:0;width:318px;height:152px;object-fit:cover;object-position:right center;
+          -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 17%);mask-image:linear-gradient(90deg,transparent 0,#000 17%)}
   svg.frame{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
 
   .actbox{position:absolute;left:0;top:712px;width:1300px;height:120px;background:#0b0b0e;
@@ -91,7 +92,9 @@
   <div class="abs subt">BUILD WHAT DOESN'T EXIST.</div>
   <div class="abs tags mono"><b>//</b>SOFTWARE<span class="sp"></span><b>//</b>HARDWARE<span class="sp"></span><b>//</b>RESEARCH<span class="sp"></span><b>//</b>OPEN SOURCE</div>
 
-  <svg id="globe" class="abs" width="1300" height="470" style="left:0;top:-72px;overflow:visible"></svg>
+  <img id="globe" class="abs" src="art/globe.png" style="left:856px;top:8px;width:444px;height:auto;
+       -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%),linear-gradient(0deg,transparent 0,#000 8%);
+       -webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0,#000 14%);"/>
 
   <svg class="abs" style="left:14px;top:356px" width="17" height="14" viewBox="0 0 17 14" fill="none" stroke="#9a9a9a" stroke-width="1.3"><path d="M1 2.5h5l1.5 1.8H16v8.7H1z"/></svg>
   <div class="abs mono shead" style="left:40px;top:356px">PROJECT DOSSIERS</div>
@@ -116,184 +119,6 @@ const RED='#d4202e', RED2='#f61c33', RED3='#ff2740', REDLN='#a61325';
 let seed=1337; const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
 function el(tag,attrs,parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e;}
 function line(g,x1,y1,x2,y2,c,o,w,dash){const a={x1,y1,x2,y2,stroke:c,'stroke-opacity':o??1,'stroke-width':w??1};if(dash)a['stroke-dasharray']=dash;return el('line',a,g);}
-function dot(g,x,y,r,c,o){return el('circle',{cx:x,cy:y,r,fill:c,'fill-opacity':o??1},g);}
-function rnode(g,x,y,r){ // glowing red node = bloom halo + bright core
-  el('circle',{cx:x,cy:y,r:r,fill:RED3,filter:'url(#rbloom)'},g);
-  el('circle',{cx:x,cy:y,r:Math.max(1,r*0.45),fill:'#ffe0e3'},g);
-}
-
-/* ---------------- globe ---------------- */
-fetch('vendor/land.json').then(r=>r.json()).then(topo=>{
-  const land=topojson.feature(topo, topo.objects.land);
-  const svg=d3.select('#globe');
-  const OFFY=72; const cx=1148, cy=164+OFFY, R=144;
-  const proj=d3.geoOrthographic().scale(R).translate([cx,cy]).rotate([32,-16]).clipAngle(90);
-  const path=d3.geoPath(proj);
-  const defs=svg.append('defs');
-  const rg=defs.append('radialGradient').attr('id','gsh').attr('cx','42%').attr('cy','38%').attr('r','66%');
-  rg.append('stop').attr('offset',0).attr('stop-color','#141317').attr('stop-opacity',0.9);
-  rg.append('stop').attr('offset',1).attr('stop-color','#09090b').attr('stop-opacity',0.4);
-  const G=svg.append('g');
-  G.append('path').datum({type:'Sphere'}).attr('d',path).attr('fill','url(#gsh)');
-  // graticule (wireframe, brighter)
-  G.append('path').datum(d3.geoGraticule().step([12,12])()).attr('d',path)
-    .attr('fill','none').attr('stroke','#dcd8d0').attr('stroke-opacity',0.4).attr('stroke-width',0.65);
-  // dotted land
-  const center=[-32,16]; const dots=G.append('g').attr('fill','#eae6de');
-  const MW=1440, MH=720, mc=document.createElement('canvas'); mc.width=MW; mc.height=MH;
-  const mctx=mc.getContext('2d'); const eq=d3.geoEquirectangular().scale(MW/(2*Math.PI)).translate([MW/2,MH/2]);
-  mctx.fillStyle='#fff'; mctx.beginPath(); d3.geoPath(eq,mctx)(land); mctx.fill();
-  const mask=mctx.getImageData(0,0,MW,MH).data;
-  const isLand=(lon,lat)=>{const x=Math.floor((lon+180)/360*MW), y=Math.floor((90-lat)/180*MH); if(x<0||x>=MW||y<0||y>=MH)return false; return mask[(y*MW+x)*4+3]>128;};
-  const step=1.25;
-  for(let lat=-80;lat<=84;lat+=step){const ls=step/Math.max(0.25,Math.cos(lat*Math.PI/180));
-    for(let lon=-180;lon<180;lon+=ls){const p=[lon,lat]; if(d3.geoDistance(p,center)>Math.PI/2-0.03)continue; if(!isLand(lon,lat))continue; const xy=proj(p); if(!xy)continue; dots.append('circle').attr('cx',xy[0]).attr('cy',xy[1]).attr('r',0.9).attr('fill-opacity',0.6);}}
-  G.append('path').datum({type:'Sphere'}).attr('d',path).attr('fill','none').attr('stroke','#efebe3').attr('stroke-opacity',0.6).attr('stroke-width',1.1);
-
-  // orbits (screen-space ellipses) — tilts like mockup
-  const orbits=[[210,60,-16,0.75,1.4],[198,104,24,0.55,1.2],[214,140,5,0.4,1.05],[92,196,-8,0.42,1.1],[150,150,0,0.3,0.9]];
-  const O=svg.append('g').attr('fill','none');
-  orbits.forEach(([rx,ry,rot,op,w])=>O.append('ellipse').attr('cx',cx).attr('cy',cy).attr('rx',rx).attr('ry',ry)
-      .attr('transform',`rotate(${rot} ${cx} ${cy})`).attr('stroke',RED).attr('stroke-opacity',op).attr('stroke-width',w).attr('filter','url(#rglow)'));
-  // red meridian on globe
-  O.append('ellipse').attr('cx',cx).attr('cy',cy).attr('rx',R*0.44).attr('ry',R).attr('transform',`rotate(16 ${cx} ${cy})`).attr('stroke',RED).attr('stroke-opacity',0.5).attr('stroke-width',1).attr('filter','url(#rglow)');
-
-  // polar axis beam + flares
-  const AX=svg.append('g');
-  line(AX,cx,cy-R-40,cx,cy+R+40,RED3,1,2.1); AX.lastChild.setAttribute('filter','url(#rglow)');
-  // bright flares top & bottom and center
-  [[cx,cy-R-34,10],[cx,cy+R+34,10],[cx,cy,6]].forEach(([x,y,r])=>{el('circle',{cx:x,cy:y,r,fill:'url(#core)',filter:'url(#rbig)'},AX); el('circle',{cx:x,cy:y,r:2.4,fill:'#fff'},AX);});
-
-  // nodes sampled along orbits + mesh
-  const rad=d=>d*Math.PI/180;
-  function onEll(rx,ry,rot,a){const x=rx*Math.cos(rad(a)),y=ry*Math.sin(rad(a)),c=Math.cos(rad(rot)),s=Math.sin(rad(rot));return [cx+x*c-y*s, cy+x*s+y*c];}
-  const nodes=[];
-  orbits.slice(0,4).forEach(([rx,ry,rot],i)=>{for(let k=0;k<5;k++){nodes.push(onEll(rx,ry,rot,k*72+i*23));}});
-  const MESH=svg.append('g');
-  for(let i=0;i<nodes.length;i++){const a=nodes[i],b=nodes[(i*3+5)%nodes.length];
-    line(MESH,a[0],a[1],b[0],b[1],RED,0.42,0.8);}
-  const NG=svg.append('g'); nodes.forEach(p=>rnode(NG,p[0],p[1],3));
-
-  // HUD bracket top-right + ticks
-  const H=svg.append('g').attr('stroke','#5a5a5e').attr('fill','none');
-  line(H,1282,cy-120,1296,cy-120,'#5a5a5e',0.6,1); line(H,1296,cy-120,1296,cy-100,'#5a5a5e',0.6,1);
-  document.body.dataset.globe='ok';
-});
-
-/* ---------------- iso primitives ---------------- */
-function cube(g,cx,cy,s,mode,h){ // mode: 'glass' | 'red'
-  h=h||s*1.05; const dx=s, dy=s*0.5; const topY=cy-h;
-  const top=`M${cx} ${topY-dy} L${cx+dx} ${topY} L${cx} ${topY+dy} L${cx-dx} ${topY} Z`;
-  const left=`M${cx-dx} ${topY} L${cx} ${topY+dy} L${cx} ${cy+dy} L${cx-dx} ${cy} Z`;
-  const right=`M${cx+dx} ${topY} L${cx} ${topY+dy} L${cx} ${cy+dy} L${cx+dx} ${cy} Z`;
-  if(mode==='red'){
-    el('circle',{cx,cy:topY,r:s*1.15,fill:'url(#core)',filter:'url(#rbig)'},g);
-    el('path',{d:left,fill:'rgba(166,19,37,.4)',stroke:RED2,'stroke-width':1.1},g);
-    el('path',{d:right,fill:'rgba(143,20,32,.26)',stroke:RED2,'stroke-width':1.1},g);
-    el('path',{d:top,fill:'url(#glRedT)',stroke:RED3,'stroke-width':1.2,filter:'url(#rglow)'},g);
-    el('circle',{cx,cy:topY,r:2,fill:'#ffe6e8'},g);
-  }else{
-    el('path',{d:left,fill:'url(#glL)',stroke:'#c7c3b8','stroke-width':1,'stroke-opacity':.68},g);
-    el('path',{d:right,fill:'rgba(12,12,15,.5)',stroke:'#a4a199','stroke-width':1,'stroke-opacity':.5},g);
-    el('path',{d:top,fill:'url(#glT)',stroke:'#e8e4da','stroke-width':1,'stroke-opacity':.82},g);
-  }
-}
-function plate(g,cx,cy,w,t,mode,glow){ // flat iso slab, w=half-width
-  const dx=w, dy=w*0.5;
-  const top=`M${cx} ${cy-dy} L${cx+dx} ${cy} L${cx} ${cy+dy} L${cx-dx} ${cy} Z`;
-  const side=`M${cx-dx} ${cy} L${cx} ${cy+dy} L${cx+dx} ${cy} L${cx+dx} ${cy+t} L${cx} ${cy+dy+t} L${cx-dx} ${cy+t} Z`;
-  if(mode==='red'){
-    if(glow) el('ellipse',{cx,cy,rx:w*0.9,ry:w*0.5,fill:'url(#core)',filter:'url(#rbig)'},g);
-    el('path',{d:side,fill:'rgba(143,20,32,.34)',stroke:RED2,'stroke-width':1},g);
-    el('path',{d:top,fill:'url(#glRedT)',stroke:RED3,'stroke-width':1,filter:'url(#rglow)'},g);
-  }else{
-    el('path',{d:side,fill:'rgba(12,12,15,.55)',stroke:'#b8b4aa','stroke-width':0.95,'stroke-opacity':.55},g);
-    el('path',{d:top,fill:'url(#glT)',stroke:'#e6e2d8','stroke-width':0.95,'stroke-opacity':.78},g);
-  }
-}
-function isoGrid(g,cx,cy,W,H,n){ // diamond grid plane
-  const P=(u,v)=>[cx+(u-v)*W/2, cy-H/2+(u+v)*H/2];
-  for(let i=0;i<=n;i++){const t=i/n; const a=P(t,0),b=P(t,1),c=P(0,t),d=P(1,t);
-    line(g,a[0],a[1],b[0],b[1],'#cfccc6',0.12,0.7); line(g,c[0],c[1],d[0],d[1],'#cfccc6',0.12,0.7);}
-  const cr=[P(0,0),P(1,0),P(1,1),P(0,1)];
-  el('path',{d:'M'+cr.map(p=>p.join(' ')).join('L')+'Z',fill:'none',stroke:'#cfccc6','stroke-opacity':.3,'stroke-width':0.9},g);
-  return P;
-}
-function hud(g,x,y){ // small red tick cluster
-  line(g,x,y,x+34,y,'#cfccc6',0.3,0.8); line(g,x,y+6,x+22,y+6,'#cfccc6',0.3,0.8); line(g,x+38,y,x+50,y,RED2,0.9,1.1);
-}
-
-/* ---------------- card arts (exact to mockup) ---------------- */
-var ART={};
-// 01 FIELD SYSTEMS: iso grid plane + glass cubes, two glowing red, drop-lines + junction nodes
-ART.grid=function(g){
-  const P=isoGrid(g,470,86,208,98,10);
-  // vertical red drop-lines from cube tops to plane + base node
-  const drops=[[0.2,0.16],[0.52,0.5],[0.86,0.2],[0.74,0.82]];
-  drops.forEach(([u,v])=>{const b=P(u,v); line(g,b[0],b[1]-40,b[0],b[1],RED2,0.8,1); rnode(g,b[0],b[1],2.4);});
-  // mesh links between cube nodes
-  const K={a:P(0.12,0.14),b:P(0.5,0.5),c:P(0.88,0.18),d:P(0.78,0.84),e:P(0.16,0.86)};
-  [['a','b'],['b','c'],['b','d'],['a','e'],['c','d']].forEach(([m,n])=>line(g,K[m][0],K[m][1],K[n][0],K[n][1],RED,0.6,0.9));
-  // glass cubes
-  cube(g,K.a[0],K.a[1]+2,13,'glass'); cube(g,K.e[0],K.e[1]+2,12,'glass'); cube(g,K.d[0],K.d[1]+2,12,'glass');
-  // red glowing cubes
-  cube(g,K.b[0],K.b[1]+3,15,'red'); cube(g,K.c[0],K.c[1]+2,14,'red');
-  // flat plate bottom-left + hud
-  plate(g,P(0.05,0.95)[0],P(0.05,0.95)[1],20,4,'glass');
-  hud(g,536,20); line(g,560,150,600,150,RED,0.6,1);
-};
-// 02 SIGNAL LAB: receding glass panels + bright red waveform through them + dot scatter
-ART.wave=function(g){
-  for(let i=0;i<6;i++){const x=336+i*44, y=22+i*4, w=74, hh=104, sk=16;
-    el('path',{d:`M${x} ${y} L${x+w} ${y-sk} L${x+w} ${y-sk+hh} L${x} ${y+hh} Z`,fill:'rgba(255,255,255,.035)',stroke:'#d2cfc6','stroke-opacity':0.28,'stroke-width':0.9},g);}
-  // dot scatter
-  seed=77; for(let i=0;i<60;i++){const x=330+rnd()*280,y=30+rnd()*110; dot(g,x,y,0.8,RED2,0.5);}
-  // waveform (ECG-like) with bloom
-  let d='M322 86';
-  for(let x=322;x<=612;x+=0.7){
-    const e=4+40*Math.exp(-((x-470)**2)/(2*18**2))+26*Math.exp(-((x-432)**2)/(2*7**2))+16*Math.exp(-((x-524)**2)/(2*9**2))+8*Math.exp(-((x-372)**2)/(2*12**2));
-    const y=86-e*Math.sin(x*1.02)*(0.82+0.18*Math.sin(x*0.4));
-    d+=` L${x.toFixed(1)} ${y.toFixed(1)}`;
-  }
-  const wv=el('path',{d,fill:'none',stroke:RED3,'stroke-width':1.5,'stroke-opacity':.98,filter:'url(#rbloom)'},g);
-  el('path',{d,fill:'none',stroke:'#ffd2d6','stroke-width':0.7,'stroke-opacity':.9},g);
-  for(let i=0;i<9;i++){const h=5+i*2.6+(i%3)*1.5; el('rect',{x:566+i*4.6,y:150-h,width:3,height:h,fill:RED2,'fill-opacity':.9},g);}
-};
-// 03 AUTOMATION CORE: central glowing cube on plinth + concentric rings + corner cubes + red axes
-ART.net=function(g){
-  const C=[470,84];
-  // concentric construction ellipses
-  [[96,40],[70,30],[120,50]].forEach(([rx,ry])=>el('ellipse',{cx:C[0],cy:C[1]+10,rx,ry,fill:'none',stroke:'#bdbab1','stroke-opacity':0.18,'stroke-width':0.8},g));
-  // red axes through center
-  line(g,C[0],12,C[0],156,RED2,0.75,1.1); line(g,352,C[1]+6,588,C[1]+6,RED2,0.6,1);
-  g.lastChild.setAttribute('filter','url(#rglow)');
-  // corner glass cubes + drop lines
-  const corners=[[392,52],[548,52],[392,122],[548,122]];
-  corners.forEach(([x,y],i)=>{line(g,x,y+6,C[0],C[1]+6,'#bdbab1',0.3,0.8); cube(g,x,y+6,12,'glass'); line(g,x,y-30,x,y+6,RED2,0.6,0.9); rnode(g,x,y-30,2.2);});
-  // plinth plate under core
-  plate(g,C[0],C[1]+30,46,6,'glass');
-  // central glowing cube
-  cube(g,C[0],C[1]+2,18,'red');
-  hud(g,540,132); dot(g,588,150,2,RED2);
-};
-// 04 OPEN TOOLKIT: exploded floating glass plate stack, middle glowing red + side cubes + bar
-ART.stack=function(g){
-  const cx=468; const ys=[30,56,84,112,138]; const ws=[52,50,56,48,54];
-  // construction lines
-  line(g,cx,8,cx,152,'#bdbab1',0.1,0.8,'3 4'); line(g,340,86,600,86,'#bdbab1',0.12,0.8,'3 4');
-  ys.forEach((y,i)=>{ if(i===2){ plate(g,cx,y,ws[i],6,'red',true); }
-    else plate(g,cx,y,ws[i],5,'glass');
-    rnode(g,cx,y,1.9); });
-  // vertical red links between plates
-  line(g,cx,30,cx,138,RED2,0.5,1);
-  // side cubes + vertical bar
-  cube(g,372,70,12,'glass'); cube(g,566,96,12,'glass');
-  el('rect',{x:527,y:64,width:12,height:60,fill:'rgba(255,255,255,.05)',stroke:'#c7c3b8','stroke-opacity':.5,'stroke-width':0.9},g);
-  // hud right
-  [[560,30,30],[560,37,20]].forEach(([x,y,w])=>line(g,x,y,x+w,y,'#bdbab1',0.3,0.8)); line(g,560,44,586,44,RED2,0.8,1);
-  dot(g,598,150,2,RED2);
-};
-
 /* ---------------- card frame (chamfered tactical outline) ---------------- */
 function frame(svg){
   const W=628,H=152;
@@ -325,8 +150,7 @@ function buildCards(cards){
     d.innerHTML=`<div class="cno">${c.id}</div><div class="cttl"><span class="sl">//</span>${c.title}</div>${lock}
       <div class="chip st-${c.status}"><i></i>${c.status}</div>
       <div class="desc">${c.desc}</div><div class="lang"><i></i>${c.lang}</div>`;
-    const asvg=el('svg',{class:'art',width:628,height:166}); d.appendChild(asvg);
-    (ART[c.art]||ART.grid)(el('g',{},asvg));
+    const img=document.createElement('img'); img.className='artimg'; img.src='art/c0'+(i+1)+'.png'; d.appendChild(img);
     const fsvg=el('svg',{class:'frame',width:628,height:152}); d.appendChild(fsvg); frame(fsvg);
     host.appendChild(d);
   });
@@ -344,8 +168,8 @@ document.fonts.ready.then(()=>{
     if(mode==='scale') t.style.transform=`scaleX(${width/nat})`;
     else { const n=t.textContent.length; const ls=parseFloat(cs.letterSpacing)||0; t.style.letterSpacing=(ls+(width-nat)/(n))+'px'; }
   };
-  fit('.title',{x:300,capTop:86,capH:110,width:688,mode:'scale'});
-  fit('.subt',{x:303,capTop:214,capH:20,width:560,mode:'spacing'});
+  fit('.title',{x:300,capTop:92,capH:94,width:556,mode:'scale'});
+  fit('.subt',{x:303,capTop:206,capH:19,width:474,mode:'spacing'});
   document.body.dataset.fit='ok';
 });
 
