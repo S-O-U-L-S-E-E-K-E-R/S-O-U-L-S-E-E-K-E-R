@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-30 22:01 UTC",
-  "feed_time": "2026-10-30T22:01:02.355577",
-  "total": 881,
-  "coded": 250,
+  "updated": "2026-10-30 23:02 UTC",
+  "feed_time": "2026-10-30T23:01:56.803209",
+  "total": 857,
+  "coded": 255,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 108,
+    "material conflict": 110,
     "verbal conflict": 55,
-    "verbal cooperation": 66,
-    "material cooperation": 21
+    "verbal cooperation": 68,
+    "material cooperation": 22
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 19
+      "label": "Use unconventional violence",
+      "n": 20
     },
     {
-      "label": "Use unconventional violence",
-      "n": 18
+      "label": "Consult",
+      "n": 19
     },
     {
       "label": "Attack cybernetically",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Investigate",
@@ -42,7 +42,7 @@
       "label": "Appeal for aid",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "DG ISPR says Pakistan 'cautiously optimistic' on US-Iran mediation",
