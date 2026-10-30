@@ -1,38 +1,49 @@
 {
-  "updated": "2026-10-30 11:51 UTC",
-  "feed_time": "2026-10-30T11:51:08.479709",
-  "total": 887,
-  "coded": 250,
-  "outlets": 64,
+  "updated": "2026-10-30 12:52 UTC",
+  "feed_time": "2026-10-30T12:52:01.402495",
+  "total": 891,
+  "coded": 257,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 117,
-    "verbal conflict": 59,
-    "verbal cooperation": 57,
-    "material cooperation": 17
+    "material conflict": 116,
+    "verbal conflict": 60,
+    "verbal cooperation": 59,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 21
     },
     {
       "label": "Attack cybernetically",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 17
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Make a visit",
+      "label": "Demonstrate or rally",
       "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Binance's $6.3bn hack: How crypto insurance works",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 3
+    },
     {
       "title": "Russian strikes on Kyiv kill one, injure another, damage homes and business\u2026",
       "source": "Ukrinform",
@@ -78,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, s\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -93,28 +115,6 @@
       "source": "CNBC World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 1
-    },
-    {
-      "title": "Ukraine war live: Russia strikes Kyiv as aid convoy enters stricken city of\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "073",
-      "label": "Provide humanitarian aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "French minister warns of 'very high' violence risk as country braces for Ha\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "France",
       "code": "130",
       "label": "Threaten",
       "quad": "verbal conflict",
