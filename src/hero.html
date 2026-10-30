@@ -434,7 +434,7 @@ function buildCalendar(weeks){
   }
   const n=weeks.length;
   const x0=63, xEnd=1266, px=(xEnd-x0)/n;
-  const SH=['#1b1417','#3a1719','#5c1a1d','#b01f24','#e3252b'];
+  const SH=['#1a1416','#7a2328','#a82a30','#d4323a','#ff4d52'];
   // faint month separators ~ every 4.4 weeks
   for(let m=1;m<12;m++){const wi=Math.round(m*n/12); line(svg,x0+wi*px-px*0.28,y0-3,x0+wi*px-px*0.28,y0+7*py,'#2e2e31',1,1);}
   weeks.forEach((col,wi)=>{col.forEach((lvl,d)=>{
