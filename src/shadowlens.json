@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-30 07:47 UTC",
-  "feed_time": "2026-10-30T07:47:01.479278",
-  "total": 870,
-  "coded": 254,
-  "outlets": 64,
+  "updated": "2026-10-30 08:48 UTC",
+  "feed_time": "2026-10-30T08:48:05.527751",
+  "total": 876,
+  "coded": 257,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 62,
+    "material conflict": 114,
+    "verbal conflict": 66,
     "verbal cooperation": 57,
     "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 24
     },
     {
       "label": "Investigate",
-      "n": 17
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 16
-    },
-    {
-      "label": "Accuse",
-      "n": 14
+      "n": 18
     },
     {
       "label": "Consult",
-      "n": 13
+      "n": 16
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,6 +42,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "IN BRIEF: Russia pounds Ukraine\u2019s defense plants, energy sites in massive o\u2026",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Air defenses intercept 21 UAVs heading toward Moscow \u2014 city mayor",
-      "source": "TASS",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
