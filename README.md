@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img src="./assets/header.svg" alt="SOULSEEKER // build what doesn't exist" width="100%" />
+<img src="./assets/hero.png" alt="SOULSEEKER // build what doesn't exist — SIGINT · RF · EW · OFFSEC · open source" width="100%" />
 
 [![typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&color=E4322B&center=true&vCenter=true&width=760&lines=%3E+ESTABLISHING+SECURE+LINK...;%3E+DECODING+THE+SPECTRUM+NO+ONE+ELSE+HEARS;%3E+DRONES+%7C+SDR+%7C+MESH+%7C+SIGNALS+INTELLIGENCE;%3E+BUILD.+DETECT.+DOMINATE+THE+RF+DOMAIN.)](https://git.io/typing-svg)
 
@@ -22,41 +22,9 @@ loadout       = HackRF · B210 · KrakenSDR · Raspberry Pi · Android
 disposition   = builds the tool rather than waits for it
 ```
 
----
+### ▞ PROJECT DOSSIERS
 
-### ▞ PROJECT DOSSIERS &nbsp;`// ACTIVE WORK`
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**`01` · STORM** &nbsp;🔴 `ACTIVE`
-> Distributed C-UAS sensor grid. Multi-node RF detection +
-> direction-finding — B210/Kraken sweep, DJI DroneID decode,
-> Hailo-8 ML classifier, mesh-linked field nodes.
-> `Python` · `Kotlin` · `C++`
-
-**`03` · phantom-drone** &nbsp;🔴 `PROTOTYPE`
-> HackRF RF-decoy emitter synthesizing legit drone signatures
-> (DJI DroneID, ELRS, LoRa, FrSky) so EW teams train on real signals.
-> `C++` · `Kotlin`
-
-</td>
-<td width="50%" valign="top">
-
-**`02` · Signal-Finder** &nbsp;🔴 `RESEARCH`
-> Spectrum recon — hunt, classify and chase down unknown
-> emitters in the field.
-> `Python`
-
-**`04` · ShadowLens** &nbsp;🔴 `ACTIVE`
-> OSINT / news-intel pipeline — CAMEO event coding + GDELT
-> indexing + story clustering.
-> `Python`
-
-</td>
-</tr>
-</table>
+`01` **STORM** — distributed C-UAS sensor grid &nbsp;·&nbsp; `02` **Signal-Finder** — spectrum recon &nbsp;·&nbsp; `03` **phantom-drone** — RF-decoy / EW trainer &nbsp;·&nbsp; `04` **ShadowLens** — OSINT news-intel
 
 ---
 
@@ -91,7 +59,7 @@ disposition   = builds the tool rather than waits for it
 
 ---
 
-### ▞ ACTIVITY LOG &nbsp;`// CONTRIBUTIONS`
+### ▞ ACTIVITY LOG &nbsp;`// LIVE CONTRIBUTIONS`
 
 <div align="center">
 
