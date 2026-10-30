@@ -40,13 +40,11 @@
   .brk.bl{border-bottom-width:2px;border-left-width:2px}.brk.br{border-bottom-width:2px;border-right-width:2px}
 
   /* cards: chamfered tactical panel */
-  .card{position:absolute;width:628px;height:152px;background:
-        linear-gradient(135deg,#131318 0%,#0b0b0e 62%);
-        clip-path:polygon(18px 0, 628px 0, 628px 132px, 610px 152px, 0 152px, 0 18px);overflow:hidden}
+  .card{position:absolute;width:628px;height:158px;background-size:100% 100%;background-repeat:no-repeat;overflow:visible}
   .card .cno{position:absolute;left:22px;top:19px;font-family:'Chakra Petch',sans-serif;font-weight:700;color:var(--red2);font-size:31px;letter-spacing:.5px;line-height:1;text-shadow:0 0 10px rgba(246,28,51,.5)}
-  .card .cttl{position:absolute;left:76px;top:23px;font-family:'Chakra Petch',sans-serif;font-weight:700;color:#f3efe6;font-size:24px;letter-spacing:1.6px;white-space:nowrap}
+  .card .cttl{position:absolute;left:76px;top:20px;font-family:'Chakra Petch',sans-serif;font-weight:700;color:#f3efe6;font-size:24px;letter-spacing:1.6px;white-space:nowrap}
   .card .cttl .sl{color:var(--g3);margin-right:9px;font-weight:600}
-  .chip{position:absolute;left:76px;top:62px;height:25px;border:1px solid #9c1a26;border-radius:14px;
+  .chip{position:absolute;left:94px;top:66px;height:25px;border:1px solid #9c1a26;border-radius:14px;
         display:flex;align-items:center;gap:9px;padding:0 15px 0 11px;color:var(--red2);font-size:10.5px;letter-spacing:2.6px;background:#170a0c;font-family:'Share Tech Mono',monospace}
   .chip i{width:8px;height:8px;border-radius:50%;background:var(--red3);box-shadow:0 0 7px var(--red2);display:block}
   .st-RESEARCH{color:#e8a13a;border-color:#7a521c;background:#17120a}
@@ -55,8 +53,8 @@
   .st-PROTOTYPE i{background:#d94fd4;box-shadow:0 0 7px #d94fd4}
   .st-DORMANT,.st-STANDBY{color:#8f8f92;border-color:#3a3a3d;background:#131315}
   .st-DORMANT i,.st-STANDBY i{background:#8f8f92;box-shadow:none}
-  .desc{position:absolute;left:76px;top:98px;width:245px;font-family:'Inter',sans-serif;color:#a8a6a1;font-size:12.6px;line-height:18px}
-  .lang{position:absolute;left:76px;top:150px;display:flex;align-items:center;gap:9px;font-family:'Inter',sans-serif;color:#e2e0da;font-size:12.5px;font-weight:500}
+  .desc{position:absolute;left:94px;top:100px;width:245px;font-family:'Inter',sans-serif;color:#a8a6a1;font-size:12.6px;line-height:18px}
+  .lang{position:absolute;left:94px;top:146px;display:flex;align-items:center;gap:9px;font-family:'Inter',sans-serif;color:#e2e0da;font-size:12.5px;font-weight:500}
   .lang i{width:10px;height:10px;border-radius:50%;background:var(--red3);box-shadow:0 0 7px rgba(246,28,51,.8);display:block}
   .lock{position:absolute;right:18px;top:15px;display:flex;align-items:center;gap:4px;color:#75757a;
         font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:1.4px}
@@ -146,12 +144,10 @@ function buildCards(cards){
   cards.forEach((c,i)=>{
     const [x,y]=POS[i]||[10,382];
     const d=document.createElement('div'); d.className='card'; d.style.left=x+'px'; d.style.top=y+'px';
-    const lock = c.classified ? `<div class="lock"><svg width="9" height="11" viewBox="0 0 9 11" fill="none" stroke="#75757a" stroke-width="1"><rect x="1" y="4.5" width="7" height="5.5" rx="1"/><path d="M2.5 4.5V3a2 2 0 0 1 4 0v1.5"/></svg>CLASSIFIED</div>` : '';
-    d.innerHTML=`<div class="cno">${c.id}</div><div class="cttl"><span class="sl">//</span>${c.title}</div>${lock}
+    d.innerHTML=`<div class="cno">${c.id}</div><div class="cttl"><span class="sl">//</span>${c.title}</div>
       <div class="chip st-${c.status}"><i></i>${c.status}</div>
       <div class="desc">${c.desc}</div><div class="lang"><i></i>${c.lang}</div>`;
-    const img=document.createElement('img'); img.className='artimg'; img.src='art/c0'+(i+1)+'.png'; d.appendChild(img);
-    const fsvg=el('svg',{class:'frame',width:628,height:152}); d.appendChild(fsvg); frame(fsvg);
+    d.style.backgroundImage="url(art/card0"+(i+1)+".png)";
     host.appendChild(d);
   });
 }
