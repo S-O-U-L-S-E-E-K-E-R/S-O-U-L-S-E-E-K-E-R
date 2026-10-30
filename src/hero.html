@@ -14,8 +14,8 @@
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:var(--page)}
-  body{width:1300px;height:842px;overflow:hidden}
-  #cap{position:relative;width:1300px;height:842px;background:
+  body{width:1300px;height:748px;overflow:hidden}
+  #cap{position:relative;width:1300px;height:748px;background:
         radial-gradient(ellipse 58% 52% at 80% 22%, #17141b 0%, #0b0b0d 46%, var(--page) 100%);}
   .abs{position:absolute}
   .mono{font-family:'Share Tech Mono',monospace}
@@ -62,7 +62,7 @@
           -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 17%);mask-image:linear-gradient(90deg,transparent 0,#000 17%)}
   svg.frame{position:absolute;left:0;top:0;overflow:visible;pointer-events:none}
 
-  .actbox{position:absolute;left:0;top:712px;width:1300px;height:120px;background:#0b0b0e;
+  .actbox{position:absolute;left:0;top:628px;width:1300px;height:118px;background:#0b0b0e;
           clip-path:polygon(14px 0,1300px 0,1300px 120px,0 120px,0 14px)}
 </style>
 </head>
@@ -90,24 +90,18 @@
   <div class="abs subt">BUILD WHAT DOESN'T EXIST.</div>
   <div class="abs tags mono"><b>//</b>SOFTWARE<span class="sp"></span><b>//</b>HARDWARE<span class="sp"></span><b>//</b>RESEARCH<span class="sp"></span><b>//</b>OPEN SOURCE</div>
 
-  <img id="globe" class="abs" src="art/globe.png" style="left:862px;top:10px;width:438px;height:auto;
-       -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%),linear-gradient(0deg,transparent 0,#000 8%);
-       -webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0,#000 14%);"/>
-
-  <svg class="abs" style="left:14px;top:356px" width="17" height="14" viewBox="0 0 17 14" fill="none" stroke="#9a9a9a" stroke-width="1.3"><path d="M1 2.5h5l1.5 1.8H16v8.7H1z"/></svg>
-  <div class="abs mono shead" style="left:40px;top:356px">PROJECT DOSSIERS</div>
-  <div class="abs mono" id="latest" style="left:300px;top:359px;color:#6f6f72;font-size:9.5px;letter-spacing:1.2px;white-space:nowrap"></div>
-  <div class="abs mono sright" style="left:1196px;top:359px">// ACTIVE WORK</div>
+  <img id="globe" class="abs" src="art/globe.png" style="left:800px;top:0;width:500px;height:auto;
+       -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 13%);mask-image:linear-gradient(90deg,transparent 0,#000 13%);"/>
 
   <div id="cards"></div>
 
   <div class="actbox"></div>
-  <svg class="abs" style="left:16px;top:722px" width="16" height="13" viewBox="0 0 16 13" fill="none" stroke="#f61c33" stroke-width="1.4"><path d="M1 12V7M5 12V3M9 12V9M13 12V1"/></svg>
-  <div class="abs mono shead" style="left:42px;top:722px">ACTIVITY</div>
-  <div class="abs mono" id="sync" style="left:700px;top:724px;color:#5a5a5e;font-size:9px;letter-spacing:1.2px;white-space:nowrap;text-align:right;width:560px"></div>
-  <svg id="cal" class="abs" style="left:0;top:712px" width="1300" height="120"></svg>
-  <div class="brk tl" style="left:-1px;top:711px"></div><div class="brk tr" style="left:1285px;top:711px"></div>
-  <div class="brk bl" style="left:-1px;top:817px"></div><div class="brk br" style="left:1285px;top:817px"></div>
+  <svg class="abs" style="left:16px;top:636px" width="16" height="13" viewBox="0 0 16 13" fill="none" stroke="#f61c33" stroke-width="1.4"><path d="M1 12V7M5 12V3M9 12V9M13 12V1"/></svg>
+  <div class="abs mono shead" style="left:42px;top:636px">ACTIVITY</div>
+  <div class="abs mono sright" style="left:1250px;top:638px">//</div>
+  <svg id="cal" class="abs" style="left:0;top:628px" width="1300" height="118"></svg>
+  <div class="brk tl" style="left:-1px;top:627px"></div><div class="brk tr" style="left:1285px;top:627px"></div>
+  <div class="brk bl" style="left:-1px;top:731px"></div><div class="brk br" style="left:1285px;top:731px"></div>
 
 </div>
 
@@ -131,7 +125,7 @@ function frame(svg){
 }
 
 /* ---------------- cards ---------------- */
-const POS=[[10,382],[662,382],[10,544],[662,544]];
+const POS=[[10,300],[662,300],[10,462],[662,462]];
 const FALLBACK=[
   {id:'01',title:'STORM',status:'DORMANT',classified:true,desc:'Distributed C-UAS sensor grid for multi-node RF detection and direction-finding.',lang:'Python',art:'grid'},
   {id:'02',title:'SIGNAL FINDER',status:'DORMANT',classified:false,desc:'Spectrum recon: hunt, classify and chase down unknown emitters.',lang:'Python',art:'wave'},
@@ -171,12 +165,12 @@ document.fonts.ready.then(()=>{
 
 /* ---------------- activity ---------------- */
 function buildCalendar(weeks){
-  const svg=document.getElementById('cal'); const y0=32, py=12.0, cell=9.6;
-  [['Mon',1],['Wed',3],['Fri',5]].forEach(([t,r])=>{const e=el('text',{x:16,y:y0+r*py+cell-1,fill:'#8e8e8e','font-size':9.5,'font-family':'Share Tech Mono','letter-spacing':0.5},svg);e.textContent=t;});
+  const svg=document.getElementById('cal'); const y0=20, py=12.6, cw=18.8, ch=10.6;
+  [['Mon',1],['Wed',3],['Fri',5]].forEach(([t,r])=>{const e=el('text',{x:16,y:y0+r*py+ch-1,fill:'#8e8e8e','font-size':9.5,'font-family':'Share Tech Mono','letter-spacing':0.5},svg);e.textContent=t;});
   if(!weeks){ weeks=[]; seed=4242; for(let w=0;w<53;w++){const col=[];for(let d=0;d<7;d++){const v=rnd();let l=0;if(v>0.58)l=1;if(v>0.80)l=2;if(v>0.925)l=3;if(v>0.965)l=4;col.push(l);}weeks.push(col);} }
   const n=weeks.length; const x0=56, xEnd=1286, px=(xEnd-x0)/n;
-  const SH=['#17110f','#5c1b1f','#9c2429','#d4323a','#ff4d52'];
-  weeks.forEach((col,wi)=>{col.forEach((lvl,d)=>{el('rect',{x:x0+wi*px,y:y0+d*py,width:cell,height:cell,rx:1.4,fill:SH[lvl]||SH[0]},svg);});});
+  const SH=['#4e1b20','#c42e37','#dd363f','#f0454d','#ff5a61'];
+  weeks.forEach((col,wi)=>{col.forEach((lvl,d)=>{el('rect',{x:x0+wi*px,y:y0+d*py,width:cw,height:ch,rx:1.6,fill:SH[lvl]||SH[0]},svg);});});
 }
 
 /* ---------------- data ---------------- */
