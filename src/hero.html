@@ -9,7 +9,8 @@
 <style>
   :root{
     --page:#09090b; --card:#0e0e11; --bd:#26262a; --bd2:#1d1d20;
-    --red:#e3252b; --red2:#ff3a3f; --cream:#ece7db; --g1:#9a9a9a; --g2:#7c7c7c; --g3:#56565a;
+    --red:#d4202e; --red2:#f61c33; --red3:#ff2740; --redln:#a61325;
+    --cream:#f5f0e6; --g1:#9a9a9a; --g2:#7c7c7c; --g3:#56565a;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html,body{background:var(--page)}
@@ -23,9 +24,9 @@
   .kicker{left:300px;top:58px;color:var(--red);font-size:13px;letter-spacing:7px;font-family:'Share Tech Mono',monospace}
   .title{left:298px;top:70px;font-family:'Saira Stencil One',sans-serif;
          font-size:120px;line-height:1;white-space:nowrap;transform-origin:left top;
-         background:linear-gradient(176deg,#f7f3ea 0%,#ded8cb 42%,#b7b1a4 72%,#d8d2c6 100%);
+         background:linear-gradient(177deg,#d7d4cd 0%,#f3eee3 22%,#faf6ec 52%,#efe9dc 80%,#cfc9bc 100%);
          -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
-         filter:drop-shadow(0 2px 0 rgba(0,0,0,.55));}
+         filter:drop-shadow(0 2px 1px rgba(0,0,0,.5));}
   .titleStripe{left:300px;top:0;height:0;pointer-events:none}
   .subt{left:303px;top:214px;font-family:'Saira',sans-serif;font-weight:500;color:var(--cream);
         font-size:27px;line-height:1;letter-spacing:11px;white-space:nowrap}
@@ -54,9 +55,9 @@
   .card .cttl .sl{color:var(--g3);margin-right:9px}
   .chip{position:absolute;left:74px;top:62px;height:23px;border:1px solid #a51f24;border-radius:4px;
         display:flex;align-items:center;gap:9px;padding:0 13px 0 10px;color:var(--red);font-size:10px;letter-spacing:2.4px;background:#160c0d;font-family:'Share Tech Mono',monospace}
-  .chip i{width:8px;height:8px;border-radius:50%;background:var(--red);display:block}
-  .st-ACTIVE{color:#ff3a3f;border-color:#a51f24;background:#170c0d}
-  .st-ACTIVE i{background:#ff3a3f;box-shadow:0 0 7px #e3252b}
+  .chip i{width:8px;height:8px;border-radius:50%;background:var(--red2);box-shadow:0 0 6px rgba(246,28,51,.7);display:block}
+  .st-ACTIVE{color:#f61c33;border-color:#9c1a26;background:#180a0c}
+  .st-ACTIVE i{background:#ff2740;box-shadow:0 0 8px #f61c33}
   .st-RESEARCH,.st-RECENT{color:#e8a13a;border-color:#7a521c;background:#17120a}
   .st-RESEARCH i,.st-RECENT i{background:#e8a13a;box-shadow:0 0 6px #e8a13a}
   .st-PROTOTYPE{color:#d94fd4;border-color:#6a2f68;background:#140a14}
@@ -76,6 +77,29 @@
 </style>
 </head>
 <body>
+<!-- global defs: bloom filters + glass gradients, referencable from every svg -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+  <filter id="rglow" x="-150%" y="-150%" width="400%" height="400%">
+    <feGaussianBlur stdDeviation="3.4" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="rbloom" x="-200%" y="-200%" width="500%" height="500%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <linearGradient id="glT" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.04"/>
+  </linearGradient>
+  <linearGradient id="glL" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#cdcabf" stop-opacity="0.09"/><stop offset="1" stop-color="#cdcabf" stop-opacity="0.015"/>
+  </linearGradient>
+  <linearGradient id="glRedT" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#ff2740" stop-opacity="0.62"/><stop offset="1" stop-color="#d4202e" stop-opacity="0.34"/>
+  </linearGradient>
+  <radialGradient id="core" cx="50%" cy="50%" r="50%">
+    <stop offset="0" stop-color="#ff5a68"/><stop offset="45%" stop-color="#f61c33"/><stop offset="100%" stop-color="#8f1420" stop-opacity="0"/>
+  </radialGradient>
+</defs></svg>
 <div id="cap">
 
   <!-- faint emblem watermark behind title -->
@@ -118,7 +142,7 @@
 
 <script>
 const NS='http://www.w3.org/2000/svg';
-const RED='#e3252b', RED2='#ff3a3f';
+const RED='#d4202e', RED2='#f61c33', RED3='#ff2740', REDLN='#a61325';
 let seed=1337; const rnd=()=>{seed=(seed*1664525+1013904223)>>>0;return seed/4294967296;};
 
 /* ---------------- globe ---------------- */
@@ -182,7 +206,8 @@ fetch('vendor/land.json').then(r=>r.json()).then(topo=>{
   const links=[[0,1],[1,3],[3,4],[4,5],[5,6],[6,7],[7,8],[8,9],[9,0],[10,4],[10,6],[11,8],[11,0],[1,2],[2,10]];
   links.forEach(([a,b])=>N.append('line').attr('x1',nd[a][0]).attr('y1',nd[a][1]).attr('x2',nd[b][0]).attr('y2',nd[b][1])
       .attr('stroke',RED).attr('stroke-opacity',0.75).attr('stroke-width',0.95));
-  nd.forEach(p=>N.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',2.8).attr('fill',RED2).attr('filter','url(#glow)'));
+  nd.forEach(p=>{N.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',3).attr('fill',RED3).attr('filter','url(#rbloom)');
+                 N.append('circle').attr('cx',p[0]).attr('cy',p[1]).attr('r',1.3).attr('fill','#ffe0e3');});
 
   document.body.dataset.globe='ok';
 });
@@ -191,22 +216,31 @@ fetch('vendor/land.json').then(r=>r.json()).then(topo=>{
 function el(tag,attrs,parent){const e=document.createElementNS(NS,tag);for(const k in attrs)e.setAttribute(k,attrs[k]);if(parent)parent.appendChild(e);return e;}
 function cube(g,cx,cy,s,red,h){
   h=h||s*1.05; const dx=s, dy=s*0.5;
-  const top=`M${cx} ${cy-h-dy} L${cx+dx} ${cy-h} L${cx} ${cy-h+dy} L${cx-dx} ${cy-h} Z`;
-  const left=`M${cx-dx} ${cy-h} L${cx} ${cy-h+dy} L${cx} ${cy+dy} L${cx-dx} ${cy} Z`;
-  const right=`M${cx+dx} ${cy-h} L${cx} ${cy-h+dy} L${cx} ${cy+dy} L${cx+dx} ${cy} Z`;
-  const st=red?RED2:'#d9d6d0';
-  el('path',{d:left,fill:red?'rgba(227,37,43,.30)':'#17171a',stroke:st,'stroke-width':1},g);
-  el('path',{d:right,fill:red?'rgba(227,37,43,.18)':'#111113',stroke:st,'stroke-width':1},g);
-  el('path',{d:top,fill:red?'rgba(255,58,63,.42)':'#202024',stroke:st,'stroke-width':1},g);
+  const topY=cy-h;
+  const top=`M${cx} ${topY-dy} L${cx+dx} ${topY} L${cx} ${topY+dy} L${cx-dx} ${topY} Z`;
+  const left=`M${cx-dx} ${topY} L${cx} ${topY+dy} L${cx} ${cy+dy} L${cx-dx} ${cy} Z`;
+  const right=`M${cx+dx} ${topY} L${cx} ${topY+dy} L${cx} ${cy+dy} L${cx+dx} ${cy} Z`;
+  if(red){
+    el('path',{d:left,fill:'rgba(166,19,37,.34)',stroke:RED2,'stroke-width':1.1},g);
+    el('path',{d:right,fill:'rgba(143,20,32,.22)',stroke:RED2,'stroke-width':1.1},g);
+    el('path',{d:top,fill:'url(#glRedT)',stroke:RED3,'stroke-width':1.2,filter:'url(#rglow)'},g);
+    el('circle',{cx,cy:topY,r:s*0.9,fill:'url(#core)',filter:'url(#rbloom)'},g);
+    el('circle',{cx,cy:topY,r:1.9,fill:'#ffd0d4'},g);
+  }else{
+    el('path',{d:left,fill:'url(#glL)',stroke:'#cbc7bc','stroke-width':1,'stroke-opacity':.7},g);
+    el('path',{d:right,fill:'rgba(14,14,17,.5)',stroke:'#a9a69d','stroke-width':1,'stroke-opacity':.55},g);
+    el('path',{d:top,fill:'url(#glT)',stroke:'#e6e2d8','stroke-width':1,'stroke-opacity':.85},g);
+  }
 }
 function plate(g,cx,cy,w,t,red,inner){
   const dx=w, dy=w*0.5;
   const top=`M${cx} ${cy-dy} L${cx+dx} ${cy} L${cx} ${cy+dy} L${cx-dx} ${cy} Z`;
   const side=`M${cx-dx} ${cy} L${cx} ${cy+dy} L${cx+dx} ${cy} L${cx+dx} ${cy+t} L${cx} ${cy+dy+t} L${cx-dx} ${cy+t} Z`;
-  const st=red?RED2:'#cfccc6';
-  el('path',{d:side,fill:red?'rgba(227,37,43,.25)':'#121214',stroke:st,'stroke-width':0.9,'stroke-opacity':red?1:.75},g);
-  el('path',{d:top,fill:red?'rgba(227,37,43,.22)':'#1a1a1d',stroke:st,'stroke-width':0.9,'stroke-opacity':red?1:.8},g);
-  if(inner){const k=0.45; el('path',{d:`M${cx} ${cy-dy*k} L${cx+dx*k} ${cy} L${cx} ${cy+dy*k} L${cx-dx*k} ${cy} Z`,fill:RED,'fill-opacity':.85},g);}
+  const st=red?RED2:'#cbc7bc';
+  el('path',{d:side,fill:red?'rgba(143,20,32,.30)':'rgba(14,14,17,.55)',stroke:st,'stroke-width':1,'stroke-opacity':red?1:.6},g);
+  el('path',{d:top,fill:red?'url(#glRedT)':'url(#glT)',stroke:red?RED3:'#e2ded4','stroke-width':1,'stroke-opacity':red?1:.8,filter:red?'url(#rglow)':''},g);
+  if(inner){const k=0.5; el('path',{d:`M${cx} ${cy-dy*k} L${cx+dx*k} ${cy} L${cx} ${cy+dy*k} L${cx-dx*k} ${cy} Z`,fill:'url(#core)',filter:'url(#rbloom)'},g);
+            el('circle',{cx,cy,r:2,fill:'#ffd0d4'},g);}
 }
 function line(g,x1,y1,x2,y2,c,o,w,dash){const a={x1,y1,x2,y2,stroke:c,'stroke-opacity':o??1,'stroke-width':w??1};if(dash)a['stroke-dasharray']=dash;return el('line',a,g);}
 function dot(g,x,y,r,c,o){return el('circle',{cx:x,cy:y,r,fill:c,'fill-opacity':o??1},g);}
