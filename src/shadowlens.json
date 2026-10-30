@@ -1,0 +1,125 @@
+{
+  "updated": "2026-10-30 03:34 UTC",
+  "feed_time": "2026-10-30T03:34:01.530372",
+  "total": 873,
+  "coded": 264,
+  "outlets": 63,
+  "quad_hist": {
+    "material conflict": 126,
+    "verbal conflict": 57,
+    "verbal cooperation": 62,
+    "material cooperation": 19
+  },
+  "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 27
+    },
+    {
+      "label": "Investigate",
+      "n": 17
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 16
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 16
+    },
+    {
+      "label": "Accuse",
+      "n": 15
+    }
+  ],
+  "ticker": [
+    {
+      "title": "Spain begins mourning period as search continues for train crash victims",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Government \u2192 Spain",
+      "code": "013",
+      "label": "Make optimistic comment",
+      "quad": "verbal cooperation",
+      "goldstein": 0.4,
+      "outlets": 2
+    },
+    {
+      "title": "JD Vance letter may offer last chance to avert fresh conflict between US an\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
+      "outlets": 2
+    },
+    {
+      "title": "US fires top military planner over alleged leaks: reports",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
+      "outlets": 1
+    },
+    {
+      "title": "US forces accused of \u2018weaponising\u2019 Somalia\u2019s floods by trapping women and c\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United States \u2192 Somalia",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Sudan",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    }
+  ]
+}

@@ -4,22 +4,19 @@
 
 <a href="https://github.com/S-O-U-L-S-E-E-K-E-R?tab=repositories"><img src="./assets/hero.png" alt="SOULSEEKER // build what doesn't exist — SIGINT · RF · EW · OFFSEC · open source" width="100%" /></a>
 
-[![typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&color=E4322B&center=true&vCenter=true&width=760&lines=%3E+ESTABLISHING+SECURE+LINK...;%3E+DECODING+THE+SPECTRUM+NO+ONE+ELSE+HEARS;%3E+DRONES+%7C+SDR+%7C+MESH+%7C+SIGNALS+INTELLIGENCE;%3E+BUILD.+DETECT.+DOMINATE+THE+RF+DOMAIN.)](https://git.io/typing-svg)
-
-`CLEARANCE: SELF-ISSUED` &nbsp;·&nbsp; `THEATER: THE AIRWAVES` &nbsp;·&nbsp; `ID: GH-001`
+<img src="./assets/ticker.svg" alt="ESTABLISHING SECURE LINK // SHADOWLENS live news feed" width="100%" />
 
 </div>
 
 ---
 
-```ini
-[ OPERATOR DOSSIER ]
-callsign      = SoulSeeker
-role          = RF / SIGINT engineer · offensive-security tinkerer
-specialty     = drone detection + direction-finding (C-UAS)
-doctrine      = if it radiates, it can be found — and understood
-loadout       = HackRF · B210 · KrakenSDR · Raspberry Pi · Android
-disposition   = builds the tool rather than waits for it
+```console
+$ whoami
+SoulSeeker — RF / SIGINT engineer. I build tools that find things in the spectrum.
+
+focus   drone detection + direction-finding (C-UAS), SDR, offensive security, OSINT
+stack   HackRF · USRP B210 · KrakenSDR · Raspberry Pi · Kotlin/Android · Python · C++
+now     STORM (counter-UAS sensor grid) · phantom-drone (RF decoy) · ShadowLens (news intel)
 ```
 
 ### ▞ DOSSIER LINKS
@@ -62,6 +59,16 @@ disposition   = builds the tool rather than waits for it
 <div align="center">
 
 <img src="./assets/telemetry.png" alt="Field telemetry — total contributions, streaks, language mix" width="100%" />
+
+</div>
+
+---
+
+### ▞ SHADOWLENS &nbsp;`// LIVE NEWS INTEL`
+
+<div align="center">
+
+<img src="./assets/shadowlens.png" alt="ShadowLens — live CAMEO/GDELT news-intel: coded events, quadrant histogram, top-risk ticker" width="100%" />
 
 </div>
 

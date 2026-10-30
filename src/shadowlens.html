@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<link rel="stylesheet" href="vendor/fonts.css">
+<link rel="stylesheet" href="vendor/fonts2.css">
+<style>
+  :root{--page:#0a0a0b;--box:#0d0d0f;--bd:#29292c;--bd2:#202023;--red:#e3252b;--red2:#ff3a3f;
+        --cream:#ebe5d8;--g1:#9a9a9a;--g2:#7c7c7c;--g3:#5a5a5c;--steel:#5e6b78;}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{background:var(--page)}
+  body{width:1300px;height:452px}
+  .mono{font-family:'Share Tech Mono',monospace}
+  #cap{position:relative;width:1300px;height:452px;background:radial-gradient(ellipse at 80% 12%,#121114 0%,var(--page) 58%)}
+  #panel{position:absolute;left:10px;top:12px;width:1280px;height:428px;background:var(--box);border:1px solid var(--bd)}
+  .abs{position:absolute}
+  .brk{position:absolute;width:15px;height:15px;border-color:var(--red);border-style:solid;border-width:0}
+  .brk.tl{border-top-width:2px;border-left-width:2px}.brk.tr{border-top-width:2px;border-right-width:2px}
+  .brk.bl{border-bottom-width:2px;border-left-width:2px}.brk.br{border-bottom-width:2px;border-right-width:2px}
+  .shead{color:var(--g1);font-size:11.5px;letter-spacing:3.4px}
+  .kebab{position:absolute;display:flex;gap:3px}.kebab i{width:3px;height:3px;border-radius:50%;background:#b9b9b9}
+  .lbl{color:var(--g2);font-size:10.5px;letter-spacing:2.2px}
+  .big{font-family:'Saira Stencil One',sans-serif;color:var(--cream);line-height:.9}
+  .sub{color:var(--g3);font-size:9.5px;letter-spacing:1.4px}
+  .vline{position:absolute;width:1px;background:var(--bd)}
+  .stale{position:absolute;border:1px solid #7a521c;color:#e8a13a;background:#17120a;border-radius:4px;
+         padding:2px 8px;font-size:9px;letter-spacing:2px}
+</style>
+</head>
+<body>
+<div id="cap">
+  <div id="panel"></div>
+  <!-- header -->
+  <svg class="abs" style="left:26px;top:20px" width="17" height="14" viewBox="0 0 17 14" fill="none" stroke="#9a9a9a" stroke-width="1.3"><path d="M1 2.5h5l1.5 1.8H16v8.7H1z"/></svg>
+  <div class="abs mono shead" style="left:51px;top:20px">SHADOWLENS <span style="color:#3a3a3d">// NEWS INTEL</span></div>
+  <div class="abs mono" id="sync" style="left:900px;top:22px;color:#5f5f62;font-size:9px;letter-spacing:1.3px;text-align:right;width:350px"></div>
+  <div class="kebab" style="left:1250px;top:25px"><i></i><i></i><i></i></div>
+  <div class="brk tl" style="left:9px;top:11px"></div><div class="brk tr" style="left:1276px;top:11px"></div>
+  <div class="brk bl" style="left:9px;top:425px"></div><div class="brk br" style="left:1276px;top:425px"></div>
+
+  <div class="abs" id="left" style="left:40px;top:66px;width:360px;height:350px"></div>
+  <div class="vline" style="left:430px;top:66px;height:342px"></div>
+  <div class="abs" id="right" style="left:470px;top:66px;width:780px;height:350px"></div>
+</div>
+
+<script>
+(async function(){
+  let d={}; try{const r=await fetch('shadowlens.json'); if(r.ok) d=await r.json();}catch(e){}
+  const el=(h)=>{const x=document.createElement('div');x.innerHTML=h;return x.firstElementChild;};
+  const L=document.getElementById('left'), R=document.getElementById('right');
+  const QC={'material conflict':'#e3252b','verbal conflict':'#b0504e','verbal cooperation':'#6a7a86','material cooperation':'#4a6b5a'};
+  const QSHORT={'material conflict':'MAT. CONFLICT','verbal conflict':'VRB. CONFLICT','verbal cooperation':'VRB. COOP','material cooperation':'MAT. COOP'};
+
+  // ---- left: stats ----
+  L.appendChild(el(`<div class="abs mono lbl" style="left:0;top:0">CODED EVENTS</div>`));
+  L.appendChild(el(`<div class="abs big" style="left:-2px;top:16px;font-size:58px">${d.coded??'—'}</div>`));
+  L.appendChild(el(`<div class="abs mono sub" style="left:2px;top:82px">OF ${d.total??'—'} STORIES · ${d.outlets??'—'} OUTLETS</div>`));
+
+  // quad histogram
+  const qh=d.quad_hist||{}; const order=['material conflict','verbal conflict','verbal cooperation','material cooperation'];
+  const mx=Math.max(1,...order.map(q=>qh[q]||0));
+  L.appendChild(el(`<div class="abs mono lbl" style="left:0;top:120px">EVENT QUADRANTS · CAMEO</div>`));
+  order.forEach((q,i)=>{
+    const y=146+i*42, n=qh[q]||0, w=Math.round(300*n/mx);
+    L.appendChild(el(`<div class="abs mono" style="left:0;top:${y}px;color:#8f8f92;font-size:10px;letter-spacing:1.4px">${QSHORT[q]}</div>`));
+    L.appendChild(el(`<div class="abs" style="left:0;top:${y+15}px;width:300px;height:9px;background:#161619;border-radius:2px"></div>`));
+    L.appendChild(el(`<div class="abs" style="left:0;top:${y+15}px;width:${w}px;height:9px;background:${QC[q]};border-radius:2px"></div>`));
+    L.appendChild(el(`<div class="abs mono" style="left:312px;top:${y+13}px;color:#c9c6bf;font-size:11px">${n}</div>`));
+  });
+
+  // ---- right: ticker ----
+  R.appendChild(el(`<div class="abs mono lbl" style="left:0;top:0">INTEL TICKER <span style="color:#3a3a3d">· TOP RISK</span></div>`));
+  const rows=(d.ticker||[]);
+  const rowH=44, y0=24;
+  rows.slice(0,7).forEach((t,i)=>{
+    const y=y0+i*rowH;
+    const col=QC[t.quad]||'#6a6a6e';
+    const g=(t.goldstein!=null)?(t.goldstein>0?`+${t.goldstein}`:`${t.goldstein}`):'';
+    const gcol=(t.goldstein!=null && t.goldstein<0)?'#e3252b':'#6a7a86';
+    // risk chip
+    R.appendChild(el(`<div class="abs mono" style="left:0;top:${y}px;width:30px;height:30px;border:1px solid ${col};border-radius:4px;color:${col};font-size:15px;display:flex;align-items:center;justify-content:center;background:#140b0c">${t.risk??''}</div>`));
+    // title
+    R.appendChild(el(`<div class="abs" style="left:44px;top:${y-1}px;width:580px;font-family:'Inter',sans-serif;color:#d7d3cb;font-size:13.5px;line-height:17px;white-space:nowrap;overflow:hidden">${t.title||''}</div>`));
+    // source right
+    R.appendChild(el(`<div class="abs mono" style="left:640px;top:${y}px;width:140px;text-align:right;color:#6f6f72;font-size:10px;letter-spacing:.5px">${t.source||''}</div>`));
+    // meta line
+    const parts=[];
+    if(t.dyad) parts.push(`<span style="color:${col}">${t.dyad}</span>`);
+    if(t.label) parts.push(`<span style="color:#8f8f92">${t.code?t.code+' ':''}${t.label}</span>`);
+    if(g) parts.push(`<span style="color:${gcol}">G ${g}</span>`);
+    if(t.outlets) parts.push(`<span style="color:#5a5a5e">${t.outlets} outlet${t.outlets>1?'s':''}</span>`);
+    R.appendChild(el(`<div class="abs mono" style="left:44px;top:${y+18}px;width:736px;font-size:10px;letter-spacing:.6px;white-space:nowrap;overflow:hidden">${parts.join('<span style="color:#3a3a3d"> · </span>')}</div>`));
+    // divider
+    if(i<Math.min(7,rows.length)-1) R.appendChild(el(`<div class="abs" style="left:0;top:${y+37}px;width:780px;height:1px;background:#1a1a1d"></div>`));
+  });
+
+  // sync + stale
+  const sync=document.getElementById('sync');
+  let stale='';
+  try{ if(d.feed_time){const age=(Date.now()-new Date(d.feed_time).getTime())/3.6e6; if(age>6) stale=' · STALE';} }catch(e){}
+  if(sync) sync.textContent=`SRC GDELT 2.0 · CAMEO · RSS   ·   SYNC ${d.updated||'—'}${stale}`;
+  document.body.dataset.ready='1';
+})();
+</script>
+</body>
+</html>
