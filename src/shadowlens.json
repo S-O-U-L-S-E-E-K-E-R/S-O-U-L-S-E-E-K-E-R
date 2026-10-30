@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-30 16:56 UTC",
-  "feed_time": "2026-10-30T16:55:57.631474",
-  "total": 880,
-  "coded": 258,
-  "outlets": 67,
+  "updated": "2026-10-30 17:57 UTC",
+  "feed_time": "2026-10-30T17:57:08.462612",
+  "total": 874,
+  "coded": 256,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 124,
-    "verbal conflict": 48,
-    "verbal cooperation": 64,
+    "material conflict": 121,
+    "verbal conflict": 53,
+    "verbal cooperation": 60,
     "material cooperation": 22
   },
   "top_labels": [
     {
-      "label": "Attack cybernetically",
-      "n": 22
+      "label": "Demonstrate or rally",
+      "n": 20
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 21
+      "label": "Attack cybernetically",
+      "n": 20
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Investigate",
       "n": 16
     },
     {
-      "label": "Use conventional military force",
-      "n": 13
+      "label": "Threaten",
+      "n": 12
     }
   ],
   "ticker": [
@@ -43,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -7.0,
       "outlets": 4
+    },
+    {
+      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Call of Duty makers apologize, agree to remove footage of deadly 2022 Seoul\u2026",
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Russian strikes plunge Ukrainian city into blackout as Zelenskyy warns of m\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
