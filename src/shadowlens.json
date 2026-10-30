@@ -1,31 +1,31 @@
 {
-  "updated": "2026-10-30 18:58 UTC",
-  "feed_time": "2026-10-30T18:58:03.587659",
-  "total": 874,
-  "coded": 263,
-  "outlets": 65,
+  "updated": "2026-10-30 19:59 UTC",
+  "feed_time": "2026-10-30T19:59:01.352095",
+  "total": 879,
+  "coded": 252,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 57,
-    "verbal cooperation": 64,
-    "material cooperation": 22
+    "material conflict": 118,
+    "verbal conflict": 53,
+    "verbal cooperation": 58,
+    "material cooperation": 23
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 24
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 20
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 21
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 18
     },
     {
       "label": "Investigate",
-      "n": 17
+      "n": 14
     },
     {
       "label": "Consult",
@@ -42,6 +42,17 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "US orders non-emergency staff to leave Saudi Arabia over security risks",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "United States \u2192 Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -101,17 +112,6 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
