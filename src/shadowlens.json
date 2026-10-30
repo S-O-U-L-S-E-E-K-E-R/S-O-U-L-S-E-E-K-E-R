@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-30 03:44 UTC",
-  "feed_time": "2026-10-30T03:43:56.233710",
-  "total": 851,
-  "coded": 256,
-  "outlets": 62,
+  "updated": "2026-10-30 04:44 UTC",
+  "feed_time": "2026-10-30T04:43:55.391551",
+  "total": 876,
+  "coded": 260,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 119,
-    "verbal conflict": 57,
-    "verbal cooperation": 62,
+    "material conflict": 120,
+    "verbal conflict": 61,
+    "verbal cooperation": 61,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 25
     },
     {
       "label": "Investigate",
-      "n": 18
-    },
-    {
-      "label": "Accuse",
-      "n": 15
+      "n": 21
     },
     {
       "label": "Demonstrate or rally",
-      "n": 15
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
       "n": 15
+    },
+    {
+      "label": "Accuse",
+      "n": 13
     }
   ],
   "ticker": [
@@ -53,6 +53,17 @@
       "label": "Express intent to cooperate",
       "quad": "verbal cooperation",
       "goldstein": 4.0,
+      "outlets": 2
+    },
+    {
+      "title": "Ukraine: 14 killed in Russian drone strike on crowded Dnipro train station",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
