@@ -4,8 +4,6 @@
 
 <a href="https://github.com/S-O-U-L-S-E-E-K-E-R?tab=repositories"><img src="./assets/hero.png" alt="SOULSEEKER // build what doesn't exist — SIGINT · RF · EW · OFFSEC · open source" width="100%" /></a>
 
-<sub>↑ live dossier — regenerated every 6h from real repo activity + contribution graph</sub>
-
 [![typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&color=E4322B&center=true&vCenter=true&width=760&lines=%3E+ESTABLISHING+SECURE+LINK...;%3E+DECODING+THE+SPECTRUM+NO+ONE+ELSE+HEARS;%3E+DRONES+%7C+SDR+%7C+MESH+%7C+SIGNALS+INTELLIGENCE;%3E+BUILD.+DETECT.+DOMINATE+THE+RF+DOMAIN.)](https://git.io/typing-svg)
 
 `CLEARANCE: SELF-ISSUED` &nbsp;·&nbsp; `THEATER: THE AIRWAVES` &nbsp;·&nbsp; `ID: GH-001`
@@ -32,7 +30,12 @@ disposition   = builds the tool rather than waits for it
 ![phantom-drone](https://img.shields.io/badge/03%20PHANTOM%20DRONE-CLASSIFIED-0a0a0b?style=for-the-badge&labelColor=0a0a0b&color=3a3a3d)
 ![ShadowLens](https://img.shields.io/badge/04%20SHADOWLENS-CLASSIFIED-0a0a0b?style=for-the-badge&labelColor=0a0a0b&color=3a3a3d)
 
-<sub>Signal-Finder is public (badge shows live ★ and links out). STORM · phantom-drone · ShadowLens are private — access restricted.</sub>
+### ▞ MORE OPS &nbsp;`// PUBLIC`
+
+[![The-Church-of-the-Machines](https://img.shields.io/github/stars/S-O-U-L-S-E-E-K-E-R/The-Church-of-the-Machines?style=flat-square&label=The-Church-of-the-Machines&labelColor=0a0a0b&color=e3252b&logo=github)](https://github.com/S-O-U-L-S-E-E-K-E-R/The-Church-of-the-Machines)
+[![Auto-Commiter-Bot](https://img.shields.io/github/stars/S-O-U-L-S-E-E-K-E-R/Auto-Commiter-Bot?style=flat-square&label=Auto-Commiter-Bot&labelColor=0a0a0b&color=e3252b&logo=github)](https://github.com/S-O-U-L-S-E-E-K-E-R/Auto-Commiter-Bot)
+[![Multi_Universal_Gravity_Simulation](https://img.shields.io/github/stars/S-O-U-L-S-E-E-K-E-R/Multi_Universal_Gravity_Simulation?style=flat-square&label=Gravity-Sim&labelColor=0a0a0b&color=e3252b&logo=github)](https://github.com/S-O-U-L-S-E-E-K-E-R/Multi_Universal_Gravity_Simulation)
+[![all repos](https://img.shields.io/badge/+%20all%20repos-0a0a0b?style=flat-square&labelColor=0a0a0b&color=3a3a3d&logo=github)](https://github.com/S-O-U-L-S-E-E-K-E-R?tab=repositories)
 
 ---
 

@@ -74,9 +74,12 @@ def main():
         }}
         repositories(first: 100, ownerAffiliations: OWNER, isFork: false) {{
           nodes {{
+            name isPrivate pushedAt stargazerCount
+            primaryLanguage {{ name color }}
             languages(first: 8, orderBy: {{field: SIZE, direction: DESC}}) {{
               edges {{ size node {{ name color }} }}
             }}
+            defaultBranchRef {{ target {{ ... on Commit {{ history(first: 1) {{ nodes {{ messageHeadline committedDate }} }} }} }} }}
           }}
         }}
       }}
@@ -93,12 +96,13 @@ def main():
         prior["__flw__"] = prev.get("followers")
         prior["__lang__"] = prev.get("langs", [])
         prior["__tot__"] = prev.get("totals", {})
+        prior["__latest__"] = prev.get("latest", {})
     except Exception:
         pass
 
     data = {"updated": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
             "cards": [], "calendar": [], "followers": None,
-            "langs": [], "totals": {}}
+            "langs": [], "totals": {}, "latest": {}}
     try:
         res = gql(query)
         d = res.get("data") or {}
@@ -153,12 +157,28 @@ def main():
         # language mix across all owned non-fork repos
         repos = ((u.get("repositories") or {}).get("nodes")) or []
         agg = {}
+        latest = None
         for rp in repos:
             for e in ((rp.get("languages") or {}).get("edges") or []):
                 nm = e["node"]["name"]
                 if nm not in agg:
                     agg[nm] = {"size": 0, "color": e["node"].get("color") or "#888"}
                 agg[nm]["size"] += e.get("size", 0)
+            # latest commit across all repos (message only for public repos).
+            # Skip the profile repo itself — its bot refresh commits would
+            # always win and be self-referential.
+            if rp.get("name") == USER:
+                continue
+            push = rp.get("pushedAt")
+            if push and (latest is None or push > latest["date"]):
+                hn = (((rp.get("defaultBranchRef") or {}).get("target") or {}).get("history") or {}).get("nodes") or []
+                msg = (hn[0].get("messageHeadline") if hn else "") if not rp.get("isPrivate") else ""
+                latest = {"repo": rp.get("name"), "date": push,
+                          "private": bool(rp.get("isPrivate")), "msg": (msg or "")[:48]}
+        if latest:
+            data["latest"] = latest
+        else:
+            data["latest"] = prior.get("__latest__", {})
         tot_sz = sum(v["size"] for v in agg.values()) or 1
         top = sorted(agg.items(), key=lambda kv: kv[1]["size"], reverse=True)[:6]
         if top:
@@ -190,6 +210,7 @@ def main():
         data["followers"] = prior.get("__flw__")
         data["langs"] = prior.get("__lang__", [])
         data["totals"] = prior.get("__tot__", {})
+        data["latest"] = prior.get("__latest__", {})
         for c in CARDS:
             p = prior.get(c["title"], {})
             data["cards"].append({"id": c["id"], "title": c["title"], "role": c["role"],

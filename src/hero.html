@@ -118,6 +118,7 @@
     <path d="M1 2.5h5l1.5 1.8H16v8.7H1z"/></svg>
   <div class="abs mono shead" style="left:51px;top:243px">PROJECT DOSSIERS</div>
   <div class="abs mono sright" style="left:1132px;top:246px">// ACTIVE WORK</div>
+  <div class="abs mono" id="latest" style="left:330px;top:246px;color:#6f6f72;font-size:9.5px;letter-spacing:1.2px;white-space:nowrap"></div>
   <div class="kebab" style="left:1250px;top:250px"><i></i><i></i><i></i></div>
 
   <div id="cards"></div>
@@ -128,7 +129,7 @@
     <path d="M0 7h3l1.5-4 2 9 2-11 2 12 2-9 1.5 3H20"/></svg>
   <div class="abs mono shead" style="left:52px;top:645px">ACTIVITY LOG</div>
   <div class="abs mono sright" style="left:1142px;top:648px">// CONTRIBUTIONS</div>
-  <div class="abs mono" id="sync" style="left:430px;top:648px;color:#64646a;font-size:9.5px;letter-spacing:1.3px;white-space:nowrap"></div>
+  <div class="abs mono" id="sync" style="left:760px;top:648px;color:#5a5a5e;font-size:9px;letter-spacing:1.2px;white-space:nowrap;text-align:right;width:360px"></div>
   <div class="kebab" style="left:1250px;top:652px"><i></i><i></i><i></i></div>
   <svg id="cal" class="abs" style="left:0;top:637px" width="1280" height="131"></svg>
   <div class="brk tr" style="left:1266px;top:636px"></div>
@@ -451,6 +452,12 @@ function buildCalendar(weeks){
   const stars=cards.reduce((a,c)=>a+(c.stars||0),0);
   const sync=document.getElementById('sync');
   if(sync) sync.textContent=`LAST SYNC ${data&&data.updated?data.updated:'OFFLINE'}   ·   TOTAL ★ ${stars}   ·   FLWRS ${data&&data.followers!=null?data.followers:'—'}`;
+  const lat=document.getElementById('latest'), L=(data&&data.latest)||{};
+  if(lat && L.repo){
+    const dt=(L.date||'').slice(0,10);
+    const tail=L.private ? '[CLASSIFIED]' : (L.msg?('"'+L.msg+'"'):'');
+    lat.innerHTML=`<span style="color:#e3252b">// LATEST OP</span>  ${L.repo} · ${dt}  ${tail?'· '+tail:''}`;
+  }
   document.body.dataset.ready='1';
 })();
 </script>

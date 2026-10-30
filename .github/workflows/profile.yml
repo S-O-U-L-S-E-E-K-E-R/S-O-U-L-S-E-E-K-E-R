@@ -2,7 +2,7 @@ name: refresh profile hero
 
 on:
   schedule:
-    - cron: "17 */6 * * *"   # every 6h
+    - cron: "17 7 * * *"   # once daily (07:17 UTC)
   workflow_dispatch:
   push:
     branches: [main]
