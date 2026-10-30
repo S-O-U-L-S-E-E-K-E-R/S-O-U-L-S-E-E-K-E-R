@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-30 04:44 UTC",
-  "feed_time": "2026-10-30T04:43:55.391551",
-  "total": 876,
-  "coded": 260,
+  "updated": "2026-10-30 05:45 UTC",
+  "feed_time": "2026-10-30T05:45:08.503895",
+  "total": 874,
+  "coded": 257,
   "outlets": 63,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 61,
-    "verbal cooperation": 61,
+    "material conflict": 115,
+    "verbal conflict": 59,
+    "verbal cooperation": 65,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 24
     },
     {
       "label": "Investigate",
-      "n": 21
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
       "n": 17
     },
     {
-      "label": "Attack cybernetically",
-      "n": 15
+      "label": "Consult",
+      "n": 13
     },
     {
-      "label": "Accuse",
+      "label": "Use conventional military force",
       "n": 13
     }
   ],
@@ -42,17 +42,6 @@
       "label": "Make optimistic comment",
       "quad": "verbal cooperation",
       "goldstein": 0.4,
-      "outlets": 2
-    },
-    {
-      "title": "JD Vance letter may offer last chance to avert fresh conflict between US an\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
       "outlets": 2
     },
     {
@@ -100,25 +89,36 @@
       "outlets": 1
     },
     {
-      "title": "US forces accused of \u2018weaponising\u2019 Somalia\u2019s floods by trapping women and c\u2026",
-      "source": "Guardian World",
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
       "risk": 10,
-      "dyad": "United States \u2192 Somalia",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     },
     {
-      "title": "Sudan paramilitary drone strikes cause mass power cuts in eastern states",
-      "source": "Guardian World",
+      "title": "North Korea tests attack drones as Kim calls for 'absolute superiority'",
+      "source": "France24",
       "risk": 10,
-      "dyad": "Sudan",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "North Korea",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Air defenses intercept 21 UAVs heading toward Moscow \u2014 city mayor",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
