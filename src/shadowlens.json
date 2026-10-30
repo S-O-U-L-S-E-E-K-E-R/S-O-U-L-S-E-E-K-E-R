@@ -1,49 +1,38 @@
 {
-  "updated": "2026-10-30 05:45 UTC",
-  "feed_time": "2026-10-30T05:45:08.503895",
-  "total": 874,
-  "coded": 257,
+  "updated": "2026-10-30 06:46 UTC",
+  "feed_time": "2026-10-30T06:46:01.424059",
+  "total": 864,
+  "coded": 253,
   "outlets": 63,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 59,
-    "verbal cooperation": 65,
+    "material conflict": 113,
+    "verbal conflict": 61,
+    "verbal cooperation": 61,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
-    },
-    {
-      "label": "Investigate",
-      "n": 19
+      "n": 25
     },
     {
       "label": "Demonstrate or rally",
-      "n": 17
+      "n": 18
+    },
+    {
+      "label": "Investigate",
+      "n": 18
     },
     {
       "label": "Consult",
       "n": 13
     },
     {
-      "label": "Use conventional military force",
+      "label": "Accuse",
       "n": 13
     }
   ],
   "ticker": [
-    {
-      "title": "Spain begins mourning period as search continues for train crash victims",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Government \u2192 Spain",
-      "code": "013",
-      "label": "Make optimistic comment",
-      "quad": "verbal cooperation",
-      "goldstein": 0.4,
-      "outlets": 2
-    },
     {
       "title": "Ukraine: 14 killed in Russian drone strike on crowded Dnipro train station",
       "source": "DW",
@@ -53,17 +42,28 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
-      "title": "US fires top military planner over alleged leaks: reports",
-      "source": "Dawn",
+      "title": "Spain begins mourning period as search continues for train crash victims",
+      "source": "Guardian World",
       "risk": 10,
       "dyad": "",
       "code": null,
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after\u2026",
+      "source": "CNBC World",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
