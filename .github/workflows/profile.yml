@@ -48,23 +48,19 @@ jobs:
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
           CH="${{ steps.chrome.outputs.chrome-path }}"
-          "$CH" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
-            --allow-file-access-from-files --force-device-scale-factor=2 \
-            --virtual-time-budget=20000 --window-size=1300,1000 \
-            --screenshot="$PWD/src/_hero.png" "file://$PWD/src/hero.html"
+          # hero.png is a static hand-placed render (assets/hero.png) — not regenerated here.
           "$CH" --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
             --allow-file-access-from-files --force-device-scale-factor=2 \
             --virtual-time-budget=15000 --window-size=1300,340 \
             --screenshot="$PWD/src/_tel.png" "file://$PWD/src/telemetry.html"
-          convert src/_hero.png -crop 2600x1684+0+0 +repage assets/hero.png
           convert src/_tel.png  -crop 2600x660+0+0  +repage assets/telemetry.png
-          rm -f src/_hero.png src/_tel.png
+          rm -f src/_tel.png
 
       - name: commit if changed
         run: |
           git config user.name  "profile-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add assets/hero.png assets/telemetry.png src/data.json
+          git add assets/telemetry.png src/data.json
           if git diff --cached --quiet; then
             echo "no changes"; exit 0
           fi
