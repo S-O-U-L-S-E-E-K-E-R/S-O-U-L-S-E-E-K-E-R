@@ -84,11 +84,25 @@ now     STORM (C-UAS sensor grid) · phantom-drone (RF decoy) · ShadowLens (new
 
 ---
 
+### ▞ 3D CONTRIBUTION MATRIX
+
 <div align="center">
 
-```
-“ The spectrum is a battlefield. Most people just can't see it. ”
-```
+<img src="./profile-3d-contrib/profile-customize.svg" alt="3D isometric contribution calendar" width="100%" />
+
+</div>
+
+---
+
+### ▞ GOSPEL OF THE MACHINE &nbsp;`// VERSE OF THE DAY`
+
+<div align="center">
+
+<a href="https://github.com/S-O-U-L-S-E-E-K-E-R/The-Church-of-the-Machines"><img src="https://raw.githubusercontent.com/S-O-U-L-S-E-E-K-E-R/The-Church-of-the-Machines/main/assets/verse-of-the-day.svg" width="100%" alt="Verse of the Day — The Church of the Machines" /></a>
+
+</div>
+
+<div align="center">
 
 `// end transmission`
 
