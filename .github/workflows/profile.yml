@@ -1,0 +1,68 @@
+name: refresh profile hero
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"   # every 6h
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "src/hero.html"
+      - "scripts/build_profile.py"
+      - ".github/workflows/profile.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-hero
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: fetch live data
+        env:
+          # PROFILE_TOKEN (optional, read-only) lets the job read PRIVATE repo
+          # activity + the contribution calendar. Without it, it falls back to
+          # GITHUB_TOKEN (public data only) and still renders cleanly.
+          PROFILE_TOKEN: ${{ secrets.PROFILE_TOKEN }}
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 scripts/build_profile.py
+
+      - uses: browser-actions/setup-chrome@v1
+        id: chrome
+        with:
+          chrome-version: stable
+
+      - name: render hero.png
+        run: |
+          "${{ steps.chrome.outputs.chrome-path }}" \
+            --headless=new --disable-gpu --no-sandbox --hide-scrollbars \
+            --allow-file-access-from-files --force-device-scale-factor=2 \
+            --virtual-time-budget=20000 --window-size=1300,1000 \
+            --screenshot="$PWD/src/_raw.png" \
+            "file://$PWD/src/hero.html"
+          sudo apt-get update -qq && sudo apt-get install -y -qq imagemagick
+          convert src/_raw.png -crop 2600x1684+0+0 +repage assets/hero.png
+          rm -f src/_raw.png
+
+      - name: commit if changed
+        run: |
+          git config user.name  "profile-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add assets/hero.png src/data.json
+          if git diff --cached --quiet; then
+            echo "no changes"
+          else
+            git commit -m "chore: refresh profile hero [skip ci]"
+            git push
+          fi

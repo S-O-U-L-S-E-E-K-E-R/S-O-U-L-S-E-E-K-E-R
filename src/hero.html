@@ -54,9 +54,22 @@
   .chip{position:absolute;left:62px;top:65px;height:22px;border:1px solid #a51f24;border-radius:4px;
         display:flex;align-items:center;gap:10px;padding:0 14px 0 10px;color:var(--red);font-size:10px;letter-spacing:2.2px;background:#150c0d}
   .chip i{width:8px;height:8px;border-radius:50%;background:var(--red);display:block}
-  .desc{position:absolute;left:62px;top:96px;width:250px;font-family:'Inter',sans-serif;color:#a8a6a1;font-size:12.6px;line-height:18px}
-  .lang{position:absolute;left:62px;top:138px;display:flex;align-items:center;gap:8px;font-family:'Inter',sans-serif;color:#d0d0d0;font-size:12px}
+  .st-ACTIVE{color:#ff3a3f;border-color:#a51f24;background:#170c0d}
+  .st-ACTIVE i{background:#ff3a3f;box-shadow:0 0 7px #e3252b}
+  .st-RECENT{color:#e8a13a;border-color:#7a521c;background:#17120a}
+  .st-RECENT i{background:#e8a13a;box-shadow:0 0 6px #e8a13a}
+  .st-DORMANT,.st-STANDBY{color:#8f8f92;border-color:#3a3a3d;background:#131315}
+  .st-DORMANT i,.st-STANDBY i{background:#8f8f92;box-shadow:none}
+  .desc{position:absolute;left:62px;top:95px;width:252px;font-family:'Inter',sans-serif;color:#a8a6a1;font-size:12.6px;line-height:18px}
+  .lang{position:absolute;left:62px;top:131px;display:flex;align-items:center;gap:8px;font-family:'Inter',sans-serif;color:#d0d0d0;font-size:12px}
   .lang i{width:12px;height:12px;border-radius:50%;display:block}
+  .stat{position:absolute;left:62px;top:150px;font-family:'Share Tech Mono',monospace;color:#6f6f72;font-size:10px;letter-spacing:1.3px;white-space:nowrap}
+  .stat b{color:#bdb8af;font-weight:400}
+  .stat .sep{color:#3a3a3d;margin:0 6px}
+  .lock{position:absolute;right:15px;top:13px;display:flex;align-items:center;gap:4px;color:#7c7c7f;
+        font-family:'Share Tech Mono',monospace;font-size:8.5px;letter-spacing:1.4px}
+  .card.link{cursor:pointer}
+  .card.link:hover{border-color:#a51f24}
   .tick{position:absolute;background:var(--red);opacity:.7}
   svg.art{position:absolute;left:0;top:0;overflow:visible}
 </style>
@@ -73,7 +86,7 @@
     <svg class="abs" style="left:19px;top:10px" width="16" height="14" viewBox="0 0 16 14" fill="none" stroke="#9a9a9a" stroke-width="1.3">
       <rect x="1" y="1" width="14" height="12" rx="1"/><path d="M8 1v12M3.5 4h2.5M3.5 6.5h2.5M10 4h2.5"/></svg>
     <div class="abs mono" style="left:50px;top:10px;color:#8e8e8e;font-size:10.5px;letter-spacing:1.8px">README.MD</div>
-    <div class="abs mono" style="left:1135px;top:10px;color:#8e8e8e;font-size:10.5px;letter-spacing:1.8px">ID: GH-001</div>
+    <div class="abs mono" id="hdrid" style="left:1135px;top:10px;color:#8e8e8e;font-size:10.5px;letter-spacing:1.8px">ID: GH-001</div>
     <div class="kebab" style="left:1250px;top:15px"><i></i><i></i><i></i></div>
 
     <!-- small red corner before CLASSIFIED -->
@@ -115,6 +128,7 @@
     <path d="M0 7h3l1.5-4 2 9 2-11 2 12 2-9 1.5 3H20"/></svg>
   <div class="abs mono shead" style="left:52px;top:645px">ACTIVITY LOG</div>
   <div class="abs mono sright" style="left:1142px;top:648px">// CONTRIBUTIONS</div>
+  <div class="abs mono" id="sync" style="left:430px;top:648px;color:#64646a;font-size:9.5px;letter-spacing:1.3px;white-space:nowrap"></div>
   <div class="kebab" style="left:1250px;top:652px"><i></i><i></i><i></i></div>
   <svg id="cal" class="abs" style="left:0;top:637px" width="1280" height="131"></svg>
   <div class="brk tr" style="left:1266px;top:636px"></div>
@@ -247,11 +261,13 @@ function dot(g,x,y,r,c,o){return el('circle',{cx:x,cy:y,r,fill:c,'fill-opacity':
 function target(g,x,y){el('circle',{cx:x,cy:y,r:5,fill:'none',stroke:RED2,'stroke-width':1.1},g);dot(g,x,y,1.8,RED2);}
 
 /* ---------------- cards ---------------- */
-const CARDS=[
-  {x:10, y:275, no:'01', title:'STORM', chip:'ACTIVE', desc:'Distributed C-UAS sensor grid for multi-node RF detection and direction-finding.', lang:'Python', lc:'#3b7dd8', art:'grid'},
-  {x:650,y:275, no:'02', title:'SIGNAL FINDER', chip:'RESEARCH', desc:'Spectrum recon: hunt, classify and chase down unknown emitters.', lang:'Python', lc:'#3b7dd8', art:'wave'},
-  {x:10, y:457, no:'03', title:'PHANTOM DRONE', chip:'PROTOTYPE', desc:'HackRF RF decoy that synthesizes real drone signatures for EW training.', lang:'C++', lc:'#f2c94c', art:'net'},
-  {x:650,y:457, no:'04', title:'SHADOWLENS', chip:'ACTIVE', desc:'OSINT news intel: CAMEO event coding, GDELT indexing, story clustering.', lang:'Python', lc:'#3b7dd8', art:'stack'},
+// Fallback card data if src/data.json is missing (keeps a clean offline render).
+const POS=[[10,275],[650,275],[10,457],[650,457]];
+const FALLBACK=[
+  {id:'01',title:'STORM',role:'C-UAS GRID',status:'DORMANT',classified:true,desc:'Distributed C-UAS sensor grid for multi-node RF detection and direction-finding.',lang:'Python',lc:'#3b7dd8',art:'grid',stars:0,commits30:0,pushedAt:null,url:null},
+  {id:'02',title:'SIGNAL FINDER',role:'SPECTRUM',status:'DORMANT',classified:false,desc:'Spectrum recon: hunt, classify and chase down unknown emitters.',lang:'Python',lc:'#3b7dd8',art:'wave',stars:3,commits30:0,pushedAt:null,url:'https://github.com/S-O-U-L-S-E-E-K-E-R/Signal-Finder'},
+  {id:'03',title:'PHANTOM DRONE',role:'RF DECOY',status:'DORMANT',classified:true,desc:'HackRF RF decoy that synthesizes real drone signatures for EW training.',lang:'C++',lc:'#f2c94c',art:'net',stars:0,commits30:0,pushedAt:null,url:null},
+  {id:'04',title:'SHADOWLENS',role:'OSINT',status:'DORMANT',classified:true,desc:'OSINT news intel: CAMEO event coding, GDELT indexing, story clustering.',lang:'Python',lc:'#3b7dd8',art:'stack',stars:1,commits30:0,pushedAt:null,url:null},
 ];
 const host=document.getElementById('cards');
 var ART={};
@@ -356,18 +372,29 @@ ART.stack=function(g){
   [[300,98],[600,98],[443,8],[443,160]].forEach(([x,y])=>dot(g,x,y,2,RED2,0.9));
   dot(g,343,100,1.8,RED2);
 };
-CARDS.forEach(c=>{
-  const d=document.createElement('div'); d.className='card'; d.style.left=c.x+'px'; d.style.top=c.y+'px';
-  d.innerHTML=`<div class="no">${c.no}</div><div class="proj mono">PROJECT ${c.no}</div><h3>${c.title}</h3>
-    <div class="chip mono"><i></i>${c.chip}</div><div class="desc">${c.desc}</div>
-    <div class="lang"><i style="background:${c.lc}"></i>${c.lang}</div>
-    <div class="brk tl" style="left:-1px;top:-1px;width:18px;height:18px"></div><div class="brk tr" style="right:-1px;top:-1px;width:18px;height:18px"></div>
-    <div class="brk bl" style="left:-1px;bottom:-1px;width:18px;height:18px"></div><div class="brk br" style="right:-1px;bottom:-1px;width:18px;height:18px"></div>
-    <div class="tick" style="left:20px;top:78px;width:6px;height:1px"></div>`;
-  const svg=el('svg',{class:'art',width:620,height:166}); d.appendChild(svg);
-  ART[c.art](el('g',{},svg));
-  host.appendChild(d);
-});
+function buildCards(cards){
+  host.innerHTML='';
+  cards.forEach((c,i)=>{
+    const [x,y]=POS[i]||[10,275];
+    const d=document.createElement('div'); d.className='card'; d.style.left=x+'px'; d.style.top=y+'px';
+    const upd = c.pushedAt ? c.pushedAt.slice(0,10) : '—';
+    const stars = (c.stars!=null?c.stars:0), com=(c.commits30!=null?c.commits30:0);
+    const lock = c.classified
+      ? `<div class="lock"><svg width="9" height="11" viewBox="0 0 9 11" fill="none" stroke="#7c7c7f" stroke-width="1"><rect x="1" y="4.5" width="7" height="5.5" rx="1"/><path d="M2.5 4.5V3a2 2 0 0 1 4 0v1.5"/></svg>CLASSIFIED</div>`
+      : '';
+    d.innerHTML=`<div class="no">${c.id}</div><div class="proj mono">${c.role||('PROJECT '+c.id)}</div><h3>${c.title}</h3>
+      ${lock}
+      <div class="chip mono st-${c.status}"><i></i>${c.status}</div><div class="desc">${c.desc}</div>
+      <div class="lang"><i style="background:${c.lc}"></i>${c.lang}</div>
+      <div class="stat">★ <b>${stars}</b><span class="sep">|</span>Δ30 <b>${com}</b><span class="sep">|</span>UPD <b>${upd}</b></div>
+      <div class="brk tl" style="left:-1px;top:-1px;width:18px;height:18px"></div><div class="brk tr" style="right:-1px;top:-1px;width:18px;height:18px"></div>
+      <div class="brk bl" style="left:-1px;bottom:-1px;width:18px;height:18px"></div><div class="brk br" style="right:-1px;bottom:-1px;width:18px;height:18px"></div>
+      <div class="tick" style="left:20px;top:78px;width:6px;height:1px"></div>`;
+    const svg=el('svg',{class:'art',width:620,height:166}); d.appendChild(svg);
+    ART[c.art](el('g',{},svg));
+    host.appendChild(d);
+  });
+}
 
 /* ---------------- exact text fitting (mockup-measured boxes) ---------------- */
 document.fonts.ready.then(()=>{
@@ -393,20 +420,38 @@ document.fonts.ready.then(()=>{
   document.body.dataset.fit='ok';
 });
 
-/* ---------------- activity calendar ---------------- */
-(function(){
+/* ---------------- activity calendar (real contribution levels 0..4) ---------------- */
+function buildCalendar(weeks){
   const svg=document.getElementById('cal');
-  const days=['Mon','Tue','Wed','Thu','Fri'];
-  days.forEach((t,i)=>{const e=el('text',{x:23,y:51+i*16,fill:'#8e8e8e','font-size':10,'font-family':'Share Tech Mono','letter-spacing':0.5},svg);e.textContent=t;});
-  const x0=63, pitch=15.8, cell=12, y0=42;
-  const seps=[7,17,30,56];
-  seps.forEach(c=>line(svg,x0+c*pitch-2.5,y0-3,x0+c*pitch-2.5,y0+5*16,'#3a3a3d',1,1));
-  seed=4242;
-  for(let c=0;c<75;c++)for(let r=0;r<5;r++){
-    const v=rnd(); let f='#241315';
-    if(v>0.58) f='#2f1618'; if(v>0.80) f='#451a1c'; if(v>0.925) f='#c51f25'; if(v>0.955) f='#e3252b';
-    el('rect',{x:x0+c*pitch,y:y0+r*16,width:cell,height:cell,rx:1.5,fill:f},svg);
+  // GitHub weekday: 0=Sun..6=Sat. Label Mon/Wed/Fri.
+  const y0=35, py=12.6, cell=10.4;
+  [['Mon',1],['Wed',3],['Fri',5]].forEach(([t,r])=>{
+    const e=el('text',{x:23,y:y0+r*py+cell-1,fill:'#8e8e8e','font-size':10,'font-family':'Share Tech Mono','letter-spacing':0.5},svg);e.textContent=t;});
+  if(!weeks){ // deterministic fallback
+    weeks=[]; seed=4242;
+    for(let w=0;w<53;w++){const col=[];for(let d=0;d<7;d++){const v=rnd();let l=0;if(v>0.58)l=1;if(v>0.80)l=2;if(v>0.925)l=3;if(v>0.965)l=4;col.push(l);}weeks.push(col);}
   }
+  const n=weeks.length;
+  const x0=63, xEnd=1266, px=(xEnd-x0)/n;
+  const SH=['#1b1417','#3a1719','#5c1a1d','#b01f24','#e3252b'];
+  // faint month separators ~ every 4.4 weeks
+  for(let m=1;m<12;m++){const wi=Math.round(m*n/12); line(svg,x0+wi*px-px*0.28,y0-3,x0+wi*px-px*0.28,y0+7*py,'#2e2e31',1,1);}
+  weeks.forEach((col,wi)=>{col.forEach((lvl,d)=>{
+    el('rect',{x:x0+wi*px,y:y0+d*py,width:cell,height:cell,rx:1.5,fill:SH[lvl]||SH[0]},svg);
+  });});
+}
+
+/* ---------------- live data loader ---------------- */
+(async function(){
+  let data=null;
+  try{ const r=await fetch('data.json'); if(r.ok) data=await r.json(); }catch(e){ console.log('data.json load failed',e); }
+  const cards=(data&&Array.isArray(data.cards)&&data.cards.length)?data.cards:FALLBACK;
+  buildCards(cards);
+  buildCalendar(data&&Array.isArray(data.calendar)&&data.calendar.length?data.calendar:null);
+  const stars=cards.reduce((a,c)=>a+(c.stars||0),0);
+  const sync=document.getElementById('sync');
+  if(sync) sync.textContent=`LAST SYNC ${data&&data.updated?data.updated:'OFFLINE'}   ·   TOTAL ★ ${stars}   ·   FLWRS ${data&&data.followers!=null?data.followers:'—'}`;
+  document.body.dataset.ready='1';
 })();
 </script>
 </body>

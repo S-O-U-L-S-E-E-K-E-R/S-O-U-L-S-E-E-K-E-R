@@ -2,7 +2,9 @@
 
 <div align="center">
 
-<img src="./assets/hero.png" alt="SOULSEEKER // build what doesn't exist — SIGINT · RF · EW · OFFSEC · open source" width="100%" />
+<a href="https://github.com/S-O-U-L-S-E-E-K-E-R?tab=repositories"><img src="./assets/hero.png" alt="SOULSEEKER // build what doesn't exist — SIGINT · RF · EW · OFFSEC · open source" width="100%" /></a>
+
+<sub>↑ live dossier — regenerated every 6h from real repo activity + contribution graph</sub>
 
 [![typing](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=18&pause=900&color=E4322B&center=true&vCenter=true&width=760&lines=%3E+ESTABLISHING+SECURE+LINK...;%3E+DECODING+THE+SPECTRUM+NO+ONE+ELSE+HEARS;%3E+DRONES+%7C+SDR+%7C+MESH+%7C+SIGNALS+INTELLIGENCE;%3E+BUILD.+DETECT.+DOMINATE+THE+RF+DOMAIN.)](https://git.io/typing-svg)
 
@@ -22,9 +24,15 @@ loadout       = HackRF · B210 · KrakenSDR · Raspberry Pi · Android
 disposition   = builds the tool rather than waits for it
 ```
 
-### ▞ PROJECT DOSSIERS
+### ▞ DOSSIER LINKS
 
-`01` **STORM** — distributed C-UAS sensor grid &nbsp;·&nbsp; `02` **Signal-Finder** — spectrum recon &nbsp;·&nbsp; `03` **phantom-drone** — RF-decoy / EW trainer &nbsp;·&nbsp; `04` **ShadowLens** — OSINT news-intel
+[![Signal-Finder](https://img.shields.io/github/stars/S-O-U-L-S-E-E-K-E-R/Signal-Finder?style=for-the-badge&label=02%20SIGNAL%20FINDER&labelColor=0a0a0b&color=e3252b&logo=github)](https://github.com/S-O-U-L-S-E-E-K-E-R/Signal-Finder)
+&nbsp;
+![STORM](https://img.shields.io/badge/01%20STORM-CLASSIFIED-0a0a0b?style=for-the-badge&labelColor=0a0a0b&color=3a3a3d)
+![phantom-drone](https://img.shields.io/badge/03%20PHANTOM%20DRONE-CLASSIFIED-0a0a0b?style=for-the-badge&labelColor=0a0a0b&color=3a3a3d)
+![ShadowLens](https://img.shields.io/badge/04%20SHADOWLENS-CLASSIFIED-0a0a0b?style=for-the-badge&labelColor=0a0a0b&color=3a3a3d)
+
+<sub>Signal-Finder is public (badge shows live ★ and links out). STORM · phantom-drone · ShadowLens are private — access restricted.</sub>
 
 ---
 
