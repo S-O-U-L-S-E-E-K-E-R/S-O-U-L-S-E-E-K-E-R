@@ -1,38 +1,49 @@
 {
-  "updated": "2026-10-30 19:59 UTC",
-  "feed_time": "2026-10-30T19:59:01.352095",
-  "total": 879,
-  "coded": 252,
+  "updated": "2026-10-30 21:00 UTC",
+  "feed_time": "2026-10-30T21:00:01.311653",
+  "total": 882,
+  "coded": 256,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 53,
-    "verbal cooperation": 58,
-    "material cooperation": 23
+    "material conflict": 115,
+    "verbal conflict": 55,
+    "verbal cooperation": 65,
+    "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
-    },
-    {
-      "label": "Investigate",
-      "n": 14
+      "n": 17
     },
     {
       "label": "Consult",
+      "n": 17
+    },
+    {
+      "label": "Investigate",
       "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
+      "source": "Breaking Defense",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "0232",
+      "label": "Appeal for aid",
+      "quad": "verbal cooperation",
+      "goldstein": 3.4,
+      "outlets": 3
+    },
     {
       "title": "DG ISPR says Pakistan 'cautiously optimistic' on US-Iran mediation",
       "source": "Dawn",
@@ -42,17 +53,6 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 2
-    },
-    {
-      "title": "US orders non-emergency staff to leave Saudi Arabia over security risks",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "United States \u2192 Saudi Arabia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
