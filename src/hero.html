@@ -20,18 +20,18 @@
   .abs{position:absolute}
   .mono{font-family:'Share Tech Mono',monospace}
 
-  .kicker{left:300px;top:58px;color:var(--red2);font-size:13px;letter-spacing:7px;font-family:'Share Tech Mono',monospace}
+  .kicker{left:34px;top:58px;color:var(--red2);font-size:13px;letter-spacing:7px;font-family:'Share Tech Mono',monospace}
   .title{left:298px;top:70px;font-family:'Saira Stencil One',sans-serif;
          font-size:120px;line-height:1;white-space:nowrap;transform-origin:left top;
          background:linear-gradient(177deg,#d7d4cd 0%,#f3eee3 22%,#faf6ec 52%,#efe9dc 80%,#cfc9bc 100%);
          -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
          filter:drop-shadow(0 2px 1px rgba(0,0,0,.5));}
-  .subt{left:303px;top:214px;font-family:'Saira',sans-serif;font-weight:500;color:var(--cream);
+  .subt{left:34px;top:214px;font-family:'Saira',sans-serif;font-weight:500;color:var(--cream);
         font-size:27px;line-height:1;letter-spacing:11px;white-space:nowrap}
-  .tags{left:304px;top:262px;color:var(--g2);font-size:12.5px;letter-spacing:3px;white-space:nowrap}
+  .tags{left:36px;top:262px;color:var(--g2);font-size:12.5px;letter-spacing:3px;white-space:nowrap}
   .tags b{color:var(--red2);font-weight:400;margin:0 9px 0 0}
   .tags .sp{display:inline-block;width:26px}
-  .redbar{left:303px;top:198px;width:54px;height:3px;background:var(--red2);box-shadow:0 0 8px rgba(246,28,51,.6)}
+  .redbar{left:34px;top:198px;width:54px;height:3px;background:var(--red2);box-shadow:0 0 8px rgba(246,28,51,.6)}
 
   .shead{color:var(--g1);font-size:11.5px;letter-spacing:3.4px}
   .sright{color:var(--g3);font-size:9px;letter-spacing:1.8px}
@@ -92,7 +92,7 @@
   <div class="abs subt">BUILD WHAT DOESN'T EXIST.</div>
   <div class="abs tags mono"><b>//</b>SOFTWARE<span class="sp"></span><b>//</b>HARDWARE<span class="sp"></span><b>//</b>RESEARCH<span class="sp"></span><b>//</b>OPEN SOURCE</div>
 
-  <img id="globe" class="abs" src="art/globe.png" style="left:856px;top:8px;width:444px;height:auto;
+  <img id="globe" class="abs" src="art/globe.png" style="left:862px;top:10px;width:438px;height:auto;
        -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 14%),linear-gradient(0deg,transparent 0,#000 8%);
        -webkit-mask-composite:source-in;mask-image:linear-gradient(90deg,transparent 0,#000 14%);"/>
 
@@ -168,8 +168,8 @@ document.fonts.ready.then(()=>{
     if(mode==='scale') t.style.transform=`scaleX(${width/nat})`;
     else { const n=t.textContent.length; const ls=parseFloat(cs.letterSpacing)||0; t.style.letterSpacing=(ls+(width-nat)/(n))+'px'; }
   };
-  fit('.title',{x:300,capTop:92,capH:94,width:556,mode:'scale'});
-  fit('.subt',{x:303,capTop:206,capH:19,width:474,mode:'spacing'});
+  fit('.title',{x:32,capTop:90,capH:104,width:700,mode:'scale'});
+  fit('.subt',{x:34,capTop:210,capH:20,width:540,mode:'spacing'});
   document.body.dataset.fit='ok';
 });
 
