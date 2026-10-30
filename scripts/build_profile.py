@@ -165,9 +165,9 @@ def main():
                     agg[nm] = {"size": 0, "color": e["node"].get("color") or "#888"}
                 agg[nm]["size"] += e.get("size", 0)
             # latest commit across all repos (message only for public repos).
-            # Skip the profile repo itself — its bot refresh commits would
-            # always win and be self-referential.
-            if rp.get("name") == USER:
+            # Skip the profile repo (self-referential bot refreshes) and the
+            # auto-commit bot (scheduled ticks aren't real work).
+            if rp.get("name") in (USER, "Auto-Commiter-Bot"):
                 continue
             push = rp.get("pushedAt")
             if push and (latest is None or push > latest["date"]):
