@@ -1,49 +1,38 @@
 {
-  "updated": "2026-10-30 06:46 UTC",
-  "feed_time": "2026-10-30T06:46:01.424059",
-  "total": 864,
-  "coded": 253,
-  "outlets": 63,
+  "updated": "2026-10-30 07:47 UTC",
+  "feed_time": "2026-10-30T07:47:01.479278",
+  "total": 870,
+  "coded": 254,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 61,
-    "verbal cooperation": 61,
-    "material cooperation": 18
+    "material conflict": 115,
+    "verbal conflict": 62,
+    "verbal cooperation": 57,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 18
+      "n": 28
     },
     {
       "label": "Investigate",
-      "n": 18
+      "n": 17
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 16
+    },
+    {
+      "label": "Accuse",
+      "n": 14
     },
     {
       "label": "Consult",
       "n": 13
-    },
-    {
-      "label": "Accuse",
-      "n": 13
     }
   ],
   "ticker": [
-    {
-      "title": "Ukraine: 14 killed in Russian drone strike on crowded Dnipro train station",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "Spain begins mourning period as search continues for train crash victims",
       "source": "Guardian World",
@@ -53,17 +42,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Iran claims four tankers struck mines in Hormuz as strike fears grow after\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -97,6 +75,28 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Russia strikes energy facilities in Kyiv as aid convoy heads for besieged t\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "073",
+      "label": "Provide humanitarian aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "French minister warns of 'very high' violence risk as country braces for Ha\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "France",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 1
     },
     {
