@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-30 03:34 UTC",
-  "feed_time": "2026-10-30T03:34:01.530372",
-  "total": 873,
-  "coded": 264,
-  "outlets": 63,
+  "updated": "2026-10-30 03:44 UTC",
+  "feed_time": "2026-10-30T03:43:56.233710",
+  "total": 851,
+  "coded": 256,
+  "outlets": 62,
   "quad_hist": {
-    "material conflict": 126,
+    "material conflict": 119,
     "verbal conflict": 57,
     "verbal cooperation": 62,
-    "material cooperation": 19
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 26
     },
     {
       "label": "Investigate",
-      "n": 17
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 16
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Accuse",
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 15
+    },
+    {
+      "label": "Attack cybernetically",
       "n": 15
     }
   ],
