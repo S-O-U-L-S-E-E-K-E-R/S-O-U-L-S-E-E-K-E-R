@@ -81,8 +81,29 @@
 </defs></svg>
 <div id="cap">
 
-  <svg class="abs" style="left:150px;top:4px;opacity:.05" width="760" height="360" viewBox="0 0 200 200" fill="none" stroke="#ffffff" stroke-width="2">
-    <path d="M100 18 L150 150 L100 120 L50 150 Z"/><path d="M100 60 L128 150 L100 134 L72 150 Z"/></svg>
+  <!-- backdrop: faceted emblem + facet lines + texture behind the hero -->
+  <svg class="abs" style="left:0;top:0" width="1300" height="420">
+    <defs>
+      <radialGradient id="vig" cx="34%" cy="34%" r="80%">
+        <stop offset="0" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity="0.5"/>
+      </radialGradient>
+    </defs>
+    <g stroke="#202027" stroke-width="1" fill="none" opacity="0.6">
+      <path d="M560 0 L430 420"/><path d="M700 -20 L560 420"/><path d="M905 0 L770 420"/><path d="M300 90 L250 420"/>
+      <path d="M470 0 L560 420"/>
+    </g>
+    <g transform="translate(452,18)" fill="#16161b" stroke="#272730" stroke-width="1.4" opacity="0.72">
+      <path d="M200 6 L336 372 L200 286 L64 372 Z"/>
+      <path d="M200 92 L292 372 L200 320 L108 372 Z"/>
+      <path d="M200 6 L200 300" stroke="#30303a" stroke-width="1.2"/>
+      <path d="M150 240 L200 210 L250 240" fill="none" stroke="#2a2a33"/>
+    </g>
+    <g stroke="#1e1e24" stroke-width="0.8" fill="none" opacity="0.6">
+      <path d="M120 360 q60 -30 120 -4 q70 30 150 2"/><path d="M90 390 q80 -42 170 -6 q80 34 190 4"/>
+      <path d="M150 330 q50 -24 100 -2"/>
+    </g>
+    <rect x="0" y="0" width="1300" height="420" fill="url(#vig)"/>
+  </svg>
 
   <div class="abs mono kicker">S-O-U-L-S-E-E-K-E-R</div>
   <div class="abs title">SOULSEEKER</div>
