@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-31 04:07 UTC",
-  "feed_time": "2026-10-31T04:07:03.967321",
+  "updated": "2026-10-31 05:08 UTC",
+  "feed_time": "2026-10-31T05:07:54.693394",
   "total": 880,
-  "coded": 268,
-  "outlets": 67,
+  "coded": 265,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 62,
-    "verbal cooperation": 66,
+    "material conflict": 120,
+    "verbal conflict": 63,
+    "verbal cooperation": 68,
     "material cooperation": 14
   },
   "top_labels": [
@@ -17,19 +17,19 @@
     },
     {
       "label": "Consult",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Demonstrate or rally",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Use unconventional violence",
-      "n": 17
+      "n": 18
     },
     {
-      "label": "Use conventional military force",
-      "n": 16
+      "label": "Threaten",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,29 @@
       "label": "Appeal for aid",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 6
+      "outlets": 5
+    },
+    {
+      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns i\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 3
+    },
+    {
+      "title": "Riot police deployed to Poland\u2019s constitutional court after judge suspended",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 2
     },
     {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
@@ -90,28 +112,6 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns i\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 1
-    },
-    {
-      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
