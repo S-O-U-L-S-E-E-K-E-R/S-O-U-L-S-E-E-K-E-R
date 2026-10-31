@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-30 23:02 UTC",
-  "feed_time": "2026-10-30T23:01:56.803209",
-  "total": 857,
-  "coded": 255,
-  "outlets": 66,
+  "updated": "2026-10-31 00:03 UTC",
+  "feed_time": "2026-10-31T00:03:08.464077",
+  "total": 885,
+  "coded": 264,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 55,
-    "verbal cooperation": 68,
-    "material cooperation": 22
+    "material conflict": 121,
+    "verbal conflict": 62,
+    "verbal cooperation": 63,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
-    },
-    {
-      "label": "Consult",
-      "n": 19
+      "n": 22
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Demonstrate or rally",
-      "n": 16
+      "n": 17
     },
     {
-      "label": "Investigate",
-      "n": 13
+      "label": "Consult",
+      "n": 17
+    },
+    {
+      "label": "Threaten",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Appeal for aid",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 4
+      "outlets": 6
     },
     {
       "title": "DG ISPR says Pakistan 'cautiously optimistic' on US-Iran mediation",
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "\u2018Need a Plan B\u2019: Yemenis in Aden prepare for another war as missiles fall",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -112,6 +101,17 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
