@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-31 08:11 UTC",
-  "feed_time": "2026-10-31T08:11:02.831484",
-  "total": 886,
+  "updated": "2026-10-31 09:12 UTC",
+  "feed_time": "2026-10-31T09:12:01.215436",
+  "total": 888,
   "coded": 267,
-  "outlets": 67,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 134,
-    "verbal conflict": 56,
+    "verbal conflict": 57,
     "verbal cooperation": 64,
-    "material cooperation": 13
+    "material cooperation": 12
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
+      "label": "Demonstrate or rally",
       "n": 24
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Use unconventional violence",
       "n": 23
     },
     {
       "label": "Attack cybernetically",
-      "n": 21
-    },
-    {
-      "label": "Consult",
       "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 19
+    },
+    {
+      "label": "Consult",
+      "n": 19
     }
   ],
   "ticker": [
@@ -37,7 +37,7 @@
       "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "Ukraine",
+      "dyad": "Administration \u2192 United States",
       "code": "0311",
       "label": "Intend material cooperation",
       "quad": "verbal cooperation",
