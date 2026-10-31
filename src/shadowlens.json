@@ -1,11 +1,11 @@
 {
-  "updated": "2026-10-31 10:13 UTC",
-  "feed_time": "2026-10-31T10:13:02.280319",
-  "total": 889,
-  "coded": 261,
-  "outlets": 67,
+  "updated": "2026-10-31 11:14 UTC",
+  "feed_time": "2026-10-31T11:13:56.759469",
+  "total": 890,
+  "coded": 257,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 131,
+    "material conflict": 127,
     "verbal conflict": 53,
     "verbal cooperation": 66,
     "material cooperation": 11
@@ -13,23 +13,23 @@
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
-    },
-    {
-      "label": "Demonstrate or rally",
       "n": 25
     },
     {
-      "label": "Consult",
-      "n": 17
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 17
+      "label": "Demonstrate or rally",
+      "n": 24
     },
     {
       "label": "Use conventional military force",
       "n": 16
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 16
+    },
+    {
+      "label": "Threaten",
+      "n": 15
     }
   ],
   "ticker": [
@@ -45,15 +45,15 @@
       "outlets": 5
     },
     {
-      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns i\u2026",
-      "source": "Guardian World",
+      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
+      "source": "Sputnik",
       "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 3
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
@@ -100,6 +100,17 @@
       "outlets": 1
     },
     {
+      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns i\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 1
+    },
+    {
       "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
