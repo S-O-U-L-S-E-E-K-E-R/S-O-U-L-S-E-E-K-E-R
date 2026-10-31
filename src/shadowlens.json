@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-31 18:21 UTC",
-  "feed_time": "2026-10-31T18:21:08.518335",
-  "total": 877,
-  "coded": 267,
+  "updated": "2026-10-31 19:22 UTC",
+  "feed_time": "2026-10-31T19:22:02.415453",
+  "total": 874,
+  "coded": 266,
   "outlets": 68,
   "quad_hist": {
     "material conflict": 132,
-    "verbal conflict": 55,
-    "verbal cooperation": 64,
-    "material cooperation": 16
+    "verbal conflict": 56,
+    "verbal cooperation": 61,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Use unconventional violence",
@@ -21,18 +21,29 @@
     },
     {
       "label": "Arrest, detain or charge",
+      "n": 20
+    },
+    {
+      "label": "Use conventional military force",
       "n": 18
     },
     {
       "label": "Threaten",
-      "n": 17
-    },
-    {
-      "label": "Use conventional military force",
       "n": 16
     }
   ],
   "ticker": [
+    {
+      "title": "Third weekend of protests in France",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "France",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 5
+    },
     {
       "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
       "source": "Dawn",
@@ -53,17 +64,6 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 4
-    },
-    {
-      "title": "Third weekend of protests in France",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "France",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
       "outlets": 4
     },
     {
