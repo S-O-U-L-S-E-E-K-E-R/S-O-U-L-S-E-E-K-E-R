@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-31 12:15 UTC",
-  "feed_time": "2026-10-31T12:15:08.493843",
-  "total": 885,
-  "coded": 258,
-  "outlets": 68,
+  "updated": "2026-10-31 13:16 UTC",
+  "feed_time": "2026-10-31T13:16:03.685845",
+  "total": 865,
+  "coded": 253,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 128,
-    "verbal conflict": 59,
+    "material conflict": 125,
+    "verbal conflict": 57,
     "verbal cooperation": 60,
     "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Demonstrate or rally",
-      "n": 26
+      "label": "Use unconventional violence",
+      "n": 25
     },
     {
-      "label": "Use unconventional violence",
-      "n": 26
+      "label": "Demonstrate or rally",
+      "n": 24
     },
     {
       "label": "Threaten",
@@ -42,7 +42,7 @@
       "label": "Intend material cooperation",
       "quad": "verbal cooperation",
       "goldstein": 5.2,
-      "outlets": 5
+      "outlets": 6
     },
     {
       "title": "Third weekend of protests in France",
@@ -53,6 +53,17 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
+      "outlets": 2
+    },
+    {
+      "title": "Iran's supreme leader warns US, Israel of 'unrestricted geographical respon\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Ukraine\u2019s Zelenskyy praises US over $2.1bn Patriot missile deal but warns i\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
       "outlets": 1
     }
   ]
