@@ -1,47 +1,47 @@
 {
-  "updated": "2026-10-31 05:08 UTC",
-  "feed_time": "2026-10-31T05:07:54.693394",
-  "total": 880,
-  "coded": 265,
+  "updated": "2026-10-31 06:09 UTC",
+  "feed_time": "2026-10-31T06:09:08.592229",
+  "total": 888,
+  "coded": 270,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 63,
-    "verbal cooperation": 68,
+    "material conflict": 129,
+    "verbal conflict": 62,
+    "verbal cooperation": 65,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 21
+      "n": 23
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 22
     },
     {
       "label": "Consult",
       "n": 20
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 18
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 16
     }
   ],
   "ticker": [
     {
-      "title": "US clears $2.1 billion Patriot missile deal for Ukraine, allies to pay",
-      "source": "Times of India",
+      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
+      "source": "Dawn",
       "risk": 10,
       "dyad": "Ukraine",
-      "code": "0232",
-      "label": "Appeal for aid",
+      "code": "0311",
+      "label": "Intend material cooperation",
       "quad": "verbal cooperation",
-      "goldstein": 3.4,
+      "goldstein": 5.2,
       "outlets": 5
     },
     {
