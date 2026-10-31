@@ -1,26 +1,26 @@
 {
-  "updated": "2026-10-31 07:10 UTC",
-  "feed_time": "2026-10-31T07:10:01.773177",
+  "updated": "2026-10-31 08:11 UTC",
+  "feed_time": "2026-10-31T08:11:02.831484",
   "total": 886,
   "coded": 267,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 133,
-    "verbal conflict": 58,
-    "verbal cooperation": 62,
-    "material cooperation": 14
+    "material conflict": 134,
+    "verbal conflict": 56,
+    "verbal cooperation": 64,
+    "material cooperation": 13
   },
   "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 24
+    },
     {
       "label": "Demonstrate or rally",
       "n": 23
     },
     {
       "label": "Attack cybernetically",
-      "n": 22
-    },
-    {
-      "label": "Use unconventional violence",
       "n": 21
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 16
+      "n": 18
     }
   ],
   "ticker": [
@@ -54,28 +54,6 @@
       "quad": "verbal cooperation",
       "goldstein": 3.5,
       "outlets": 3
-    },
-    {
-      "title": "Riot police deployed to Poland\u2019s constitutional court after judge suspended",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 2
-    },
-    {
-      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
     },
     {
       "title": "Call of Duty makers apologize, agree to remove footage of deadly 2022 Seoul\u2026",
@@ -112,6 +90,28 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Riot police deployed to Poland\u2019s constitutional court after judge suspended",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
