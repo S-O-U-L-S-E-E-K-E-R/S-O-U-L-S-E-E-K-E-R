@@ -1,49 +1,38 @@
 {
-  "updated": "2026-10-31 21:24 UTC",
-  "feed_time": "2026-10-31T21:24:01.258852",
-  "total": 863,
-  "coded": 256,
+  "updated": "2026-10-31 22:25 UTC",
+  "feed_time": "2026-10-31T22:25:01.078816",
+  "total": 868,
+  "coded": 260,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 124,
-    "verbal conflict": 62,
-    "verbal cooperation": 56,
-    "material cooperation": 14
+    "material conflict": 125,
+    "verbal conflict": 63,
+    "verbal cooperation": 59,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 24
+      "n": 27
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 19
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Threaten",
       "n": 17
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 17
     }
   ],
   "ticker": [
-    {
-      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Administration \u2192 United States",
-      "code": "0311",
-      "label": "Intend material cooperation",
-      "quad": "verbal cooperation",
-      "goldstein": 5.2,
-      "outlets": 5
-    },
     {
       "title": "Iran's Khamenei warns US and Israel against new attacks",
       "source": "France24",
@@ -56,6 +45,17 @@
       "outlets": 4
     },
     {
+      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "0311",
+      "label": "Intend material cooperation",
+      "quad": "verbal cooperation",
+      "goldstein": 5.2,
+      "outlets": 4
+    },
+    {
       "title": "Third weekend of protests in France",
       "source": "France24",
       "risk": 10,
@@ -64,7 +64,7 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
@@ -75,28 +75,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Syria weighs joining Mecca defence pact, foreign minister says",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Syria",
-      "code": "062",
-      "label": "Cooperate militarily",
-      "quad": "material cooperation",
-      "goldstein": 6.0,
       "outlets": 2
     },
     {
@@ -119,6 +97,28 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
       "outlets": 1
     }
   ]
