@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-31 09:12 UTC",
-  "feed_time": "2026-10-31T09:12:01.215436",
-  "total": 888,
-  "coded": 267,
-  "outlets": 68,
+  "updated": "2026-10-31 10:13 UTC",
+  "feed_time": "2026-10-31T10:13:02.280319",
+  "total": 889,
+  "coded": 261,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 134,
-    "verbal conflict": 57,
-    "verbal cooperation": 64,
-    "material cooperation": 12
+    "material conflict": 131,
+    "verbal conflict": 53,
+    "verbal cooperation": 66,
+    "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Demonstrate or rally",
-      "n": 24
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 26
     },
     {
-      "label": "Attack cybernetically",
-      "n": 20
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 19
+      "label": "Demonstrate or rally",
+      "n": 25
     },
     {
       "label": "Consult",
-      "n": 19
+      "n": 17
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 17
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 16
     }
   ],
   "ticker": [
@@ -54,17 +54,6 @@
       "quad": "verbal cooperation",
       "goldstein": 3.5,
       "outlets": 3
-    },
-    {
-      "title": "Call of Duty makers apologize, agree to remove footage of deadly 2022 Seoul\u2026",
-      "source": "Anadolu Agency",
-      "risk": 10,
-      "dyad": "South Korea",
-      "code": "057",
-      "label": "Sign formal agreement",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 2
     },
     {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
