@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-31 03:06 UTC",
-  "feed_time": "2026-10-31T03:06:01.234352",
-  "total": 889,
-  "coded": 273,
-  "outlets": 68,
+  "updated": "2026-10-31 04:07 UTC",
+  "feed_time": "2026-10-31T04:07:03.967321",
+  "total": 880,
+  "coded": 268,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 128,
-    "verbal conflict": 60,
-    "verbal cooperation": 69,
-    "material cooperation": 16
+    "material conflict": 126,
+    "verbal conflict": 62,
+    "verbal cooperation": 66,
+    "material cooperation": 14
   },
   "top_labels": [
     {
@@ -17,14 +17,14 @@
     },
     {
       "label": "Consult",
-      "n": 20
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
+      "n": 17
+    },
+    {
+      "label": "Use unconventional violence",
       "n": 17
     },
     {
@@ -34,15 +34,15 @@
   ],
   "ticker": [
     {
-      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
-      "source": "Breaking Defense",
+      "title": "US clears $2.1 billion Patriot missile deal for Ukraine, allies to pay",
+      "source": "Times of India",
       "risk": 10,
       "dyad": "Ukraine",
       "code": "0232",
       "label": "Appeal for aid",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 5
+      "outlets": 6
     },
     {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
