@@ -1,23 +1,27 @@
 {
-  "updated": "2026-10-31 11:14 UTC",
-  "feed_time": "2026-10-31T11:13:56.759469",
-  "total": 890,
-  "coded": 257,
+  "updated": "2026-10-31 12:15 UTC",
+  "feed_time": "2026-10-31T12:15:08.493843",
+  "total": 885,
+  "coded": 258,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 127,
-    "verbal conflict": 53,
-    "verbal cooperation": 66,
+    "material conflict": 128,
+    "verbal conflict": 59,
+    "verbal cooperation": 60,
     "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 25
+      "label": "Demonstrate or rally",
+      "n": 26
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 24
+      "label": "Use unconventional violence",
+      "n": 26
+    },
+    {
+      "label": "Threaten",
+      "n": 19
     },
     {
       "label": "Use conventional military force",
@@ -25,10 +29,6 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 16
-    },
-    {
-      "label": "Threaten",
       "n": 15
     }
   ],
@@ -43,6 +43,17 @@
       "quad": "verbal cooperation",
       "goldstein": 5.2,
       "outlets": 5
+    },
+    {
+      "title": "Third weekend of protests in France",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "France",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 2
     },
     {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
@@ -108,17 +119,6 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 1
-    },
-    {
-      "title": "Evacuation of civilians begins in besieged Ukrainian city of Oleshky",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
