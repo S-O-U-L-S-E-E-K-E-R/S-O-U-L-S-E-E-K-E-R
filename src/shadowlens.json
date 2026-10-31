@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-31 17:20 UTC",
-  "feed_time": "2026-10-31T17:20:03.307269",
-  "total": 850,
-  "coded": 256,
+  "updated": "2026-10-31 18:21 UTC",
+  "feed_time": "2026-10-31T18:21:08.518335",
+  "total": 877,
+  "coded": 267,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 129,
-    "verbal conflict": 56,
-    "verbal cooperation": 55,
+    "material conflict": 132,
+    "verbal conflict": 55,
+    "verbal cooperation": 64,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 26
+      "n": 30
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Threaten",
-      "n": 20
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 18
+      "n": 23
     },
     {
       "label": "Arrest, detain or charge",
       "n": 18
+    },
+    {
+      "label": "Threaten",
+      "n": 17
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 16
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Third weekend of protests in France",
@@ -64,6 +64,17 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
+      "outlets": 4
+    },
+    {
+      "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 1
-    },
-    {
-      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
