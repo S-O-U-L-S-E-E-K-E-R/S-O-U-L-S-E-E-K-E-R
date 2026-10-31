@@ -1,14 +1,14 @@
 {
-  "updated": "2026-10-31 15:18 UTC",
-  "feed_time": "2026-10-31T15:18:01.594285",
-  "total": 855,
-  "coded": 261,
-  "outlets": 66,
+  "updated": "2026-10-31 16:19 UTC",
+  "feed_time": "2026-10-31T16:19:01.666712",
+  "total": 876,
+  "coded": 260,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 131,
-    "verbal conflict": 58,
-    "verbal cooperation": 61,
-    "material cooperation": 11
+    "material conflict": 126,
+    "verbal conflict": 60,
+    "verbal cooperation": 62,
+    "material cooperation": 12
   },
   "top_labels": [
     {
@@ -17,14 +17,14 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 23
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 20
+      "n": 24
     },
     {
       "label": "Threaten",
+      "n": 20
+    },
+    {
+      "label": "Use conventional military force",
       "n": 18
     },
     {
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks",
+      "source": "NYT Top",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Riot police deployed to Poland\u2019s constitutional court after judge suspended",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
