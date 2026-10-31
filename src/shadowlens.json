@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-31 20:23 UTC",
-  "feed_time": "2026-10-31T20:23:02.329214",
-  "total": 867,
-  "coded": 262,
+  "updated": "2026-10-31 21:24 UTC",
+  "feed_time": "2026-10-31T21:24:01.258852",
+  "total": 863,
+  "coded": 256,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 129,
-    "verbal conflict": 58,
-    "verbal cooperation": 60,
-    "material cooperation": 15
+    "material conflict": 124,
+    "verbal conflict": 62,
+    "verbal cooperation": 56,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 28
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Use conventional military force",
       "n": 19
     },
     {
+      "label": "Arrest, detain or charge",
+      "n": 18
+    },
+    {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     }
   ],
   "ticker": [
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Syria weighs joining Mecca defence pact, foreign minister says",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Syria",
+      "code": "062",
+      "label": "Cooperate militarily",
+      "quad": "material cooperation",
+      "goldstein": 6.0,
+      "outlets": 2
+    },
+    {
       "title": "UN demands probe into death of staff member in Houthi custody",
       "source": "MEE",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
