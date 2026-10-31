@@ -1,35 +1,35 @@
 {
-  "updated": "2026-10-31 13:16 UTC",
-  "feed_time": "2026-10-31T13:16:03.685845",
-  "total": 865,
-  "coded": 253,
-  "outlets": 49,
+  "updated": "2026-10-31 14:17 UTC",
+  "feed_time": "2026-10-31T14:17:01.366310",
+  "total": 882,
+  "coded": 263,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 57,
-    "verbal cooperation": 60,
-    "material cooperation": 11
+    "material conflict": 131,
+    "verbal conflict": 59,
+    "verbal cooperation": 63,
+    "material cooperation": 10
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 25
+      "label": "Demonstrate or rally",
+      "n": 26
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Use unconventional violence",
       "n": 24
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Use conventional military force",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 17
     }
   ],
   "ticker": [
@@ -42,7 +42,18 @@
       "label": "Intend material cooperation",
       "quad": "verbal cooperation",
       "goldstein": 5.2,
-      "outlets": 6
+      "outlets": 5
+    },
+    {
+      "title": "Iran\u2019s supreme leader warns US, Israel against war",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 3
     },
     {
       "title": "Third weekend of protests in France",
@@ -53,17 +64,6 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 2
-    },
-    {
-      "title": "Iran's supreme leader warns US, Israel of 'unrestricted geographical respon\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
       "outlets": 2
     },
     {
