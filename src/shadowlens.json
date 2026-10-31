@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-31 16:19 UTC",
-  "feed_time": "2026-10-31T16:19:01.666712",
-  "total": 876,
-  "coded": 260,
+  "updated": "2026-10-31 17:20 UTC",
+  "feed_time": "2026-10-31T17:20:03.307269",
+  "total": 850,
+  "coded": 256,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 60,
-    "verbal cooperation": 62,
-    "material cooperation": 12
+    "material conflict": 129,
+    "verbal conflict": 56,
+    "verbal cooperation": 55,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 24
+      "label": "Demonstrate or rally",
+      "n": 26
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 24
+      "label": "Use unconventional violence",
+      "n": 22
     },
     {
       "label": "Threaten",
@@ -28,8 +28,8 @@
       "n": 18
     },
     {
-      "label": "Attack cybernetically",
-      "n": 17
+      "label": "Arrest, detain or charge",
+      "n": 18
     }
   ],
   "ticker": [
@@ -45,8 +45,8 @@
       "outlets": 5
     },
     {
-      "title": "Iran\u2019s supreme leader warns US, Israel against war",
-      "source": "SCMP",
+      "title": "Iran's Khamenei warns US and Israel against new attacks",
+      "source": "France24",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
       "code": "130",
