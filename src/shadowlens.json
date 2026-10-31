@@ -1,34 +1,34 @@
 {
-  "updated": "2026-10-31 22:25 UTC",
-  "feed_time": "2026-10-31T22:25:01.078816",
-  "total": 868,
-  "coded": 260,
+  "updated": "2026-10-31 23:26 UTC",
+  "feed_time": "2026-10-31T23:25:55.171494",
+  "total": 861,
+  "coded": 256,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 63,
-    "verbal cooperation": 59,
+    "material conflict": 126,
+    "verbal conflict": 62,
+    "verbal cooperation": 55,
     "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 27
+      "n": 26
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Use conventional military force",
       "n": 20
     },
     {
-      "label": "Threaten",
-      "n": 17
+      "label": "Arrest, detain or charge",
+      "n": 18
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Attack cybernetically",
       "n": 17
     }
   ],
@@ -45,17 +45,6 @@
       "outlets": 4
     },
     {
-      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "0311",
-      "label": "Intend material cooperation",
-      "quad": "verbal cooperation",
-      "goldstein": 5.2,
-      "outlets": 4
-    },
-    {
       "title": "Third weekend of protests in France",
       "source": "France24",
       "risk": 10,
@@ -64,7 +53,18 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 3
+      "outlets": 4
+    },
+    {
+      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 4
     },
     {
       "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
