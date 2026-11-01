@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-01 15:42 UTC",
-  "feed_time": "2026-11-01T15:42:01.290796",
+  "updated": "2026-11-01 16:43 UTC",
+  "feed_time": "2026-11-01T16:43:01.289255",
   "total": 883,
-  "coded": 248,
+  "coded": 254,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 131,
-    "verbal conflict": 50,
-    "verbal cooperation": 58,
-    "material cooperation": 9
+    "material conflict": 132,
+    "verbal conflict": 59,
+    "verbal cooperation": 57,
+    "material cooperation": 6
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 31
+      "n": 34
     },
     {
       "label": "Demonstrate or rally",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Consult",
-      "n": 16
-    },
-    {
-      "label": "Threaten",
-      "n": 14
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
       "n": 14
+    },
+    {
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "France",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 3
+    },
     {
       "title": "Iran's Khamenei warns US and Israel against new attacks",
       "source": "France24",
@@ -101,17 +112,6 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
