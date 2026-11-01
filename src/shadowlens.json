@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-01 11:38 UTC",
-  "feed_time": "2026-11-01T11:37:55.444179",
-  "total": 887,
+  "updated": "2026-11-01 12:39 UTC",
+  "feed_time": "2026-11-01T12:39:08.492932",
+  "total": 885,
   "coded": 250,
-  "outlets": 69,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 133,
-    "verbal conflict": 56,
-    "verbal cooperation": 54,
-    "material cooperation": 7
+    "material conflict": 135,
+    "verbal conflict": 50,
+    "verbal cooperation": 57,
+    "material cooperation": 8
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 17
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Use conventional military force",
       "n": 15
     }
   ],
@@ -56,17 +56,6 @@
       "outlets": 3
     },
     {
-      "title": "Iran declares UK navy, air force 'terrorist' groups, puts MI6 in hostile li\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Iran \u2192 United Kingdom",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
       "source": "Sputnik",
       "risk": 10,
@@ -78,10 +67,21 @@
       "outlets": 2
     },
     {
-      "title": "'Negotiations going fine': Trump says Iran wants to make a deal",
+      "title": "Russia launches nearly 2,000 attack drones, over 1,500 guided bombs, 44 mis\u2026",
+      "source": "Ukrinform",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran has 'no intention' to engage in peace talks with US as war looms",
       "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
+      "dyad": "Iran \u2192 United States",
       "code": "046",
       "label": "Engage in negotiation",
       "quad": "verbal cooperation",
