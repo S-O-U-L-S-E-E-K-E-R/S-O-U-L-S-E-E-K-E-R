@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-01 06:33 UTC",
-  "feed_time": "2026-11-01T06:33:08.458825",
+  "updated": "2026-11-01 07:34 UTC",
+  "feed_time": "2026-11-01T07:34:02.108559",
   "total": 877,
-  "coded": 256,
-  "outlets": 69,
+  "coded": 251,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 132,
     "verbal conflict": 53,
-    "verbal cooperation": 57,
-    "material cooperation": 14
+    "verbal cooperation": 55,
+    "material cooperation": 11
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 19
+      "n": 23
     },
     {
       "label": "Use conventional military force",
       "n": 18
     },
     {
+      "label": "Attack cybernetically",
+      "n": 18
+    },
+    {
       "label": "Threaten",
-      "n": 15
+      "n": 17
     }
   ],
   "ticker": [
@@ -67,17 +67,6 @@
       "outlets": 3
     },
     {
-      "title": "Protests under way in Germany and France as minister warns against use of H\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "France \u2192 Germany",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
-      "outlets": 2
-    },
-    {
       "title": "UN demands probe into death of staff member in Houthi custody",
       "source": "MEE",
       "risk": 10,
@@ -86,6 +75,17 @@
       "label": "Demand",
       "quad": "verbal conflict",
       "goldstein": -5.0,
+      "outlets": 3
+    },
+    {
+      "title": "Protests under way in Germany and France as minister warns against use of H\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "France \u2192 Germany",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
       "outlets": 2
     },
     {
