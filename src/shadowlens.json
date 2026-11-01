@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-01 10:37 UTC",
-  "feed_time": "2026-11-01T10:37:01.077074",
-  "total": 890,
+  "updated": "2026-11-01 11:38 UTC",
+  "feed_time": "2026-11-01T11:37:55.444179",
+  "total": 887,
   "coded": 250,
-  "outlets": 68,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 134,
-    "verbal conflict": 58,
-    "verbal cooperation": 50,
-    "material cooperation": 8
+    "material conflict": 133,
+    "verbal conflict": 56,
+    "verbal cooperation": 54,
+    "material cooperation": 7
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 34
+      "n": 36
     },
     {
       "label": "Use unconventional violence",
@@ -21,15 +21,15 @@
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 19
+    },
+    {
+      "label": "Consult",
+      "n": 16
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks",
-      "source": "NYT Top",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
+      "outlets": 1
+    },
+    {
+      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
