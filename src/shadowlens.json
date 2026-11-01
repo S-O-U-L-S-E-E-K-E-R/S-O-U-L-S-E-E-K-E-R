@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-01 14:41 UTC",
-  "feed_time": "2026-11-01T14:41:01.070909",
-  "total": 887,
-  "coded": 255,
-  "outlets": 67,
+  "updated": "2026-11-01 15:42 UTC",
+  "feed_time": "2026-11-01T15:42:01.290796",
+  "total": 883,
+  "coded": 248,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 136,
-    "verbal conflict": 51,
-    "verbal cooperation": 60,
-    "material cooperation": 8
+    "material conflict": 131,
+    "verbal conflict": 50,
+    "verbal cooperation": 58,
+    "material cooperation": 9
   },
   "top_labels": [
     {
-      "label": "Demonstrate or rally",
-      "n": 35
+      "label": "Use unconventional violence",
+      "n": 31
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Demonstrate or rally",
       "n": 30
     },
     {
@@ -25,7 +25,7 @@
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Attack cybernetically",
@@ -33,6 +33,17 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Iran's Khamenei warns US and Israel against new attacks",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 3
+    },
     {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
       "source": "Breaking Defense",
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Oleshky evacuees reunite with families after truce allows crossing back int\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
