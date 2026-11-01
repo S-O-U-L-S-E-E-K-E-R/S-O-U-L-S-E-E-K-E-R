@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-01 09:36 UTC",
-  "feed_time": "2026-11-01T09:36:01.427509",
-  "total": 888,
-  "coded": 249,
-  "outlets": 69,
+  "updated": "2026-11-01 10:37 UTC",
+  "feed_time": "2026-11-01T10:37:01.077074",
+  "total": 890,
+  "coded": 250,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 131,
-    "verbal conflict": 55,
-    "verbal cooperation": 54,
-    "material cooperation": 9
+    "material conflict": 134,
+    "verbal conflict": 58,
+    "verbal cooperation": 50,
+    "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 32
+      "n": 34
     },
     {
       "label": "Use unconventional violence",
       "n": 27
     },
     {
-      "label": "Attack cybernetically",
-      "n": 19
+      "label": "Threaten",
+      "n": 18
     },
     {
-      "label": "Threaten",
+      "label": "Attack cybernetically",
       "n": 18
     },
     {
@@ -54,6 +54,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 3
+    },
+    {
+      "title": "Iran declares UK navy, air force 'terrorist' groups, puts MI6 in hostile li\u2026",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Iran \u2192 United Kingdom",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
     },
     {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
@@ -108,17 +119,6 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 1
-    },
-    {
-      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
