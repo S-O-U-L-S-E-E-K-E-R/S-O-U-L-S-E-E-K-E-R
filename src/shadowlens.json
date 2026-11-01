@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-01 02:29 UTC",
-  "feed_time": "2026-11-01T02:29:01.154875",
-  "total": 865,
-  "coded": 261,
+  "updated": "2026-11-01 03:30 UTC",
+  "feed_time": "2026-11-01T03:30:01.111099",
+  "total": 866,
+  "coded": 260,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 131,
-    "verbal conflict": 54,
-    "verbal cooperation": 62,
+    "material conflict": 132,
+    "verbal conflict": 56,
+    "verbal cooperation": 58,
     "material cooperation": 14
   },
   "top_labels": [
@@ -25,11 +25,11 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 16
     }
   ],
   "ticker": [
@@ -56,8 +56,8 @@
       "outlets": 3
     },
     {
-      "title": "Trump admin approves potential Patriot missiles sale to Ukraine",
-      "source": "Dawn",
+      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
+      "source": "Breaking Defense",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -78,14 +78,14 @@
       "outlets": 3
     },
     {
-      "title": "At least four Palestinians killed in Gaza as Israeli attacks continue",
-      "source": "AlJazeera",
+      "title": "Trump speaks to Netanyahu as US weighs fresh military strikes on Iran: Repo\u2026",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
