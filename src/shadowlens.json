@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 08:35 UTC",
-  "feed_time": "2026-11-01T08:35:01.218068",
+  "updated": "2026-11-01 09:36 UTC",
+  "feed_time": "2026-11-01T09:36:01.427509",
   "total": 888,
-  "coded": 255,
+  "coded": 249,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 136,
-    "verbal conflict": 54,
-    "verbal cooperation": 56,
+    "material conflict": 131,
+    "verbal conflict": 55,
+    "verbal cooperation": 54,
     "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 37
+      "n": 32
     },
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 27
     },
     {
-      "label": "Use conventional military force",
-      "n": 18
+      "label": "Attack cybernetically",
+      "n": 19
     },
     {
       "label": "Threaten",
       "n": 18
     },
     {
-      "label": "Attack cybernetically",
-      "n": 18
+      "label": "Use conventional military force",
+      "n": 16
     }
   ],
   "ticker": [
@@ -56,6 +56,17 @@
       "outlets": 3
     },
     {
+      "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "'Negotiations going fine': Trump says Iran wants to make a deal",
       "source": "MEE",
       "risk": 10,
@@ -64,7 +75,7 @@
       "label": "Engage in negotiation",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks",
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Oleshky evacuees reunite with families after truce allows crossing back int\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
