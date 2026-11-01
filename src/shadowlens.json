@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 05:32 UTC",
-  "feed_time": "2026-11-01T05:31:53.916958",
-  "total": 871,
-  "coded": 263,
-  "outlets": 68,
+  "updated": "2026-11-01 06:33 UTC",
+  "feed_time": "2026-11-01T06:33:08.458825",
+  "total": 877,
+  "coded": 256,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 133,
-    "verbal conflict": 55,
-    "verbal cooperation": 61,
+    "material conflict": 132,
+    "verbal conflict": 53,
+    "verbal cooperation": 57,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 32
+      "n": 34
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 22
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 19
     },
     {
       "label": "Use conventional military force",
       "n": 18
     },
     {
-      "label": "Attack cybernetically",
-      "n": 18
-    },
-    {
       "label": "Threaten",
-      "n": 14
+      "n": 15
     }
   ],
   "ticker": [
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "Iran's Khamenei warns US and Israel against new attacks",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 2
-    },
-    {
       "title": "UN demands probe into death of staff member in Houthi custody",
       "source": "MEE",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
       "outlets": 1
     }
   ]
