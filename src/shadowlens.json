@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 18:45 UTC",
-  "feed_time": "2026-11-01T18:45:08.459273",
-  "total": 864,
-  "coded": 245,
-  "outlets": 63,
+  "updated": "2026-11-01 19:46 UTC",
+  "feed_time": "2026-11-01T19:46:01.505547",
+  "total": 869,
+  "coded": 241,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 56,
-    "verbal cooperation": 59,
+    "material conflict": 123,
+    "verbal conflict": 58,
+    "verbal cooperation": 55,
     "material cooperation": 5
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 31
+      "n": 29
     },
     {
       "label": "Demonstrate or rally",
-      "n": 26
+      "n": 25
     },
     {
       "label": "Consult",
       "n": 17
     },
     {
-      "label": "Threaten",
+      "label": "Attack cybernetically",
       "n": 14
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 14
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Investigate",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 4
+      "outlets": 5
     },
     {
       "title": "Iran warns new war could last longer after Trump threatens strikes",
@@ -53,7 +53,7 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
