@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-01 00:27 UTC",
-  "feed_time": "2026-11-01T00:27:08.474274",
-  "total": 863,
-  "coded": 254,
+  "updated": "2026-11-01 01:28 UTC",
+  "feed_time": "2026-11-01T01:28:01.179745",
+  "total": 865,
+  "coded": 261,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 60,
-    "verbal cooperation": 56,
+    "material conflict": 129,
+    "verbal conflict": 58,
+    "verbal cooperation": 61,
     "material cooperation": 13
   },
   "top_labels": [
@@ -16,20 +16,20 @@
       "n": 27
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Use conventional military force",
       "n": 21
     },
     {
-      "label": "Use conventional military force",
+      "label": "Use unconventional violence",
       "n": 20
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 18
     },
     {
       "label": "Attack cybernetically",
       "n": 17
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 16
     }
   ],
   "ticker": [
@@ -64,6 +64,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 3
+    },
+    {
+      "title": "'Negotiations going fine': Trump says Iran wants to make a deal",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "046",
+      "label": "Engage in negotiation",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
       "outlets": 3
     },
     {
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
       "outlets": 1
     }
   ]
