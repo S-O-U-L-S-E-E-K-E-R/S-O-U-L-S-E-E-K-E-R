@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-01 22:49 UTC",
-  "feed_time": "2026-11-01T22:49:01.218691",
-  "total": 859,
-  "coded": 238,
-  "outlets": 66,
+  "updated": "2026-11-01 23:50 UTC",
+  "feed_time": "2026-11-01T23:49:55.353290",
+  "total": 858,
+  "coded": 235,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 122,
-    "verbal conflict": 54,
-    "verbal cooperation": 54,
+    "material conflict": 116,
+    "verbal conflict": 56,
+    "verbal cooperation": 55,
     "material cooperation": 8
   },
   "top_labels": [
-    {
-      "label": "Demonstrate or rally",
-      "n": 26
-    },
     {
       "label": "Use unconventional violence",
       "n": 23
     },
     {
+      "label": "Demonstrate or rally",
+      "n": 22
+    },
+    {
       "label": "Consult",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 14
     }
   ],
   "ticker": [
@@ -64,7 +64,7 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
@@ -100,17 +100,6 @@
       "outlets": 2
     },
     {
-      "title": "Iran has 'no intention' to engage in peace talks with US as war looms",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 2
-    },
-    {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
       "outlets": 1
     }
   ]
