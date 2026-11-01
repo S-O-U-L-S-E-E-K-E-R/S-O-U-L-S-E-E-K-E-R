@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 12:39 UTC",
-  "feed_time": "2026-11-01T12:39:08.492932",
-  "total": 885,
-  "coded": 250,
-  "outlets": 68,
+  "updated": "2026-11-01 13:40 UTC",
+  "feed_time": "2026-11-01T13:40:01.108511",
+  "total": 886,
+  "coded": 256,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 135,
+    "material conflict": 138,
     "verbal conflict": 50,
-    "verbal cooperation": 57,
+    "verbal cooperation": 60,
     "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 36
+      "n": 37
     },
     {
       "label": "Use unconventional violence",
-      "n": 25
-    },
-    {
-      "label": "Threaten",
-      "n": 18
+      "n": 27
     },
     {
       "label": "Consult",
+      "n": 18
+    },
+    {
+      "label": "Threaten",
       "n": 17
     },
     {
-      "label": "Use conventional military force",
-      "n": 15
+      "label": "Attack cybernetically",
+      "n": 16
     }
   ],
   "ticker": [
