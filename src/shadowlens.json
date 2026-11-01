@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-01 20:47 UTC",
-  "feed_time": "2026-11-01T20:47:01.122517",
-  "total": 864,
-  "coded": 237,
-  "outlets": 67,
+  "updated": "2026-11-01 21:48 UTC",
+  "feed_time": "2026-11-01T21:48:01.081917",
+  "total": 865,
+  "coded": 243,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 56,
-    "verbal cooperation": 56,
-    "material cooperation": 4
+    "material conflict": 126,
+    "verbal conflict": 53,
+    "verbal cooperation": 57,
+    "material cooperation": 7
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 26
     },
     {
       "label": "Demonstrate or rally",
-      "n": 23
+      "n": 26
     },
     {
       "label": "Consult",
@@ -67,6 +67,17 @@
       "outlets": 3
     },
     {
+      "title": "Bulgarian acting president Iliana Iotova wins run-off election, exit polls\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
       "source": "Sputnik",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 1
-    },
-    {
-      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
