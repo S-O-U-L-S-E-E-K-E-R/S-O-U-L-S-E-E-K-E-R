@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-01 13:40 UTC",
-  "feed_time": "2026-11-01T13:40:01.108511",
-  "total": 886,
-  "coded": 256,
+  "updated": "2026-11-01 14:41 UTC",
+  "feed_time": "2026-11-01T14:41:01.070909",
+  "total": 887,
+  "coded": 255,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 138,
-    "verbal conflict": 50,
+    "material conflict": 136,
+    "verbal conflict": 51,
     "verbal cooperation": 60,
     "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 37
+      "n": 35
     },
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 30
     },
     {
       "label": "Consult",
-      "n": 18
+      "n": 16
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 15
     },
     {
       "label": "Attack cybernetically",
-      "n": 16
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Third weekend of protests in France",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "France",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
-      "outlets": 4
-    },
     {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
       "source": "Breaking Defense",
@@ -64,17 +53,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Russia launches nearly 2,000 attack drones, over 1,500 guided bombs, 44 mis\u2026",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -119,6 +97,28 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Oleshky evacuees reunite with families after truce allows crossing back int\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
