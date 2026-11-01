@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 04:31 UTC",
-  "feed_time": "2026-11-01T04:31:01.077605",
-  "total": 872,
-  "coded": 261,
-  "outlets": 69,
+  "updated": "2026-11-01 05:32 UTC",
+  "feed_time": "2026-11-01T05:31:53.916958",
+  "total": 871,
+  "coded": 263,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 133,
-    "verbal conflict": 57,
-    "verbal cooperation": 57,
+    "verbal conflict": 55,
+    "verbal cooperation": 61,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 31
+      "n": 32
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Attack cybernetically",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -56,17 +56,6 @@
       "outlets": 4
     },
     {
-      "title": "Iran's Khamenei warns US and Israel against new attacks",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 3
-    },
-    {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
       "source": "Breaking Defense",
       "risk": 10,
@@ -89,6 +78,28 @@
       "outlets": 2
     },
     {
+      "title": "Iran's Khamenei warns US and Israel against new attacks",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 2
+    },
+    {
+      "title": "UN demands probe into death of staff member in Houthi custody",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "UN \u2192 Yemen",
+      "code": "100",
+      "label": "Demand",
+      "quad": "verbal conflict",
+      "goldstein": -5.0,
+      "outlets": 2
+    },
+    {
       "title": "Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks",
       "source": "NYT Top",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
       "outlets": 1
     }
   ]
