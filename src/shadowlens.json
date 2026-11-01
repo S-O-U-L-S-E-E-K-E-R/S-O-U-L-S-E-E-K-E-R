@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-01 01:28 UTC",
-  "feed_time": "2026-11-01T01:28:01.179745",
+  "updated": "2026-11-01 02:29 UTC",
+  "feed_time": "2026-11-01T02:29:01.154875",
   "total": 865,
   "coded": 261,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 129,
-    "verbal conflict": 58,
-    "verbal cooperation": 61,
-    "material cooperation": 13
+    "material conflict": 131,
+    "verbal conflict": 54,
+    "verbal cooperation": 62,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 27
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 21
+      "n": 29
     },
     {
       "label": "Use unconventional violence",
+      "n": 21
+    },
+    {
+      "label": "Use conventional military force",
       "n": 20
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Attack cybernetically",
       "n": 18
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Arrest, detain or charge",
       "n": 17
     }
   ],
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "UN demands probe into death of staff member in Houthi custody",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "UN \u2192 Yemen",
-      "code": "100",
-      "label": "Demand",
-      "quad": "verbal conflict",
-      "goldstein": -5.0,
-      "outlets": 2
-    },
-    {
       "title": "Doctors in Ukraine Try Treating Infections Like Biological Warfare Attacks",
       "source": "NYT Top",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
       "outlets": 1
     }
   ]
