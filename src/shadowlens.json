@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-02 19:08 UTC",
-  "feed_time": "2026-11-02T19:08:08.680201",
-  "total": 888,
-  "coded": 240,
-  "outlets": 68,
+  "updated": "2026-11-02 20:09 UTC",
+  "feed_time": "2026-11-02T20:09:01.638758",
+  "total": 884,
+  "coded": 239,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 120,
+    "material conflict": 121,
     "verbal conflict": 46,
-    "verbal cooperation": 62,
-    "material cooperation": 12
+    "verbal cooperation": 63,
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 26
+      "n": 27
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 15
+      "n": 23
     },
     {
       "label": "Threaten",
       "n": 14
     },
     {
-      "label": "Use conventional military force",
+      "label": "Demonstrate or rally",
       "n": 14
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "Russia bombs aid centre and shelter in southern Ukraine, killing 24, author\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 4
+    },
     {
       "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattac\u2026",
       "source": "CNBC World",
@@ -53,18 +64,7 @@
       "label": "Engage in negotiation",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 2
-    },
-    {
-      "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
