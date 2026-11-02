@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-02 13:03 UTC",
-  "feed_time": "2026-11-02T13:03:08.623613",
-  "total": 884,
-  "coded": 229,
+  "updated": "2026-11-02 14:04 UTC",
+  "feed_time": "2026-11-02T14:04:01.311366",
+  "total": 885,
+  "coded": 231,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 128,
-    "verbal conflict": 42,
-    "verbal cooperation": 44,
-    "material cooperation": 15
+    "material conflict": 131,
+    "verbal conflict": 43,
+    "verbal cooperation": 41,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 28
     },
     {
       "label": "Demonstrate or rally",
@@ -21,27 +21,38 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 20
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 17
     },
     {
       "label": "Threaten",
       "n": 16
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 15
     }
   ],
   "ticker": [
     {
-      "title": "Ukraine and Russia say emergency air-raid warning systems hit by cyber-hack\u2026",
-      "source": "Guardian World",
+      "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattac\u2026",
+      "source": "CNBC World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
+      "dyad": "Ukraine \u2192 Russia",
       "code": "176",
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
+      "outlets": 3
+    },
+    {
+      "title": "Iran calls US biggest threat to NPT, warns of stronger defence push",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 3
     },
     {
@@ -53,17 +64,6 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 2
-    },
-    {
-      "title": "Russia's FSB Thwarted Series of Terrorist Attacks Planned by Ukraine Using\u2026",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -79,7 +79,7 @@
     },
     {
       "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hac\u2026",
-      "source": "BBC Top",
+      "source": "BBC World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
       "code": "176",
