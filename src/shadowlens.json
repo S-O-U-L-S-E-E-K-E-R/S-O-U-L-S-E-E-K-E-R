@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-02 11:01 UTC",
-  "feed_time": "2026-11-02T11:01:01.356084",
-  "total": 873,
-  "coded": 224,
-  "outlets": 69,
+  "updated": "2026-11-02 12:02 UTC",
+  "feed_time": "2026-11-02T12:01:54.964276",
+  "total": 861,
+  "coded": 226,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 46,
-    "verbal cooperation": 44,
-    "material cooperation": 8
+    "material conflict": 122,
+    "verbal conflict": 43,
+    "verbal cooperation": 50,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 26
     },
     {
       "label": "Demonstrate or rally",
-      "n": 26
+      "n": 24
+    },
+    {
+      "label": "Threaten",
+      "n": 15
     },
     {
       "label": "Use conventional military force",
       "n": 15
     },
     {
-      "label": "Threaten",
-      "n": 14
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 13
+      "label": "Consult",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
       "title": "Ukraine and Russia say emergency air-raid warning systems hit by cyber-hack\u2026",
@@ -53,17 +53,6 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 4
-    },
-    {
-      "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
       "outlets": 3
     },
     {
@@ -75,6 +64,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
       "outlets": 2
     },
     {
