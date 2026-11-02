@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-02 18:07 UTC",
-  "feed_time": "2026-11-02T18:07:02.014638",
-  "total": 891,
-  "coded": 227,
-  "outlets": 69,
+  "updated": "2026-11-02 19:08 UTC",
+  "feed_time": "2026-11-02T19:08:08.680201",
+  "total": 888,
+  "coded": 240,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 44,
-    "verbal cooperation": 59,
-    "material cooperation": 11
+    "material conflict": 120,
+    "verbal conflict": 46,
+    "verbal cooperation": 62,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 23
+      "n": 26
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
-    },
-    {
-      "label": "Threaten",
-      "n": 15
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 15
+      "n": 22
     },
     {
       "label": "Demonstrate or rally",
       "n": 15
+    },
+    {
+      "label": "Threaten",
+      "n": 14
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hac\u2026",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 3
-    },
     {
       "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattac\u2026",
       "source": "CNBC World",
@@ -78,17 +67,6 @@
       "outlets": 2
     },
     {
-      "title": "Zelenskyy says 18 killed, 5 injured in Russian airstrikes on Ukraine\u2019s Zapo\u2026",
-      "source": "Anadolu Agency",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
       "source": "DefenseNews",
       "risk": 10,
@@ -98,6 +76,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 1
     },
     {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
@@ -112,6 +101,17 @@
     },
     {
       "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
