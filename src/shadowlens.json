@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-02 00:51 UTC",
-  "feed_time": "2026-11-02T00:51:08.481602",
-  "total": 860,
+  "updated": "2026-11-02 01:52 UTC",
+  "feed_time": "2026-11-02T01:52:04.033081",
+  "total": 863,
   "coded": 226,
-  "outlets": 67,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 106,
-    "verbal conflict": 58,
+    "material conflict": 110,
+    "verbal conflict": 53,
     "verbal cooperation": 53,
-    "material cooperation": 9
+    "material cooperation": 10
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
-    },
-    {
-      "label": "Consult",
-      "n": 16
-    },
-    {
-      "label": "Threaten",
-      "n": 15
+      "n": 18
     },
     {
       "label": "Attack cybernetically",
+      "n": 18
+    },
+    {
+      "label": "Consult",
       "n": 15
+    },
+    {
+      "label": "Threaten",
+      "n": 14
     }
   ],
   "ticker": [
