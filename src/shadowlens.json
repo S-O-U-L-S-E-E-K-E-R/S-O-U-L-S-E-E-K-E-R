@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-02 06:57 UTC",
-  "feed_time": "2026-11-02T06:57:08.511940",
-  "total": 873,
-  "coded": 222,
-  "outlets": 69,
+  "updated": "2026-11-02 07:58 UTC",
+  "feed_time": "2026-11-02T07:58:01.062079",
+  "total": 872,
+  "coded": 219,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 51,
+    "material conflict": 112,
+    "verbal conflict": 49,
     "verbal cooperation": 49,
-    "material cooperation": 11
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Demonstrate or rally",
-      "n": 20
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 16
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 18
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 15
     },
     {
       "label": "Consult",
@@ -45,17 +45,6 @@
       "outlets": 5
     },
     {
-      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "France",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 4
-    },
-    {
       "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
       "source": "AlJazeera",
       "risk": 10,
@@ -64,17 +53,6 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 3
-    },
-    {
-      "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "120",
-      "label": "Reject",
-      "quad": "verbal conflict",
-      "goldstein": -4.0,
       "outlets": 3
     },
     {
@@ -112,6 +90,28 @@
     },
     {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
+      "outlets": 1
+    },
+    {
+      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
