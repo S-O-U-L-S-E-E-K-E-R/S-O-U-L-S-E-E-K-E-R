@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-02 07:58 UTC",
-  "feed_time": "2026-11-02T07:58:01.062079",
-  "total": 872,
-  "coded": 219,
-  "outlets": 68,
+  "updated": "2026-11-02 08:59 UTC",
+  "feed_time": "2026-11-02T08:59:01.334099",
+  "total": 866,
+  "coded": 225,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 49,
-    "verbal cooperation": 49,
-    "material cooperation": 9
+    "material conflict": 117,
+    "verbal conflict": 50,
+    "verbal cooperation": 50,
+    "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 27
     },
     {
       "label": "Demonstrate or rally",
@@ -67,6 +67,17 @@
       "outlets": 2
     },
     {
+      "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 2
+    },
+    {
       "title": "Russia's FSB Thwarted Series of Terrorist Attacks Planned by Ukraine Using\u2026",
       "source": "Sputnik",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 1
-    },
-    {
-      "title": "Severe rainfall and flood warnings issued for central Greece and western Tu\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
