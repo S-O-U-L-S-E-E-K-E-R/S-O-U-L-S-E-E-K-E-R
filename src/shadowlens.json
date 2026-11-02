@@ -1,125 +1,15 @@
 {
-  "updated": "2026-11-02 14:04 UTC",
-  "feed_time": "2026-11-02T14:04:01.311366",
-  "total": 885,
-  "coded": 231,
-  "outlets": 67,
+  "updated": "2026-11-02 15:05 UTC",
+  "feed_time": "2026-11-02T15:05:16.477527",
+  "total": 0,
+  "coded": 0,
+  "outlets": 0,
   "quad_hist": {
-    "material conflict": 131,
-    "verbal conflict": 43,
-    "verbal cooperation": 41,
-    "material cooperation": 16
+    "material conflict": 0,
+    "verbal conflict": 0,
+    "verbal cooperation": 0,
+    "material cooperation": 0
   },
-  "top_labels": [
-    {
-      "label": "Use unconventional violence",
-      "n": 28
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 22
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 20
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 17
-    },
-    {
-      "label": "Threaten",
-      "n": 16
-    }
-  ],
-  "ticker": [
-    {
-      "title": "Fake nuclear warnings in Ukraine as Moscow, Kyiv report separate cyberattac\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 3
-    },
-    {
-      "title": "Iran calls US biggest threat to NPT, warns of stronger defence push",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 3
-    },
-    {
-      "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 2
-    },
-    {
-      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
-      "source": "Breaking Defense",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hac\u2026",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Baby among four killed in bomb attack in western Colombia, official says",
-      "source": "BBC Top",
-      "risk": 10,
-      "dyad": "Colombia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 1
-    }
-  ]
+  "top_labels": [],
+  "ticker": []
 }
