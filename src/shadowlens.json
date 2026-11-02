@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-02 05:56 UTC",
-  "feed_time": "2026-11-02T05:55:53.918245",
+  "updated": "2026-11-02 06:57 UTC",
+  "feed_time": "2026-11-02T06:57:08.511940",
   "total": 873,
-  "coded": 220,
-  "outlets": 68,
+  "coded": 222,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 50,
-    "verbal cooperation": 47,
-    "material cooperation": 9
+    "material conflict": 111,
+    "verbal conflict": 51,
+    "verbal cooperation": 49,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 27
     },
     {
       "label": "Demonstrate or rally",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Attack cybernetically",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 13
     }
   ],
   "ticker": [
-    {
-      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "France",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 4
-    },
     {
       "title": "Iran warns renewed war with US could outlast previous conflict",
       "source": "France24",
@@ -53,6 +42,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 5
+    },
+    {
+      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "France",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 4
     },
     {
@@ -78,17 +78,6 @@
       "outlets": 3
     },
     {
-      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
-      "source": "Breaking Defense",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
       "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
       "source": "DW",
       "risk": 10,
@@ -100,6 +89,28 @@
       "outlets": 2
     },
     {
+      "title": "Russia's FSB Thwarted Series of Terrorist Attacks Planned by Ukraine Using\u2026",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
+      "source": "Breaking Defense",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
       "outlets": 1
     }
   ]
