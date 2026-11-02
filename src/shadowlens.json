@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-01 23:50 UTC",
-  "feed_time": "2026-11-01T23:49:55.353290",
-  "total": 858,
-  "coded": 235,
+  "updated": "2026-11-02 00:51 UTC",
+  "feed_time": "2026-11-02T00:51:08.481602",
+  "total": 860,
+  "coded": 226,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 56,
-    "verbal cooperation": 55,
-    "material cooperation": 8
+    "material conflict": 106,
+    "verbal conflict": 58,
+    "verbal cooperation": 53,
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 20
     },
     {
       "label": "Demonstrate or rally",
-      "n": 22
+      "n": 19
     },
     {
       "label": "Consult",
-      "n": 17
-    },
-    {
-      "label": "Attack cybernetically",
       "n": 16
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 15
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,29 +42,29 @@
       "label": "Investigate",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 5
+      "outlets": 6
     },
     {
-      "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
+      "title": "Iran warns renewed war with US could outlast previous conflict",
       "source": "France24",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
-    },
-    {
-      "title": "Iran warns new war could last longer after Trump threatens strikes",
-      "source": "Dawn",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
       "code": "130",
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 4
+      "outlets": 6
+    },
+    {
+      "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "120",
+      "label": "Reject",
+      "quad": "verbal conflict",
+      "goldstein": -4.0,
+      "outlets": 3
     },
     {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
