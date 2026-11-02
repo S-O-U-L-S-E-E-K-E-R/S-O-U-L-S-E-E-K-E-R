@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-02 10:00 UTC",
-  "feed_time": "2026-11-02T10:00:01.451403",
-  "total": 867,
-  "coded": 223,
+  "updated": "2026-11-02 11:01 UTC",
+  "feed_time": "2026-11-02T11:01:01.356084",
+  "total": 873,
+  "coded": 224,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 47,
-    "verbal cooperation": 47,
+    "material conflict": 126,
+    "verbal conflict": 46,
+    "verbal cooperation": 44,
     "material cooperation": 8
   },
   "top_labels": [
@@ -17,19 +17,19 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 25
-    },
-    {
-      "label": "Threaten",
-      "n": 16
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 14
+      "n": 26
     },
     {
       "label": "Use conventional military force",
+      "n": 15
+    },
+    {
+      "label": "Threaten",
       "n": 14
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,40 +42,18 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
-      "title": "Fake nuclear, chemical threat alerts flash as Russia, Ukraine report cybera\u2026",
-      "source": "Hindustan Times",
+      "title": "Ukraine and Russia say emergency air-raid warning systems hit by cyber-hack\u2026",
+      "source": "Guardian World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "176",
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 3
-    },
-    {
-      "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "120",
-      "label": "Reject",
-      "quad": "verbal conflict",
-      "goldstein": -4.0,
-      "outlets": 2
-    },
-    {
-      "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
+      "outlets": 4
     },
     {
       "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
@@ -86,6 +64,17 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
+      "outlets": 3
+    },
+    {
+      "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Sudan",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
       "outlets": 1
     }
   ]
