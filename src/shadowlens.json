@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-02 02:53 UTC",
-  "feed_time": "2026-11-02T02:53:01.175377",
-  "total": 861,
+  "updated": "2026-11-02 03:54 UTC",
+  "feed_time": "2026-11-02T03:54:01.030426",
+  "total": 865,
   "coded": 222,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 111,
+    "material conflict": 112,
     "verbal conflict": 50,
-    "verbal cooperation": 51,
+    "verbal cooperation": 50,
     "material cooperation": 10
   },
   "top_labels": [
@@ -17,15 +17,15 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Threaten",
@@ -33,17 +33,6 @@
     }
   ],
   "ticker": [
-    {
-      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "France",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 6
-    },
     {
       "title": "Iran warns renewed war with US could outlast previous conflict",
       "source": "France24",
@@ -54,6 +43,17 @@
       "quad": "verbal conflict",
       "goldstein": -6.0,
       "outlets": 6
+    },
+    {
+      "title": "Attempted murder probe after petrol bomb thrown at French riot police",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "France",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 5
     },
     {
       "title": "Ceasefire in Ukraine's Kherson region ends after Russia refuses extension",
