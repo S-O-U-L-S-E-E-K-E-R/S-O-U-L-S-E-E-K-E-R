@@ -1,26 +1,26 @@
 {
-  "updated": "2026-11-02 01:52 UTC",
-  "feed_time": "2026-11-02T01:52:04.033081",
-  "total": 863,
-  "coded": 226,
-  "outlets": 68,
+  "updated": "2026-11-02 02:53 UTC",
+  "feed_time": "2026-11-02T02:53:01.175377",
+  "total": 861,
+  "coded": 222,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 53,
-    "verbal cooperation": 53,
+    "material conflict": 111,
+    "verbal conflict": 50,
+    "verbal cooperation": 51,
     "material cooperation": 10
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 18
+      "n": 21
     },
     {
       "label": "Attack cybernetically",
+      "n": 18
+    },
+    {
+      "label": "Demonstrate or rally",
       "n": 18
     },
     {
@@ -67,6 +67,17 @@
       "outlets": 3
     },
     {
+      "title": "Emergency apps in Ukraine and Russia hacked after longest truce of war ends",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 3
+    },
+    {
       "title": "US greenlights 500 Patriot missiles for Ukraine, with $2.1 billion to be pa\u2026",
       "source": "Breaking Defense",
       "risk": 10,
@@ -89,6 +100,17 @@
       "outlets": 2
     },
     {
+      "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
       "title": "Russian Strikes on Ukraine\u2019s Defense Industry and Energy Sector Strip Ukrai\u2026",
       "source": "Sputnik",
       "risk": 10,
@@ -98,28 +120,6 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 2
-    },
-    {
-      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 1
     }
   ]
 }
