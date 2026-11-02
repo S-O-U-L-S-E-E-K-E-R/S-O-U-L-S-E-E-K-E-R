@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-02 08:59 UTC",
-  "feed_time": "2026-11-02T08:59:01.334099",
-  "total": 866,
-  "coded": 225,
+  "updated": "2026-11-02 10:00 UTC",
+  "feed_time": "2026-11-02T10:00:01.451403",
+  "total": 867,
+  "coded": 223,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 117,
-    "verbal conflict": 50,
-    "verbal cooperation": 50,
+    "material conflict": 121,
+    "verbal conflict": 47,
+    "verbal cooperation": 47,
     "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Demonstrate or rally",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 16
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Consult",
-      "n": 13
+      "label": "Use conventional military force",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,18 +42,29 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
-      "outlets": 5
+      "outlets": 6
     },
     {
-      "title": "Russia, Ukraine air raid alert apps hit by cyberattacks after truce ends",
-      "source": "AlJazeera",
+      "title": "Fake nuclear, chemical threat alerts flash as Russia, Ukraine report cybera\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
+      "dyad": "Russia \u2192 Ukraine",
       "code": "176",
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
       "outlets": 3
+    },
+    {
+      "title": "Ukraine defies Trump to resume attacks on Russian oil refineries",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "120",
+      "label": "Reject",
+      "quad": "verbal conflict",
+      "goldstein": -4.0,
+      "outlets": 2
     },
     {
       "title": "Ukraine, Russia report hacking attacks on emergency alert apps",
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "UK sanctions Sudanese military leaders implicated in El Fasher \u2018campaign of\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Sudan",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
       "outlets": 1
     }
   ]
