@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-02 16:05 UTC",
-  "feed_time": "2026-11-02T16:05:01.674857",
-  "total": 881,
-  "coded": 221,
-  "outlets": 66,
+  "updated": "2026-11-02 17:06 UTC",
+  "feed_time": "2026-11-02T17:06:01.969176",
+  "total": 886,
+  "coded": 215,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 115,
+    "material conflict": 109,
     "verbal conflict": 41,
-    "verbal cooperation": 49,
-    "material cooperation": 16
+    "verbal cooperation": 53,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Attack cybernetically",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
-    },
-    {
-      "label": "Demonstrate or rally",
       "n": 19
     },
     {
-      "label": "Use conventional military force",
-      "n": 16
+      "label": "Demonstrate or rally",
+      "n": 15
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 14
+    },
+    {
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hac\u2026",
@@ -56,6 +56,17 @@
       "outlets": 2
     },
     {
+      "title": "Hackers send fake nuclear threat alert to Ukraine emergency app",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "US midterms: Michigan Democrat's endorsement of Republican ruffles critical\u2026",
       "source": "Dawn",
       "risk": 10,
@@ -64,17 +75,6 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 2
-    },
-    {
-      "title": "Russia's FSB Thwarted Series of Terrorist Attacks Planned by Ukraine Using\u2026",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
