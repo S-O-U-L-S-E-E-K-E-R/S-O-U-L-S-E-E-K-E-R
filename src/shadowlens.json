@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-03 17:30 UTC",
-  "feed_time": "2026-11-03T17:30:01.965782",
-  "total": 868,
-  "coded": 227,
-  "outlets": 66,
+  "updated": "2026-11-03 18:31 UTC",
+  "feed_time": "2026-11-03T18:31:01.301047",
+  "total": 864,
+  "coded": 234,
+  "outlets": 67,
   "quad_hist": {
     "material conflict": 101,
-    "verbal conflict": 49,
+    "verbal conflict": 54,
     "verbal cooperation": 65,
-    "material cooperation": 12
+    "material cooperation": 14
   },
   "top_labels": [
     {
@@ -20,16 +20,16 @@
       "n": 16
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Arrest, detain or charge",
       "n": 15
     },
     {
       "label": "Investigate",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Threaten",
+      "n": 12
     }
   ],
   "ticker": [
@@ -45,17 +45,6 @@
       "outlets": 7
     },
     {
-      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "Americans vote in midterms set to upend Trump presidency",
       "source": "Dawn",
       "risk": 10,
@@ -67,10 +56,10 @@
       "outlets": 4
     },
     {
-      "title": "US strikes Iran\u2019s Qeshm Island as Vance voices optimism about a deal",
-      "source": "Guardian Top",
+      "title": "Trump Calls Night Strike on Iran 'Minor Attack', Not War",
+      "source": "Sputnik",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
+      "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
@@ -119,6 +108,17 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "Ukraine hacked Russia's emergency alert system in response to Russian cyber\u2026",
+      "source": "Ukrinform",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
       "outlets": 2
     }
   ]
