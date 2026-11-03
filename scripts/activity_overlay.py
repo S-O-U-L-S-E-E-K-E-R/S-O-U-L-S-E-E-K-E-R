@@ -57,9 +57,10 @@ def main():
         cells = [0] * (cap - len(days)) + days   # oldest cells blank
 
         bg = sample_bg(im)
-        # blank the exact grid rectangle before redrawing
+        # blank the whole baked grid before redrawing: down to the image bottom
+        # so the original row-5 (Fri) cells don't bleed through under ours.
         d.rectangle([X0 - 2, Y0 - 2,
-                     X0 + COLS * PITCH, Y0 + ROWS * PITCH], fill=bg)
+                     X0 + COLS * PITCH, im.height - 2], fill=bg)
 
         cs = PITCH - GAP                         # square cell side
         for i, lvl in enumerate(cells):
