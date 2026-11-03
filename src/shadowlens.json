@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-03 04:17 UTC",
-  "feed_time": "2026-11-03T04:17:01.138866",
-  "total": 860,
-  "coded": 238,
+  "updated": "2026-11-03 05:18 UTC",
+  "feed_time": "2026-11-03T05:18:01.521609",
+  "total": 864,
+  "coded": 239,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 47,
+    "material conflict": 123,
+    "verbal conflict": 46,
     "verbal cooperation": 57,
     "material cooperation": 13
   },
@@ -24,12 +24,12 @@
       "n": 16
     },
     {
-      "label": "Threaten",
-      "n": 14
+      "label": "Demonstrate or rally",
+      "n": 15
     },
     {
-      "label": "Appeal",
-      "n": 13
+      "label": "Threaten",
+      "n": 14
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
+      "outlets": 6
     },
     {
       "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
@@ -67,17 +67,6 @@
       "outlets": 5
     },
     {
-      "title": "Iran war live: US carries out \u2018defensive\u2019 strikes in Strait of Hormuz",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "What might Trump have planned for Iran following the midterm election?",
       "source": "DW",
       "risk": 10,
@@ -87,6 +76,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
+    },
+    {
+      "title": "Iran war live: US carries out \u2018defensive\u2019 strikes in Strait of Hormuz",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Netanyahu pressing Trump to bomb Iran immediately after midterms \u2013 Axios",
@@ -100,17 +100,6 @@
       "outlets": 2
     },
     {
-      "title": "North Korea test-fires strategic cruise missiles days after cluster bomb te\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "North Korea",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 2
-    },
-    {
       "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
       "source": "DefenseNews",
       "risk": 10,
@@ -120,6 +109,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 1
     }
   ]
 }
