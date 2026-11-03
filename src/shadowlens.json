@@ -1,38 +1,60 @@
 {
-  "updated": "2026-11-03 03:16 UTC",
-  "feed_time": "2026-11-03T03:16:08.488171",
-  "total": 857,
-  "coded": 234,
-  "outlets": 66,
+  "updated": "2026-11-03 04:17 UTC",
+  "feed_time": "2026-11-03T04:17:01.138866",
+  "total": 860,
+  "coded": 238,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 44,
+    "material conflict": 121,
+    "verbal conflict": 47,
     "verbal cooperation": 57,
     "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 27
     },
     {
       "label": "Attack cybernetically",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
+      "n": 16
+    },
+    {
+      "label": "Threaten",
       "n": 14
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Appeal",
       "n": 13
-    },
-    {
-      "label": "Consult",
-      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials",
+      "source": "ABC News",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 7
+    },
+    {
+      "title": "US reportedly strikes Iran\u2019s Qeshm Island as Vance voices optimism about a\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 5
+    },
     {
       "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
       "source": "DW",
@@ -42,28 +64,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 7
-    },
-    {
-      "title": "What might Trump have planned for Iran following the midterm election?",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 6
-    },
-    {
-      "title": "US strikes Iran's Qeshm Island as Trump signals progress in talks",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
       "outlets": 5
     },
     {
@@ -75,6 +75,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "What might Trump have planned for Iran following the midterm election?",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 4
     },
     {
@@ -100,25 +111,14 @@
       "outlets": 2
     },
     {
-      "title": "US Embassy in Saudi Arabia warns citizens of possible Houthi attacks, airpo\u2026",
-      "source": "Hindustan Times",
+      "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
+      "source": "DefenseNews",
       "risk": 10,
-      "dyad": "United States \u2192 Yemen",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 2
-    },
-    {
-      "title": "Latvia briefly warns of airspace threat, says NATO jets activated",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Latvia \u2192 NATO",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     }
   ]
