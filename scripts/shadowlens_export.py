@@ -53,12 +53,15 @@ def write_ticker(ranked):
     travel = vb_w + text_w
     dur = max(30, round(travel / 70))   # px/sec
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{vb_w}" height="34" viewBox="0 0 {vb_w} 34" font-family="'JetBrains Mono','DejaVu Sans Mono',monospace">
+  <defs><clipPath id="tk"><rect width="{vb_w}" height="34" rx="6"/></clipPath></defs>
   <rect width="{vb_w}" height="34" rx="6" fill="#0a0a0b" stroke="#2a1513"/>
+  <g clip-path="url(#tk)">
+    <text x="0" y="22" font-size="15" letter-spacing="0.5" xml:space="preserve">
+      <animateTransform attributeName="transform" type="translate" from="{vb_w} 0" to="-{text_w} 0" dur="{dur}s" repeatCount="indefinite"/>
+      {''.join(sp)}
+    </text>
+  </g>
   <rect x="0" y="0" width="3" height="34" fill="#e3252b"/>
-  <text x="0" y="22" font-size="15" letter-spacing="0.5" xml:space="preserve">
-    <animateTransform attributeName="transform" type="translate" from="{vb_w} 0" to="-{text_w} 0" dur="{dur}s" repeatCount="indefinite"/>
-    {''.join(sp)}
-  </text>
 </svg>'''
     TICKER_SVG.parent.mkdir(parents=True, exist_ok=True)
     TICKER_SVG.write_text(svg)
