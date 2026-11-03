@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-03 15:28 UTC",
-  "feed_time": "2026-11-03T15:28:08.545802",
-  "total": 878,
-  "coded": 215,
-  "outlets": 67,
+  "updated": "2026-11-03 16:29 UTC",
+  "feed_time": "2026-11-03T16:29:02.284588",
+  "total": 874,
+  "coded": 220,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 100,
+    "material conflict": 101,
     "verbal conflict": 49,
-    "verbal cooperation": 56,
-    "material cooperation": 10
+    "verbal cooperation": 59,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 25
     },
     {
       "label": "Attack cybernetically",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 13
     },
     {
       "label": "Reject",
@@ -42,7 +42,7 @@
       "label": "Provide military aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 6
+      "outlets": 8
     },
     {
       "title": "US strikes Iran\u2019s Qeshm Island as Vance voices optimism about a deal",
@@ -64,17 +64,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
-      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 3
     },
     {
@@ -87,6 +76,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 3
+    },
+    {
+      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "French judges probe war crimes complaint against Israeli army in Lebanon: l\u2026",
