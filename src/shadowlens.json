@@ -1,15 +1,125 @@
 {
-  "updated": "2026-11-02 23:12 UTC",
-  "feed_time": "2026-11-02T23:11:28.394389",
-  "total": 0,
-  "coded": 0,
-  "outlets": 0,
+  "updated": "2026-11-03 00:13 UTC",
+  "feed_time": "2026-11-03T00:13:01.490451",
+  "total": 863,
+  "coded": 241,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 0,
-    "verbal conflict": 0,
-    "verbal cooperation": 0,
-    "material cooperation": 0
+    "material conflict": 114,
+    "verbal conflict": 53,
+    "verbal cooperation": 62,
+    "material cooperation": 12
   },
-  "top_labels": [],
-  "ticker": []
+  "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 28
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 24
+    },
+    {
+      "label": "Threaten",
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 13
+    },
+    {
+      "label": "Reject",
+      "n": 12
+    }
+  ],
+  "ticker": [
+    {
+      "title": "What might Trump have planned for Iran following the midterm election?",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 6
+    },
+    {
+      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "Russia bombs aid centre and shelter in southern Ukraine, killing 24, author\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 4
+    },
+    {
+      "title": "Netanyahu pressing Trump to bomb Iran immediately after midterms \u2013 Axios",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Israel \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Latvia briefly warns of airspace threat, says NATO jets activated",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "Latvia \u2192 NATO",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 2
+    },
+    {
+      "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
+      "source": "DefenseNews",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    }
+  ]
 }
