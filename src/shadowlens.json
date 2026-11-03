@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-03 10:23 UTC",
-  "feed_time": "2026-11-03T10:23:01.620997",
-  "total": 866,
-  "coded": 218,
-  "outlets": 69,
+  "updated": "2026-11-03 11:24 UTC",
+  "feed_time": "2026-11-03T11:24:01.106408",
+  "total": 861,
+  "coded": 230,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 119,
-    "verbal conflict": 45,
-    "verbal cooperation": 43,
-    "material cooperation": 11
+    "verbal conflict": 41,
+    "verbal cooperation": 56,
+    "material cooperation": 14
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 19
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 14
-    },
-    {
-      "label": "Threaten",
-      "n": 13
+      "n": 20
     },
     {
       "label": "Consult",
+      "n": 14
+    },
+    {
+      "label": "Demonstrate or rally",
       "n": 12
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,7 +42,18 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 6
+      "outlets": 7
+    },
+    {
+      "title": "Polls open on US east coast in midterm elections that could weaken Trump\u2019s\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.4,
+      "outlets": 4
     },
     {
       "title": "US carries out 'defensive' strikes on Qeshm Island after Iran downs drone,\u2026",
@@ -56,6 +67,17 @@
       "outlets": 4
     },
     {
+      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
       "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
       "source": "DW",
       "risk": 10,
@@ -67,14 +89,14 @@
       "outlets": 3
     },
     {
-      "title": "Warsaw Modlin airport closed after bomb threat reported on London flight \u2013\u2026",
-      "source": "Guardian World",
+      "title": "Binance says outflows normalised as North Korea rejects US allegation over\u2026",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "North Korea \u2192 United States",
+      "code": "120",
+      "label": "Reject",
+      "quad": "verbal conflict",
+      "goldstein": -4.0,
       "outlets": 2
     },
     {
@@ -98,28 +120,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
-    },
-    {
-      "title": "Kharkiv hit by Russian attack, medical facility struck, casualties reported",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
     }
   ]
 }
