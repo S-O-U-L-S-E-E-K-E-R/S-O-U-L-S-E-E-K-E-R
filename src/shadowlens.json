@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-03 13:26 UTC",
-  "feed_time": "2026-11-03T13:26:01.368360",
-  "total": 864,
+  "updated": "2026-11-03 14:27 UTC",
+  "feed_time": "2026-11-03T14:26:56.847383",
+  "total": 856,
   "coded": 224,
-  "outlets": 68,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 119,
-    "verbal conflict": 38,
-    "verbal cooperation": 59,
-    "material cooperation": 8
+    "material conflict": 109,
+    "verbal conflict": 43,
+    "verbal cooperation": 60,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 29
     },
     {
       "label": "Attack cybernetically",
-      "n": 22
+      "n": 17
     },
     {
       "label": "Employ aerial weapons",
       "n": 14
     },
     {
-      "label": "Consult",
-      "n": 13
+      "label": "Reject",
+      "n": 14
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Consult",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,17 +42,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
-    },
-    {
-      "title": "Polls open on US east coast in midterm elections that could weaken Trump\u2019s\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Chamber \u2192 United States",
-      "code": "110",
-      "label": "Disapprove",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 5
     },
     {
@@ -89,14 +78,14 @@
       "outlets": 3
     },
     {
-      "title": "Iran, US far from deal to end war as Tehran threatens response to US strikes",
-      "source": "Jerusalem Post",
+      "title": "Americans vote in midterms set to upend Trump presidency",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -111,14 +100,25 @@
       "outlets": 2
     },
     {
-      "title": "High-energy lasers, drones and power: Innovations in defense tech | Busines\u2026",
-      "source": "DefenseNews",
+      "title": "Ukraine hacked Russia's emergency alert system in response to Russian cyber\u2026",
+      "source": "Ukrinform",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 2
+    },
+    {
+      "title": "Israeli attack on Gaza's Khan Younis kills three, wounds others",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     }
   ]
