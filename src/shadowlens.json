@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-03 19:32 UTC",
-  "feed_time": "2026-11-03T19:32:01.937532",
-  "total": 866,
-  "coded": 236,
-  "outlets": 67,
+  "updated": "2026-11-03 20:33 UTC",
+  "feed_time": "2026-11-03T20:32:58.154617",
+  "total": 862,
+  "coded": 235,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 51,
-    "verbal cooperation": 67,
+    "material conflict": 97,
+    "verbal conflict": 58,
+    "verbal cooperation": 65,
     "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 20
     },
     {
       "label": "Consult",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
       "n": 16
     },
     {
-      "label": "Attack cybernetically",
-      "n": 14
+      "label": "Threaten",
+      "n": 15
     },
     {
       "label": "Investigate",
-      "n": 13
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,10 +42,10 @@
       "label": "Provide military aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
-      "title": "Americans vote in election seen as a referendum on Trump presidency",
+      "title": "Americans vote in midterm election seen as a referendum on Trump presidency",
       "source": "Dawn",
       "risk": 10,
       "dyad": "",
@@ -67,14 +67,14 @@
       "outlets": 3
     },
     {
-      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
-      "source": "NPR World",
+      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and ho\u2026",
+      "source": "BBC World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -86,6 +86,17 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 2
+    },
+    {
+      "title": "Israel tells US and Gulf allies that Iran is planning to use chemical weapo\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Israel \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Investigate",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
-      "title": "US signals progress in Iran talks to avert flare-up",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
       "outlets": 2
     }
   ]
