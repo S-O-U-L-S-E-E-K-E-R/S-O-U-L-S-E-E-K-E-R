@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-03 06:19 UTC",
-  "feed_time": "2026-11-03T06:19:01.335631",
-  "total": 869,
-  "coded": 231,
+  "updated": "2026-11-03 07:20 UTC",
+  "feed_time": "2026-11-03T07:20:01.641283",
+  "total": 867,
+  "coded": 232,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 122,
-    "verbal conflict": 42,
-    "verbal cooperation": 54,
+    "material conflict": 126,
+    "verbal conflict": 46,
+    "verbal cooperation": 47,
     "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 30
     },
     {
       "label": "Attack cybernetically",
@@ -21,15 +21,15 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Demonstrate or rally",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Consult",
-      "n": 12
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -53,22 +53,22 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 6
+      "outlets": 7
     },
     {
-      "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials",
-      "source": "ABC News",
+      "title": "Iran war live: US carries out \u2018defensive\u2019 strikes in Strait of Hormuz",
+      "source": "AlJazeera",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
-      "title": "Iran war live: US carries out \u2018defensive\u2019 strikes in Strait of Hormuz",
-      "source": "AlJazeera",
+      "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials",
+      "source": "ABC News",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
       "code": "195",
