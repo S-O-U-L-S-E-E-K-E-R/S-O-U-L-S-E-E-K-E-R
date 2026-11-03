@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-03 08:21 UTC",
-  "feed_time": "2026-11-03T08:20:56.038545",
-  "total": 840,
-  "coded": 219,
-  "outlets": 50,
+  "updated": "2026-11-03 09:22 UTC",
+  "feed_time": "2026-11-03T09:22:08.455300",
+  "total": 875,
+  "coded": 221,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 48,
-    "verbal cooperation": 41,
-    "material cooperation": 9
+    "material conflict": 122,
+    "verbal conflict": 44,
+    "verbal cooperation": 44,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 27
     },
     {
       "label": "Attack cybernetically",
       "n": 19
     },
     {
-      "label": "Threaten",
+      "label": "Demonstrate or rally",
       "n": 14
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Employ aerial weapons",
       "n": 12
     },
     {
-      "label": "Use conventional military force",
+      "label": "Threaten",
       "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "US reportedly strikes Iran\u2019s Qeshm Island as Vance voices optimism about a\u2026",
+      "title": "US strikes Iran\u2019s Qeshm Island as Vance voices optimism about a deal",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
@@ -45,17 +45,6 @@
       "outlets": 8
     },
     {
-      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 7
-    },
-    {
       "title": "US carries out defensive airstrikes on Iran's Qeshm Island: Officials",
       "source": "ABC News",
       "risk": 10,
@@ -64,28 +53,28 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
-      "title": "What might Trump have planned for Iran following the midterm election?",
+      "title": "Ukraine: At least 26 killed in Russian strikes on aid center",
       "source": "DW",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "goldstein": -10.0,
+      "outlets": 4
     },
     {
-      "title": "Tehran refuses to accept 'excessive' US demands, deal to end war still dist\u2026",
+      "title": "Iran, US far from deal to end war as Tehran threatens response to US strikes",
       "source": "Jerusalem Post",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
-      "code": "120",
-      "label": "Reject",
+      "code": "130",
+      "label": "Threaten",
       "quad": "verbal conflict",
-      "goldstein": -4.0,
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
@@ -97,6 +86,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Kharkiv hit by Russian attack, medical facility struck, casualties reported",
+      "source": "Ukrinform",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
