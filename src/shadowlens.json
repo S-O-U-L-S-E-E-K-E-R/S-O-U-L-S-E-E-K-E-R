@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-04 20:28 UTC",
-  "feed_time": "2026-11-04T20:28:02.983963",
-  "total": 875,
-  "coded": 225,
-  "outlets": 70,
+  "updated": "2026-11-04 21:29 UTC",
+  "feed_time": "2026-11-04T21:29:01.225144",
+  "total": 878,
+  "coded": 230,
+  "outlets": 71,
   "quad_hist": {
-    "material conflict": 97,
+    "material conflict": 99,
     "verbal conflict": 57,
-    "verbal cooperation": 56,
-    "material cooperation": 15
+    "verbal cooperation": 57,
+    "material cooperation": 17
   },
   "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 19
+    },
     {
       "label": "Attack cybernetically",
       "n": 18
     },
     {
-      "label": "Use unconventional violence",
-      "n": 17
-    },
-    {
-      "label": "Consult",
+      "label": "Arrest, detain or charge",
       "n": 14
     },
     {
-      "label": "Accuse",
+      "label": "Consult",
       "n": 13
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Investigate",
+      "n": 12
     }
   ],
   "ticker": [
@@ -37,12 +37,12 @@
       "title": "Trump admits Iran war caused election losses but \u2018we had to do it\u2019",
       "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "112",
-      "label": "Accuse",
+      "dyad": "Iran \u2192 Iran",
+      "code": "110",
+      "label": "Disapprove",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 3
+      "outlets": 5
     },
     {
       "title": "Democrats win US Congress in midterm rout of Trump",
