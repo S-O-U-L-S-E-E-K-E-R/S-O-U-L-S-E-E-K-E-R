@@ -1,69 +1,47 @@
 {
-  "updated": "2026-11-04 12:49 UTC",
-  "feed_time": "2026-11-04T12:48:56.069704",
-  "total": 847,
-  "coded": 215,
+  "updated": "2026-11-04 13:50 UTC",
+  "feed_time": "2026-11-04T13:50:08.513048",
+  "total": 849,
+  "coded": 222,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 94,
-    "verbal conflict": 54,
-    "verbal cooperation": 54,
-    "material cooperation": 13
+    "material conflict": 95,
+    "verbal conflict": 56,
+    "verbal cooperation": 59,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
+      "n": 20
     },
     {
       "label": "Investigate",
-      "n": 13
+      "n": 14
     },
     {
       "label": "Consult",
-      "n": 13
-    },
-    {
-      "label": "Reject",
-      "n": 11
+      "n": 14
     },
     {
       "label": "Accuse",
-      "n": 11
+      "n": 13
+    },
+    {
+      "label": "Threaten",
+      "n": 10
     }
   ],
   "ticker": [
     {
-      "title": "What next for Iran war after Trump's midterms defeat?",
-      "source": "France24",
+      "title": "Iran warns of wider war if US attacks after Trump election rout",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
-      "title": "US midterms: Democrats win US Congress in midterm rout of Trump",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "'We did it!': Democrat El-Sayed hails US Senate win, becomes first Muslim e\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "016",
-      "label": "Deny responsibility",
-      "quad": "verbal cooperation",
-      "goldstein": -2.0,
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
@@ -119,6 +97,28 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "US launches strikes after Iran downs American drone (VIDEO)",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "US midterms: Democrats win US Congress in midterm rout of Trump",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
