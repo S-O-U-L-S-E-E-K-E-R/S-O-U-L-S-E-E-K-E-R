@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-04 11:48 UTC",
-  "feed_time": "2026-11-04T11:48:01.344054",
-  "total": 844,
-  "coded": 219,
+  "updated": "2026-11-04 12:49 UTC",
+  "feed_time": "2026-11-04T12:48:56.069704",
+  "total": 847,
+  "coded": 215,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 93,
-    "verbal conflict": 58,
-    "verbal cooperation": 57,
-    "material cooperation": 11
+    "material conflict": 94,
+    "verbal conflict": 54,
+    "verbal cooperation": 54,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
+    },
+    {
+      "label": "Investigate",
+      "n": 13
     },
     {
       "label": "Consult",
-      "n": 15
-    },
-    {
-      "label": "Accuse",
-      "n": 14
+      "n": 13
     },
     {
       "label": "Reject",
       "n": 11
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Accuse",
       "n": 11
     }
   ],
@@ -37,12 +37,23 @@
       "title": "What next for Iran war after Trump's midterms defeat?",
       "source": "France24",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 4
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 3
+    },
+    {
+      "title": "US midterms: Democrats win US Congress in midterm rout of Trump",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "'We did it!': Democrat El-Sayed hails US Senate win, becomes first Muslim e\u2026",
@@ -86,17 +97,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "In Kyiv, hackers sent fake alerts about a nuclear apocalypse. We hardly not\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
       "outlets": 1
     },
     {
