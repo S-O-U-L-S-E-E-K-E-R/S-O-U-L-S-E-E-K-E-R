@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-04 03:40 UTC",
-  "feed_time": "2026-11-04T03:40:08.454879",
-  "total": 860,
-  "coded": 202,
+  "updated": "2026-11-04 04:41 UTC",
+  "feed_time": "2026-11-04T04:41:01.183101",
+  "total": 854,
+  "coded": 200,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 83,
-    "verbal conflict": 49,
-    "verbal cooperation": 56,
+    "material conflict": 80,
+    "verbal conflict": 52,
+    "verbal cooperation": 54,
     "material cooperation": 14
   },
   "top_labels": [
@@ -17,11 +17,11 @@
     },
     {
       "label": "Consult",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 13
     },
     {
       "label": "Investigate",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Employ aerial weapons",
-      "n": 10
+      "n": 9
     }
   ],
   "ticker": [
@@ -67,28 +67,6 @@
       "outlets": 2
     },
     {
-      "title": "\u2018Vile terrorist attack\u2019: Russia bombs Ukraine aid centre",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 2
-    },
-    {
-      "title": "US midterms: Democrats projected to flip North Carolina Senate seat, hold G\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
       "title": "Binance reveals hackers used fake job interviews, malicious code in $6.3bn\u2026",
       "source": "Dawn",
       "risk": 10,
@@ -113,6 +91,28 @@
     {
       "title": "More Iranians Call for Nuclear Weapons After War With U.S.",
       "source": "NYT World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Strike on Ukraine Humanitarian Hub Is Feared to Be Among War\u2019s Deadliest",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Africa\u2019s \u2018unprecedented\u2019 Ebola outbreak could reach UK, says top health off\u2026",
+      "source": "Guardian World",
       "risk": 10,
       "dyad": "",
       "code": null,
