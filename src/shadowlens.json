@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-04 05:42 UTC",
-  "feed_time": "2026-11-04T05:42:01.403456",
-  "total": 843,
-  "coded": 197,
-  "outlets": 69,
+  "updated": "2026-11-04 06:43 UTC",
+  "feed_time": "2026-11-04T06:43:03.067140",
+  "total": 842,
+  "coded": 193,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 77,
-    "verbal conflict": 52,
+    "material conflict": 78,
+    "verbal conflict": 49,
     "verbal cooperation": 54,
-    "material cooperation": 14
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Consult",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
       "n": 12
     },
     {
-      "label": "Investigate",
-      "n": 11
+      "label": "Accuse",
+      "n": 12
     },
     {
       "label": "Threaten",
@@ -33,6 +33,17 @@
     }
   ],
   "ticker": [
+    {
+      "title": "US midterm elections 2026: Democrats take control of Senate and House in ma\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "120",
+      "label": "Reject",
+      "quad": "verbal conflict",
+      "goldstein": -4.0,
+      "outlets": 6
+    },
     {
       "title": "US has plans to strike Iran as early as tomorrow, report says",
       "source": "MEE",
@@ -43,17 +54,6 @@
       "quad": "verbal cooperation",
       "goldstein": 4.0,
       "outlets": 3
-    },
-    {
-      "title": "Death toll rises in Ukraine after Russia attacks aid centre, hospice and ho\u2026",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
     },
     {
       "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
