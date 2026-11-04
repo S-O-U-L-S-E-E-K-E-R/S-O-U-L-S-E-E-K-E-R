@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-04 15:52 UTC",
-  "feed_time": "2026-11-04T15:52:01.209757",
-  "total": 862,
-  "coded": 220,
-  "outlets": 67,
+  "updated": "2026-11-04 16:53 UTC",
+  "feed_time": "2026-11-04T16:53:01.701669",
+  "total": 861,
+  "coded": 222,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 91,
-    "verbal conflict": 58,
-    "verbal cooperation": 54,
+    "material conflict": 96,
+    "verbal conflict": 60,
+    "verbal cooperation": 49,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 16
     },
     {
       "label": "Investigate",
@@ -24,12 +24,12 @@
       "n": 13
     },
     {
-      "label": "Consult",
+      "label": "Attack cybernetically",
       "n": 13
     },
     {
-      "label": "Reject",
-      "n": 12
+      "label": "Accuse",
+      "n": 13
     }
   ],
   "ticker": [
@@ -53,17 +53,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Gaza volunteer surgeon Adam Hamawy wins US House seat in New Jersey",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 7.0,
       "outlets": 2
     },
     {
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "US launches strikes after Iran downs American drone (VIDEO)",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
