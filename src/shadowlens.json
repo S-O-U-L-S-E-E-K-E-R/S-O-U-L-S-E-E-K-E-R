@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-04 22:30 UTC",
-  "feed_time": "2026-11-04T22:30:01.899799",
-  "total": 884,
+  "updated": "2026-11-04 23:31 UTC",
+  "feed_time": "2026-11-04T23:30:56.468413",
+  "total": 882,
   "coded": 235,
-  "outlets": 71,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 55,
+    "material conflict": 103,
+    "verbal conflict": 53,
     "verbal cooperation": 57,
-    "material cooperation": 21
+    "material cooperation": 22
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
-    },
-    {
-      "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Consult",
+      "label": "Accuse",
+      "n": 13
+    },
+    {
+      "label": "Threaten",
       "n": 13
     }
   ],
@@ -43,17 +43,6 @@
       "quad": "verbal conflict",
       "goldstein": -2.0,
       "outlets": 5
-    },
-    {
-      "title": "Zelensky honours Melania Trump with Ukraine award for brokering Oleshky tru\u2026",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "036",
-      "label": "Intend to meet or negotiate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 2
     },
     {
       "title": "Democrats win US Congress in midterm rout of Trump",
@@ -100,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "U.S. Assisted Venezuela in Deadly Drone Strike, Officials Say",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "United States \u2192 Venezuela",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +97,28 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "The midterms were a thumping rebuke of the US-Israel relationship",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
