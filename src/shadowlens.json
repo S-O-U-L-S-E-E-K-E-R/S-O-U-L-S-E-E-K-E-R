@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-04 13:50 UTC",
-  "feed_time": "2026-11-04T13:50:08.513048",
-  "total": 849,
-  "coded": 222,
-  "outlets": 70,
+  "updated": "2026-11-04 14:51 UTC",
+  "feed_time": "2026-11-04T14:51:01.376915",
+  "total": 865,
+  "coded": 228,
+  "outlets": 69,
   "quad_hist": {
     "material conflict": 95,
-    "verbal conflict": 56,
-    "verbal cooperation": 59,
-    "material cooperation": 12
+    "verbal conflict": 62,
+    "verbal cooperation": 56,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 15
     },
     {
       "label": "Consult",
       "n": 14
     },
     {
-      "label": "Accuse",
+      "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Threaten",
-      "n": 10
+      "label": "Accuse",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,6 +42,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 3
+    },
+    {
+      "title": "Gaza volunteer surgeon Adam Hamawy wins US House seat in New Jersey",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine",
+      "code": "046",
+      "label": "Engage in negotiation",
+      "quad": "verbal cooperation",
+      "goldstein": 7.0,
       "outlets": 2
     },
     {
@@ -102,17 +113,6 @@
     {
       "title": "US launches strikes after Iran downs American drone (VIDEO)",
       "source": "RT",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "US midterms: Democrats win US Congress in midterm rout of Trump",
-      "source": "Dawn",
       "risk": 10,
       "dyad": "",
       "code": null,
