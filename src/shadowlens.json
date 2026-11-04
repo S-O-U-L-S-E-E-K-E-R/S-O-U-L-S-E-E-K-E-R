@@ -1,22 +1,26 @@
 {
-  "updated": "2026-11-04 16:53 UTC",
-  "feed_time": "2026-11-04T16:53:01.701669",
-  "total": 861,
-  "coded": 222,
+  "updated": "2026-11-04 17:54 UTC",
+  "feed_time": "2026-11-04T17:54:01.700543",
+  "total": 868,
+  "coded": 225,
   "outlets": 68,
   "quad_hist": {
     "material conflict": 96,
-    "verbal conflict": 60,
-    "verbal cooperation": 49,
+    "verbal conflict": 58,
+    "verbal cooperation": 54,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 16
+      "n": 18
     },
     {
-      "label": "Investigate",
+      "label": "Accuse",
+      "n": 15
+    },
+    {
+      "label": "Attack cybernetically",
       "n": 14
     },
     {
@@ -24,11 +28,7 @@
       "n": 13
     },
     {
-      "label": "Attack cybernetically",
-      "n": 13
-    },
-    {
-      "label": "Accuse",
+      "label": "Appeal",
       "n": 13
     }
   ],
@@ -54,6 +54,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
     },
     {
       "title": "More Iranians Call for Nuclear Weapons After War With U.S.",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "US launches strikes after Iran downs American drone (VIDEO)",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
