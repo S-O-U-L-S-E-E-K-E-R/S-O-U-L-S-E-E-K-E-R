@@ -1,47 +1,47 @@
 {
-  "updated": "2026-11-04 17:54 UTC",
-  "feed_time": "2026-11-04T17:54:01.700543",
-  "total": 868,
-  "coded": 225,
-  "outlets": 68,
+  "updated": "2026-11-04 19:28 UTC",
+  "feed_time": "2026-11-04T19:28:01.762104",
+  "total": 879,
+  "coded": 231,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 96,
-    "verbal conflict": 58,
-    "verbal cooperation": 54,
+    "material conflict": 99,
+    "verbal conflict": 60,
+    "verbal cooperation": 55,
     "material cooperation": 17
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
+      "label": "Attack cybernetically",
       "n": 18
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
       "label": "Accuse",
       "n": 15
     },
     {
-      "label": "Attack cybernetically",
-      "n": 14
-    },
-    {
       "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Appeal",
+      "label": "Consult",
       "n": 13
     }
   ],
   "ticker": [
     {
-      "title": "Iran warns of wider war if US attacks after Trump election rout",
-      "source": "Hindustan Times",
+      "title": "Trump admits Iran war caused election losses but \u2018we had to do it\u2019",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
+      "dyad": "United States \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
       "quad": "verbal conflict",
-      "goldstein": -6.0,
+      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -56,14 +56,25 @@
       "outlets": 2
     },
     {
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "source": "BBC World",
+      "title": "Naval Group unveils new drone carrier concept",
+      "source": "Breaking Defense",
       "risk": 10,
       "dyad": "",
       "code": null,
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     },
     {
@@ -108,17 +119,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
