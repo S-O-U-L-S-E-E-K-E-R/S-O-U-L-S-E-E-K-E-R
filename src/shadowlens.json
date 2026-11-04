@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-04 21:29 UTC",
-  "feed_time": "2026-11-04T21:29:01.225144",
-  "total": 878,
-  "coded": 230,
+  "updated": "2026-11-04 22:30 UTC",
+  "feed_time": "2026-11-04T22:30:01.899799",
+  "total": 884,
+  "coded": 235,
   "outlets": 71,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 57,
+    "material conflict": 102,
+    "verbal conflict": 55,
     "verbal cooperation": 57,
-    "material cooperation": 17
+    "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
       "n": 14
     },
     {
-      "label": "Consult",
+      "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Investigate",
-      "n": 12
+      "label": "Consult",
+      "n": 13
     }
   ],
   "ticker": [
@@ -43,6 +43,17 @@
       "quad": "verbal conflict",
       "goldstein": -2.0,
       "outlets": 5
+    },
+    {
+      "title": "Zelensky honours Melania Trump with Ukraine award for brokering Oleshky tru\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "036",
+      "label": "Intend to meet or negotiate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
+      "outlets": 2
     },
     {
       "title": "Democrats win US Congress in midterm rout of Trump",
@@ -102,17 +113,6 @@
     {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "The midterms were a thumping rebuke of the US-Israel relationship",
-      "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
       "code": null,
