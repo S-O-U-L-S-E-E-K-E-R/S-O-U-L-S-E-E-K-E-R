@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-05 09:41 UTC",
-  "feed_time": "2026-11-05T09:41:01.841251",
-  "total": 871,
-  "coded": 219,
-  "outlets": 67,
+  "updated": "2026-11-05 10:42 UTC",
+  "feed_time": "2026-11-05T10:42:01.650612",
+  "total": 872,
+  "coded": 225,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 47,
-    "verbal cooperation": 50,
-    "material cooperation": 17
+    "material conflict": 114,
+    "verbal conflict": 44,
+    "verbal cooperation": 51,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 14
+      "n": 24
     },
     {
       "label": "Use conventional military force",
-      "n": 13
+      "n": 16
     },
     {
-      "label": "Accuse",
-      "n": 11
+      "label": "Attack cybernetically",
+      "n": 15
     },
     {
       "label": "Consult",
-      "n": 10
+      "n": 11
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 4
-    },
-    {
-      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Naval Group unveils new drone carrier concept",
@@ -90,6 +79,17 @@
     },
     {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Planes diverted as bomb threats to commercial flights reported across Europ\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
