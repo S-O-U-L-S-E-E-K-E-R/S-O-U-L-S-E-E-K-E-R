@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-05 19:51 UTC",
-  "feed_time": "2026-11-05T19:51:01.293326",
-  "total": 876,
-  "coded": 248,
+  "updated": "2026-11-05 20:52 UTC",
+  "feed_time": "2026-11-05T20:52:01.384959",
+  "total": 868,
+  "coded": 252,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 57,
-    "verbal cooperation": 53,
-    "material cooperation": 23
+    "material conflict": 121,
+    "verbal conflict": 54,
+    "verbal cooperation": 59,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 24
+      "n": 26
     },
     {
       "label": "Use unconventional violence",
-      "n": 19
-    },
-    {
-      "label": "Accuse",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 17
+    },
+    {
+      "label": "Consult",
+      "n": 14
     },
     {
       "label": "Attack cybernetically",
@@ -43,6 +43,28 @@
       "quad": null,
       "goldstein": null,
       "outlets": 4
+    },
+    {
+      "title": "\u2018Dark horse diplomat\u2019: Melania Trump plays both sides in joint Russia-Ukrai\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "042",
+      "label": "Make a visit",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "Mass protests sweep France again, as workers strike and march for \u2018dignifie\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "France",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 2
     },
     {
       "title": "Naval Group unveils new drone carrier concept",
@@ -91,28 +113,6 @@
     {
       "title": "Iran says 5 tankers catch fire after striking naval mines in Strait of Horm\u2026",
       "source": "SCMP",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Gadi Eisenkot tipped to seek Israel government with backing of Arab lists",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "CDF visits SSG headquarters, stresses operational readiness for tackling se\u2026",
-      "source": "Dawn",
       "risk": 10,
       "dyad": "",
       "code": null,
