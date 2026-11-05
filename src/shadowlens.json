@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-05 13:45 UTC",
-  "feed_time": "2026-11-05T13:45:01.398676",
-  "total": 866,
-  "coded": 254,
+  "updated": "2026-11-05 14:46 UTC",
+  "feed_time": "2026-11-05T14:46:01.269698",
+  "total": 873,
+  "coded": 251,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 122,
-    "verbal conflict": 58,
-    "verbal cooperation": 54,
-    "material cooperation": 20
+    "material conflict": 118,
+    "verbal conflict": 57,
+    "verbal cooperation": 52,
+    "material cooperation": 24
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 26
     },
     {
       "label": "Demonstrate or rally",
@@ -21,15 +21,15 @@
     },
     {
       "label": "Accuse",
-      "n": 16
+      "n": 14
     },
     {
       "label": "Use conventional military force",
-      "n": 15
+      "n": 12
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 12
     }
   ],
   "ticker": [
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "Defense Forces destroy more than 8,000 Russian drones and missiles in Octob\u2026",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
       "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
       "source": "BBC World",
       "risk": 10,
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Pete Hegseth may take fall for Republicans\u2019 midterm losses, despite Trump s\u2026",
+      "title": "Yemen\u2019s president sacks ministers and officers in attempt to turn tide of w\u2026",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Military \u2192 United States",
-      "code": "138",
-      "label": "Threaten military force",
-      "quad": "verbal conflict",
-      "goldstein": -7.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
