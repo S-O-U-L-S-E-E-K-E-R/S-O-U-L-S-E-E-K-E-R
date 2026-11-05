@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-05 03:35 UTC",
-  "feed_time": "2026-11-05T03:35:02.994226",
-  "total": 880,
-  "coded": 232,
-  "outlets": 66,
+  "updated": "2026-11-05 04:36 UTC",
+  "feed_time": "2026-11-05T04:36:01.268367",
+  "total": 872,
+  "coded": 227,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 52,
-    "verbal cooperation": 55,
-    "material cooperation": 22
+    "material conflict": 102,
+    "verbal conflict": 48,
+    "verbal cooperation": 58,
+    "material cooperation": 19
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 19
     },
     {
       "label": "Accuse",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Attack cybernetically",
@@ -25,35 +25,24 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 11
     },
     {
       "label": "Threaten",
-      "n": 12
+      "n": 11
     }
   ],
   "ticker": [
     {
-      "title": "Trump admits Iran war caused election losses but \u2018we had to do it\u2019",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 4
-    },
-    {
       "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for ro\u2026",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Ukraine",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
-      "outlets": 3
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "US Vice President JD Vance says Iran war is 'the reason we lost' midterms",
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Pete Hegseth may take fall for Republicans\u2019 midterm losses, despite Trump s\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Military \u2192 United States",
+      "code": "138",
+      "label": "Threaten military force",
+      "quad": "verbal conflict",
+      "goldstein": -7.0,
       "outlets": 1
     }
   ]
