@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-05 06:38 UTC",
-  "feed_time": "2026-11-05T06:38:08.847526",
-  "total": 873,
-  "coded": 227,
+  "updated": "2026-11-05 07:39 UTC",
+  "feed_time": "2026-11-05T07:39:01.149084",
+  "total": 874,
+  "coded": 224,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 109,
-    "verbal conflict": 43,
-    "verbal cooperation": 55,
+    "material conflict": 110,
+    "verbal conflict": 44,
+    "verbal cooperation": 50,
     "material cooperation": 20
   },
   "top_labels": [
@@ -20,30 +20,19 @@
       "n": 14
     },
     {
-      "label": "Accuse",
-      "n": 13
+      "label": "Consult",
+      "n": 11
     },
     {
       "label": "Arrest, detain or charge",
       "n": 11
     },
     {
-      "label": "Consult",
+      "label": "Accuse",
       "n": 11
     }
   ],
   "ticker": [
-    {
-      "title": "Democrats win US Congress in midterm rout of Trump",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
     {
       "title": "Naval Group unveils new drone carrier concept",
       "source": "Breaking Defense",
@@ -119,6 +108,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
