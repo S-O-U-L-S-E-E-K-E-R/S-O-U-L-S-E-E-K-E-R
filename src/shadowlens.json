@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-05 10:42 UTC",
-  "feed_time": "2026-11-05T10:42:01.650612",
-  "total": 872,
-  "coded": 225,
-  "outlets": 68,
+  "updated": "2026-11-05 11:43 UTC",
+  "feed_time": "2026-11-05T11:42:56.329059",
+  "total": 867,
+  "coded": 227,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 44,
+    "material conflict": 109,
+    "verbal conflict": 50,
     "verbal cooperation": 51,
-    "material cooperation": 16
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 16
+      "n": 14
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Consult",
-      "n": 11
+      "label": "Accuse",
+      "n": 13
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Employ aerial weapons",
       "n": 11
     }
   ],
@@ -43,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -6.5,
       "outlets": 3
+    },
+    {
+      "title": "Israeli attacks kill 1 Palestinian, wound 4 others across Gaza",
+      "source": "Anadolu Agency",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "Naval Group unveils new drone carrier concept",
@@ -67,29 +78,7 @@
       "outlets": 1
     },
     {
-      "title": "More Iranians Call for Nuclear Weapons After War With U.S.",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Planes diverted as bomb threats to commercial flights reported across Europ\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Thursday briefing: \u2018A dignified life for all must be the north star\u2019: econo\u2026",
-      "source": "Guardian Top",
+      "title": "Death toll hits 29 after Russian strike on Ukrainian aid site, with 48 stil\u2026",
+      "source": "NPR World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
