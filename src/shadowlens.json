@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-05 15:47 UTC",
-  "feed_time": "2026-11-05T15:47:01.563288",
-  "total": 875,
-  "coded": 240,
+  "updated": "2026-11-05 16:48 UTC",
+  "feed_time": "2026-11-05T16:47:57.609728",
+  "total": 882,
+  "coded": 233,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 57,
-    "verbal cooperation": 48,
-    "material cooperation": 22
+    "material conflict": 114,
+    "verbal conflict": 53,
+    "verbal cooperation": 46,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 23
     },
     {
       "label": "Demonstrate or rally",
-      "n": 16
+      "n": 21
     },
     {
       "label": "Accuse",
-      "n": 14
-    },
-    {
-      "label": "Threaten",
-      "n": 12
+      "n": 13
     },
     {
       "label": "Attack cybernetically",
-      "n": 12
+      "n": 13
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 11
     }
   ],
   "ticker": [
-    {
-      "title": "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
     {
       "title": "Israeli attacks kill 1 Palestinian, wound 4 others across Gaza",
       "source": "Anadolu Agency",
@@ -54,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
+    },
+    {
+      "title": "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Iran says 5 tankers catch fire after striking naval mines in Strait of Horm\u2026",
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Saudi coalition says it intercepted missile fired at Medina",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Sign formal agreement",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 1
-    },
-    {
-      "title": "Yemen\u2019s president sacks ministers and officers in attempt to turn tide of w\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
