@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-05 14:46 UTC",
-  "feed_time": "2026-11-05T14:46:01.269698",
-  "total": 873,
-  "coded": 251,
+  "updated": "2026-11-05 15:47 UTC",
+  "feed_time": "2026-11-05T15:47:01.563288",
+  "total": 875,
+  "coded": 240,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 118,
+    "material conflict": 113,
     "verbal conflict": 57,
-    "verbal cooperation": 52,
-    "material cooperation": 24
+    "verbal cooperation": 48,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Demonstrate or rally",
@@ -24,7 +24,7 @@
       "n": 14
     },
     {
-      "label": "Use conventional military force",
+      "label": "Threaten",
       "n": 12
     },
     {
@@ -33,6 +33,17 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Bomb threats disrupt at least 15 flights across Europe, raising hybrid war\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 3
+    },
     {
       "title": "Israeli attacks kill 1 Palestinian, wound 4 others across Gaza",
       "source": "Anadolu Agency",
@@ -45,7 +56,7 @@
       "outlets": 3
     },
     {
-      "title": "European flights diverted again after fresh wave of hoax bomb threats",
+      "title": "Iran says 5 tankers catch fire after striking naval mines in Strait of Horm\u2026",
       "source": "SCMP",
       "risk": 10,
       "dyad": "",
@@ -78,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -100,6 +100,17 @@
       "outlets": 1
     },
     {
+      "title": "Russia agreed to supply Iran with 90 helicopter missile launchers",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Russia \u2192 Iran",
+      "code": "057",
+      "label": "Sign formal agreement",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 1
+    },
+    {
       "title": "Yemen\u2019s president sacks ministers and officers in attempt to turn tide of w\u2026",
       "source": "Guardian Top",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
