@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-05 00:32 UTC",
-  "feed_time": "2026-11-05T00:32:08.457824",
-  "total": 881,
-  "coded": 238,
-  "outlets": 68,
+  "updated": "2026-11-05 03:35 UTC",
+  "feed_time": "2026-11-05T03:35:02.994226",
+  "total": 880,
+  "coded": 232,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 48,
-    "verbal cooperation": 61,
+    "material conflict": 103,
+    "verbal conflict": 52,
+    "verbal cooperation": 55,
     "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 17
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 21
     },
     {
       "label": "Accuse",
+      "n": 17
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 16
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 12
     },
     {
-      "label": "Consult",
-      "n": 11
+      "label": "Threaten",
+      "n": 12
     }
   ],
   "ticker": [
@@ -37,12 +37,34 @@
       "title": "Trump admits Iran war caused election losses but \u2018we had to do it\u2019",
       "source": "MEE",
       "risk": 10,
-      "dyad": "Iran \u2192 Iran",
-      "code": "110",
-      "label": "Disapprove",
+      "dyad": "United States \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 5
+      "outlets": 4
+    },
+    {
+      "title": "Ukraine war briefing: Zelenskyy awards Melania Trump national honour for ro\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.4,
+      "outlets": 3
+    },
+    {
+      "title": "US Vice President JD Vance says Iran war is 'the reason we lost' midterms",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
     },
     {
       "title": "Democrats win US Congress in midterm rout of Trump",
@@ -91,28 +113,6 @@
     {
       "title": "The US-China trade war seems to have subsided \u2013 but the sense of calm is mi\u2026",
       "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "The midterms were a thumping rebuke of the US-Israel relationship",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Iran unveils \u2018We will kill Trump\u2019 banner \u2013 but US president may now be temp\u2026",
-      "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
       "code": null,
