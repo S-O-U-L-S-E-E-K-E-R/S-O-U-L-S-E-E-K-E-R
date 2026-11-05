@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-05 12:44 UTC",
-  "feed_time": "2026-11-05T12:44:08.472326",
+  "updated": "2026-11-05 13:45 UTC",
+  "feed_time": "2026-11-05T13:45:01.398676",
   "total": 866,
-  "coded": 244,
-  "outlets": 70,
+  "coded": 254,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 53,
-    "verbal cooperation": 59,
+    "material conflict": 122,
+    "verbal conflict": 58,
+    "verbal cooperation": 54,
     "material cooperation": 20
   },
   "top_labels": [
@@ -16,32 +16,32 @@
       "n": 23
     },
     {
+      "label": "Demonstrate or rally",
+      "n": 16
+    },
+    {
       "label": "Accuse",
+      "n": 16
+    },
+    {
+      "label": "Use conventional military force",
       "n": 15
     },
     {
       "label": "Attack cybernetically",
       "n": 15
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 14
-    },
-    {
-      "label": "Threaten",
-      "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "France braces for demonstrations as trade unions strike",
-      "source": "Dawn",
+      "title": "Israeli attacks kill 1 Palestinian, wound 4 others across Gaza",
+      "source": "Anadolu Agency",
       "risk": 10,
-      "dyad": "France",
-      "code": "141",
-      "label": "Demonstrate or rally",
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -6.5,
+      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -56,19 +56,30 @@
       "outlets": 2
     },
     {
-      "title": "Israeli attacks kill 1 Palestinian, wound 4 others across Gaza",
-      "source": "Anadolu Agency",
+      "title": "France braces for demonstrations as trade unions strike",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "France",
+      "code": "141",
+      "label": "Demonstrate or rally",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -6.5,
       "outlets": 2
     },
     {
       "title": "Naval Group unveils new drone carrier concept",
       "source": "Breaking Defense",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Defense Forces destroy more than 8,000 Russian drones and missiles in Octob\u2026",
+      "source": "Ukrinform",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -108,17 +119,6 @@
       "label": "Threaten military force",
       "quad": "verbal conflict",
       "goldstein": -7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
