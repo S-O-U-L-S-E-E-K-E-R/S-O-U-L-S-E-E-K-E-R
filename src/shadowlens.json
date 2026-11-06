@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-06 14:05 UTC",
-  "feed_time": "2026-11-06T14:05:01.631641",
-  "total": 898,
-  "coded": 229,
+  "updated": "2026-11-06 15:06 UTC",
+  "feed_time": "2026-11-06T15:06:01.718871",
+  "total": 899,
+  "coded": 228,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 106,
+    "material conflict": 105,
     "verbal conflict": 63,
-    "verbal cooperation": 47,
-    "material cooperation": 13
+    "verbal cooperation": 49,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 15
     },
     {
-      "label": "Attack cybernetically",
-      "n": 13
+      "label": "Accuse",
+      "n": 12
     }
   ],
   "ticker": [
@@ -53,6 +53,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran says it downed US MQ-1 drone over Qeshm Island",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -102,17 +113,6 @@
     {
       "title": "Drones are changing warfare. But defense giants are still making billions f\u2026",
       "source": "CNBC World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Iranians face looming war threat with no reliable info",
-      "source": "DW",
       "risk": 10,
       "dyad": "",
       "code": null,
