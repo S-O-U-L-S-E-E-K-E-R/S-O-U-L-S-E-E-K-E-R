@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-06 17:08 UTC",
-  "feed_time": "2026-11-06T17:08:01.661334",
-  "total": 888,
-  "coded": 212,
+  "updated": "2026-11-06 18:09 UTC",
+  "feed_time": "2026-11-06T18:08:57.537303",
+  "total": 884,
+  "coded": 221,
   "outlets": 67,
   "quad_hist": {
     "material conflict": 93,
-    "verbal conflict": 60,
-    "verbal cooperation": 45,
+    "verbal conflict": 66,
+    "verbal cooperation": 48,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Arrest, detain or charge",
       "n": 18
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 11
+      "label": "Investigate",
+      "n": 12
     },
     {
-      "label": "Use conventional military force",
-      "n": 9
+      "label": "Demonstrate or rally",
+      "n": 10
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
@@ -100,19 +100,19 @@
       "outlets": 1
     },
     {
-      "title": "For people in Iran, a constant threat of war and dearth of information",
+      "title": "Iran war: Gulf tanker attacked, 1 seaferer killed",
       "source": "DW",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     },
     {
-      "title": "\u2018Clock is ticking\u2019: European TV channels targeted in wave of hoax bomb thre\u2026",
-      "source": "SCMP",
+      "title": "For people in Iran, a constant threat of war and dearth of information",
+      "source": "DW",
       "risk": 10,
       "dyad": "",
       "code": null,
