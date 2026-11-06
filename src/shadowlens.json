@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-06 10:01 UTC",
-  "feed_time": "2026-11-06T10:01:03.738545",
-  "total": 874,
-  "coded": 258,
-  "outlets": 65,
+  "updated": "2026-11-06 11:02 UTC",
+  "feed_time": "2026-11-06T11:02:01.409243",
+  "total": 882,
+  "coded": 251,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 64,
+    "material conflict": 118,
+    "verbal conflict": 62,
     "verbal cooperation": 55,
-    "material cooperation": 19
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 20
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 22
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 17
     },
     {
       "label": "Investigate",
@@ -42,7 +42,18 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 4
+      "outlets": 2
+    },
+    {
+      "title": "Death toll rises to 50 in Russian attack on aid distribution \u200cpoint in Ukra\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "Melania Trump hosts Russia-Ukraine meeting, calls for \u2018enduring\u2019 truce",
@@ -89,29 +100,18 @@
       "outlets": 2
     },
     {
-      "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
-      "source": "Guardian World",
+      "title": "Hoax Bomb Threats Disrupt Air Traffic Across Europe",
+      "source": "Foreign Policy",
       "risk": 10,
       "dyad": "",
       "code": null,
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
+      "outlets": 2
     },
     {
-      "title": "Bondi beach shooting: Eva Geller, 90, shot during massacre dies in hospital\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": "202",
-      "label": "Engage in mass killings",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Friday briefing: \u200bAfter a week of disruption, is living with threats our ne\u2026",
+      "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
