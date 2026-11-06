@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-06 03:59 UTC",
-  "feed_time": "2026-11-06T03:58:08.470318",
-  "total": 878,
-  "coded": 244,
+  "updated": "2026-11-06 04:59 UTC",
+  "feed_time": "2026-11-06T04:59:01.853272",
+  "total": 871,
+  "coded": 238,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 117,
-    "verbal conflict": 56,
-    "verbal cooperation": 56,
+    "material conflict": 112,
+    "verbal conflict": 58,
+    "verbal cooperation": 53,
     "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Demonstrate or rally",
-      "n": 22
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
@@ -21,20 +21,20 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Threaten",
       "n": 15
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 15
+      "label": "Consult",
+      "n": 14
     }
   ],
   "ticker": [
     {
-      "title": "Bomb threats disrupt at least 25 flights across Europe, raising hybrid war\u2026",
+      "title": "Bomb threats disrupt dozens of flights across Europe, raising hybrid war fe\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
@@ -43,6 +43,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 4
+    },
+    {
+      "title": "Melania Trump hosts Russia-Ukraine meeting, calls for \u2018enduring\u2019 truce",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Ukraine",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
+      "outlets": 3
     },
     {
       "title": "After US midterms, is there a time limit on the Iran war? - analysis",
@@ -89,7 +100,7 @@
       "outlets": 2
     },
     {
-      "title": "Bondi beach shooting: Woman, 90, shot during massacre dies in hospital year\u2026",
+      "title": "Bondi beach shooting: Eva Geller, 90, shot during massacre dies in hospital\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
@@ -108,17 +119,6 @@
       "label": "Make pessimistic comment",
       "quad": "verbal cooperation",
       "goldstein": -0.4,
-      "outlets": 1
-    },
-    {
-      "title": "White House event reveals Ukraine and Russia share one goal: flattering Mel\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Russia",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
       "outlets": 1
     }
   ]
