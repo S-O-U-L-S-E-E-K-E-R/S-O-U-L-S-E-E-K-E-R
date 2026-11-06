@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-06 09:00 UTC",
-  "feed_time": "2026-11-06T09:00:01.425847",
-  "total": 877,
-  "coded": 245,
-  "outlets": 66,
+  "updated": "2026-11-06 10:01 UTC",
+  "feed_time": "2026-11-06T10:01:03.738545",
+  "total": 874,
+  "coded": 258,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 63,
-    "verbal cooperation": 52,
-    "material cooperation": 17
+    "material conflict": 120,
+    "verbal conflict": 64,
+    "verbal cooperation": 55,
+    "material cooperation": 19
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Demonstrate or rally",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 19
     },
     {
-      "label": "Consult",
-      "n": 13
+      "label": "Investigate",
+      "n": 14
     },
     {
-      "label": "Use conventional military force",
+      "label": "Attack cybernetically",
       "n": 13
     }
   ],
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Bondi beach shooting: Eva Geller, 90, shot during massacre dies in hospital\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Ukraine war briefing: Zelenskyy says Russia has damaged \u2018every power plant\u2019\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "012",
-      "label": "Make pessimistic comment",
-      "quad": "verbal cooperation",
-      "goldstein": -0.4,
       "outlets": 1
     }
   ]
