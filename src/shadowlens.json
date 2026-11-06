@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-06 07:00 UTC",
-  "feed_time": "2026-11-06T07:00:01.492532",
-  "total": 876,
-  "coded": 248,
+  "updated": "2026-11-06 08:00 UTC",
+  "feed_time": "2026-11-06T08:00:01.312321",
+  "total": 859,
+  "coded": 236,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 63,
-    "verbal cooperation": 56,
+    "material conflict": 111,
+    "verbal conflict": 55,
+    "verbal cooperation": 53,
     "material cooperation": 17
   },
   "top_labels": [
@@ -25,11 +25,11 @@
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Use conventional military force",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -78,19 +78,19 @@
       "outlets": 2
     },
     {
-      "title": "Naval Group unveils new drone carrier concept",
-      "source": "Breaking Defense",
+      "title": "UN refugee agency warns nearly 90M displaced people face severe climate ris\u2026",
+      "source": "Anadolu Agency",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "UN",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
-      "title": "Hoax Bomb Threats Disrupt Air Traffic Across Europe",
-      "source": "Foreign Policy",
+      "title": "Naval Group unveils new drone carrier concept",
+      "source": "Breaking Defense",
       "risk": 10,
       "dyad": "",
       "code": null,
