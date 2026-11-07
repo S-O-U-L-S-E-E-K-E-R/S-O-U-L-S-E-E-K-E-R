@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-07 06:21 UTC",
-  "feed_time": "2026-11-07T06:20:54.964143",
-  "total": 863,
+  "updated": "2026-11-07 07:22 UTC",
+  "feed_time": "2026-11-07T07:22:08.491572",
+  "total": 868,
   "coded": 241,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 68,
-    "verbal cooperation": 55,
-    "material cooperation": 11
+    "material conflict": 110,
+    "verbal conflict": 69,
+    "verbal cooperation": 50,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Arrest, detain or charge",
-      "n": 29
+      "n": 30
     },
     {
       "label": "Threaten",
-      "n": 27
+      "n": 26
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Investigate",
-      "n": 12
+      "n": 13
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
+      "n": 12
     }
   ],
   "ticker": [
@@ -38,11 +38,11 @@
       "source": "SCMP",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
+      "code": "100",
+      "label": "Demand",
+      "quad": "verbal conflict",
+      "goldstein": -5.0,
+      "outlets": 3
     },
     {
       "title": "'Will attack without geographic limits': Iran's fresh warning to US after T\u2026",
@@ -67,17 +67,6 @@
       "outlets": 3
     },
     {
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
       "source": "Anadolu Agency",
       "risk": 10,
@@ -87,6 +76,28 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "'It would facilitate Gaza genocide': Protesters storm Microsoft planned site",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     },
     {
       "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Drones are changing warfare. But defense giants are still making billions f\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
