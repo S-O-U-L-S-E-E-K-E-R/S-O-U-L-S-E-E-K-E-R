@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-07 12:27 UTC",
-  "feed_time": "2026-11-07T12:26:55.585055",
-  "total": 869,
-  "coded": 232,
+  "updated": "2026-11-07 13:28 UTC",
+  "feed_time": "2026-11-07T13:28:08.547379",
+  "total": 872,
+  "coded": 238,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 68,
-    "verbal cooperation": 49,
-    "material cooperation": 16
+    "material conflict": 103,
+    "verbal conflict": 70,
+    "verbal cooperation": 50,
+    "material cooperation": 15
   },
   "top_labels": [
-    {
-      "label": "Threaten",
-      "n": 24
-    },
     {
       "label": "Arrest, detain or charge",
       "n": 24
     },
     {
+      "label": "Threaten",
+      "n": 22
+    },
+    {
       "label": "Use unconventional violence",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 16
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 12
+      "label": "Consult",
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Russia launches missile attack on Kyiv, injuring residents",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "France braces for protests as Yellow Vests urge \u2018mass disobedience\u2019",
       "source": "Dawn",
@@ -67,14 +56,25 @@
       "outlets": 2
     },
     {
-      "title": "Iran distributes iodine pills near nuclear sites as Trump weighs fresh stri\u2026",
+      "title": "Saudi strike kills 22 people, mostly women &amp; kids, near Yemen's capital",
       "source": "Times of India",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -100,6 +100,17 @@
       "outlets": 2
     },
     {
+      "title": "Heavy rains flood Gaza shelters, putting displaced families at 'immediate r\u2026",
+      "source": "Anadolu Agency",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
       "source": "Anadolu Agency",
       "risk": 10,
@@ -109,17 +120,6 @@
       "quad": "verbal cooperation",
       "goldstein": 3.4,
       "outlets": 2
-    },
-    {
-      "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
     }
   ]
 }
