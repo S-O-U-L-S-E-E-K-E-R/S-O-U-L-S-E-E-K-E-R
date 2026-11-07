@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-07 19:34 UTC",
-  "feed_time": "2026-11-07T19:34:08.546303",
-  "total": 857,
-  "coded": 233,
+  "updated": "2026-11-07 20:35 UTC",
+  "feed_time": "2026-11-07T20:35:01.165734",
+  "total": 840,
+  "coded": 223,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 57,
-    "verbal cooperation": 48,
-    "material cooperation": 14
+    "material conflict": 110,
+    "verbal conflict": 55,
+    "verbal cooperation": 42,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 32
+      "n": 30
     },
     {
       "label": "Threaten",
-      "n": 24
+      "n": 21
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
-    },
-    {
-      "label": "Consult",
       "n": 16
     },
     {
+      "label": "Consult",
+      "n": 13
+    },
+    {
       "label": "Demonstrate or rally",
-      "n": 12
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Israel's president picks Eisenkot over Netanyahu to try to form new governm\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 9
+    },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
       "source": "Hindustan Times",
@@ -89,7 +100,7 @@
       "outlets": 2
     },
     {
-      "title": "Clashes in Paris after new French protests",
+      "title": "Clashes erupt in Paris amid new protests across France",
       "source": "Dawn",
       "risk": 10,
       "dyad": "France",
@@ -108,17 +119,6 @@
       "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Poland says 6 killed in shooting in central Krakow",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     }
   ]
