@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-07 07:22 UTC",
-  "feed_time": "2026-11-07T07:22:08.491572",
-  "total": 868,
+  "updated": "2026-11-07 08:23 UTC",
+  "feed_time": "2026-11-07T08:23:01.273528",
+  "total": 872,
   "coded": 241,
   "outlets": 70,
   "quad_hist": {
     "material conflict": 110,
-    "verbal conflict": 69,
-    "verbal cooperation": 50,
-    "material cooperation": 12
+    "verbal conflict": 67,
+    "verbal cooperation": 51,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Arrest, detain or charge",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Investigate",
-      "n": 13
+      "n": 14
     },
     {
       "label": "Demonstrate or rally",
