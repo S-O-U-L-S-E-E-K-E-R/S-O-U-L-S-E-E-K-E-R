@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-07 05:20 UTC",
-  "feed_time": "2026-11-07T05:20:01.422758",
-  "total": 861,
-  "coded": 251,
+  "updated": "2026-11-07 06:21 UTC",
+  "feed_time": "2026-11-07T06:20:54.964143",
+  "total": 863,
+  "coded": 241,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 115,
+    "material conflict": 107,
     "verbal conflict": 68,
-    "verbal cooperation": 58,
-    "material cooperation": 10
+    "verbal cooperation": 55,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Arrest, detain or charge",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 28
+      "n": 27
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 21
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 12
     },
     {
       "label": "Demonstrate or rally",
-      "n": 13
+      "n": 11
     }
   ],
   "ticker": [
@@ -45,14 +45,14 @@
       "outlets": 4
     },
     {
-      "title": "US strikes Iran air defence system, Trump calls action \u2018minor\u2019",
-      "source": "Times of India",
+      "title": "'Will attack without geographic limits': Iran's fresh warning to US after T\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -67,14 +67,25 @@
       "outlets": 3
     },
     {
-      "title": "'Will attack without geographic limits': Iran's fresh warning to US after T\u2026",
-      "source": "Hindustan Times",
+      "title": "Russia launches missile attack on Kyiv, injuring residents",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
+      "source": "Anadolu Agency",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Iran war: Gulf tanker attacked, 1 seaferer killed",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
