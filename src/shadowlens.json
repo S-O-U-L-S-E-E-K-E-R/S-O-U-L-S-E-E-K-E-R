@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-07 04:19 UTC",
-  "feed_time": "2026-11-07T04:19:01.674225",
-  "total": 867,
-  "coded": 254,
+  "updated": "2026-11-07 05:20 UTC",
+  "feed_time": "2026-11-07T05:20:01.422758",
+  "total": 861,
+  "coded": 251,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 71,
+    "material conflict": 115,
+    "verbal conflict": 68,
     "verbal cooperation": 58,
-    "material cooperation": 9
+    "material cooperation": 10
   },
   "top_labels": [
     {
       "label": "Arrest, detain or charge",
-      "n": 34
+      "n": 30
     },
     {
       "label": "Threaten",
-      "n": 26
+      "n": 28
     },
     {
       "label": "Use unconventional violence",
-      "n": 22
+      "n": 24
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Demonstrate or rally",
@@ -33,6 +33,28 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "US strikes Iran air defence system, Trump calls action \u2018minor\u2019",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
     {
       "title": "Hoax Bomb Threats Disrupt Air Traffic Across Europe",
       "source": "Foreign Policy",
@@ -43,6 +65,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 3
+    },
+    {
+      "title": "'Will attack without geographic limits': Iran's fresh warning to US after T\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "Low pressure in US midwest brings unseasonable heat to New York and Boston",
@@ -86,39 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Mediation efforts between US and Iran continue to prevent escalation, says\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "010",
-      "label": "Make statement",
-      "quad": "verbal cooperation",
-      "goldstein": 0.0,
-      "outlets": 1
-    },
-    {
-      "title": "JUI-F decries \u2018coordinated campaign\u2019 against Fazl",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Banks, utilities among services put on alert against AI-enabled cyberthreats",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
