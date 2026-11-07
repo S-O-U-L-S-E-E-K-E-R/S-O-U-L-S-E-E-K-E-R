@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-07 21:36 UTC",
-  "feed_time": "2026-11-07T21:36:01.283128",
-  "total": 843,
-  "coded": 231,
+  "updated": "2026-11-07 22:37 UTC",
+  "feed_time": "2026-11-07T22:37:01.308351",
+  "total": 840,
+  "coded": 230,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 118,
+    "material conflict": 121,
     "verbal conflict": 56,
-    "verbal cooperation": 44,
-    "material cooperation": 13
+    "verbal cooperation": 41,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 35
+      "n": 38
     },
     {
       "label": "Threaten",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Demonstrate or rally",
@@ -37,34 +37,12 @@
       "title": "Israeli president picks Netanyahu's rival Gadi Eisenkot to try to form gove\u2026",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "Israel",
+      "dyad": "The Opposition \u2192 Israel",
       "code": "051",
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 11
-    },
-    {
-      "title": "Poland says 6 killed in shooting in central Krakow",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
-    {
-      "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 12
     },
     {
       "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
@@ -75,7 +53,7 @@
       "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 5
     },
     {
       "title": "Saudi-led strikes kill at least 27 in Yemen's Sanaa, Houthis say",
@@ -119,6 +97,28 @@
       "label": "Fight with artillery and tanks",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Clashes erupt in Paris amid new protests across France",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "France",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Poland says 6 killed in shooting in central Krakow",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     }
   ]
