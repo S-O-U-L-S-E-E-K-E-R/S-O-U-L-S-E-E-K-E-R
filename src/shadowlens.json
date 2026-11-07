@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-07 16:31 UTC",
-  "feed_time": "2026-11-07T16:31:03.578317",
-  "total": 849,
-  "coded": 225,
-  "outlets": 50,
+  "updated": "2026-11-07 17:32 UTC",
+  "feed_time": "2026-11-07T17:32:02.643029",
+  "total": 857,
+  "coded": 221,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 59,
-    "verbal cooperation": 45,
+    "material conflict": 103,
+    "verbal conflict": 61,
+    "verbal cooperation": 44,
     "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 23
+      "n": 24
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 19
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 13
+      "n": 17
     },
     {
       "label": "Consult",
-      "n": 13
+      "n": 14
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "191",
+      "label": "Impose blockade",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
       "source": "Hindustan Times",
@@ -42,6 +53,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Poland says five killed in shooting in central Krakow",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -65,28 +87,6 @@
       "quad": "material cooperation",
       "goldstein": 7.0,
       "outlets": 3
-    },
-    {
-      "title": "After midterm rout, Vance tries to build his own 2028 brand",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Trump says US carried out 'minor strikes' on Iran\u2019s Qeshm Island after expl\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 2
     },
     {
       "title": "Heavy rains flood Gaza shelters, putting displaced families at 'immediate r\u2026",
