@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-07 11:26 UTC",
-  "feed_time": "2026-11-07T11:26:03.543630",
-  "total": 848,
-  "coded": 227,
-  "outlets": 69,
+  "updated": "2026-11-07 12:27 UTC",
+  "feed_time": "2026-11-07T12:26:55.585055",
+  "total": 869,
+  "coded": 232,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 94,
-    "verbal conflict": 66,
-    "verbal cooperation": 51,
+    "material conflict": 99,
+    "verbal conflict": 68,
+    "verbal cooperation": 49,
     "material cooperation": 16
   },
   "top_labels": [
+    {
+      "label": "Threaten",
+      "n": 24
+    },
     {
       "label": "Arrest, detain or charge",
       "n": 24
     },
     {
-      "label": "Threaten",
-      "n": 21
-    },
-    {
-      "label": "Investigate",
+      "label": "Use unconventional violence",
       "n": 16
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Investigate",
       "n": 15
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
+      "n": 12
     }
   ],
   "ticker": [
@@ -67,7 +67,7 @@
       "outlets": 2
     },
     {
-      "title": "'Downed 260 aircraft, new capabilities will astonish enemies': Iran warns US",
+      "title": "Iran distributes iodine pills near nuclear sites as Trump weighs fresh stri\u2026",
       "source": "Times of India",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
@@ -75,6 +75,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 2
+    },
+    {
+      "title": "After midterm rout, Vance tries to build his own 2028 brand",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -100,25 +111,14 @@
       "outlets": 2
     },
     {
-      "title": "Will Trump strike nuclear sites again as Iran engages \u2018cognitive warfare\u2019?",
+      "title": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
       "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Iran",
-      "code": "085",
-      "label": "Ease economic sanctions",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
-      "source": "NYT World",
-      "risk": 10,
       "dyad": "",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
