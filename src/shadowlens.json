@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-07 13:28 UTC",
-  "feed_time": "2026-11-07T13:28:08.547379",
+  "updated": "2026-11-07 14:29 UTC",
+  "feed_time": "2026-11-07T14:29:01.662950",
   "total": 872,
-  "coded": 238,
+  "coded": 232,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 70,
-    "verbal cooperation": 50,
-    "material cooperation": 15
+    "material conflict": 104,
+    "verbal conflict": 65,
+    "verbal cooperation": 47,
+    "material cooperation": 16
   },
   "top_labels": [
-    {
-      "label": "Arrest, detain or charge",
-      "n": 24
-    },
     {
       "label": "Threaten",
       "n": 22
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 21
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 21
     },
     {
       "label": "Investigate",
-      "n": 16
+      "n": 14
     },
     {
-      "label": "Consult",
-      "n": 14
+      "label": "Employ aerial weapons",
+      "n": 13
     }
   ],
   "ticker": [
@@ -43,28 +43,6 @@
       "quad": "material conflict",
       "goldstein": -6.5,
       "outlets": 3
-    },
-    {
-      "title": "Trump confirms fresh Iran strikes days after voters punish war at polls",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "100",
-      "label": "Demand",
-      "quad": "verbal conflict",
-      "goldstein": -5.0,
-      "outlets": 2
-    },
-    {
-      "title": "Saudi strike kills 22 people, mostly women &amp; kids, near Yemen's capital",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Yemen \u2192 Saudi Arabia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
     },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
@@ -120,6 +98,28 @@
       "quad": "verbal cooperation",
       "goldstein": 3.4,
       "outlets": 2
+    },
+    {
+      "title": "Centcom offers $20m reward for information about Iran's nuclear programme",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
+      "outlets": 2
+    },
+    {
+      "title": "\u2018They started bombing us with drones\u2019: Russian attacks unnerve Zaporizhzhia",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
     }
   ]
 }
