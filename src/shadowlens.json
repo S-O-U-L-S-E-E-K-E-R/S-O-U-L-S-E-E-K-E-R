@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-07 17:32 UTC",
-  "feed_time": "2026-11-07T17:32:02.643029",
-  "total": 857,
-  "coded": 221,
+  "updated": "2026-11-07 18:33 UTC",
+  "feed_time": "2026-11-07T18:32:56.072065",
+  "total": 858,
+  "coded": 227,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 61,
-    "verbal cooperation": 44,
-    "material cooperation": 13
+    "material conflict": 105,
+    "verbal conflict": 62,
+    "verbal cooperation": 46,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 27
     },
     {
       "label": "Threaten",
@@ -21,28 +21,28 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 19
     },
     {
       "label": "Consult",
       "n": 14
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Investigate",
       "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
-      "source": "Dawn",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
-      "code": "191",
-      "label": "Impose blockade",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
+      "outlets": 3
     },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
@@ -51,6 +51,17 @@
       "dyad": "Russia \u2192 Ukraine",
       "code": "195",
       "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "191",
+      "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
@@ -89,8 +100,8 @@
       "outlets": 3
     },
     {
-      "title": "Heavy rains flood Gaza shelters, putting displaced families at 'immediate r\u2026",
-      "source": "Anadolu Agency",
+      "title": "Zelenskyy says Russia hit Ukrainian energy facility with North Korean KN-23\u2026",
+      "source": "Times of India",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 2
-    },
-    {
-      "title": "Centcom offers $20m reward for information about Iran's nuclear programme",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
       "outlets": 2
     }
   ]
