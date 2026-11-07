@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-07 18:33 UTC",
-  "feed_time": "2026-11-07T18:32:56.072065",
-  "total": 858,
-  "coded": 227,
+  "updated": "2026-11-07 19:34 UTC",
+  "feed_time": "2026-11-07T19:34:08.546303",
+  "total": 857,
+  "coded": 233,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 62,
-    "verbal cooperation": 46,
+    "material conflict": 114,
+    "verbal conflict": 57,
+    "verbal cooperation": 48,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 32
     },
     {
       "label": "Threaten",
@@ -21,29 +21,18 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 19
+      "n": 17
     },
     {
       "label": "Consult",
-      "n": 14
+      "n": 16
     },
     {
-      "label": "Investigate",
+      "label": "Demonstrate or rally",
       "n": 12
     }
   ],
   "ticker": [
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 3
-    },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
       "source": "Hindustan Times",
@@ -56,36 +45,14 @@
       "outlets": 3
     },
     {
-      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
-      "source": "Dawn",
+      "title": "Saudi-led strikes kill at least 27 in Yemen's Sanaa, Houthis say",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "191",
-      "label": "Impose blockade",
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Poland says five killed in shooting in central Krakow",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
-      "title": "France braces for protests as Yellow Vests urge \u2018mass disobedience\u2019",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "France",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
       "outlets": 3
     },
     {
@@ -100,25 +67,58 @@
       "outlets": 3
     },
     {
-      "title": "Zelenskyy says Russia hit Ukrainian energy facility with North Korean KN-23\u2026",
-      "source": "Times of India",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 2
     },
     {
-      "title": "European troops set to train in Poland for postwar Ukraine deployment",
-      "source": "DefenseNews",
+      "title": "Zelenskyy says Russia hit Ukrainian energy facility with North Korean KN-23\u2026",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "Poland \u2192 Ukraine",
-      "code": "154",
-      "label": "Mobilize armed forces",
+      "dyad": "Ukraine \u2192 Ukraine",
+      "code": "194",
+      "label": "Fight with artillery and tanks",
       "quad": "material conflict",
-      "goldstein": -7.2,
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Clashes in Paris after new French protests",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "France",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "191",
+      "label": "Impose blockade",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Poland says 6 killed in shooting in central Krakow",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     }
   ]
