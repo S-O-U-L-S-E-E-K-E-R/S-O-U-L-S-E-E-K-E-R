@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-07 15:30 UTC",
-  "feed_time": "2026-11-07T15:30:01.684195",
-  "total": 874,
-  "coded": 227,
-  "outlets": 70,
+  "updated": "2026-11-07 16:31 UTC",
+  "feed_time": "2026-11-07T16:31:03.578317",
+  "total": 849,
+  "coded": 225,
+  "outlets": 50,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 60,
-    "verbal cooperation": 47,
-    "material cooperation": 15
+    "material conflict": 108,
+    "verbal conflict": 59,
+    "verbal cooperation": 45,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 22
+      "n": 23
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Employ aerial weapons",
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "At least five killed, 10 injured in shooting in Polish city of Krakow",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
       "title": "Trump says US carried out 'minor strikes' on Iran\u2019s Qeshm Island after expl\u2026",
       "source": "Jerusalem Post",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 2
+    },
+    {
+      "title": "Centcom offers $20m reward for information about Iran's nuclear programme",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 2
     }
   ]
