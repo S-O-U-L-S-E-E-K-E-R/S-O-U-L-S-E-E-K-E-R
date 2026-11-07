@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-07 20:35 UTC",
-  "feed_time": "2026-11-07T20:35:01.165734",
-  "total": 840,
-  "coded": 223,
+  "updated": "2026-11-07 21:36 UTC",
+  "feed_time": "2026-11-07T21:36:01.283128",
+  "total": 843,
+  "coded": 231,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 55,
-    "verbal cooperation": 42,
-    "material cooperation": 16
+    "material conflict": 118,
+    "verbal conflict": 56,
+    "verbal cooperation": 44,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 35
     },
     {
       "label": "Threaten",
@@ -24,25 +24,36 @@
       "n": 16
     },
     {
-      "label": "Consult",
-      "n": 13
+      "label": "Demonstrate or rally",
+      "n": 14
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 13
+      "label": "Consult",
+      "n": 11
     }
   ],
   "ticker": [
     {
-      "title": "Israel's president picks Eisenkot over Netanyahu to try to form new governm\u2026",
-      "source": "MEE",
+      "title": "Israeli president picks Netanyahu's rival Gadi Eisenkot to try to form gove\u2026",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 9
+      "dyad": "Israel",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.4,
+      "outlets": 11
+    },
+    {
+      "title": "Poland says 6 killed in shooting in central Krakow",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
     },
     {
       "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
@@ -51,6 +62,17 @@
       "dyad": "Russia \u2192 Ukraine",
       "code": "195",
       "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "191",
+      "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
@@ -95,28 +117,6 @@
       "dyad": "Ukraine \u2192 Ukraine",
       "code": "194",
       "label": "Fight with artillery and tanks",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Clashes erupt in Paris amid new protests across France",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "France",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "191",
-      "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 2
