@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-07 14:29 UTC",
-  "feed_time": "2026-11-07T14:29:01.662950",
-  "total": 872,
-  "coded": 232,
+  "updated": "2026-11-07 15:30 UTC",
+  "feed_time": "2026-11-07T15:30:01.684195",
+  "total": 874,
+  "coded": 227,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 65,
+    "material conflict": 105,
+    "verbal conflict": 60,
     "verbal cooperation": 47,
-    "material cooperation": 16
+    "material cooperation": 15
   },
   "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 24
+    },
     {
       "label": "Threaten",
       "n": 22
     },
     {
-      "label": "Use unconventional violence",
-      "n": 21
-    },
-    {
       "label": "Arrest, detain or charge",
-      "n": 21
-    },
-    {
-      "label": "Investigate",
-      "n": 14
+      "n": 20
     },
     {
       "label": "Employ aerial weapons",
       "n": 13
+    },
+    {
+      "label": "Consult",
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
     {
       "title": "France braces for protests as Yellow Vests urge \u2018mass disobedience\u2019",
       "source": "Dawn",
@@ -45,15 +56,15 @@
       "outlets": 3
     },
     {
-      "title": "Russia launched 36 missiles, 172 drones targeting energy facilities in Kyiv\u2026",
-      "source": "Hindustan Times",
+      "title": "US midterms: Not even Trump's Israel aid stunt could rescue the Republicans",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
+      "dyad": "United States \u2192 Israel",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 3
     },
     {
       "title": "After midterm rout, Vance tries to build his own 2028 brand",
@@ -64,6 +75,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "At least five killed, 10 injured in shooting in Polish city of Krakow",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -89,37 +111,15 @@
       "outlets": 2
     },
     {
-      "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
-      "source": "Anadolu Agency",
+      "title": "European troops set to train in Poland for postwar Ukraine deployment",
+      "source": "DefenseNews",
       "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
-      "outlets": 2
-    },
-    {
-      "title": "Centcom offers $20m reward for information about Iran's nuclear programme",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 2
-    },
-    {
-      "title": "\u2018They started bombing us with drones\u2019: Russian attacks unnerve Zaporizhzhia",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Poland \u2192 Ukraine",
+      "code": "154",
+      "label": "Mobilize armed forces",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
+      "goldstein": -7.2,
+      "outlets": 2
     }
   ]
 }
