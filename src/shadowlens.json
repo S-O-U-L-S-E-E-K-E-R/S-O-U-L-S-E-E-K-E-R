@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-08 17:56 UTC",
-  "feed_time": "2026-11-08T17:56:00.969803",
-  "total": 843,
-  "coded": 199,
+  "updated": "2026-11-08 18:57 UTC",
+  "feed_time": "2026-11-08T18:57:01.022783",
+  "total": 844,
+  "coded": 194,
   "outlets": 68,
   "quad_hist": {
     "material conflict": 102,
-    "verbal conflict": 44,
-    "verbal cooperation": 40,
-    "material cooperation": 13
+    "verbal conflict": 38,
+    "verbal cooperation": 43,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 33
+      "n": 32
     },
     {
       "label": "Threaten",
       "n": 16
     },
     {
+      "label": "Employ aerial weapons",
+      "n": 11
+    },
+    {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 11
     },
     {
       "label": "Demonstrate or rally",
-      "n": 12
-    },
-    {
-      "label": "Employ aerial weapons",
       "n": 10
     }
   ],
   "ticker": [
-    {
-      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
-    },
     {
       "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
       "source": "France24",
@@ -75,18 +64,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 4
-    },
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 2
+      "outlets": 5
     },
     {
       "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
@@ -97,6 +75,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 2
     },
     {
@@ -111,15 +100,26 @@
       "outlets": 2
     },
     {
-      "title": "Saudi Aramco building in Riyadh damaged by falling debris in attempted atta\u2026",
-      "source": "MEE",
+      "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
+      "source": "NYT World",
       "risk": 10,
-      "dyad": "Saudi Arabia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "",
+      "code": "176",
+      "label": "Attack cybernetically",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
+      "goldstein": -7.0,
+      "outlets": 1
     }
   ]
 }
