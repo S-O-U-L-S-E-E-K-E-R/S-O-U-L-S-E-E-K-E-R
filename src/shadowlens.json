@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-08 10:49 UTC",
-  "feed_time": "2026-11-08T10:49:01.515286",
-  "total": 860,
-  "coded": 198,
+  "updated": "2026-11-08 11:50 UTC",
+  "feed_time": "2026-11-08T11:50:01.902429",
+  "total": 859,
+  "coded": 196,
   "outlets": 64,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 51,
+    "material conflict": 99,
+    "verbal conflict": 49,
     "verbal cooperation": 39,
-    "material cooperation": 8
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 28
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 12
+      "n": 11
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 10
+      "label": "Attack cybernetically",
+      "n": 9
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 9
     },
     {
+      "title": "Aramco building damaged as Houthis target Riyadh, report says",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
+    {
       "title": "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,0\u2026",
       "source": "Ukrinform",
       "risk": 10,
@@ -56,7 +67,18 @@
       "outlets": 3
     },
     {
-      "title": "Aramco building damaged as Houthis target Riyadh, report says",
+      "title": "Saudi Aramco tower damaged after Houthi missile attacks on Riyadh",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Saudi Aramco building in Riyadh damaged by falling debris in attempted atta\u2026",
       "source": "MEE",
       "risk": 10,
       "dyad": "Saudi Arabia",
@@ -97,28 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 2
-    },
-    {
-      "title": "Saudi Aramco tower damaged after Houthi missile attacks on Riyadh",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Saudi Aramco building in Riyadh damaged by falling debris in attempted atta\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Saudi Arabia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     }
   ]
