@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-08 18:57 UTC",
-  "feed_time": "2026-11-08T18:57:01.022783",
-  "total": 844,
-  "coded": 194,
-  "outlets": 68,
+  "updated": "2026-11-08 19:58 UTC",
+  "feed_time": "2026-11-08T19:58:00.953108",
+  "total": 845,
+  "coded": 199,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 38,
-    "verbal cooperation": 43,
+    "material conflict": 103,
+    "verbal conflict": 41,
+    "verbal cooperation": 44,
     "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 32
+      "n": 33
     },
     {
       "label": "Threaten",
-      "n": 16
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 11
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
       "n": 11
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 10
     },
     {
       "label": "Demonstrate or rally",
@@ -33,28 +33,6 @@
     }
   ],
   "ticker": [
-    {
-      "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 5
-    },
-    {
-      "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 5
-    },
     {
       "title": "Trump says elections were 'giant step back in history' for US",
       "source": "Dawn",
@@ -65,6 +43,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 5
+    },
+    {
+      "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
     },
     {
       "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
@@ -78,14 +67,25 @@
       "outlets": 3
     },
     {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
+      "title": "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,0\u2026",
+      "source": "Ukrinform",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "194",
+      "label": "Fight with artillery and tanks",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -100,25 +100,25 @@
       "outlets": 2
     },
     {
-      "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
-      "source": "NYT World",
+      "title": "Trump says fresh strikes on Iran \u2018highly unlikely\u2019 if talks progress",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
-      "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
-      "source": "NYT World",
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
       "risk": 10,
-      "dyad": "",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 1
     }
   ]
