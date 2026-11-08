@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-08 14:53 UTC",
-  "feed_time": "2026-11-08T14:52:54.486482",
-  "total": 855,
-  "coded": 192,
-  "outlets": 67,
+  "updated": "2026-11-08 15:54 UTC",
+  "feed_time": "2026-11-08T15:54:08.507688",
+  "total": 853,
+  "coded": 190,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 44,
+    "material conflict": 96,
+    "verbal conflict": 45,
     "verbal cooperation": 38,
     "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 12
     },
     {
       "label": "Employ aerial weapons",
@@ -45,15 +45,15 @@
       "outlets": 9
     },
     {
-      "title": "Middle East live: Yemen\u2019s Houthis claim attack on Riyadh financial district",
-      "source": "France24",
+      "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
       "dyad": "Saudi Arabia \u2192 Yemen",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 6
     },
     {
       "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
