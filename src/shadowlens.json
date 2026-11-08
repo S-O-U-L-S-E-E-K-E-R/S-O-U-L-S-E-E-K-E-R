@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-08 13:52 UTC",
-  "feed_time": "2026-11-08T13:52:01.066234",
-  "total": 861,
-  "coded": 196,
+  "updated": "2026-11-08 14:53 UTC",
+  "feed_time": "2026-11-08T14:52:54.486482",
+  "total": 855,
+  "coded": 192,
   "outlets": 67,
   "quad_hist": {
     "material conflict": 99,
-    "verbal conflict": 45,
-    "verbal cooperation": 39,
-    "material cooperation": 13
+    "verbal conflict": 44,
+    "verbal cooperation": 38,
+    "material cooperation": 11
   },
   "top_labels": [
     {
@@ -21,15 +21,15 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 13
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 10
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 8
+      "n": 9
     }
   ],
   "ticker": [
@@ -45,21 +45,21 @@
       "outlets": 9
     },
     {
-      "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
-      "source": "Hindustan Times",
+      "title": "Middle East live: Yemen\u2019s Houthis claim attack on Riyadh financial district",
+      "source": "France24",
       "risk": 10,
       "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 6
+      "goldstein": -10.0,
+      "outlets": 7
     },
     {
-      "title": "Aramco building damaged as Houthis target Riyadh, report says",
-      "source": "MEE",
+      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
+      "source": "CBS News",
       "risk": 10,
-      "dyad": "Saudi Arabia",
+      "dyad": "Poland",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
@@ -89,7 +89,7 @@
       "outlets": 2
     },
     {
-      "title": "Aramco skyscraper damaged as Riyadh financial district targeted",
+      "title": "Aramco skyscraper damaged as Houthis target Riyadh financial district",
       "source": "Dawn",
       "risk": 10,
       "dyad": "",
