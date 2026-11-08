@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-08 03:42 UTC",
-  "feed_time": "2026-11-08T03:42:01.124755",
-  "total": 845,
-  "coded": 219,
-  "outlets": 68,
+  "updated": "2026-11-08 05:44 UTC",
+  "feed_time": "2026-11-08T05:44:01.124019",
+  "total": 857,
+  "coded": 211,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 51,
-    "verbal cooperation": 44,
-    "material cooperation": 10
+    "material conflict": 110,
+    "verbal conflict": 53,
+    "verbal cooperation": 40,
+    "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 34
+      "n": 31
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Demonstrate or rally",
@@ -37,12 +37,12 @@
       "title": "Israeli president picks Netanyahu's rival Gadi Eisenkot to try to form gove\u2026",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "The Opposition \u2192 Israel",
-      "code": "051",
-      "label": "Praise or endorse",
+      "dyad": "Israel \u2192 Opposition Leader",
+      "code": "050",
+      "label": "Engage in diplomatic cooperat\u2026",
       "quad": "verbal cooperation",
-      "goldstein": 3.4,
-      "outlets": 14
+      "goldstein": 3.5,
+      "outlets": 13
     },
     {
       "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
@@ -54,6 +54,17 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
+    },
+    {
+      "title": "Drone attack on Colombia military base kills 3 soldiers, injures 16",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Colombia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Saudi airstrikes kill 33, injure 39 near Yemen\u2019s capital Sanaa, Houthi heal\u2026",
@@ -97,17 +108,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
-      "source": "Anadolu Agency",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
       "outlets": 2
     },
     {
