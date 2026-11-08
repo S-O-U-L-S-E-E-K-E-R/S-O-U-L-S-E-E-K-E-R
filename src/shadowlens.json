@@ -1,23 +1,27 @@
 {
-  "updated": "2026-11-08 07:46 UTC",
-  "feed_time": "2026-11-08T07:46:01.024279",
-  "total": 850,
-  "coded": 202,
+  "updated": "2026-11-08 08:47 UTC",
+  "feed_time": "2026-11-08T08:46:54.555519",
+  "total": 854,
+  "coded": 196,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 101,
+    "material conflict": 98,
     "verbal conflict": 52,
-    "verbal cooperation": 41,
-    "material cooperation": 8
+    "verbal cooperation": 40,
+    "material cooperation": 6
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 18
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 12
     },
     {
       "label": "Employ aerial weapons",
@@ -25,10 +29,6 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
-    },
-    {
-      "label": "Arrest, detain or charge",
       "n": 11
     }
   ],
@@ -42,18 +42,18 @@
       "label": "Engage in diplomatic cooperat\u2026",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 13
+      "outlets": 12
     },
     {
-      "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
-      "source": "Dawn",
+      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "191",
-      "label": "Impose blockade",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Drone attack on Colombia military base kills 3 soldiers, injures 16",
