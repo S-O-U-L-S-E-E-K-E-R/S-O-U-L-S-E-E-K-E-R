@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-08 16:55 UTC",
-  "feed_time": "2026-11-08T16:55:01.084044",
-  "total": 849,
-  "coded": 192,
+  "updated": "2026-11-08 17:56 UTC",
+  "feed_time": "2026-11-08T17:56:00.969803",
+  "total": 843,
+  "coded": 199,
   "outlets": 68,
   "quad_hist": {
     "material conflict": 102,
-    "verbal conflict": 43,
-    "verbal cooperation": 35,
-    "material cooperation": 12
+    "verbal conflict": 44,
+    "verbal cooperation": 40,
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -17,15 +17,15 @@
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 12
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
+      "n": 12
     },
     {
       "label": "Employ aerial weapons",
@@ -42,6 +42,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 5
+    },
+    {
+      "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 5
     },
     {
@@ -65,17 +76,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 4
-    },
-    {
-      "title": "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,0\u2026",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
     },
     {
       "title": "US offers $20m reward for information about Iran's nuclear programme",
@@ -111,15 +111,15 @@
       "outlets": 2
     },
     {
-      "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
-      "source": "NYT World",
+      "title": "Saudi Aramco building in Riyadh damaged by falling debris in attempted atta\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
+      "dyad": "Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     }
   ]
 }
