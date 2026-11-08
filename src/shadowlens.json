@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-08 15:54 UTC",
-  "feed_time": "2026-11-08T15:54:08.507688",
-  "total": 853,
-  "coded": 190,
-  "outlets": 66,
+  "updated": "2026-11-08 16:55 UTC",
+  "feed_time": "2026-11-08T16:55:01.084044",
+  "total": 849,
+  "coded": 192,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 96,
-    "verbal conflict": 45,
-    "verbal cooperation": 38,
-    "material cooperation": 11
+    "material conflict": 102,
+    "verbal conflict": 43,
+    "verbal cooperation": 35,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 33
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 14
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 13
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 11
     },
     {
       "label": "Employ aerial weapons",
       "n": 10
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 9
     }
   ],
   "ticker": [
     {
-      "title": "Israeli president picks Netanyahu's rival Gadi Eisenkot to try to form gove\u2026",
-      "source": "Dawn",
+      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
+      "source": "CBS News",
       "risk": 10,
-      "dyad": "Israel \u2192 Opposition Leader",
-      "code": "050",
-      "label": "Engage in diplomatic cooperat\u2026",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 9
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 5
     },
     {
       "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
@@ -53,17 +53,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
-      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
-      "source": "CBS News",
+      "title": "Trump says elections were 'giant step back in history' for US",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 4
     },
     {
@@ -89,14 +89,14 @@
       "outlets": 2
     },
     {
-      "title": "Aramco skyscraper damaged as Houthis target Riyadh financial district",
-      "source": "Dawn",
+      "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
