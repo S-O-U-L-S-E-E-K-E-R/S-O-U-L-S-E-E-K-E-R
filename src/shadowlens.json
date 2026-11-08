@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-08 09:48 UTC",
-  "feed_time": "2026-11-08T09:48:08.448456",
-  "total": 859,
-  "coded": 196,
-  "outlets": 67,
+  "updated": "2026-11-08 10:49 UTC",
+  "feed_time": "2026-11-08T10:49:01.515286",
+  "total": 860,
+  "coded": 198,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 52,
-    "verbal cooperation": 38,
-    "material cooperation": 5
+    "material conflict": 100,
+    "verbal conflict": 51,
+    "verbal cooperation": 39,
+    "material cooperation": 8
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Demonstrate or rally",
-      "n": 11
+      "n": 12
     },
     {
-      "label": "Accuse",
+      "label": "Employ aerial weapons",
       "n": 10
     }
   ],
@@ -42,28 +42,50 @@
       "label": "Engage in diplomatic cooperat\u2026",
       "quad": "verbal cooperation",
       "goldstein": 3.5,
-      "outlets": 11
+      "outlets": 9
     },
     {
-      "title": "Saudi Arabia intercepts Houthi missiles targeting Riyadh, Eastern province",
-      "source": "AlJazeera",
+      "title": "Zelensky: Russia launches 115 missiles, nearly 1,900 guided bombs, over 3,0\u2026",
+      "source": "Ukrinform",
       "risk": 10,
-      "dyad": "Kingdom \u2192 Saudi Arabia",
-      "code": "194",
-      "label": "Fight with artillery and tanks",
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Aramco building damaged as Houthis target Riyadh, report says",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 2
     },
     {
-      "title": "Trump\u2019s choice",
+      "title": "Tents flooded as heavy rain hits Gaza",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "United States",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -78,6 +100,17 @@
       "outlets": 2
     },
     {
+      "title": "Saudi Aramco tower damaged after Houthi missile attacks on Riyadh",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "Saudi Aramco building in Riyadh damaged by falling debris in attempted atta\u2026",
       "source": "MEE",
       "risk": 10,
@@ -87,39 +120,6 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
-    },
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 1
-    },
-    {
-      "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Bomb Threats and Cyberattacks in Europe Inject Unease Into Everyday Life",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 1
     }
   ]
 }
