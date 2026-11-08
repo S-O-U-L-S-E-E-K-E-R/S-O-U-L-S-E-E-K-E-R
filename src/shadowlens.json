@@ -1,27 +1,23 @@
 {
-  "updated": "2026-11-08 02:41 UTC",
-  "feed_time": "2026-11-08T02:41:01.123683",
+  "updated": "2026-11-08 03:42 UTC",
+  "feed_time": "2026-11-08T03:42:01.124755",
   "total": 845,
-  "coded": 223,
+  "coded": 219,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 119,
+    "material conflict": 114,
     "verbal conflict": 51,
-    "verbal cooperation": 42,
-    "material cooperation": 11
+    "verbal cooperation": 44,
+    "material cooperation": 10
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 37
+      "n": 34
     },
     {
       "label": "Threaten",
-      "n": 20
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
@@ -29,6 +25,10 @@
     },
     {
       "label": "Employ aerial weapons",
+      "n": 11
+    },
+    {
+      "label": "Consult",
       "n": 11
     }
   ],
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Trump\u2019s choice",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "Poland says 6 killed in shooting in central Krakow",
       "source": "Dawn",
       "risk": 10,
@@ -89,14 +100,14 @@
       "outlets": 2
     },
     {
-      "title": "Iran says forces \u2018stronger\u2019 than at beginning of war",
-      "source": "Dawn",
+      "title": "Saudi-led coalition says it intercepted Houthi cruise missile over Riyadh",
+      "source": "Anadolu Agency",
       "risk": 10,
-      "dyad": "Spokesman \u2192 Iran",
-      "code": "013",
-      "label": "Make optimistic comment",
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "051",
+      "label": "Praise or endorse",
       "quad": "verbal cooperation",
-      "goldstein": 0.4,
+      "goldstein": 3.4,
       "outlets": 2
     },
     {
@@ -109,17 +120,6 @@
       "quad": "material conflict",
       "goldstein": -7.2,
       "outlets": 2
-    },
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 1
     }
   ]
 }
