@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-08 00:39 UTC",
-  "feed_time": "2026-11-08T00:38:55.065890",
-  "total": 838,
-  "coded": 230,
-  "outlets": 69,
+  "updated": "2026-11-08 01:40 UTC",
+  "feed_time": "2026-11-08T01:40:08.507871",
+  "total": 844,
+  "coded": 226,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 121,
-    "verbal conflict": 56,
+    "verbal conflict": 53,
     "verbal cooperation": 40,
-    "material cooperation": 13
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 38
+      "n": 39
     },
     {
       "label": "Threaten",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Arrest, detain or charge",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 14
+      "n": 13
     },
     {
       "label": "Consult",
-      "n": 12
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
-      "outlets": 14
+      "outlets": 15
     },
     {
       "title": "US \u2018Task Force Iron Gate\u2019 in the works to restrict Iranian land commerce al\u2026",
@@ -53,7 +53,7 @@
       "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "US midterms: Not even Trump's Israel aid stunt could rescue the Republicans",
@@ -92,11 +92,11 @@
       "title": "Iran says forces \u2018stronger\u2019 than at beginning of war",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Spokesman \u2192 Iran",
+      "code": "013",
+      "label": "Make optimistic comment",
+      "quad": "verbal cooperation",
+      "goldstein": 0.4,
       "outlets": 2
     },
     {
