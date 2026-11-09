@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-08 23:01 UTC",
-  "feed_time": "2026-11-08T23:01:01.973275",
-  "total": 822,
+  "updated": "2026-11-09 00:02 UTC",
+  "feed_time": "2026-11-09T00:02:00.947401",
+  "total": 847,
   "coded": 205,
-  "outlets": 50,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 44,
-    "verbal cooperation": 43,
-    "material cooperation": 8
+    "material conflict": 111,
+    "verbal conflict": 49,
+    "verbal cooperation": 38,
+    "material cooperation": 7
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 34
+      "n": 35
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 16
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 12
+      "label": "Investigate",
+      "n": 14
     },
     {
       "label": "Arrest, detain or charge",
       "n": 12
     },
     {
-      "label": "Investigate",
-      "n": 12
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
@@ -67,17 +67,6 @@
       "outlets": 3
     },
     {
-      "title": "Saudi Aramco tower hit in Houthi attack on Riyadh, windows shattered, floor\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
       "source": "France24",
       "risk": 10,
@@ -97,6 +86,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Aramco skyscraper damaged as Houthis target Riyadh financial district",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
