@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-09 11:13 UTC",
-  "feed_time": "2026-11-09T11:13:30.444821",
-  "total": 872,
-  "coded": 216,
+  "updated": "2026-11-09 12:14 UTC",
+  "feed_time": "2026-11-09T12:14:01.026688",
+  "total": 877,
+  "coded": 229,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 46,
-    "verbal cooperation": 59,
-    "material cooperation": 8
+    "material conflict": 111,
+    "verbal conflict": 44,
+    "verbal cooperation": 63,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 31
+      "n": 34
     },
     {
       "label": "Investigate",
-      "n": 18
-    },
-    {
-      "label": "Threaten",
-      "n": 12
+      "n": 15
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 14
     },
     {
       "label": "Engage in negotiation",
+      "n": 12
+    },
+    {
+      "label": "Threaten",
       "n": 11
     }
   ],
   "ticker": [
-    {
-      "title": "Krak\u00f3w shooting suspect who killed six has died, say police in Poland",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 7
-    },
     {
       "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
       "source": "RT",
@@ -54,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
+    },
+    {
+      "title": "COP31 opens with leaders under pressure to tackle climate crisis",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "European troops set to train in Poland for postwar Ukraine deployment",
@@ -89,7 +89,7 @@
       "outlets": 1
     },
     {
-      "title": "At least one person killed as Russia and Ukraine trade strikes overnight",
+      "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
       "source": "AlJazeera",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
