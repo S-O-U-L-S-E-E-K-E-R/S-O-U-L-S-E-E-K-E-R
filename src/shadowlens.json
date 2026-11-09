@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-09 01:03 UTC",
-  "feed_time": "2026-11-09T01:03:01.073399",
+  "updated": "2026-11-09 02:04 UTC",
+  "feed_time": "2026-11-09T02:04:00.948187",
   "total": 850,
-  "coded": 210,
+  "coded": 214,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 54,
-    "verbal cooperation": 35,
+    "material conflict": 113,
+    "verbal conflict": 58,
+    "verbal cooperation": 36,
     "material cooperation": 7
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 35
+      "n": 34
     },
     {
       "label": "Investigate",
@@ -25,14 +25,25 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 13
     },
     {
       "label": "Employ aerial weapons",
-      "n": 11
+      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "Ukraine war briefing: post war \u2018security guarantees\u2019 a key focus in upcomin\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 UAE",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 2
+    },
     {
       "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but war\u2026",
       "source": "CNBC World",
@@ -42,18 +53,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Trump says elections were 'giant step back in history' for US",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
@@ -64,6 +64,17 @@
       "label": "Fight with artillery and tanks",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -89,14 +100,14 @@
       "outlets": 2
     },
     {
-      "title": "Aramco skyscraper damaged as Houthis target Riyadh financial district",
+      "title": "Trump says elections were 'giant step back in history' for US",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -109,17 +120,6 @@
       "quad": "material conflict",
       "goldstein": -7.2,
       "outlets": 2
-    },
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 1
     }
   ]
 }
