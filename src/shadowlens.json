@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-09 06:08 UTC",
-  "feed_time": "2026-11-09T06:08:08.513345",
-  "total": 860,
-  "coded": 221,
+  "updated": "2026-11-09 07:09 UTC",
+  "feed_time": "2026-11-09T07:09:01.004365",
+  "total": 859,
+  "coded": 214,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 53,
-    "verbal cooperation": 48,
-    "material cooperation": 9
+    "material conflict": 110,
+    "verbal conflict": 50,
+    "verbal cooperation": 47,
+    "material cooperation": 7
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 33
+      "n": 31
     },
     {
-      "label": "Investigate",
+      "label": "Arrest, detain or charge",
       "n": 16
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Investigate",
+      "n": 14
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 11
+      "label": "Attack cybernetically",
+      "n": 9
     }
   ],
   "ticker": [
+    {
+      "title": "Gunman who carried out Poland mass shooting has died, police say",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 10
+    },
     {
       "title": "Ukraine war briefing: post war \u2018security guarantees\u2019 a key focus in upcomin\u2026",
       "source": "Guardian Top",
@@ -42,29 +53,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 2
-    },
-    {
-      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Poland",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but war\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
@@ -119,6 +108,17 @@
       "label": "Express intent to cooperate",
       "quad": "verbal cooperation",
       "goldstein": 4.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, \u2018denuclearisation\u2019",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
