@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-09 07:09 UTC",
-  "feed_time": "2026-11-09T07:09:01.004365",
-  "total": 859,
-  "coded": 214,
-  "outlets": 70,
+  "updated": "2026-11-09 08:10 UTC",
+  "feed_time": "2026-11-09T08:10:02.195836",
+  "total": 836,
+  "coded": 224,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 110,
+    "material conflict": 112,
     "verbal conflict": 50,
-    "verbal cooperation": 47,
-    "material cooperation": 7
+    "verbal cooperation": 54,
+    "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 31
+      "n": 32
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
+    },
+    {
+      "label": "Investigate",
+      "n": 15
     },
     {
       "label": "Threaten",
       "n": 14
     },
     {
-      "label": "Investigate",
-      "n": 14
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 9
+      "label": "Consult",
+      "n": 11
     }
   ],
   "ticker": [
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "US-Iran war LIVE: Iran\u2019s Araghchi slams Trump, says Americans are \u2018disguste\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
       "title": "European troops set to train in Poland for postwar Ukraine deployment",
       "source": "DefenseNews",
       "risk": 10,
@@ -113,6 +102,17 @@
     {
       "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, \u2018denuclearisation\u2019",
       "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+      "source": "NYT World",
       "risk": 10,
       "dyad": "",
       "code": null,
