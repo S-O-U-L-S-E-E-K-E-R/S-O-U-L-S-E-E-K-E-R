@@ -1,15 +1,125 @@
 {
-  "updated": "2026-11-09 18:20 UTC",
-  "feed_time": "2026-11-09T18:19:28.401197",
-  "total": 0,
-  "coded": 0,
-  "outlets": 0,
+  "updated": "2026-11-09 19:28 UTC",
+  "feed_time": "2026-11-09T19:27:17.226044",
+  "total": 869,
+  "coded": 177,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 0,
-    "verbal conflict": 0,
-    "verbal cooperation": 0,
-    "material cooperation": 0
+    "material conflict": 83,
+    "verbal conflict": 50,
+    "verbal cooperation": 37,
+    "material cooperation": 7
   },
-  "top_labels": [],
-  "ticker": []
+  "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 18
+    },
+    {
+      "label": "Investigate",
+      "n": 15
+    },
+    {
+      "label": "Accuse",
+      "n": 12
+    },
+    {
+      "label": "Consult",
+      "n": 12
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 10
+    }
+  ],
+  "ticker": [
+    {
+      "title": "Iranian ambassador summoned over alleged cyberattacks on French supermarket\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "France \u2192 Iran",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 3
+    },
+    {
+      "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "French PM brings forward minimum wage hike to calm protesters",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "France",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 2
+    },
+    {
+      "title": "COP31 opens with leaders under pressure to tackle climate crisis",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "There\u2019s more than a whiff of politics to the sudden call to slash Labor\u2019s g\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Polish prosecutors say \u2018too early\u2019 to tell if Krak\u00f3w gunman was motivated b\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "More than 400,000 Russians killed fighting in Ukraine war, leaked data sugg\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    }
+  ]
 }
