@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-09 21:29 UTC",
-  "feed_time": "2026-11-09T21:29:17.263189",
-  "total": 864,
-  "coded": 218,
+  "updated": "2026-11-09 22:29 UTC",
+  "feed_time": "2026-11-09T22:29:17.502463",
+  "total": 857,
+  "coded": 219,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 88,
+    "material conflict": 91,
     "verbal conflict": 57,
-    "verbal cooperation": 60,
+    "verbal cooperation": 58,
     "material cooperation": 13
   },
   "top_labels": [
@@ -17,18 +17,18 @@
     },
     {
       "label": "Investigate",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Accuse",
       "n": 12
     },
     {
-      "label": "Consult",
-      "n": 12
+      "label": "Threaten",
+      "n": 11
     },
     {
-      "label": "Threaten",
+      "label": "Engage in negotiation",
       "n": 11
     }
   ],
@@ -42,6 +42,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "French officials accuse Iran of being behind fridge cyberattacks",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "France \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 2
     },
     {
@@ -101,17 +112,6 @@
     },
     {
       "title": "There\u2019s more than a whiff of politics to the sudden call to slash Labor\u2019s g\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Polish prosecutors say \u2018too early\u2019 to tell if Krak\u00f3w gunman was motivated b\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
