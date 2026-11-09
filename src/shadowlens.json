@@ -1,125 +1,15 @@
 {
-  "updated": "2026-11-09 14:16 UTC",
-  "feed_time": "2026-11-09T14:16:00.991930",
-  "total": 871,
-  "coded": 220,
-  "outlets": 68,
+  "updated": "2026-11-09 15:17 UTC",
+  "feed_time": "2026-11-09T15:16:20.327030",
+  "total": 0,
+  "coded": 0,
+  "outlets": 0,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 50,
-    "verbal cooperation": 60,
-    "material cooperation": 8
+    "material conflict": 0,
+    "verbal conflict": 0,
+    "verbal cooperation": 0,
+    "material cooperation": 0
   },
-  "top_labels": [
-    {
-      "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Investigate",
-      "n": 16
-    },
-    {
-      "label": "Threaten",
-      "n": 12
-    },
-    {
-      "label": "Consult",
-      "n": 12
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 12
-    }
-  ],
-  "ticker": [
-    {
-      "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
-      "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "French PM brings forward minimum wage hike to calm protesters",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "France",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
-      "outlets": 2
-    },
-    {
-      "title": "COP31 opens with leaders under pressure to tackle climate crisis",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "European troops set to train in Poland for postwar Ukraine deployment",
-      "source": "DefenseNews",
-      "risk": 10,
-      "dyad": "Poland \u2192 Ukraine",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 2
-    },
-    {
-      "title": "Gaza: Five Palestinians killed as sand embankment collapses on displacement\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "International Organization Fo\u2026",
-      "code": "013",
-      "label": "Make optimistic comment",
-      "quad": "verbal cooperation",
-      "goldstein": 0.4,
-      "outlets": 2
-    },
-    {
-      "title": "US offers $20m reward for information about Iran's nuclear programme",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "030",
-      "label": "Express intent to cooperate",
-      "quad": "verbal cooperation",
-      "goldstein": 4.0,
-      "outlets": 1
-    },
-    {
-      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    }
-  ]
+  "top_labels": [],
+  "ticker": []
 }
