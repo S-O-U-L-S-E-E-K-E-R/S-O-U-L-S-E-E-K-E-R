@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-09 05:07 UTC",
-  "feed_time": "2026-11-09T05:06:54.267496",
-  "total": 856,
-  "coded": 210,
+  "updated": "2026-11-09 06:08 UTC",
+  "feed_time": "2026-11-09T06:08:08.513345",
+  "total": 860,
+  "coded": 221,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 106,
+    "material conflict": 111,
     "verbal conflict": 53,
-    "verbal cooperation": 43,
-    "material cooperation": 8
+    "verbal cooperation": 48,
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 32
+      "n": 33
     },
     {
       "label": "Investigate",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Threaten",
@@ -89,14 +89,14 @@
       "outlets": 2
     },
     {
-      "title": "Trump says elections were 'giant step back in history' for US",
-      "source": "Dawn",
+      "title": "US-Iran war LIVE: Iran\u2019s Araghchi slams Trump, says Americans are \u2018disguste\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Iran \u2192 United States",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 2
     },
     {
