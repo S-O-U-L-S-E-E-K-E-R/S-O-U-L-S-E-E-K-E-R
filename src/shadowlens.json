@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-09 20:28 UTC",
-  "feed_time": "2026-11-09T20:28:17.250821",
-  "total": 866,
-  "coded": 222,
-  "outlets": 67,
+  "updated": "2026-11-09 21:29 UTC",
+  "feed_time": "2026-11-09T21:29:17.263189",
+  "total": 864,
+  "coded": 218,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 93,
+    "material conflict": 88,
     "verbal conflict": 57,
     "verbal cooperation": 60,
-    "material cooperation": 12
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -20,15 +20,15 @@
       "n": 17
     },
     {
+      "label": "Accuse",
+      "n": 12
+    },
+    {
       "label": "Consult",
       "n": 12
     },
     {
       "label": "Threaten",
-      "n": 11
-    },
-    {
-      "label": "Demonstrate or rally",
       "n": 11
     }
   ],
@@ -53,6 +53,17 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
+      "outlets": 2
+    },
+    {
+      "title": "Trump says Saudi Arabia and Qatar want peaceful solution to Iran war, but d\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Qatar",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "More than 400,000 Russians killed fighting in Ukraine war, leaked data sugg\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
