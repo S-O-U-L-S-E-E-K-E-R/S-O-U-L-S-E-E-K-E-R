@@ -1,59 +1,48 @@
 {
-  "updated": "2026-11-09 10:12 UTC",
-  "feed_time": "2026-11-09T10:12:01.017062",
-  "total": 869,
-  "coded": 214,
-  "outlets": 69,
+  "updated": "2026-11-09 11:13 UTC",
+  "feed_time": "2026-11-09T11:13:30.444821",
+  "total": 872,
+  "coded": 216,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 109,
-    "verbal conflict": 45,
-    "verbal cooperation": 52,
+    "material conflict": 103,
+    "verbal conflict": 46,
+    "verbal cooperation": 59,
     "material cooperation": 8
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 32
+      "n": 31
     },
     {
       "label": "Investigate",
-      "n": 17
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 18
     },
     {
       "label": "Threaten",
       "n": 12
     },
     {
-      "label": "Consult",
+      "label": "Arrest, detain or charge",
       "n": 12
+    },
+    {
+      "label": "Engage in negotiation",
+      "n": 11
     }
   ],
   "ticker": [
     {
-      "title": "Gunman who carried out Poland mass shooting has died, police say",
-      "source": "CBS News",
+      "title": "Krak\u00f3w shooting suspect who killed six has died, say police in Poland",
+      "source": "Guardian World",
       "risk": 10,
       "dyad": "Poland",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 8
-    },
-    {
-      "title": "Ukraine: Russian strikes leave hundreds of thousands without power",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "194",
-      "label": "Fight with artillery and tanks",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 7
     },
     {
       "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
@@ -64,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "European troops set to train in Poland for postwar Ukraine deployment",
@@ -97,6 +86,17 @@
       "label": "Express intent to cooperate",
       "quad": "verbal cooperation",
       "goldstein": 4.0,
+      "outlets": 1
+    },
+    {
+      "title": "At least one person killed as Russia and Ukraine trade strikes overnight",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     },
     {
