@@ -1,15 +1,125 @@
 {
-  "updated": "2026-11-09 15:17 UTC",
-  "feed_time": "2026-11-09T15:16:20.327030",
-  "total": 0,
-  "coded": 0,
-  "outlets": 0,
+  "updated": "2026-11-09 16:18 UTC",
+  "feed_time": "2026-11-09T16:18:08.786283",
+  "total": 868,
+  "coded": 218,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 0,
-    "verbal conflict": 0,
-    "verbal cooperation": 0,
-    "material cooperation": 0
+    "material conflict": 94,
+    "verbal conflict": 53,
+    "verbal cooperation": 60,
+    "material cooperation": 11
   },
-  "top_labels": [],
-  "ticker": []
+  "top_labels": [
+    {
+      "label": "Investigate",
+      "n": 22
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 19
+    },
+    {
+      "label": "Consult",
+      "n": 12
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 11
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 10
+    }
+  ],
+  "ticker": [
+    {
+      "title": "At least four people killed as Russia and Ukraine trade strikes overnight",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "More than 400,000 Russians killed fighting in Ukraine war, leaked data sugg\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "COP31 opens with leaders under pressure to tackle climate crisis",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "European troops set to train in Poland for postwar Ukraine deployment",
+      "source": "DefenseNews",
+      "risk": 10,
+      "dyad": "Poland \u2192 Ukraine",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 2
+    },
+    {
+      "title": "Petition for inquiry into UK 'complicity' in Gaza genocide passes 100,000 t\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Palestine",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Gaza: Five Palestinians killed as sand embankment collapses on displacement\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "International Organization Fo\u2026",
+      "code": "013",
+      "label": "Make optimistic comment",
+      "quad": "verbal cooperation",
+      "goldstein": 0.4,
+      "outlets": 2
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "030",
+      "label": "Express intent to cooperate",
+      "quad": "verbal cooperation",
+      "goldstein": 4.0,
+      "outlets": 1
+    }
+  ]
 }
