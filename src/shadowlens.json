@@ -1,38 +1,60 @@
 {
-  "updated": "2026-11-09 02:04 UTC",
-  "feed_time": "2026-11-09T02:04:00.948187",
-  "total": 850,
-  "coded": 214,
+  "updated": "2026-11-09 03:05 UTC",
+  "feed_time": "2026-11-09T03:04:54.656211",
+  "total": 846,
+  "coded": 212,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 58,
+    "material conflict": 108,
+    "verbal conflict": 59,
     "verbal cooperation": 36,
-    "material cooperation": 7
+    "material cooperation": 9
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 34
+      "n": 33
     },
     {
       "label": "Investigate",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Threaten",
-      "n": 15
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 16
     },
     {
       "label": "Employ aerial weapons",
       "n": 12
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "Israel\u2019s President Herzog gives Gadi Eisenkot the first chance to form the\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "President \u2192 Israel",
+      "code": "080",
+      "label": "Yield",
+      "quad": "material cooperation",
+      "goldstein": 5.0,
+      "outlets": 3
+    },
+    {
+      "title": "Trump says elections were 'giant step back in history' for US",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 3
+    },
     {
       "title": "Ukraine war briefing: post war \u2018security guarantees\u2019 a key focus in upcomin\u2026",
       "source": "Guardian Top",
@@ -42,6 +64,17 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "Poland mourns Krakow shooting victims as terrorism probe launched",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "Poland",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -75,39 +108,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israel\u2019s President Herzog gives Gadi Eisenkot the first chance to form the\u2026",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Trump says elections were 'giant step back in history' for US",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 2
     },
     {
