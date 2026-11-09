@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-09 19:28 UTC",
-  "feed_time": "2026-11-09T19:27:17.226044",
-  "total": 869,
-  "coded": 177,
-  "outlets": 68,
+  "updated": "2026-11-09 20:28 UTC",
+  "feed_time": "2026-11-09T20:28:17.250821",
+  "total": 866,
+  "coded": 222,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 83,
-    "verbal conflict": 50,
-    "verbal cooperation": 37,
-    "material cooperation": 7
+    "material conflict": 93,
+    "verbal conflict": 57,
+    "verbal cooperation": 60,
+    "material cooperation": 12
   },
   "top_labels": [
     {
@@ -17,33 +17,22 @@
     },
     {
       "label": "Investigate",
-      "n": 15
-    },
-    {
-      "label": "Accuse",
-      "n": 12
+      "n": 17
     },
     {
       "label": "Consult",
       "n": 12
     },
     {
+      "label": "Threaten",
+      "n": 11
+    },
+    {
       "label": "Demonstrate or rally",
-      "n": 10
+      "n": 11
     }
   ],
   "ticker": [
-    {
-      "title": "Iranian ambassador summoned over alleged cyberattacks on French supermarket\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "France \u2192 Iran",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 3
-    },
     {
       "title": "Saudi Aramco tower damaged in Houthi strike (VIDEOS)",
       "source": "RT",
@@ -75,6 +64,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Iranian ambassador summoned over alleged cyberattacks on French supermarket\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "France \u2192 Iran",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
       "outlets": 2
     },
     {
