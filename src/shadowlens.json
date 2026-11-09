@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-09 08:10 UTC",
-  "feed_time": "2026-11-09T08:10:02.195836",
-  "total": 836,
-  "coded": 224,
-  "outlets": 49,
+  "updated": "2026-11-09 09:11 UTC",
+  "feed_time": "2026-11-09T09:11:01.009273",
+  "total": 857,
+  "coded": 220,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 50,
-    "verbal cooperation": 54,
-    "material cooperation": 8
+    "material conflict": 110,
+    "verbal conflict": 45,
+    "verbal cooperation": 56,
+    "material cooperation": 9
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
-    },
-    {
-      "label": "Investigate",
-      "n": 15
-    },
-    {
-      "label": "Threaten",
       "n": 14
     },
     {
+      "label": "Threaten",
+      "n": 13
+    },
+    {
+      "label": "Investigate",
+      "n": 13
+    },
+    {
       "label": "Consult",
-      "n": 11
+      "n": 10
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 10
+      "outlets": 9
     },
     {
       "title": "Ukraine war briefing: post war \u2018security guarantees\u2019 a key focus in upcomin\u2026",
@@ -100,8 +100,8 @@
       "outlets": 1
     },
     {
-      "title": "Iran war live: Trump to talk to Xi, Putin about Tehran, \u2018denuclearisation\u2019",
-      "source": "AlJazeera",
+      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+      "source": "NYT World",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -111,7 +111,7 @@
       "outlets": 1
     },
     {
-      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+      "title": "More Than 50 Killed in Yemen in One of the Deadliest 24 Hours of the War",
       "source": "NYT World",
       "risk": 10,
       "dyad": "",
