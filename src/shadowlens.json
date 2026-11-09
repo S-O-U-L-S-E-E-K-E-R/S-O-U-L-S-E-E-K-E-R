@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-09 00:02 UTC",
-  "feed_time": "2026-11-09T00:02:00.947401",
-  "total": 847,
-  "coded": 205,
+  "updated": "2026-11-09 01:03 UTC",
+  "feed_time": "2026-11-09T01:03:01.073399",
+  "total": 850,
+  "coded": 210,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 49,
-    "verbal cooperation": 38,
+    "material conflict": 114,
+    "verbal conflict": 54,
+    "verbal cooperation": 35,
     "material cooperation": 7
   },
   "top_labels": [
@@ -16,12 +16,12 @@
       "n": 35
     },
     {
-      "label": "Threaten",
-      "n": 16
+      "label": "Investigate",
+      "n": 19
     },
     {
-      "label": "Investigate",
-      "n": 14
+      "label": "Threaten",
+      "n": 15
     },
     {
       "label": "Arrest, detain or charge",
@@ -34,17 +34,6 @@
   ],
   "ticker": [
     {
-      "title": "Trump says elections were 'giant step back in history' for US",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 5
-    },
-    {
       "title": "Trump says renewed Iran strikes \u2018highly unlikely\u2019 if talks progress but war\u2026",
       "source": "CNBC World",
       "risk": 10,
@@ -56,14 +45,14 @@
       "outlets": 3
     },
     {
-      "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
-      "source": "Hindustan Times",
+      "title": "Trump says elections were 'giant step back in history' for US",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 3
     },
     {
@@ -86,6 +75,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Iran says blasts in southern region not US attacks as both sides report shi\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
