@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 17:46 UTC",
-  "feed_time": "2026-11-10T17:46:17.503957",
-  "total": 874,
-  "coded": 262,
+  "updated": "2026-11-10 18:47 UTC",
+  "feed_time": "2026-11-10T18:47:17.719348",
+  "total": 878,
+  "coded": 268,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 69,
-    "verbal cooperation": 80,
-    "material cooperation": 21
+    "material conflict": 89,
+    "verbal conflict": 67,
+    "verbal cooperation": 90,
+    "material cooperation": 22
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 25
+      "label": "Consult",
+      "n": 22
     },
     {
-      "label": "Consult",
+      "label": "Use unconventional violence",
       "n": 21
     },
     {
       "label": "Engage in negotiation",
-      "n": 17
+      "n": 19
     },
     {
       "label": "Accuse",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 4
+      "outlets": 5
     },
     {
       "title": "Russia-Ukraine talks \u2018very productive,\u2019 says US\u2019s Rubio \u2013 as it happened",
@@ -89,28 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Pete Hegseth dismisses Republican\u2019s impeachment effort against him as \u2018a po\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "186",
-      "label": "Assassinate",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israeli forces shoot dead 14-year-old in West Bank: Palestinian officials",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Village \u2192 Israel",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Hegseth says impeachment filing against him is \u2018sabotage\u2019 and political \u2018fa\u2026",
       "source": "DefenseNews",
       "risk": 10,
@@ -120,6 +98,28 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "War has upended Russian-Nordic friendships forged on Arctic ice hockey rink\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Pete Hegseth defiant in wake of Republican\u2019s impeachment effort as House pr\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "186",
+      "label": "Assassinate",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     }
   ]
 }
