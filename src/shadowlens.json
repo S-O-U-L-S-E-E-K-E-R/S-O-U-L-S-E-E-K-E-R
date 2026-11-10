@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 21:49 UTC",
-  "feed_time": "2026-11-10T21:49:17.779606",
-  "total": 875,
-  "coded": 271,
+  "updated": "2026-11-10 22:50 UTC",
+  "feed_time": "2026-11-10T22:50:13.714291",
+  "total": 877,
+  "coded": 267,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 93,
-    "verbal conflict": 73,
+    "material conflict": 94,
+    "verbal conflict": 68,
     "verbal cooperation": 83,
     "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 20
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 18
+      "n": 21
     },
     {
       "label": "Investigate",
-      "n": 18
+      "n": 19
     },
     {
-      "label": "Accuse",
-      "n": 16
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
-      "n": 16
+      "n": 17
+    },
+    {
+      "label": "Accuse",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
       "title": "Britain says its bases are safe after US refuelling planes evacuated",
