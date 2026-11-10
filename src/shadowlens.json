@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 14:43 UTC",
-  "feed_time": "2026-11-10T14:43:24.657168",
-  "total": 878,
-  "coded": 240,
-  "outlets": 68,
+  "updated": "2026-11-10 15:44 UTC",
+  "feed_time": "2026-11-10T15:44:14.680744",
+  "total": 872,
+  "coded": 245,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 91,
-    "verbal conflict": 66,
-    "verbal cooperation": 71,
-    "material cooperation": 12
+    "material conflict": 92,
+    "verbal conflict": 65,
+    "verbal cooperation": 74,
+    "material cooperation": 14
   },
   "top_labels": [
+    {
+      "label": "Consult",
+      "n": 23
+    },
     {
       "label": "Use unconventional violence",
       "n": 22
     },
     {
-      "label": "Consult",
+      "label": "Threaten",
       "n": 19
     },
     {
-      "label": "Threaten",
-      "n": 18
-    },
-    {
       "label": "Investigate",
-      "n": 18
+      "n": 15
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Houthis claim strikes on Riyadh airport, Saudi Aramco facilities",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "Israeli forces shoot dead 14-year-old in West Bank: Palestinian officials",
       "source": "Dawn",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Pete Hegseth dismisses Republican\u2019s impeachment effort against him as \u2018a po\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "186",
-      "label": "Assassinate",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
