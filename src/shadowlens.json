@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 18:47 UTC",
-  "feed_time": "2026-11-10T18:47:17.719348",
-  "total": 878,
-  "coded": 268,
+  "updated": "2026-11-10 19:47 UTC",
+  "feed_time": "2026-11-10T19:47:17.429152",
+  "total": 872,
+  "coded": 262,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 89,
-    "verbal conflict": 67,
+    "material conflict": 87,
+    "verbal conflict": 65,
     "verbal cooperation": 90,
-    "material cooperation": 22
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 22
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Engage in negotiation",
-      "n": 19
+      "n": 17
     },
     {
-      "label": "Accuse",
-      "n": 16
+      "label": "Use unconventional violence",
+      "n": 17
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 15
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -67,17 +67,6 @@
       "outlets": 3
     },
     {
-      "title": "Israeli settlers torch machinery in attack on Palestinian industrial zone",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
       "source": "Guardian World",
       "risk": 10,
@@ -86,6 +75,17 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran unveils massive underground 'missile city' as IRGC warns of violent gl\u2026",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 2
     },
     {
@@ -100,26 +100,26 @@
       "outlets": 2
     },
     {
-      "title": "War has upended Russian-Nordic friendships forged on Arctic ice hockey rink\u2026",
-      "source": "Guardian Top",
+      "title": "Debunking Pete Hegseth\u2019s Bullshit Impeachment Defense",
+      "source": "Intercept",
       "risk": 10,
       "dyad": "",
       "code": null,
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
+      "outlets": 2
     },
     {
-      "title": "Pete Hegseth defiant in wake of Republican\u2019s impeachment effort as House pr\u2026",
-      "source": "Guardian Top",
+      "title": "Israeli settlers torch machinery in attack on Palestinian industrial zone",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "United States",
-      "code": "186",
-      "label": "Assassinate",
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
+      "goldstein": -9.0,
+      "outlets": 2
     }
   ]
 }
