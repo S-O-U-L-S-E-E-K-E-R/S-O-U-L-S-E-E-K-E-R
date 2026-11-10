@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 08:37 UTC",
-  "feed_time": "2026-11-10T08:37:24.663565",
-  "total": 865,
-  "coded": 223,
-  "outlets": 66,
+  "updated": "2026-11-10 09:38 UTC",
+  "feed_time": "2026-11-10T09:38:17.553558",
+  "total": 860,
+  "coded": 218,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 91,
-    "verbal conflict": 56,
+    "material conflict": 87,
+    "verbal conflict": 55,
     "verbal cooperation": 66,
     "material cooperation": 10
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Consult",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Engage in negotiation",
-      "n": 12
+      "n": 11
     },
     {
       "label": "Attack cybernetically",
-      "n": 12
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 8
-    },
-    {
-      "title": "Israeli forces shoot dead 14-year-old in West Bank: Palestinian officials",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "192",
-      "label": "Occupy territory",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 10
     },
     {
       "title": "US Sees Positive Momentum Toward End of Iran Conflict, But Ready to Attack\u2026",
@@ -75,6 +64,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Israeli forces shoot dead 14-year-old in West Bank: Palestinian officials",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "192",
+      "label": "Occupy territory",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
