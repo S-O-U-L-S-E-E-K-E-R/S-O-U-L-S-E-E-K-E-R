@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-10 11:40 UTC",
-  "feed_time": "2026-11-10T11:40:18.034350",
-  "total": 854,
-  "coded": 241,
-  "outlets": 67,
+  "updated": "2026-11-10 12:41 UTC",
+  "feed_time": "2026-11-10T12:41:19.125454",
+  "total": 870,
+  "coded": 249,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 90,
-    "verbal conflict": 61,
-    "verbal cooperation": 80,
-    "material cooperation": 10
+    "material conflict": 97,
+    "verbal conflict": 62,
+    "verbal cooperation": 78,
+    "material cooperation": 12
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 28
+      "label": "Use unconventional violence",
+      "n": 24
     },
     {
-      "label": "Use unconventional violence",
-      "n": 19
+      "label": "Consult",
+      "n": 24
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Threaten",
-      "n": 12
+      "n": 11
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
       "title": "New Israel parliament to be sworn in as Gadi Eisenkot seeks government",
@@ -64,7 +64,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
+      "outlets": 4
     },
     {
       "title": "Israeli forces shoot dead 14-year-old in West Bank: Palestinian officials",
@@ -100,14 +100,14 @@
       "outlets": 1
     },
     {
-      "title": "Pete Hegseth to hold news briefing as he faces possible impeachment \u2013 US po\u2026",
+      "title": "War has upended Russian-Nordic friendships forged on Arctic ice hockey rink\u2026",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "United States",
-      "code": "186",
-      "label": "Assassinate",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
