@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-09 23:30 UTC",
-  "feed_time": "2026-11-09T23:30:13.322936",
-  "total": 857,
-  "coded": 224,
-  "outlets": 69,
+  "updated": "2026-11-10 00:31 UTC",
+  "feed_time": "2026-11-10T00:31:24.798908",
+  "total": 855,
+  "coded": 225,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 92,
+    "material conflict": 90,
     "verbal conflict": 58,
-    "verbal cooperation": 62,
-    "material cooperation": 12
+    "verbal cooperation": 64,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 17
     },
     {
       "label": "Consult",
-      "n": 16
-    },
-    {
-      "label": "Investigate",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Accuse",
       "n": 13
     },
     {
-      "label": "Use conventional military force",
-      "n": 10
+      "label": "Investigate",
+      "n": 13
+    },
+    {
+      "label": "Engage in negotiation",
+      "n": 12
     }
   ],
   "ticker": [
