@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-10 09:38 UTC",
-  "feed_time": "2026-11-10T09:38:17.553558",
-  "total": 860,
-  "coded": 218,
+  "updated": "2026-11-10 10:39 UTC",
+  "feed_time": "2026-11-10T10:39:17.238407",
+  "total": 872,
+  "coded": 245,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 87,
-    "verbal conflict": 55,
-    "verbal cooperation": 66,
-    "material cooperation": 10
+    "material conflict": 96,
+    "verbal conflict": 58,
+    "verbal cooperation": 80,
+    "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 24
+      "label": "Consult",
+      "n": 25
     },
     {
-      "label": "Consult",
-      "n": 19
+      "label": "Use unconventional violence",
+      "n": 22
     },
     {
       "label": "Investigate",
-      "n": 16
-    },
-    {
-      "label": "Engage in negotiation",
-      "n": 11
+      "n": 15
     },
     {
       "label": "Attack cybernetically",
-      "n": 11
+      "n": 14
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,17 +42,17 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 10
+      "outlets": 7
     },
     {
-      "title": "US Sees Positive Momentum Toward End of Iran Conflict, But Ready to Attack\u2026",
-      "source": "Sputnik",
+      "title": "US, Russia and Ukraine hold trilateral talks aimed at ending war \u2013 Europe l\u2026",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "United States \u2192 Russia",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
       "outlets": 3
     },
     {
@@ -89,19 +89,19 @@
       "outlets": 2
     },
     {
-      "title": "Saudi Arabia downs missiles fired at Riyadh after Houthi attack on pipeline",
-      "source": "AlJazeera",
+      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
+      "source": "NYT World",
       "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
-      "title": "Targeted by U.S., Armed Group Strikes Back in Colombia",
-      "source": "NYT World",
+      "title": "Oil prices fall to lowest since August as Trump says Iran war is \u2018effective\u2026",
+      "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
       "code": null,
