@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-11 12:02 UTC",
-  "feed_time": "2026-11-11T12:02:10.512513",
-  "total": 864,
-  "coded": 262,
-  "outlets": 68,
+  "updated": "2026-11-11 13:02 UTC",
+  "feed_time": "2026-11-11T13:02:12.168670",
+  "total": 817,
+  "coded": 255,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 70,
-    "verbal cooperation": 81,
-    "material cooperation": 11
+    "material conflict": 107,
+    "verbal conflict": 62,
+    "verbal cooperation": 74,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 22
     },
     {
       "label": "Consult",
+      "n": 19
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 18
     },
     {
-      "label": "Accuse",
+      "label": "Use conventional military force",
       "n": 17
     },
     {
-      "label": "Threaten",
-      "n": 15
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 14
+      "label": "Accuse",
+      "n": 16
     }
   ],
   "ticker": [
@@ -54,28 +54,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 5
-    },
-    {
-      "title": "At least 300 Italian schools evacuated after email bomb alerts",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Hegseth says impeachment filing against him is \u2018sabotage\u2019 and political \u2018fa\u2026",
-      "source": "DefenseNews",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
     },
     {
       "title": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
@@ -119,6 +97,28 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "First Indonesian POW fighting for Russia in Ukraine sparks Jakarta crackdown",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Indonesia \u2192 Russia",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
