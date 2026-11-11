@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-11 17:06 UTC",
-  "feed_time": "2026-11-11T17:06:14.889686",
-  "total": 856,
+  "updated": "2026-11-11 18:07 UTC",
+  "feed_time": "2026-11-11T18:07:19.568327",
+  "total": 858,
   "coded": 260,
-  "outlets": 67,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 72,
-    "verbal cooperation": 73,
-    "material cooperation": 16
+    "material conflict": 100,
+    "verbal conflict": 69,
+    "verbal cooperation": 76,
+    "material cooperation": 15
   },
   "top_labels": [
     {
@@ -16,20 +16,20 @@
       "n": 20
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 18
-    },
-    {
       "label": "Consult",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 16
     },
     {
-      "label": "Accuse",
-      "n": 14
+      "label": "Arrest, detain or charge",
+      "n": 16
+    },
+    {
+      "label": "Appeal",
+      "n": 15
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 5
     },
     {
+      "title": "Tehran will strike US bases in Europe if used to attack Iran, security chie\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
       "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
       "source": "SCMP",
       "risk": 10,
@@ -54,17 +65,6 @@
       "quad": "verbal conflict",
       "goldstein": -7.0,
       "outlets": 3
-    },
-    {
-      "title": "Tehran will strike US bases in Europe if used to attack Iran, security chie\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
     },
     {
       "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang l\u2026",
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "National security of all countries at risk due to climate crisis, UK foreig\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
+      "dyad": "United Kingdom",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 1
     }
   ]
