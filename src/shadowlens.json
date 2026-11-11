@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-11 10:00 UTC",
-  "feed_time": "2026-11-11T10:00:24.189925",
-  "total": 825,
-  "coded": 247,
-  "outlets": 49,
+  "updated": "2026-11-11 11:01 UTC",
+  "feed_time": "2026-11-11T11:01:17.493464",
+  "total": 865,
+  "coded": 267,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 62,
-    "verbal cooperation": 71,
-    "material cooperation": 12
+    "material conflict": 106,
+    "verbal conflict": 67,
+    "verbal cooperation": 83,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 25
     },
     {
       "label": "Consult",
       "n": 18
     },
     {
-      "label": "Use conventional military force",
+      "label": "Arrest, detain or charge",
+      "n": 16
+    },
+    {
+      "label": "Threaten",
       "n": 15
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Use conventional military force",
       "n": 14
-    },
-    {
-      "label": "Investigate",
-      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Spanish workers stage huge general strike, first in 14 years, angry over ho\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Spain",
+      "code": "143",
+      "label": "Conduct strike or boycott",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 5
+    },
     {
       "title": "House Republicans block effort to impeach Pentagon chief Pete Hegseth",
       "source": "Guardian Top",
@@ -67,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "They\u2019re in Ukraine. Why Do Their Phones Say They\u2019re in Peru?",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "No Good Choices on Iran",
       "source": "NYT World",
       "risk": 10,
@@ -89,7 +111,7 @@
       "outlets": 1
     },
     {
-      "title": "Ed Miliband says national security of all countries at risk from climate cr\u2026",
+      "title": "Ed Miliband: climate crisis puts national security of all countries at risk",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "",
@@ -97,28 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Spanish workers stage huge general strike, 1st in 14 years, angry over hous\u2026",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "Spain",
-      "code": "143",
-      "label": "Conduct strike or boycott",
-      "quad": "material conflict",
-      "goldstein": -6.5,
       "outlets": 1
     }
   ]
