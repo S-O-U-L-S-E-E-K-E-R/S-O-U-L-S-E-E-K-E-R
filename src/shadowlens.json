@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-11 00:52 UTC",
-  "feed_time": "2026-11-11T00:52:17.498306",
+  "updated": "2026-11-11 02:54 UTC",
+  "feed_time": "2026-11-11T02:54:17.467733",
   "total": 872,
-  "coded": 272,
+  "coded": 267,
   "outlets": 69,
   "quad_hist": {
     "material conflict": 96,
-    "verbal conflict": 69,
-    "verbal cooperation": 85,
-    "material cooperation": 22
+    "verbal conflict": 67,
+    "verbal cooperation": 88,
+    "material cooperation": 16
   },
   "top_labels": [
     {
@@ -16,20 +16,20 @@
       "n": 19
     },
     {
-      "label": "Investigate",
-      "n": 18
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 16
+      "n": 19
     },
     {
       "label": "Attack cybernetically",
       "n": 15
     },
     {
+      "label": "Threaten",
+      "n": 14
+    },
+    {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -46,7 +46,7 @@
     },
     {
       "title": "US officials seek \u2018final end\u2019 to Russia-Ukraine war, as Abu Dhabi talks set\u2026",
-      "source": "Guardian World",
+      "source": "Guardian Top",
       "risk": 10,
       "dyad": "UAE \u2192 UAE",
       "code": "040",
@@ -54,6 +54,17 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
+    },
+    {
+      "title": "US House blocks bid to impeach Defence Secretary Hegseth",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Britain says its bases are safe after US refuelling planes evacuated",
@@ -86,17 +97,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "US says no need for new attacks but calls Iran's peace terms 'absurd'",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
