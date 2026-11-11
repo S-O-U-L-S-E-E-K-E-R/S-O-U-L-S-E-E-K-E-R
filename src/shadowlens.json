@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-11 13:02 UTC",
-  "feed_time": "2026-11-11T13:02:12.168670",
-  "total": 817,
-  "coded": 255,
-  "outlets": 49,
+  "updated": "2026-11-11 14:03 UTC",
+  "feed_time": "2026-11-11T14:03:24.625562",
+  "total": 880,
+  "coded": 272,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 62,
+    "material conflict": 118,
+    "verbal conflict": 67,
     "verbal cooperation": 74,
-    "material cooperation": 12
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
-      "label": "Consult",
-      "n": 19
+      "n": 26
     },
     {
       "label": "Arrest, detain or charge",
       "n": 18
     },
     {
-      "label": "Use conventional military force",
-      "n": 17
+      "label": "Consult",
+      "n": 18
     },
     {
-      "label": "Accuse",
-      "n": 16
+      "label": "Use conventional military force",
+      "n": 14
+    },
+    {
+      "label": "Threaten",
+      "n": 14
     }
   ],
   "ticker": [
@@ -45,15 +45,26 @@
       "outlets": 5
     },
     {
-      "title": "US House blocks bid to impeach Defence Secretary Hegseth",
-      "source": "Dawn",
+      "title": "Tensions rise as Spain holds 1st general strike in 14 years over housing co\u2026",
+      "source": "Anadolu Agency",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 5
+      "dyad": "Spain",
+      "code": "143",
+      "label": "Conduct strike or boycott",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 2
+    },
+    {
+      "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang l\u2026",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Haiti",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 1
     },
     {
       "title": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "First Indonesian POW fighting for Russia in Ukraine sparks Jakarta crackdown",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "Indonesia \u2192 Russia",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
