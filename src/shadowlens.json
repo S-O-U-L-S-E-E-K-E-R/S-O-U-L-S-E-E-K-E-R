@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-11 04:55 UTC",
-  "feed_time": "2026-11-11T04:55:17.615355",
-  "total": 870,
-  "coded": 269,
-  "outlets": 70,
+  "updated": "2026-11-11 05:56 UTC",
+  "feed_time": "2026-11-11T05:56:10.340154",
+  "total": 876,
+  "coded": 272,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 67,
-    "verbal cooperation": 89,
+    "material conflict": 107,
+    "verbal conflict": 66,
+    "verbal cooperation": 84,
     "material cooperation": 15
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 20
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 21
     },
     {
-      "label": "Accuse",
-      "n": 15
+      "label": "Consult",
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
+      "n": 16
+    },
+    {
+      "label": "Accuse",
       "n": 15
     },
     {
@@ -42,7 +42,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 3
+      "outlets": 7
     },
     {
       "title": "US House blocks bid to impeach Defence Secretary Hegseth",
