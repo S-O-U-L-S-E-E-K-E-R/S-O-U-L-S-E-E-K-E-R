@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-11 14:03 UTC",
-  "feed_time": "2026-11-11T14:03:24.625562",
-  "total": 880,
-  "coded": 272,
-  "outlets": 68,
+  "updated": "2026-11-11 15:04 UTC",
+  "feed_time": "2026-11-11T15:04:21.270782",
+  "total": 838,
+  "coded": 265,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 67,
-    "verbal cooperation": 74,
-    "material cooperation": 13
+    "material conflict": 105,
+    "verbal conflict": 71,
+    "verbal cooperation": 73,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Consult",
-      "n": 18
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 14
+      "n": 17
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 15
+    },
+    {
+      "label": "Accuse",
+      "n": 15
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 5
     },
     {
+      "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Italy \u2192 United Kingdom",
+      "code": "138",
+      "label": "Threaten military force",
+      "quad": "verbal conflict",
+      "goldstein": -7.0,
+      "outlets": 3
+    },
+    {
       "title": "Tensions rise as Spain holds 1st general strike in 14 years over housing co\u2026",
       "source": "Anadolu Agency",
       "risk": 10,
@@ -53,7 +64,7 @@
       "label": "Conduct strike or boycott",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Haitian PM praises El Salvador after joint strike on alleged home of gang l\u2026",
@@ -108,17 +119,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
