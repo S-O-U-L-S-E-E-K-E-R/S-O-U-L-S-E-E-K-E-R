@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-11 22:11 UTC",
-  "feed_time": "2026-11-11T22:11:17.264571",
-  "total": 846,
-  "coded": 260,
+  "updated": "2026-11-11 23:12 UTC",
+  "feed_time": "2026-11-11T23:12:17.232651",
+  "total": 842,
+  "coded": 255,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 64,
-    "verbal cooperation": 77,
+    "material conflict": 102,
+    "verbal conflict": 63,
+    "verbal cooperation": 74,
     "material cooperation": 16
   },
   "top_labels": [
@@ -17,18 +17,18 @@
     },
     {
       "label": "Consult",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     },
     {
-      "label": "Use conventional military force",
+      "label": "Appeal",
       "n": 13
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Investigate",
       "n": 13
     }
   ],
@@ -64,7 +64,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 4
+      "outlets": 5
     },
     {
       "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
