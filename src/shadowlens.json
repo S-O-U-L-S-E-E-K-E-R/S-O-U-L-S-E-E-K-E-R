@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-11 08:59 UTC",
-  "feed_time": "2026-11-11T08:59:17.586730",
-  "total": 878,
-  "coded": 267,
-  "outlets": 69,
+  "updated": "2026-11-11 10:00 UTC",
+  "feed_time": "2026-11-11T10:00:24.189925",
+  "total": 825,
+  "coded": 247,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 68,
-    "verbal cooperation": 74,
-    "material cooperation": 15
+    "material conflict": 102,
+    "verbal conflict": 62,
+    "verbal cooperation": 71,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 20
+    },
+    {
+      "label": "Consult",
+      "n": 18
     },
     {
       "label": "Use conventional military force",
-      "n": 17
+      "n": 15
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 14
     },
     {
       "label": "Investigate",
-      "n": 15
-    },
-    {
-      "label": "Accuse",
-      "n": 15
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
@@ -53,18 +53,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Iran unveils massive underground 'missile city' as IRGC warns of violent gl\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Hegseth says impeachment filing against him is \u2018sabotage\u2019 and political \u2018fa\u2026",
@@ -100,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "Ed Miliband says national security of all countries at risk from climate cr\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "PM Shehbaz to join other world leaders at COP31 today, will outline Pakista\u2026",
-      "source": "Dawn",
+      "title": "Spanish workers stage huge general strike, 1st in 14 years, angry over hous\u2026",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Spain",
+      "code": "143",
+      "label": "Conduct strike or boycott",
+      "quad": "material conflict",
+      "goldstein": -6.5,
       "outlets": 1
     }
   ]
