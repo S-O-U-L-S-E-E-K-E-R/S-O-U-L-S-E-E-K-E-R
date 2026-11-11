@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-11 03:54 UTC",
-  "feed_time": "2026-11-11T03:54:17.423701",
-  "total": 873,
-  "coded": 261,
+  "updated": "2026-11-11 04:55 UTC",
+  "feed_time": "2026-11-11T04:55:17.615355",
+  "total": 870,
+  "coded": 269,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 96,
-    "verbal conflict": 71,
-    "verbal cooperation": 80,
-    "material cooperation": 14
+    "material conflict": 98,
+    "verbal conflict": 67,
+    "verbal cooperation": 89,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Accuse",
+      "n": 15
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 15
     },
     {
       "label": "Investigate",
       "n": 15
-    },
-    {
-      "label": "Accuse",
-      "n": 14
     }
   ],
   "ticker": [
