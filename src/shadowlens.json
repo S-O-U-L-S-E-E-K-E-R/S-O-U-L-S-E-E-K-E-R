@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-11 11:01 UTC",
-  "feed_time": "2026-11-11T11:01:17.493464",
-  "total": 865,
-  "coded": 267,
+  "updated": "2026-11-11 12:02 UTC",
+  "feed_time": "2026-11-11T12:02:10.512513",
+  "total": 864,
+  "coded": 262,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 106,
-    "verbal conflict": 67,
-    "verbal cooperation": 83,
+    "material conflict": 100,
+    "verbal conflict": 70,
+    "verbal cooperation": 81,
     "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 24
     },
     {
       "label": "Consult",
       "n": 18
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 16
+      "label": "Accuse",
+      "n": 17
     },
     {
       "label": "Threaten",
@@ -45,17 +45,6 @@
       "outlets": 5
     },
     {
-      "title": "House Republicans block effort to impeach Pentagon chief Pete Hegseth",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
       "title": "US House blocks bid to impeach Defence Secretary Hegseth",
       "source": "Dawn",
       "risk": 10,
@@ -64,7 +53,18 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 3
+      "outlets": 5
+    },
+    {
+      "title": "At least 300 Italian schools evacuated after email bomb alerts",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Hegseth says impeachment filing against him is \u2018sabotage\u2019 and political \u2018fa\u2026",
@@ -76,6 +76,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "Israel kills Gaza goalkeeper days after playing in cup for slain athletes",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
     },
     {
       "title": "They\u2019re in Ukraine. Why Do Their Phones Say They\u2019re in Peru?",
@@ -108,17 +119,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Ed Miliband: climate crisis puts national security of all countries at risk",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
