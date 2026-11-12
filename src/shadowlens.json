@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-12 22:34 UTC",
-  "feed_time": "2026-11-12T22:34:17.419292",
-  "total": 836,
-  "coded": 247,
-  "outlets": 64,
+  "updated": "2026-11-12 23:35 UTC",
+  "feed_time": "2026-11-12T23:35:17.732650",
+  "total": 835,
+  "coded": 249,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 103,
-    "verbal conflict": 50,
-    "verbal cooperation": 79,
-    "material cooperation": 15
+    "verbal conflict": 49,
+    "verbal cooperation": 81,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 27
+      "label": "Use unconventional violence",
+      "n": 26
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Consult",
       "n": 26
     },
     {
@@ -25,11 +25,11 @@
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 13
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
@@ -67,17 +67,6 @@
       "outlets": 5
     },
     {
-      "title": "Washington DC shooting: police identify victim and suspect \u2013 latest updates",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
       "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
       "source": "NPR World",
       "risk": 10,
@@ -108,6 +97,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russian Strikes on Ukraine\u2019s MIC Help Compel Kiev, NATO Patrons Toward Peace",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
