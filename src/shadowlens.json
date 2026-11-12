@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12 17:30 UTC",
-  "feed_time": "2026-11-12T17:30:19.093082",
-  "total": 844,
-  "coded": 238,
-  "outlets": 67,
+  "updated": "2026-11-12 18:31 UTC",
+  "feed_time": "2026-11-12T18:31:17.464461",
+  "total": 848,
+  "coded": 247,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 59,
-    "verbal cooperation": 71,
-    "material cooperation": 16
+    "material conflict": 98,
+    "verbal conflict": 57,
+    "verbal cooperation": 77,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 22
+      "n": 25
     },
     {
       "label": "Use unconventional violence",
-      "n": 17
+      "n": 20
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Employ aerial weapons",
       "n": 14
     },
     {
-      "label": "Investigate",
-      "n": 14
+      "label": "Arrest, detain or charge",
+      "n": 12
     }
   ],
   "ticker": [
@@ -53,18 +53,29 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 6
     },
     {
-      "title": "The planet \u2018is being killed\u2019, Greta Thunberg tells Cop31 climate summit",
+      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
       "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 United States",
+      "code": "046",
+      "label": "Engage in negotiation",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 5
+    },
+    {
+      "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
+      "source": "Dawn",
       "risk": 10,
       "dyad": "",
       "code": null,
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
@@ -78,14 +89,14 @@
       "outlets": 2
     },
     {
-      "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
-      "source": "Dawn",
+      "title": "Israel targets senior Hamas brigade chief planning attacks from Nasser Hosp\u2026",
+      "source": "Jerusalem Post",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Thursday briefing: What we do (and don\u2019t) know about Alice Huang and the Nv\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
