@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-12 06:19 UTC",
-  "feed_time": "2026-11-12T06:19:17.272383",
-  "total": 817,
-  "coded": 234,
-  "outlets": 64,
+  "updated": "2026-11-12 07:20 UTC",
+  "feed_time": "2026-11-12T07:20:11.803883",
+  "total": 826,
+  "coded": 233,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 95,
-    "verbal conflict": 48,
-    "verbal cooperation": 75,
-    "material cooperation": 16
+    "verbal conflict": 49,
+    "verbal cooperation": 74,
+    "material cooperation": 15
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 20
+      "label": "Use unconventional violence",
+      "n": 21
     },
     {
-      "label": "Use unconventional violence",
-      "n": 18
+      "label": "Consult",
+      "n": 17
     },
     {
       "label": "Appeal",
-      "n": 14
+      "n": 15
     },
     {
       "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Attack cybernetically",
-      "n": 13
+      "label": "Accuse",
+      "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
-      "source": "MEE",
+      "title": "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as U\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 6
+      "dyad": "United States \u2192 Russia",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 5
     },
     {
       "title": "UK police question Nato-assigned US soldier accused of spying for Russia",
@@ -56,14 +56,14 @@
       "outlets": 5
     },
     {
-      "title": "Ukraine war briefing: Zelenskyy sees \u2018window of opportunity\u2019 for peace as U\u2026",
-      "source": "Guardian Top",
+      "title": "Israeli strike on Gaza hospital kills 6, health authorities say",
+      "source": "CBS News",
       "risk": 10,
-      "dyad": "United States \u2192 Russia",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 4
     },
     {
@@ -78,7 +78,18 @@
       "outlets": 4
     },
     {
-      "title": "Spain sees largest general strike in 14 years (VIDEOS)",
+      "title": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
+    {
+      "title": "Spain hit by largest general strike in 14 years (VIDEOS)",
       "source": "RT",
       "risk": 10,
       "dyad": "Spain",
@@ -86,17 +97,6 @@
       "label": "Conduct strike or boycott",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 3
-    },
-    {
-      "title": "Tehran will strike US bases in Europe if used to attack Iran, security chie\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Iran war live: IRGC chief says sanctions won\u2019t stop missile programme",
-      "source": "AlJazeera",
+      "title": "This Defense Makes Drones (and GPS) Think They\u2019re in Peru",
+      "source": "NYT World",
       "risk": 10,
-      "dyad": "Iran",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
