@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12 11:24 UTC",
-  "feed_time": "2026-11-12T11:24:18.360565",
-  "total": 822,
-  "coded": 248,
-  "outlets": 48,
+  "updated": "2026-11-12 12:25 UTC",
+  "feed_time": "2026-11-12T12:25:17.220420",
+  "total": 847,
+  "coded": 242,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 59,
-    "verbal cooperation": 73,
-    "material cooperation": 17
+    "material conflict": 95,
+    "verbal conflict": 56,
+    "verbal cooperation": 72,
+    "material cooperation": 19
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
       "label": "Consult",
-      "n": 20
+      "n": 23
     },
     {
       "label": "Threaten",
       "n": 18
     },
     {
-      "label": "Attack cybernetically",
-      "n": 12
+      "label": "Use unconventional violence",
+      "n": 18
     },
     {
       "label": "Use conventional military force",
-      "n": 11
+      "n": 13
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 8
     },
     {
       "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
