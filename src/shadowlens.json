@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-11 23:12 UTC",
-  "feed_time": "2026-11-11T23:12:17.232651",
-  "total": 842,
-  "coded": 255,
-  "outlets": 66,
+  "updated": "2026-11-12 00:13 UTC",
+  "feed_time": "2026-11-12T00:13:17.208814",
+  "total": 822,
+  "coded": 249,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 63,
-    "verbal cooperation": 74,
-    "material cooperation": 16
+    "material conflict": 98,
+    "verbal conflict": 58,
+    "verbal cooperation": 76,
+    "material cooperation": 17
   },
   "top_labels": [
     {
@@ -21,29 +21,18 @@
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 12
     },
     {
       "label": "Appeal",
-      "n": 13
-    },
-    {
-      "label": "Investigate",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
-    {
-      "title": "Tehran will strike US bases in Europe if used to attack Iran, security chie\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
-    },
     {
       "title": "UK police question Nato-assigned US soldier accused of spying for Russia",
       "source": "Dawn",
@@ -67,15 +56,15 @@
       "outlets": 5
     },
     {
-      "title": "Hoax bomb alerts sent to schools in Italy, UK and Ireland",
-      "source": "SCMP",
+      "title": "Tehran will strike US bases in Europe if used to attack Iran, security chie\u2026",
+      "source": "France24",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
     },
     {
       "title": "Gaza goalkeeper killed in Israeli attack",
@@ -86,6 +75,28 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran slams 'repugnant' $20m US reward for nuclear information",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
+    },
+    {
+      "title": "Democrats face backlash after missing Hegseth impeachment vote",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "This Defense Makes Drones (and GPS) Think They\u2019re in Peru",
-      "source": "NYT World",
+      "title": "Israeli strikes hit medical complex as nine killed across Gaza",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "No Good Choices on Iran",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Israel \u2192 Neighbourhood",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
