@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12 16:29 UTC",
-  "feed_time": "2026-11-12T16:29:17.601591",
-  "total": 847,
-  "coded": 256,
-  "outlets": 66,
+  "updated": "2026-11-12 17:30 UTC",
+  "feed_time": "2026-11-12T17:30:19.093082",
+  "total": 844,
+  "coded": 238,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 62,
-    "verbal cooperation": 73,
-    "material cooperation": 19
+    "material conflict": 92,
+    "verbal conflict": 59,
+    "verbal cooperation": 71,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 21
+      "label": "Consult",
+      "n": 22
     },
     {
-      "label": "Consult",
-      "n": 20
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 16
     },
     {
       "label": "Employ aerial weapons",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -43,6 +43,39 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 9
+    },
+    {
+      "title": "Washington DC shooting: suspect confirmed dead after one person is killed a\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
+    {
+      "title": "The planet \u2018is being killed\u2019, Greta Thunberg tells Cop31 climate summit",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 2
     },
     {
       "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
@@ -86,39 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018The world we know is over\u2019 without urgent climate action, leaders tell Cop\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Washington DC shooting latest updates: one person killed and four injured,\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Oil slicks seen from space: the devastating impact of boat strikes on fragi\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
