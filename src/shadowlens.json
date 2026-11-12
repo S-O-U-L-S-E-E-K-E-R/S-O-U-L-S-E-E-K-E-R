@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12 19:32 UTC",
-  "feed_time": "2026-11-12T19:32:12.684834",
-  "total": 847,
-  "coded": 241,
+  "updated": "2026-11-12 20:33 UTC",
+  "feed_time": "2026-11-12T20:32:10.958805",
+  "total": 844,
+  "coded": 243,
   "outlets": 63,
   "quad_hist": {
-    "material conflict": 97,
-    "verbal conflict": 54,
+    "material conflict": 102,
+    "verbal conflict": 50,
     "verbal cooperation": 76,
-    "material cooperation": 14
+    "material cooperation": 15
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 25
+      "label": "Use unconventional violence",
+      "n": 28
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Consult",
       "n": 24
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 17
     },
     {
       "label": "Employ aerial weapons",
       "n": 13
     },
     {
-      "label": "Engage in negotiation",
-      "n": 11
+      "label": "Arrest, detain or charge",
+      "n": 12
     }
   ],
   "ticker": [
@@ -56,15 +56,26 @@
       "outlets": 7
     },
     {
-      "title": "Washington DC shooting: suspect confirmed dead after one person is killed a\u2026",
-      "source": "Guardian Top",
+      "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 6
+      "dyad": "United States \u2192 Iran",
+      "code": "057",
+      "label": "Sign formal agreement",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 4
+    },
+    {
+      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 3
     },
     {
       "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
@@ -76,17 +87,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 3
-    },
-    {
-      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 2
     },
     {
       "title": "Israel targets senior Hamas brigade chief planning attacks from Nasser Hosp\u2026",
