@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-12 07:20 UTC",
-  "feed_time": "2026-11-12T07:20:11.803883",
-  "total": 826,
-  "coded": 233,
+  "updated": "2026-11-12 08:21 UTC",
+  "feed_time": "2026-11-12T08:21:24.627730",
+  "total": 811,
+  "coded": 230,
   "outlets": 65,
   "quad_hist": {
     "material conflict": 95,
-    "verbal conflict": 49,
-    "verbal cooperation": 74,
-    "material cooperation": 15
+    "verbal conflict": 50,
+    "verbal cooperation": 69,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
-    },
-    {
-      "label": "Consult",
-      "n": 17
+      "n": 20
     },
     {
       "label": "Appeal",
-      "n": 15
+      "n": 14
+    },
+    {
+      "label": "Consult",
+      "n": 13
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 12
     },
     {
       "label": "Accuse",
@@ -42,6 +42,17 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
+      "outlets": 6
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills 6, health authorities say",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 5
     },
     {
@@ -56,17 +67,6 @@
       "outlets": 5
     },
     {
-      "title": "Israeli strike on Gaza hospital kills 6, health authorities say",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
       "source": "Dawn",
       "risk": 10,
@@ -75,7 +75,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Watch: At least six Palestinians killed in Israeli attack on Nasser hospital",
@@ -86,7 +86,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Spain hit by largest general strike in 14 years (VIDEOS)",
