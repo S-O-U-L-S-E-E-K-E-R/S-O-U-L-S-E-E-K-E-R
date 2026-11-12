@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-12 18:31 UTC",
-  "feed_time": "2026-11-12T18:31:17.464461",
-  "total": 848,
-  "coded": 247,
-  "outlets": 66,
+  "updated": "2026-11-12 19:32 UTC",
+  "feed_time": "2026-11-12T19:32:12.684834",
+  "total": 847,
+  "coded": 241,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 57,
-    "verbal cooperation": 77,
-    "material cooperation": 15
+    "material conflict": 97,
+    "verbal conflict": 54,
+    "verbal cooperation": 76,
+    "material cooperation": 14
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 19
     },
     {
       "label": "Employ aerial weapons",
-      "n": 14
+      "n": 13
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 12
+      "label": "Engage in negotiation",
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,7 +42,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 9
+      "outlets": 10
+    },
+    {
+      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 United States",
+      "code": "046",
+      "label": "Engage in negotiation",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 7
     },
     {
       "title": "Washington DC shooting: suspect confirmed dead after one person is killed a\u2026",
@@ -54,17 +65,6 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 6
-    },
-    {
-      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 United States",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 5
     },
     {
       "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
