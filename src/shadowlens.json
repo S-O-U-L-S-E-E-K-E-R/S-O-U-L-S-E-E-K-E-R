@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-12 00:13 UTC",
-  "feed_time": "2026-11-12T00:13:17.208814",
-  "total": 822,
-  "coded": 249,
+  "updated": "2026-11-12 01:14 UTC",
+  "feed_time": "2026-11-12T01:14:09.669893",
+  "total": 828,
+  "coded": 248,
   "outlets": 64,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 58,
-    "verbal cooperation": 76,
-    "material cooperation": 17
+    "material conflict": 100,
+    "verbal conflict": 57,
+    "verbal cooperation": 75,
+    "material cooperation": 16
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Consult",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Threaten",
-      "n": 15
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 12
+      "n": 14
     },
     {
       "label": "Appeal",
+      "n": 12
+    },
+    {
+      "label": "Attack cybernetically",
       "n": 12
     }
   ],
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Israeli strikes hit medical complex as nine killed across Gaza",
+      "title": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
       "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Israel \u2192 Neighbourhood",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "Iran \u2192 Israel",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 1
     }
   ]
