@@ -1,58 +1,58 @@
 {
-  "updated": "2026-11-13 14:49 UTC",
-  "feed_time": "2026-11-13T14:49:17.527808",
-  "total": 878,
-  "coded": 256,
-  "outlets": 68,
+  "updated": "2026-11-13 15:50 UTC",
+  "feed_time": "2026-11-13T15:50:19.207048",
+  "total": 832,
+  "coded": 255,
+  "outlets": 47,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 54,
-    "verbal cooperation": 72,
-    "material cooperation": 17
+    "material conflict": 104,
+    "verbal conflict": 55,
+    "verbal cooperation": 78,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
-    },
-    {
-      "label": "Threaten",
-      "n": 20
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 20
+      "n": 23
     },
     {
       "label": "Consult",
-      "n": 17
+      "n": 19
+    },
+    {
+      "label": "Threaten",
+      "n": 18
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 18
     },
     {
       "label": "Employ aerial weapons",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
     {
-      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
-      "source": "NPR World",
+      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 3
+      "dyad": "The Un \u2192 Iran",
+      "code": "010",
+      "label": "Make statement",
+      "quad": "verbal cooperation",
+      "goldstein": 0.0,
+      "outlets": 4
     },
     {
       "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
       "source": "DW",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "183",
+      "dyad": "Russia \u2192 Russia",
+      "code": "1832",
       "label": "Conduct bombing",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 3
     },
     {
@@ -67,25 +67,14 @@
       "outlets": 3
     },
     {
-      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
-      "source": "Guardian World",
+      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
+      "source": "NPR World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "193",
-      "label": "Fight with small arms",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 2
     },
     {
@@ -120,6 +109,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
+    },
+    {
+      "title": "Pakistan military reports it killed 74 \u2018terrorists\u2019 during raids",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Pakistan",
+      "code": "171",
+      "label": "Seize or damage property",
+      "quad": "material conflict",
+      "goldstein": -7.0,
+      "outlets": 1
     }
   ]
 }
