@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-13 12:47 UTC",
-  "feed_time": "2026-11-13T12:47:18.088799",
-  "total": 873,
-  "coded": 259,
+  "updated": "2026-11-13 13:48 UTC",
+  "feed_time": "2026-11-13T13:48:17.584680",
+  "total": 872,
+  "coded": 249,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 50,
-    "verbal cooperation": 81,
-    "material cooperation": 16
+    "material conflict": 105,
+    "verbal conflict": 52,
+    "verbal cooperation": 74,
+    "material cooperation": 18
   },
   "top_labels": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Consult",
-      "n": 22
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
@@ -25,14 +25,25 @@
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Appeal",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
+    {
+      "title": "Moscow car bomb severely injures former aide to Ukraine\u2019s pro-Russia ex-PM",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "183",
+      "label": "Conduct bombing",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
     {
       "title": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
       "source": "Guardian Top",
@@ -56,25 +67,14 @@
       "outlets": 3
     },
     {
-      "title": "\u2018Enemy must learn from defeats\u2019: Iran warns US of \u2018painful strikes\u2019 over mi\u2026",
-      "source": "Hindustan Times",
+      "title": "French government condemns Israel entry ban on Jean-Luc Melenchon",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
+      "dyad": "France \u2192 Israel",
+      "code": "111",
+      "label": "Criticize or denounce",
       "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 3
-    },
-    {
-      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States \u2192 Voter",
-      "code": "020",
-      "label": "Appeal",
-      "quad": "verbal cooperation",
-      "goldstein": 3.0,
+      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -100,26 +100,26 @@
       "outlets": 2
     },
     {
-      "title": "Pakistan military reports it killed 74 \u2018terrorists\u2019 during raids",
-      "source": "AlJazeera",
+      "title": "\u2018Enemy must learn from defeats\u2019: Iran warns US of \u2018painful strikes\u2019 over mi\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "Pakistan",
-      "code": "171",
-      "label": "Seize or damage property",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 1
+      "dyad": "Iran \u2192 United States",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 2
     },
     {
-      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
-      "source": "Guardian World",
+      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Egypt \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     }
   ]
 }
