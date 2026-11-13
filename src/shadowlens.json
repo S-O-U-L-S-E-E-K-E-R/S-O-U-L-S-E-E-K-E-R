@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-13 18:53 UTC",
-  "feed_time": "2026-11-13T18:53:18.081039",
-  "total": 885,
-  "coded": 250,
-  "outlets": 67,
+  "updated": "2026-11-13 19:53 UTC",
+  "feed_time": "2026-11-13T19:53:19.783620",
+  "total": 867,
+  "coded": 255,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 86,
+    "material conflict": 88,
     "verbal conflict": 59,
-    "verbal cooperation": 84,
-    "material cooperation": 21
+    "verbal cooperation": 86,
+    "material cooperation": 22
   },
   "top_labels": [
     {
@@ -16,20 +16,20 @@
       "n": 18
     },
     {
-      "label": "Threaten",
-      "n": 18
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
-      "label": "Use unconventional violence",
-      "n": 16
+      "label": "Threaten",
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 15
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 13
+      "label": "Engage in negotiation",
+      "n": 14
     }
   ],
   "ticker": [
@@ -45,8 +45,8 @@
       "outlets": 4
     },
     {
-      "title": "Ukraine fires nearly 1,200 drones at Russia as US-led talks consider Europe\u2026",
-      "source": "ABC News",
+      "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
+      "source": "France24",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
       "code": "040",
@@ -54,28 +54,6 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
-    },
-    {
-      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 2
-    },
-    {
-      "title": "US military denies Iran\u2019s claim of attack on radar in Bahrain, says it shot\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
     },
     {
       "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
@@ -119,6 +97,28 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "\u2018It was a train wreck! I was terrified\u2019: how the new James Bond will be ann\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
