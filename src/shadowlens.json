@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-13 06:41 UTC",
-  "feed_time": "2026-11-13T06:41:17.465879",
-  "total": 861,
-  "coded": 243,
+  "updated": "2026-11-13 07:42 UTC",
+  "feed_time": "2026-11-13T07:42:17.371481",
+  "total": 864,
+  "coded": 244,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 95,
-    "verbal conflict": 50,
+    "material conflict": 100,
+    "verbal conflict": 47,
     "verbal cooperation": 82,
-    "material cooperation": 16
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
+      "n": 24
     },
     {
       "label": "Consult",
-      "n": 20
-    },
-    {
-      "label": "Threaten",
-      "n": 15
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
+      "n": 15
+    },
+    {
+      "label": "Employ aerial weapons",
       "n": 14
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 12
+      "label": "Threaten",
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 6
-    },
     {
       "title": "Iran says they targeted a US early-warning radar in Bahrain",
       "source": "Jerusalem Post",
@@ -53,6 +42,28 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 6
+    },
+    {
+      "title": "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 5
+    },
+    {
+      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 Voter",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
       "outlets": 5
     },
     {
@@ -64,13 +75,24 @@
       "label": "Engage in negotiation",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
-      "title": "Yemen\u2019s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
-      "source": "AlJazeera",
+      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
+      "source": "NPR World",
       "risk": 10,
-      "dyad": "Yemen \u2192 Saudi Arabia",
+      "dyad": "Israel \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russia records one of Ukraine\u2019s largest overnight drone attacks of year",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
@@ -89,17 +111,6 @@
       "outlets": 2
     },
     {
-      "title": "Russian Strikes on Ukraine\u2019s MIC Help Compel Kiev, NATO Patrons Toward Peace",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "UN Security Council renews Yemen sanctions",
       "source": "MEE",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 2
-    },
-    {
-      "title": "Tehran warns countries against backing US war on Iran",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
       "outlets": 2
     }
   ]
