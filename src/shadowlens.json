@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-13 00:36 UTC",
-  "feed_time": "2026-11-13T00:36:18.091558",
-  "total": 846,
-  "coded": 252,
-  "outlets": 64,
+  "updated": "2026-11-13 03:39 UTC",
+  "feed_time": "2026-11-13T03:39:24.655888",
+  "total": 833,
+  "coded": 246,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 47,
-    "verbal cooperation": 79,
+    "material conflict": 104,
+    "verbal conflict": 46,
+    "verbal cooperation": 78,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 26
     },
     {
       "label": "Consult",
-      "n": 23
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 19
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 17
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 14
     },
     {
       "label": "Employ aerial weapons",
-      "n": 12
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,29 +42,29 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 8
+      "outlets": 7
     },
     {
       "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
-      "source": "Guardian World",
+      "source": "Guardian Top",
       "risk": 10,
       "dyad": "Russia \u2192 United States",
       "code": "046",
       "label": "Engage in negotiation",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 7
+      "outlets": 5
     },
     {
-      "title": "Trump sidelines Vance from Iran talks, says no need to negotiate",
+      "title": "Tehran warns countries against backing US war on Iran",
       "source": "MEE",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
-      "code": "057",
-      "label": "Sign formal agreement",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 5
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 3
     },
     {
       "title": "Yemen\u2019s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
@@ -89,8 +89,8 @@
       "outlets": 2
     },
     {
-      "title": "US marine guard appears to rebuke Hegseth's delegation at Tomb of the Unkno\u2026",
-      "source": "Dawn",
+      "title": "Iran says they targeted a US early-warning radar in Bahrain",
+      "source": "Jerusalem Post",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -111,15 +111,15 @@
       "outlets": 2
     },
     {
-      "title": "Tehran warns countries against backing US war on Iran",
-      "source": "MEE",
+      "title": "Finland detects strike on Russian warship as Zelenskyy meets US envoys",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 2
+      "dyad": "Finland \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     }
   ]
 }
