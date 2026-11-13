@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-13 21:54 UTC",
-  "feed_time": "2026-11-13T21:54:09.948389",
-  "total": 876,
-  "coded": 256,
+  "updated": "2026-11-13 22:54 UTC",
+  "feed_time": "2026-11-13T22:54:17.487579",
+  "total": 880,
+  "coded": 260,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 57,
-    "verbal cooperation": 84,
-    "material cooperation": 23
+    "material conflict": 99,
+    "verbal conflict": 59,
+    "verbal cooperation": 80,
+    "material cooperation": 22
   },
   "top_labels": [
     {
@@ -17,15 +17,15 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 16
     },
     {
       "label": "Employ aerial weapons",
@@ -33,17 +33,6 @@
     }
   ],
   "ticker": [
-    {
-      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
     {
       "title": "Russia strikes targets across Ukraine as Kyiv launches nearly 1,200 drones",
       "source": "France24",
@@ -54,6 +43,17 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
+    },
+    {
+      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Ceasefire to be EU\u2019s priority at Ukraine talks \u2014 von der Leyen",
@@ -67,25 +67,14 @@
       "outlets": 2
     },
     {
-      "title": "Microsoft 'deeply sorry' as outage triggers global chaos",
-      "source": "Dawn",
+      "title": "US responds to suspected drone activity over UK air base used in Iran strik\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "United States",
+      "code": "010",
+      "label": "Make statement",
+      "quad": "verbal cooperation",
+      "goldstein": 0.0,
       "outlets": 2
     },
     {
@@ -113,6 +102,17 @@
     {
       "title": "Thursday briefing: What we do (and don\u2019t) know about Alice Huang and the Nv\u2026",
       "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "\u2018It was a train wreck! I was terrified\u2019: how the new James Bond will be ann\u2026",
+      "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
       "code": null,
