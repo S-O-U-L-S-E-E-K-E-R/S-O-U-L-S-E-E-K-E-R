@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-12 23:35 UTC",
-  "feed_time": "2026-11-12T23:35:17.732650",
-  "total": 835,
-  "coded": 249,
-  "outlets": 65,
+  "updated": "2026-11-13 00:36 UTC",
+  "feed_time": "2026-11-13T00:36:18.091558",
+  "total": 846,
+  "coded": 252,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 49,
-    "verbal cooperation": 81,
-    "material cooperation": 16
+    "material conflict": 108,
+    "verbal conflict": 47,
+    "verbal cooperation": 79,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 29
     },
     {
       "label": "Consult",
-      "n": 26
+      "n": 23
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 14
+      "label": "Arrest, detain or charge",
+      "n": 15
     },
     {
       "label": "Threaten",
       "n": 13
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 9
+      "outlets": 8
     },
     {
       "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
@@ -67,6 +67,17 @@
       "outlets": 5
     },
     {
+      "title": "Yemen\u2019s Houthis renew strikes on Saudi Arabia as UNSC extends sanctions",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
       "source": "NPR World",
       "risk": 10,
@@ -86,17 +97,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Israel targets senior Hamas brigade chief planning attacks from Nasser Hosp\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
