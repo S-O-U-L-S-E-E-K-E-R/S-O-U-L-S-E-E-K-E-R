@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-13 22:54 UTC",
-  "feed_time": "2026-11-13T22:54:17.487579",
-  "total": 880,
-  "coded": 260,
+  "updated": "2026-11-13 23:55 UTC",
+  "feed_time": "2026-11-13T23:55:17.414414",
+  "total": 878,
+  "coded": 254,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 59,
-    "verbal cooperation": 80,
-    "material cooperation": 22
+    "material conflict": 96,
+    "verbal conflict": 58,
+    "verbal cooperation": 79,
+    "material cooperation": 21
   },
   "top_labels": [
     {
@@ -25,11 +25,11 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 13
+      "label": "Demand",
+      "n": 12
     }
   ],
   "ticker": [
@@ -45,15 +45,15 @@
       "outlets": 4
     },
     {
-      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
-      "source": "Guardian Top",
+      "title": "Iran targeted US radar system in Bahrain",
+      "source": "DW",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Ceasefire to be EU\u2019s priority at Ukraine talks \u2014 von der Leyen",
@@ -70,11 +70,11 @@
       "title": "US responds to suspected drone activity over UK air base used in Iran strik\u2026",
       "source": "MEE",
       "risk": 10,
-      "dyad": "United States",
-      "code": "010",
-      "label": "Make statement",
-      "quad": "verbal cooperation",
-      "goldstein": 0.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
