@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-13 15:50 UTC",
-  "feed_time": "2026-11-13T15:50:19.207048",
-  "total": 832,
-  "coded": 255,
-  "outlets": 47,
+  "updated": "2026-11-13 16:51 UTC",
+  "feed_time": "2026-11-13T16:51:24.647778",
+  "total": 883,
+  "coded": 253,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 55,
-    "verbal cooperation": 78,
+    "material conflict": 101,
+    "verbal conflict": 57,
+    "verbal cooperation": 77,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Consult",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
@@ -37,34 +37,12 @@
       "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "The Un \u2192 Iran",
-      "code": "010",
-      "label": "Make statement",
-      "quad": "verbal cooperation",
-      "goldstein": 0.0,
-      "outlets": 4
-    },
-    {
-      "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Russia \u2192 Russia",
-      "code": "1832",
-      "label": "Conduct bombing",
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
+      "outlets": 5
     },
     {
       "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
@@ -75,6 +53,28 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 2
+    },
+    {
+      "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Russia \u2192 Russia",
+      "code": "1832",
+      "label": "Conduct bombing",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "US military denies Iran\u2019s claim of attack on radar in Bahrain, says it shot\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "French government condemns Israel entry ban on Jean-Luc Melenchon",
       "source": "MEE",
       "risk": 10,
@@ -97,17 +108,6 @@
       "label": "Criticize or denounce",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
-      "title": "Iran reports shooting down US Predator drone off its southern coast",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
