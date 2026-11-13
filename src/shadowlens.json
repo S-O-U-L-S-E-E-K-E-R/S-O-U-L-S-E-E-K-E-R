@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-13 20:54 UTC",
-  "feed_time": "2026-11-13T20:53:17.831372",
-  "total": 883,
-  "coded": 261,
-  "outlets": 67,
+  "updated": "2026-11-13 21:54 UTC",
+  "feed_time": "2026-11-13T21:54:09.948389",
+  "total": 876,
+  "coded": 256,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 93,
-    "verbal conflict": 60,
+    "material conflict": 92,
+    "verbal conflict": 57,
     "verbal cooperation": 84,
-    "material cooperation": 24
+    "material cooperation": 23
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 20
+      "n": 22
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Threaten",
-      "n": 17
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 14
+      "n": 15
     },
     {
       "label": "Arrest, detain or charge",
       "n": 14
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 13
     }
   ],
   "ticker": [
@@ -54,6 +54,28 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
+    },
+    {
+      "title": "Ceasefire to be EU\u2019s priority at Ukraine talks \u2014 von der Leyen",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "EU \u2192 Ukraine",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "Microsoft 'deeply sorry' as outage triggers global chaos",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
@@ -97,28 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018It was a train wreck! I was terrified\u2019: how the new James Bond will be ann\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
