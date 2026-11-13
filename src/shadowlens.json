@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-13 11:46 UTC",
-  "feed_time": "2026-11-13T11:46:17.748240",
-  "total": 877,
-  "coded": 267,
+  "updated": "2026-11-13 12:47 UTC",
+  "feed_time": "2026-11-13T12:47:18.088799",
+  "total": 873,
+  "coded": 259,
   "outlets": 67,
   "quad_hist": {
     "material conflict": 112,
-    "verbal conflict": 58,
-    "verbal cooperation": 83,
-    "material cooperation": 14
+    "verbal conflict": 50,
+    "verbal cooperation": 81,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Consult",
@@ -28,11 +28,33 @@
       "n": 15
     },
     {
-      "label": "Attack cybernetically",
-      "n": 15
+      "label": "Appeal",
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 3
+    },
     {
       "title": "\u2018Enemy must learn from defeats\u2019: Iran warns US of \u2018painful strikes\u2019 over mi\u2026",
       "source": "Hindustan Times",
@@ -56,15 +78,15 @@
       "outlets": 3
     },
     {
-      "title": "Iran claims it destroyed US early-warning radar in Bahrain",
-      "source": "Anadolu Agency",
+      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "193",
+      "label": "Fight with small arms",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
@@ -78,26 +100,15 @@
       "outlets": 2
     },
     {
-      "title": "Russia strikes hospital in central Kyiv after SpaceX system falters again",
-      "source": "Guardian Top",
+      "title": "Pakistan military reports it killed 74 \u2018terrorists\u2019 during raids",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "193",
-      "label": "Fight with small arms",
+      "dyad": "Pakistan",
+      "code": "171",
+      "label": "Seize or damage property",
       "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 2
+      "goldstein": -7.0,
+      "outlets": 1
     },
     {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
@@ -108,17 +119,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Thursday briefing: What we do (and don\u2019t) know about Alice Huang and the Nv\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
