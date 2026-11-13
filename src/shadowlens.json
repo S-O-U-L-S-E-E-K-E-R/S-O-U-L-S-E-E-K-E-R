@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-13 13:48 UTC",
-  "feed_time": "2026-11-13T13:48:17.584680",
-  "total": 872,
-  "coded": 249,
-  "outlets": 67,
+  "updated": "2026-11-13 14:49 UTC",
+  "feed_time": "2026-11-13T14:49:17.527808",
+  "total": 878,
+  "coded": 256,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 52,
-    "verbal cooperation": 74,
-    "material cooperation": 18
+    "material conflict": 113,
+    "verbal conflict": 54,
+    "verbal cooperation": 72,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 26
     },
     {
-      "label": "Consult",
+      "label": "Threaten",
       "n": 20
     },
     {
@@ -24,37 +24,15 @@
       "n": 20
     },
     {
-      "label": "Threaten",
-      "n": 14
+      "label": "Consult",
+      "n": 17
     },
     {
       "label": "Employ aerial weapons",
-      "n": 11
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Moscow car bomb severely injures former aide to Ukraine\u2019s pro-Russia ex-PM",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "183",
-      "label": "Conduct bombing",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
-    {
-      "title": "Iran says it destroyed US military radar in Bahrain in retaliatory strike",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "Aid groups call on Israel to allow shelters in Gaza amid a humanitarian eme\u2026",
       "source": "NPR World",
@@ -67,14 +45,25 @@
       "outlets": 3
     },
     {
-      "title": "French government condemns Israel entry ban on Jean-Luc Melenchon",
-      "source": "MEE",
+      "title": "Ukraine updates: Russia hit with second car bomb attack in two days",
+      "source": "DW",
       "risk": 10,
-      "dyad": "France \u2192 Israel",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "183",
+      "label": "Conduct bombing",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 3
     },
     {
@@ -89,14 +78,14 @@
       "outlets": 2
     },
     {
-      "title": "Putin takes hard line in US talks as Ukraine says Starlink disrupted again",
-      "source": "Guardian World",
+      "title": "Iran says it targeted US military radar in Bahrain in retaliatory strike",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Russia \u2192 United States",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -111,14 +100,25 @@
       "outlets": 2
     },
     {
-      "title": "Democratic US Senator Chris Van Hollen announces run for US Senate majority\u2026",
-      "source": "Dawn",
+      "title": "French government condemns Israel entry ban on Jean-Luc Melenchon",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "France \u2192 Israel",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran reports shooting down US Predator drone off its southern coast",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     }
   ]
