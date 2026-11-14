@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-14 18:12 UTC",
-  "feed_time": "2026-11-14T18:12:17.212008",
-  "total": 880,
-  "coded": 257,
+  "updated": "2026-11-14 19:15 UTC",
+  "feed_time": "2026-11-14T19:08:09.758440",
+  "total": 878,
+  "coded": 267,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 63,
-    "verbal cooperation": 67,
+    "material conflict": 106,
+    "verbal conflict": 70,
+    "verbal cooperation": 66,
     "material cooperation": 25
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 24
     },
     {
       "label": "Consult",
@@ -24,12 +24,12 @@
       "n": 18
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 14
+      "label": "Accuse",
+      "n": 16
     },
     {
       "label": "Demonstrate or rally",
-      "n": 14
+      "n": 16
     }
   ],
   "ticker": [
