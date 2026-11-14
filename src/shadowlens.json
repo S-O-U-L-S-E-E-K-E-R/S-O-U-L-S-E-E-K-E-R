@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-14 10:04 UTC",
-  "feed_time": "2026-11-14T10:04:18.765464",
-  "total": 893,
-  "coded": 257,
+  "updated": "2026-11-14 11:05 UTC",
+  "feed_time": "2026-11-14T11:05:17.461011",
+  "total": 883,
+  "coded": 252,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 89,
-    "verbal conflict": 65,
-    "verbal cooperation": 73,
-    "material cooperation": 30
+    "material conflict": 90,
+    "verbal conflict": 62,
+    "verbal cooperation": 71,
+    "material cooperation": 29
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 24
-    },
-    {
-      "label": "Threaten",
-      "n": 20
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
+    },
+    {
+      "label": "Threaten",
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Investigate",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
