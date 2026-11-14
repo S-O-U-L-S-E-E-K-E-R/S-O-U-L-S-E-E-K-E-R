@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-14 08:03 UTC",
-  "feed_time": "2026-11-14T08:03:24.644290",
-  "total": 883,
-  "coded": 250,
+  "updated": "2026-11-14 09:04 UTC",
+  "feed_time": "2026-11-14T09:03:24.640173",
+  "total": 888,
+  "coded": 254,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 90,
-    "verbal conflict": 56,
+    "material conflict": 88,
+    "verbal conflict": 60,
     "verbal cooperation": 76,
-    "material cooperation": 28
+    "material cooperation": 30
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 25
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 18
+      "n": 26
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 20
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Accuse",
-      "n": 12
+      "n": 15
     }
   ],
   "ticker": [
@@ -100,7 +100,7 @@
       "outlets": 1
     },
     {
-      "title": "\u2018It was a train wreck! I was terrified\u2019: how the new James Bond will be ann\u2026",
+      "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacri\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacri\u2026",
-      "source": "Guardian Top",
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
