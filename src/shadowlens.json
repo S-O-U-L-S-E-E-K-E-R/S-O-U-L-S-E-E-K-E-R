@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-14 06:01 UTC",
-  "feed_time": "2026-11-14T06:01:17.446577",
-  "total": 873,
-  "coded": 249,
+  "updated": "2026-11-14 07:02 UTC",
+  "feed_time": "2026-11-14T07:02:09.884726",
+  "total": 884,
+  "coded": 246,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 89,
-    "verbal conflict": 62,
-    "verbal cooperation": 74,
-    "material cooperation": 24
+    "material conflict": 85,
+    "verbal conflict": 59,
+    "verbal cooperation": 75,
+    "material cooperation": 27
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 25
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
       "n": 16
     },
     {
-      "label": "Demand",
-      "n": 13
+      "label": "Accuse",
+      "n": 12
     }
   ],
   "ticker": [
+    {
+      "title": "Israeli airstrike on Nasser hospital in Gaza killed surgeon and others",
+      "source": "HackerNews",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
     {
       "title": "Iran targeted US radar system in Bahrain",
       "source": "DW",
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacri\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Humanitarian situation in Gaza worsens amid political deadlock",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Palestine",
-      "code": "0256",
-      "label": "Appeal to yield",
-      "quad": "verbal cooperation",
-      "goldstein": -0.3,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
