@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-14 19:15 UTC",
-  "feed_time": "2026-11-14T19:08:09.758440",
-  "total": 878,
-  "coded": 267,
+  "updated": "2026-11-14 20:14 UTC",
+  "feed_time": "2026-11-14T20:14:09.744787",
+  "total": 885,
+  "coded": 270,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 106,
-    "verbal conflict": 70,
-    "verbal cooperation": 66,
-    "material cooperation": 25
+    "material conflict": 108,
+    "verbal conflict": 71,
+    "verbal cooperation": 67,
+    "material cooperation": 24
   },
   "top_labels": [
     {
@@ -20,16 +20,16 @@
       "n": 23
     },
     {
+      "label": "Demonstrate or rally",
+      "n": 19
+    },
+    {
       "label": "Threaten",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Accuse",
-      "n": 16
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 16
+      "n": 17
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 7
+      "outlets": 4
     },
     {
       "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
@@ -54,17 +54,6 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
-    },
-    {
-      "title": "Mossad chief in Washington for talks on Iran, report says",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 2
     },
     {
       "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Terror from the skies: drones are redefining warfare in Sudan, and massacri\u2026",
-      "source": "Guardian Top",
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Sudan",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 1
     }
   ]
