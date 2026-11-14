@@ -1,23 +1,27 @@
 {
-  "updated": "2026-11-14 21:15 UTC",
-  "feed_time": "2026-11-14T21:15:18.572221",
-  "total": 864,
-  "coded": 264,
-  "outlets": 49,
+  "updated": "2026-11-14 22:16 UTC",
+  "feed_time": "2026-11-14T22:16:12.769947",
+  "total": 886,
+  "coded": 263,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 108,
+    "material conflict": 106,
     "verbal conflict": 70,
     "verbal cooperation": 62,
-    "material cooperation": 24
+    "material cooperation": 25
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 23
     },
     {
       "label": "Consult",
-      "n": 21
+      "n": 20
+    },
+    {
+      "label": "Accuse",
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
@@ -25,10 +29,6 @@
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Accuse",
       "n": 18
     }
   ],
@@ -43,6 +43,17 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
+    },
+    {
+      "title": "Arab League condemns deadly Israeli strike on Gaza\u2019s Nasser Hospital",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "192",
+      "label": "Occupy territory",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Sudan",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
       "outlets": 1
     }
   ]
