@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-14 13:07 UTC",
-  "feed_time": "2026-11-14T13:07:18.220759",
-  "total": 880,
-  "coded": 257,
-  "outlets": 69,
+  "updated": "2026-11-14 14:08 UTC",
+  "feed_time": "2026-11-14T14:08:11.257212",
+  "total": 873,
+  "coded": 249,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 70,
-    "verbal cooperation": 68,
+    "material conflict": 91,
+    "verbal conflict": 71,
+    "verbal cooperation": 60,
     "material cooperation": 27
   },
   "top_labels": [
     {
-      "label": "Threaten",
-      "n": 22
+      "label": "Consult",
+      "n": 23
     },
     {
-      "label": "Consult",
-      "n": 22
+      "label": "Threaten",
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Investigate",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -45,14 +45,14 @@
       "outlets": 6
     },
     {
-      "title": "Mossad chief in Washington for talks on Iran, report says",
+      "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
       "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "046",
-      "label": "Engage in negotiation",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "dyad": "Iran",
+      "code": "193",
+      "label": "Fight with small arms",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
