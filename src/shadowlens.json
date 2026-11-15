@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 03:18 UTC",
-  "feed_time": "2026-11-15T03:18:18.239034",
-  "total": 874,
-  "coded": 255,
+  "updated": "2026-11-15 04:19 UTC",
+  "feed_time": "2026-11-15T04:19:18.637934",
+  "total": 881,
+  "coded": 252,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 69,
-    "verbal cooperation": 62,
-    "material cooperation": 24
+    "material conflict": 102,
+    "verbal conflict": 67,
+    "verbal cooperation": 61,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 23
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
       "n": 21
     },
     {
+      "label": "Demonstrate or rally",
+      "n": 20
+    },
+    {
       "label": "Accuse",
-      "n": 21
+      "n": 18
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     }
   ],
   "ticker": [
@@ -38,25 +38,14 @@
       "source": "Times of India",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
-      "code": "192",
-      "label": "Occupy territory",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 6
     },
     {
-      "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States \u2192 China",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 4
-    },
-    {
-      "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
+      "title": "Iran\u2019s IRGC says two oil tankers hit mines in Strait of Hormuz",
       "source": "MEE",
       "risk": 10,
       "dyad": "",
@@ -75,17 +64,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Thursday briefing: What we do (and don\u2019t) know about Alice Huang and the Nv\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     },
     {
@@ -119,6 +97,28 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Could Beijing\u2019s HQ-17 air-defence system defend PLA amphibious forces from\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "US flight chaos caused by repair of old copper wiring: Trump admin",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
