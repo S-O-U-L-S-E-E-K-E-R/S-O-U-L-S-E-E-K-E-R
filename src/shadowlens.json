@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-15 01:17 UTC",
-  "feed_time": "2026-11-15T01:17:17.332520",
-  "total": 874,
-  "coded": 266,
-  "outlets": 68,
+  "updated": "2026-11-15 02:18 UTC",
+  "feed_time": "2026-11-15T02:18:17.235202",
+  "total": 875,
+  "coded": 260,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 107,
+    "material conflict": 104,
     "verbal conflict": 71,
-    "verbal cooperation": 63,
+    "verbal cooperation": 60,
     "material cooperation": 25
   },
   "top_labels": [
@@ -16,12 +16,12 @@
       "n": 22
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Consult",
       "n": 22
     },
     {
-      "label": "Consult",
-      "n": 22
+      "label": "Use unconventional violence",
+      "n": 21
     },
     {
       "label": "Accuse",
@@ -29,10 +29,21 @@
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     }
   ],
   "ticker": [
+    {
+      "title": "Hamas confirms death of senior commander Samir Abu Younis in Israeli airstr\u2026",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "192",
+      "label": "Occupy territory",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 6
+    },
     {
       "title": "Trump, Xi, Putin to hold historic meeting in China: White House",
       "source": "Dawn",
@@ -45,17 +56,6 @@
       "outlets": 4
     },
     {
-      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "192",
-      "label": "Occupy territory",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
       "source": "MEE",
       "risk": 10,
@@ -65,17 +65,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
-    },
-    {
-      "title": "Myanmar airstrike kills 12 at displacement camp in Rakhine state",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Myanmar",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
     },
     {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Sudan: Misery worsens amid plummeting aid for displaced people",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Sudan",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 1
     }
   ]
