@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-15 08:23 UTC",
-  "feed_time": "2026-11-15T08:23:18.420143",
+  "updated": "2026-11-15 09:24 UTC",
+  "feed_time": "2026-11-15T09:24:17.142350",
   "total": 876,
-  "coded": 241,
+  "coded": 243,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 95,
-    "verbal conflict": 61,
-    "verbal cooperation": 65,
-    "material cooperation": 20
+    "material conflict": 99,
+    "verbal conflict": 59,
+    "verbal cooperation": 63,
+    "material cooperation": 22
   },
   "top_labels": [
+    {
+      "label": "Use unconventional violence",
+      "n": 25
+    },
     {
       "label": "Consult",
       "n": 24
     },
     {
-      "label": "Use unconventional violence",
-      "n": 22
-    },
-    {
       "label": "Demonstrate or rally",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Accuse",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
       "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
@@ -65,17 +65,6 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
-    },
-    {
-      "title": "US air travel disruptions to persist until late on Sunday, aviation body he\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
     },
     {
       "title": "Air defense neutralizes 106 of 132 Russian drones used to attack Ukraine",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Three sentenced to death over Jordan church attack",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Jordan",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
