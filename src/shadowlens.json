@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 20:35 UTC",
-  "feed_time": "2026-11-15T20:35:19.027924",
-  "total": 871,
-  "coded": 251,
+  "updated": "2026-11-15 21:36 UTC",
+  "feed_time": "2026-11-15T21:36:20.197295",
+  "total": 868,
+  "coded": 245,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 64,
-    "verbal cooperation": 54,
+    "material conflict": 111,
+    "verbal conflict": 61,
+    "verbal cooperation": 56,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 28
     },
     {
       "label": "Consult",
-      "n": 22
-    },
-    {
-      "label": "Threaten",
-      "n": 20
+      "n": 23
     },
     {
       "label": "Demonstrate or rally",
-      "n": 20
+      "n": 19
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "label": "Threaten",
+      "n": 17
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 16
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 5
     },
     {
+      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "Jordan \u2192 Greece",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
       "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
       "source": "France24",
       "risk": 10,
@@ -54,28 +65,6 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
-    },
-    {
-      "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel \u2192 Israel",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
-      "outlets": 2
-    },
-    {
-      "title": "IRGC Says It Attacked US Air Defense Radar at Military Base in Bahrain",
-      "source": "Sputnik",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
     },
     {
       "title": "Houthis say they fired missiles at Riyadh airport and financial district",
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
