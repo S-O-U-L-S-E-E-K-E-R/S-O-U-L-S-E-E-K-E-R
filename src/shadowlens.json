@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-15 14:29 UTC",
-  "feed_time": "2026-11-15T14:29:17.173855",
-  "total": 886,
-  "coded": 256,
-  "outlets": 68,
+  "updated": "2026-11-15 15:30 UTC",
+  "feed_time": "2026-11-15T15:30:19.264214",
+  "total": 875,
+  "coded": 243,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 68,
-    "verbal cooperation": 65,
-    "material cooperation": 15
+    "material conflict": 103,
+    "verbal conflict": 66,
+    "verbal cooperation": 61,
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -17,31 +17,31 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 24
     },
     {
       "label": "Threaten",
       "n": 18
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 16
+      "label": "Accuse",
+      "n": 17
     },
     {
-      "label": "Accuse",
-      "n": 16
+      "label": "Employ aerial weapons",
+      "n": 15
     }
   ],
   "ticker": [
     {
-      "title": "Iran claims attack on US military airbase in Bahrain",
-      "source": "France24",
+      "title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
+      "source": "CNBC World",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 8
     },
     {
@@ -49,17 +49,6 @@
       "source": "SCMP",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Iran claims strike on US base in Bahrain, kingdom says it intercepted aeria\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
@@ -78,17 +67,6 @@
       "outlets": 2
     },
     {
-      "title": "Air defense neutralizes 106 of 132 Russian drones used to attack Ukraine",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
       "source": "Guardian World",
       "risk": 10,
@@ -103,11 +81,11 @@
       "title": "Gender-diverse Australian sailors barred from US submarines despite Aukus d\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Australia \u2192 Australia",
+      "code": "172",
+      "label": "Impose administrative sanctio\u2026",
+      "quad": "material conflict",
+      "goldstein": -5.0,
       "outlets": 1
     },
     {
@@ -119,6 +97,28 @@
       "label": "Criticize or denounce",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "\u2018If you don\u2019t shower, so what?\u2019 The western diplomats staying put in under-\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
