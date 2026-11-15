@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-15 09:24 UTC",
-  "feed_time": "2026-11-15T09:24:17.142350",
-  "total": 876,
-  "coded": 243,
+  "updated": "2026-11-15 10:25 UTC",
+  "feed_time": "2026-11-15T10:25:17.149425",
+  "total": 874,
+  "coded": 246,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 59,
-    "verbal cooperation": 63,
-    "material cooperation": 22
+    "material conflict": 101,
+    "verbal conflict": 65,
+    "verbal cooperation": 62,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
-    },
-    {
-      "label": "Consult",
       "n": 24
     },
     {
+      "label": "Consult",
+      "n": 23
+    },
+    {
       "label": "Demonstrate or rally",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Accuse",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
@@ -34,15 +34,15 @@
   ],
   "ticker": [
     {
-      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
-      "source": "MEE",
+      "title": "Iran claims attack on US military airbase in Bahrain",
+      "source": "France24",
       "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 5
+      "goldstein": -9.0,
+      "outlets": 7
     },
     {
       "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
@@ -56,15 +56,15 @@
       "outlets": 4
     },
     {
-      "title": "Iran strikes by UAVs radar infrastructure at US military base in Bahrain \u2014\u2026",
-      "source": "TASS",
+      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Palestine \u2192 Israel",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "goldstein": -10.0,
+      "outlets": 4
     },
     {
       "title": "Air defense neutralizes 106 of 132 Russian drones used to attack Ukraine",
@@ -100,6 +100,17 @@
       "outlets": 1
     },
     {
+      "title": "Iran targets Bahrain airbase as strikes resume in Gulf - Middle East crisis\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Three sentenced to death over Jordan church attack",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Jordan",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
