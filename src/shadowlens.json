@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 12:27 UTC",
-  "feed_time": "2026-11-15T12:27:17.107327",
-  "total": 878,
-  "coded": 247,
+  "updated": "2026-11-15 13:28 UTC",
+  "feed_time": "2026-11-15T13:28:09.868003",
+  "total": 882,
+  "coded": 248,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 59,
-    "verbal cooperation": 71,
-    "material cooperation": 15
+    "material conflict": 104,
+    "verbal conflict": 60,
+    "verbal cooperation": 68,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 31
+      "n": 30
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Demonstrate or rally",
       "n": 17
     },
     {
-      "label": "Threaten",
+      "label": "Employ aerial weapons",
       "n": 16
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "label": "Threaten",
+      "n": 16
     }
   ],
   "ticker": [
@@ -53,7 +53,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 3
+    },
+    {
+      "title": "Iran strikes by UAVs radar infrastructure at US military base in Bahrain \u2014\u2026",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Iran claims strike on US base in Bahrain, kingdom says it intercepted aeria\u2026",
@@ -101,17 +112,6 @@
     },
     {
       "title": "Iran targets Bahrain airbase as strikes resume in Gulf - Middle East crisis\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018If you don\u2019t shower, so what?\u2019 The western diplomats staying put in under-\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
