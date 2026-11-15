@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 16:31 UTC",
-  "feed_time": "2026-11-15T16:31:19.228614",
-  "total": 863,
-  "coded": 252,
-  "outlets": 49,
+  "updated": "2026-11-15 17:32 UTC",
+  "feed_time": "2026-11-15T17:32:10.424516",
+  "total": 880,
+  "coded": 247,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 65,
-    "verbal cooperation": 65,
-    "material cooperation": 15
+    "material conflict": 113,
+    "verbal conflict": 60,
+    "verbal cooperation": 58,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 29
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
-      "label": "Threaten",
+      "label": "Consult",
+      "n": 26
+    },
+    {
+      "label": "Demonstrate or rally",
       "n": 18
     },
     {
-      "label": "Accuse",
+      "label": "Employ aerial weapons",
       "n": 17
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "label": "Threaten",
+      "n": 17
     }
   ],
   "ticker": [
@@ -42,11 +42,11 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 8
+      "outlets": 7
     },
     {
-      "title": "Top Hamas commander killed in Israeli strike in Gaza",
-      "source": "SCMP",
+      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
+      "source": "France24",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
       "code": "195",
@@ -59,11 +59,11 @@
       "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "Israel",
-      "code": "020",
-      "label": "Appeal",
+      "dyad": "Israel \u2192 Israel",
+      "code": "051",
+      "label": "Praise or endorse",
       "quad": "verbal cooperation",
-      "goldstein": 3.0,
+      "goldstein": 3.4,
       "outlets": 2
     },
     {
