@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-15 02:18 UTC",
-  "feed_time": "2026-11-15T02:18:17.235202",
-  "total": 875,
-  "coded": 260,
-  "outlets": 69,
+  "updated": "2026-11-15 03:18 UTC",
+  "feed_time": "2026-11-15T03:18:18.239034",
+  "total": 874,
+  "coded": 255,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 71,
-    "verbal cooperation": 60,
-    "material cooperation": 25
+    "material conflict": 100,
+    "verbal conflict": 69,
+    "verbal cooperation": 62,
+    "material cooperation": 24
   },
   "top_labels": [
     {
-      "label": "Demonstrate or rally",
-      "n": 22
+      "label": "Consult",
+      "n": 23
     },
     {
-      "label": "Consult",
-      "n": 22
+      "label": "Demonstrate or rally",
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 16
     }
   ],
   "ticker": [
