@@ -1,16 +1,20 @@
 {
-  "updated": "2026-11-15 00:17 UTC",
-  "feed_time": "2026-11-15T00:17:17.367224",
-  "total": 880,
+  "updated": "2026-11-15 01:17 UTC",
+  "feed_time": "2026-11-15T01:17:17.332520",
+  "total": 874,
   "coded": 266,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 106,
-    "verbal conflict": 73,
-    "verbal cooperation": 62,
+    "material conflict": 107,
+    "verbal conflict": 71,
+    "verbal cooperation": 63,
     "material cooperation": 25
   },
   "top_labels": [
+    {
+      "label": "Demonstrate or rally",
+      "n": 22
+    },
     {
       "label": "Use unconventional violence",
       "n": 22
@@ -24,12 +28,8 @@
       "n": 21
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 19
-    },
-    {
       "label": "Threaten",
-      "n": 17
+      "n": 16
     }
   ],
   "ticker": [
@@ -45,18 +45,7 @@
       "outlets": 4
     },
     {
-      "title": "Iran\u2019s IRGC says two oil tankers hit mines in Strait of Hormuz",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
-      "title": "Arab League condemns deadly Israeli strike on Gaza\u2019s Nasser Hospital",
+      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
       "source": "MEE",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
@@ -64,7 +53,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Iran says it intercepted US MQ-1 Predator drone over Qeshm Island",
@@ -119,6 +108,17 @@
       "label": "Criticize or denounce",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
