@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-15 17:32 UTC",
-  "feed_time": "2026-11-15T17:32:10.424516",
-  "total": 880,
-  "coded": 247,
+  "updated": "2026-11-15 18:33 UTC",
+  "feed_time": "2026-11-15T18:33:19.293624",
+  "total": 881,
+  "coded": 253,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 60,
-    "verbal cooperation": 58,
-    "material cooperation": 16
+    "material conflict": 119,
+    "verbal conflict": 65,
+    "verbal cooperation": 55,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 30
     },
     {
       "label": "Consult",
-      "n": 26
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 18
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 17
+      "n": 22
     },
     {
       "label": "Threaten",
+      "n": 19
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 19
+    },
+    {
+      "label": "Employ aerial weapons",
       "n": 17
     }
   ],
   "ticker": [
     {
-      "title": "Bahrain intercepts Iranian aerial attacks as Tehran says it attacked US base",
-      "source": "CNBC World",
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "source": "Guardian Top",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 5
     },
     {
       "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
@@ -64,6 +64,17 @@
       "label": "Praise or endorse",
       "quad": "verbal cooperation",
       "goldstein": 3.4,
+      "outlets": 2
+    },
+    {
+      "title": "IRGC Says It Attacked US Air Defense Radar at Military Base in Bahrain",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Iran claims drone attack on US military base in Bahrain",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
