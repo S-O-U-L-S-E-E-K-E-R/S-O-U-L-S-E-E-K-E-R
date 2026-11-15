@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-15 07:22 UTC",
-  "feed_time": "2026-11-15T07:22:10.102223",
-  "total": 884,
-  "coded": 239,
+  "updated": "2026-11-15 08:23 UTC",
+  "feed_time": "2026-11-15T08:23:18.420143",
+  "total": 876,
+  "coded": 241,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 63,
-    "verbal cooperation": 64,
+    "material conflict": 95,
+    "verbal conflict": 61,
+    "verbal cooperation": 65,
     "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 22
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
-    },
-    {
-      "label": "Threaten",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Accuse",
       "n": 16
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 15
     }
   ],
   "ticker": [
-    {
-      "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel",
-      "code": "020",
-      "label": "Appeal",
-      "quad": "verbal cooperation",
-      "goldstein": 3.0,
-      "outlets": 4
-    },
     {
       "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
       "source": "MEE",
@@ -53,6 +42,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 6
+    },
+    {
+      "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Israel",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
       "outlets": 4
     },
     {
@@ -67,7 +67,7 @@
       "outlets": 3
     },
     {
-      "title": "US air travel disruptions to persist until late on Sunday, FAA head says",
+      "title": "US air travel disruptions to persist until late on Sunday, aviation body he\u2026",
       "source": "Dawn",
       "risk": 10,
       "dyad": "",
