@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-15 04:19 UTC",
-  "feed_time": "2026-11-15T04:19:18.637934",
-  "total": 881,
-  "coded": 252,
-  "outlets": 68,
+  "updated": "2026-11-15 05:20 UTC",
+  "feed_time": "2026-11-15T05:20:09.585217",
+  "total": 884,
+  "coded": 251,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 67,
-    "verbal cooperation": 61,
-    "material cooperation": 22
+    "material conflict": 99,
+    "verbal conflict": 66,
+    "verbal cooperation": 65,
+    "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 24
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Demonstrate or rally",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Accuse",
@@ -34,15 +34,26 @@
   ],
   "ticker": [
     {
-      "title": "Hamas confirms death of senior commander Samir Abu Younis in Israeli airstr\u2026",
-      "source": "Times of India",
+      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
+      "source": "MEE",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 5
+    },
+    {
+      "title": "IRGC Says It Attacked US Air Defense Radar at Military Base in Bahrain",
+      "source": "Sputnik",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "Iran\u2019s IRGC says two oil tankers hit mines in Strait of Hormuz",
@@ -64,17 +75,6 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Ecuadorian fishermen who survived US boat strikes sue Trump administration",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 United States",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     },
     {
