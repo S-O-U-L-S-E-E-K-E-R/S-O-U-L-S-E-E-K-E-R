@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-15 15:30 UTC",
-  "feed_time": "2026-11-15T15:30:19.264214",
-  "total": 875,
-  "coded": 243,
-  "outlets": 67,
+  "updated": "2026-11-15 16:31 UTC",
+  "feed_time": "2026-11-15T16:31:19.228614",
+  "total": 863,
+  "coded": 252,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 66,
-    "verbal cooperation": 61,
-    "material cooperation": 13
+    "material conflict": 107,
+    "verbal conflict": 65,
+    "verbal cooperation": 65,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 27
     },
     {
       "label": "Threaten",
@@ -53,7 +53,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
@@ -89,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "Saudi Arabia, Qatar, Jordan, Egypt condemn Iranian attack on Bahrain - Midd\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Iran",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
       "title": "\u2018If you don\u2019t shower, so what?\u2019 The western diplomats staying put in under-\u2026",
       "source": "Guardian Top",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Iran claims drone attack on US military base in Bahrain",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
