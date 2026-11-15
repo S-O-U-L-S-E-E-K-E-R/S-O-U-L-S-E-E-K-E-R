@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 10:25 UTC",
-  "feed_time": "2026-11-15T10:25:17.149425",
-  "total": 874,
-  "coded": 246,
+  "updated": "2026-11-15 11:26 UTC",
+  "feed_time": "2026-11-15T11:26:12.174130",
+  "total": 878,
+  "coded": 247,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 65,
-    "verbal cooperation": 62,
-    "material cooperation": 18
+    "material conflict": 107,
+    "verbal conflict": 60,
+    "verbal cooperation": 64,
+    "material cooperation": 16
   },
   "top_labels": [
+    {
+      "label": "Consult",
+      "n": 25
+    },
     {
       "label": "Use unconventional violence",
       "n": 24
     },
     {
-      "label": "Consult",
-      "n": 23
+      "label": "Arrest, detain or charge",
+      "n": 18
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
-    },
-    {
-      "label": "Accuse",
       "n": 17
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 14
+      "label": "Accuse",
+      "n": 16
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 7
     },
     {
+      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
       "title": "Netanyahu calls for Israeli unity government, Eisenkot dismisses 'tricks'",
       "source": "Dawn",
       "risk": 10,
@@ -53,18 +64,18 @@
       "label": "Appeal",
       "quad": "verbal cooperation",
       "goldstein": 3.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
-      "title": "Hamas commander Samir Abu Younis killed in Israeli strike on Khan Younis",
-      "source": "MEE",
+      "title": "Iran claims strike on US base in Bahrain, kingdom says it intercepted aeria\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
+      "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 2
     },
     {
       "title": "Air defense neutralizes 106 of 132 Russian drones used to attack Ukraine",
@@ -75,17 +86,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Iran\u2019s IRGC says two oil tankers hit mines in Strait of Hormuz",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 2
     },
     {
