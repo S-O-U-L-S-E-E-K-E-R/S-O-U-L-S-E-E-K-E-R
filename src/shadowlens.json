@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-15 21:36 UTC",
-  "feed_time": "2026-11-15T21:36:20.197295",
-  "total": 868,
-  "coded": 245,
-  "outlets": 67,
+  "updated": "2026-11-15 22:37 UTC",
+  "feed_time": "2026-11-15T22:37:19.020617",
+  "total": 867,
+  "coded": 249,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 61,
-    "verbal cooperation": 56,
-    "material cooperation": 17
+    "material conflict": 112,
+    "verbal conflict": 63,
+    "verbal cooperation": 55,
+    "material cooperation": 19
   },
   "top_labels": [
     {
@@ -17,11 +17,11 @@
     },
     {
       "label": "Consult",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Threaten",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 17
     }
   ],
   "ticker": [
@@ -53,17 +53,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
-      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 3
     },
     {
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Anti-Houthi forces retreat in Yemen as Iran strikes Bahrain in attack on U.\u2026",
+      "source": "CNBC World",
+      "risk": 10,
+      "dyad": "Yemen \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
