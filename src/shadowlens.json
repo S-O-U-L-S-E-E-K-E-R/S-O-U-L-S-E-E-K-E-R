@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-15 19:34 UTC",
-  "feed_time": "2026-11-15T19:34:21.892398",
-  "total": 879,
-  "coded": 253,
-  "outlets": 66,
+  "updated": "2026-11-15 20:35 UTC",
+  "feed_time": "2026-11-15T20:35:19.027924",
+  "total": 871,
+  "coded": 251,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 66,
-    "verbal cooperation": 58,
-    "material cooperation": 14
+    "material conflict": 116,
+    "verbal conflict": 64,
+    "verbal cooperation": 54,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Consult",
-      "n": 24
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Employ aerial weapons",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Houthis say they fired missiles at Riyadh airport and financial district",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
