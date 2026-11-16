@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-16 07:45 UTC",
-  "feed_time": "2026-11-16T07:45:18.121233",
-  "total": 859,
-  "coded": 236,
-  "outlets": 49,
+  "updated": "2026-11-16 08:46 UTC",
+  "feed_time": "2026-11-16T08:46:09.955411",
+  "total": 882,
+  "coded": 237,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 100,
+    "material conflict": 106,
     "verbal conflict": 53,
-    "verbal cooperation": 64,
-    "material cooperation": 19
+    "verbal cooperation": 60,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Consult",
-      "n": 27
+      "n": 25
     },
     {
       "label": "Arrest, detain or charge",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 16
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 14
+      "label": "Employ aerial weapons",
+      "n": 13
     }
   ],
   "ticker": [
@@ -43,17 +43,6 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
-    },
-    {
-      "title": "IRGC says two oil tankers hit mines in the Hormuz Strait",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
     },
     {
       "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
@@ -112,6 +101,17 @@
     },
     {
       "title": "Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
       "source": "France24",
       "risk": 10,
       "dyad": "",
