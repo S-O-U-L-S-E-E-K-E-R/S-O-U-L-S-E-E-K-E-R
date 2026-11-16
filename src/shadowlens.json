@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-16 14:52 UTC",
-  "feed_time": "2026-11-16T14:52:11.332075",
-  "total": 876,
-  "coded": 248,
+  "updated": "2026-11-16 15:53 UTC",
+  "feed_time": "2026-11-16T15:53:19.120688",
+  "total": 871,
+  "coded": 240,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 52,
+    "material conflict": 100,
+    "verbal conflict": 56,
     "verbal cooperation": 67,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 31
+      "n": 35
     },
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 25
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 15
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 12
+      "label": "Investigate",
+      "n": 13
     }
   ],
   "ticker": [
@@ -67,17 +67,6 @@
       "outlets": 2
     },
     {
-      "title": "Third US aircraft carrier arrives in Mideast as tensions with Iran simmer",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "042",
-      "label": "Make a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 2
-    },
-    {
       "title": "UN chief urges countries to rein in 'merciless' killer robots",
       "source": "Dawn",
       "risk": 10,
@@ -100,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Ukraine launches biggest drone attack on Russia since war began, defense mi\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
       "source": "NYT World",
       "risk": 10,
@@ -119,6 +97,28 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "Jordan \u2192 Greece",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Egypt \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 1
     }
   ]
