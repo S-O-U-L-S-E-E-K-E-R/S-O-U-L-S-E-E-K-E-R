@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-16 00:39 UTC",
-  "feed_time": "2026-11-16T00:39:17.201139",
+  "updated": "2026-11-16 01:40 UTC",
+  "feed_time": "2026-11-16T01:40:12.537972",
   "total": 863,
-  "coded": 236,
-  "outlets": 67,
+  "coded": 240,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 103,
+    "material conflict": 108,
     "verbal conflict": 62,
-    "verbal cooperation": 53,
+    "verbal cooperation": 52,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 29
+    },
+    {
+      "label": "Threaten",
+      "n": 20
     },
     {
       "label": "Consult",
       "n": 20
-    },
-    {
-      "label": "Threaten",
-      "n": 19
     },
     {
       "label": "Demonstrate or rally",
@@ -53,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Houthis say they fired missiles at Riyadh airport and financial district",
