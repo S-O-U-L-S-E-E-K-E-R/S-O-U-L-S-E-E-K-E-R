@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-16 05:44 UTC",
-  "feed_time": "2026-11-16T05:44:18.267827",
-  "total": 869,
-  "coded": 235,
+  "updated": "2026-11-16 06:44 UTC",
+  "feed_time": "2026-11-16T06:44:46.540468",
+  "total": 871,
+  "coded": 232,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 97,
-    "verbal conflict": 60,
-    "verbal cooperation": 60,
+    "material conflict": 94,
+    "verbal conflict": 54,
+    "verbal cooperation": 66,
     "material cooperation": 18
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 27
-    },
-    {
       "label": "Consult",
-      "n": 24
+      "n": 28
     },
     {
-      "label": "Threaten",
-      "n": 19
+      "label": "Use unconventional violence",
+      "n": 25
     },
     {
       "label": "Arrest, detain or charge",
       "n": 18
+    },
+    {
+      "label": "Threaten",
+      "n": 17
     },
     {
       "label": "Demonstrate or rally",
@@ -45,14 +45,14 @@
       "outlets": 3
     },
     {
-      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
-      "source": "NYT World",
+      "title": "IRGC says two oil tankers hit mines in the Hormuz Strait",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Jordan \u2192 Greece",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -78,6 +78,17 @@
       "outlets": 1
     },
     {
+      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "Jordan \u2192 Greece",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
       "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
       "source": "Guardian World",
       "risk": 10,
@@ -89,7 +100,7 @@
       "outlets": 1
     },
     {
-      "title": "\u2018If you don\u2019t shower, so what?\u2019 The western diplomats staying put in under-\u2026",
+      "title": "The Home Office tried to cancel a pro-Palestine event here in Hackney. Labo\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
@@ -97,17 +108,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Britain\u2019s veto could stop the UAE\u2019s choice from running the United Nations.\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 UAE",
-      "code": "129",
-      "label": "Veto",
-      "quad": "verbal conflict",
-      "goldstein": -4.0,
       "outlets": 1
     },
     {
