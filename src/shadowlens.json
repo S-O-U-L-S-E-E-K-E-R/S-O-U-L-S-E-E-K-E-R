@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-16 03:42 UTC",
-  "feed_time": "2026-11-16T03:42:19.137926",
-  "total": 866,
-  "coded": 243,
+  "updated": "2026-11-16 04:43 UTC",
+  "feed_time": "2026-11-16T04:43:17.145508",
+  "total": 880,
+  "coded": 246,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 98,
+    "material conflict": 97,
     "verbal conflict": 67,
-    "verbal cooperation": 58,
-    "material cooperation": 20
+    "verbal cooperation": 63,
+    "material cooperation": 19
   },
   "top_labels": [
     {
@@ -16,20 +16,20 @@
       "n": 28
     },
     {
+      "label": "Consult",
+      "n": 26
+    },
+    {
       "label": "Threaten",
       "n": 21
     },
     {
-      "label": "Consult",
-      "n": 21
+      "label": "Arrest, detain or charge",
+      "n": 17
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 16
     }
   ],
   "ticker": [
@@ -60,17 +60,6 @@
       "source": "NYT World",
       "risk": 10,
       "dyad": "Jordan \u2192 Greece",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Estonia to close Russia border, citing foiled sabotage attempt",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "Estonia \u2192 Russia",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
@@ -119,6 +108,17 @@
       "label": "Veto",
       "quad": "verbal conflict",
       "goldstein": -4.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
