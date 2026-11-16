@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-16 15:53 UTC",
-  "feed_time": "2026-11-16T15:53:19.120688",
-  "total": 871,
-  "coded": 240,
-  "outlets": 67,
+  "updated": "2026-11-16 16:54 UTC",
+  "feed_time": "2026-11-16T16:54:22.059001",
+  "total": 869,
+  "coded": 243,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 56,
-    "verbal cooperation": 67,
-    "material cooperation": 17
+    "material conflict": 94,
+    "verbal conflict": 61,
+    "verbal cooperation": 72,
+    "material cooperation": 16
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
       "n": 15
     },
     {
-      "label": "Threaten",
-      "n": 15
+      "label": "Investigate",
+      "n": 14
     },
     {
-      "label": "Investigate",
+      "label": "Threaten",
       "n": 13
     }
   ],
@@ -42,18 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
-    },
-    {
-      "title": "'Pentagon ignored warnings': US whistleblower on Iran attack that killed 6\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 6
     },
     {
       "title": "Russia says intercepted over 1,300 Ukrainian drones in a major attack",
@@ -119,6 +108,17 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Though Trump is giving him the cold shoulder, Netanyahu is pulling out all\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Israel",
+      "code": "087",
+      "label": "De-escalate military engageme\u2026",
+      "quad": "material cooperation",
+      "goldstein": 5.0,
       "outlets": 1
     }
   ]
