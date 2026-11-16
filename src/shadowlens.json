@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-16 08:46 UTC",
-  "feed_time": "2026-11-16T08:46:09.955411",
-  "total": 882,
+  "updated": "2026-11-16 09:47 UTC",
+  "feed_time": "2026-11-16T09:47:18.152512",
+  "total": 848,
   "coded": 237,
-  "outlets": 68,
+  "outlets": 48,
   "quad_hist": {
     "material conflict": 106,
-    "verbal conflict": 53,
-    "verbal cooperation": 60,
+    "verbal conflict": 48,
+    "verbal cooperation": 65,
     "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 29
     },
     {
       "label": "Consult",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 14
     },
     {
       "label": "Employ aerial weapons",
@@ -33,17 +33,6 @@
     }
   ],
   "ticker": [
-    {
-      "title": "Iran launches drone attacks against US military base in Bahrain",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
       "source": "NYT World",
@@ -64,6 +53,17 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     },
     {
@@ -100,25 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Live: 600 Ukrainian drones target Moscow, Crimea bridge strike halts traffic",
-      "source": "France24",
+      "title": "Thailand and Cambodia vie for global backing as Trump arrives for Asean sum\u2026",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Thailand \u2192 United States",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
       "outlets": 1
     },
     {
-      "title": "Israel kills senior member of Hamas's military wing in Gaza strike",
-      "source": "France24",
+      "title": "'We will find you': Iran's stern warning to US navy officers for Minab scho\u2026",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Iran \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 1
     }
   ]
