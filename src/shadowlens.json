@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-17 18:17 UTC",
-  "feed_time": "2026-11-17T18:17:18.090363",
-  "total": 869,
-  "coded": 268,
+  "updated": "2026-11-17 19:18 UTC",
+  "feed_time": "2026-11-17T19:18:17.172428",
+  "total": 848,
+  "coded": 259,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 106,
-    "verbal conflict": 67,
-    "verbal cooperation": 79,
+    "material conflict": 105,
+    "verbal conflict": 63,
+    "verbal cooperation": 75,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 24
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 18
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
-      "n": 17
+      "n": 18
+    },
+    {
+      "label": "Threaten",
+      "n": 14
     },
     {
       "label": "Appeal",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "label": "Use conventional military force",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
@@ -67,17 +67,6 @@
       "outlets": 4
     },
     {
-      "title": "UK sanctions Israeli firms helping build West Bank settlements",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Israel",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 4
-    },
-    {
       "title": "Trump warns Iran over reported \u2018dirty bomb\u2019 threat plans against Washington",
       "source": "AlJazeera",
       "risk": 10,
@@ -89,14 +78,36 @@
       "outlets": 3
     },
     {
-      "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
-      "source": "CNBC World",
+      "title": "Iran launches third round of strikes on Bahrain, host of U.S. Navy's 5th Fl\u2026",
+      "source": "NPR World",
       "risk": 10,
-      "dyad": "United States \u2192 Intelligence",
-      "code": "012",
-      "label": "Make pessimistic comment",
-      "quad": "verbal cooperation",
-      "goldstein": -0.4,
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "UK sanctions Israeli firms helping build West Bank settlements",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Israel",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
+      "outlets": 2
+    },
+    {
+      "title": "Bahraini activist Nabeel Rajab dies in Turkey",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Zelenskyy urges allies to send air defence deliveries without delay as Russ\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "020",
-      "label": "Appeal",
-      "quad": "verbal cooperation",
-      "goldstein": 3.0,
       "outlets": 1
     }
   ]
