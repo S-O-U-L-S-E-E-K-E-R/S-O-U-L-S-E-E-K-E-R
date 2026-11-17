@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-17 01:01 UTC",
-  "feed_time": "2026-11-17T01:01:19.025634",
-  "total": 870,
+  "updated": "2026-11-17 03:03 UTC",
+  "feed_time": "2026-11-17T03:03:31.978186",
+  "total": 876,
   "coded": 258,
-  "outlets": 66,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 61,
-    "verbal cooperation": 75,
-    "material cooperation": 22
+    "material conflict": 102,
+    "verbal conflict": 58,
+    "verbal cooperation": 78,
+    "material cooperation": 20
   },
   "top_labels": [
     {
-      "label": "Consult",
+      "label": "Use unconventional violence",
       "n": 30
     },
     {
-      "label": "Use unconventional violence",
-      "n": 24
+      "label": "Consult",
+      "n": 30
     },
     {
       "label": "Use conventional military force",
@@ -25,14 +25,58 @@
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 13
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Iran planning dirty bomb attack in Washington, US intel warns",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power sup\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "042",
+      "label": "Make a visit",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 2
+    },
+    {
+      "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
     {
       "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
       "source": "NYT World",
@@ -75,50 +119,6 @@
       "label": "De-escalate military engageme\u2026",
       "quad": "material cooperation",
       "goldstein": 5.0,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018Let the aid in\u2019: Deadly winter approaches in Gaza - The Latest",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power sup\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Czech mass protests: Media is the first casualty 'when you want to attack d\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
