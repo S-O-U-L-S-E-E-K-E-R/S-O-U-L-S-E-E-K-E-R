@@ -1,23 +1,27 @@
 {
-  "updated": "2026-11-17 06:06 UTC",
-  "feed_time": "2026-11-17T06:06:19.037038",
+  "updated": "2026-11-17 07:07 UTC",
+  "feed_time": "2026-11-17T07:07:18.995730",
   "total": 872,
-  "coded": 260,
-  "outlets": 65,
+  "coded": 268,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 65,
-    "verbal cooperation": 76,
-    "material cooperation": 17
+    "material conflict": 110,
+    "verbal conflict": 69,
+    "verbal cooperation": 74,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 29
     },
     {
       "label": "Consult",
-      "n": 26
+      "n": 28
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 13
     },
     {
       "label": "Use conventional military force",
@@ -25,10 +29,6 @@
     },
     {
       "label": "Threaten",
-      "n": 12
-    },
-    {
-      "label": "Arrest, detain or charge",
       "n": 12
     }
   ],
@@ -45,6 +45,17 @@
       "outlets": 6
     },
     {
+      "title": "Apec and Asean summits live: protests await Trump in Manila, as Xi greets l\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Philippines",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
+      "outlets": 2
+    },
+    {
       "title": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes maj\u2026",
       "source": "Guardian Top",
       "risk": 10,
@@ -53,6 +64,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Trump is not going to let Iran conflict become a 'forever war', asserts Van\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "110",
+      "label": "Disapprove",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 2
     },
     {
@@ -97,28 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
-      "title": "Though Trump is giving him the cold shoulder, Netanyahu is pulling out all\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Israel",
-      "code": "087",
-      "label": "De-escalate military engageme\u2026",
-      "quad": "material cooperation",
-      "goldstein": 5.0,
       "outlets": 1
     }
   ]
