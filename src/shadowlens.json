@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-17 16:16 UTC",
-  "feed_time": "2026-11-17T16:16:09.728159",
-  "total": 879,
-  "coded": 263,
-  "outlets": 64,
+  "updated": "2026-11-17 17:16 UTC",
+  "feed_time": "2026-11-17T17:16:09.556053",
+  "total": 845,
+  "coded": 253,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 65,
-    "verbal cooperation": 82,
+    "material conflict": 98,
+    "verbal conflict": 61,
+    "verbal cooperation": 78,
     "material cooperation": 16
   },
   "top_labels": [
@@ -17,19 +17,19 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 19
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
       "label": "Employ aerial weapons",
       "n": 15
     },
     {
-      "label": "Use unconventional violence",
-      "n": 15
-    },
-    {
       "label": "Threaten",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
-    },
-    {
-      "title": "UK sanctions Israeli firms helping build West Bank settlements",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United Kingdom \u2192 Israel",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
@@ -78,6 +67,17 @@
       "outlets": 4
     },
     {
+      "title": "UK sanctions Israeli firms helping build West Bank settlements",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United Kingdom \u2192 Israel",
+      "code": "163",
+      "label": "Impose embargo, boycott or sa\u2026",
+      "quad": "material conflict",
+      "goldstein": -4.0,
+      "outlets": 4
+    },
+    {
       "title": "Trump warns Iran over reported \u2018dirty bomb\u2019 threat plans against Washington",
       "source": "AlJazeera",
       "risk": 10,
@@ -86,6 +86,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 3
+    },
+    {
+      "title": "Trump on Iran's reported DC dirty bomb plan: 'We take it very seriously'",
+      "source": "CNBC World",
+      "risk": 10,
+      "dyad": "United States \u2192 Intelligence",
+      "code": "012",
+      "label": "Make pessimistic comment",
+      "quad": "verbal cooperation",
+      "goldstein": -0.4,
       "outlets": 2
     },
     {
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
+      "dyad": "Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Ethiopia-Eritrea border clashes raise fears of regional war",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
