@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-17 12:12 UTC",
-  "feed_time": "2026-11-17T12:12:18.829197",
-  "total": 869,
-  "coded": 265,
-  "outlets": 67,
+  "updated": "2026-11-17 13:13 UTC",
+  "feed_time": "2026-11-17T13:13:18.255404",
+  "total": 862,
+  "coded": 269,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 111,
-    "verbal conflict": 68,
-    "verbal cooperation": 75,
-    "material cooperation": 11
+    "verbal conflict": 66,
+    "verbal cooperation": 77,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 24
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 19
+      "n": 25
     },
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 18
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Use unconventional violence",
+      "n": 16
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 15
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,29 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 9
-    },
-    {
-      "title": "IRGC claims attack on US radar system in Bahrain, as Manama says it thwarte\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
-    {
-      "title": "FACTBOX: FSB thwarts major Kiev drone attacks in southern Russia, key detai\u2026",
-      "source": "TASS",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 7
     },
     {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
@@ -75,18 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Iran fires drones at US military radar system in Bahrain amid Gulf tensions",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Iran's parliament speaker warns US, Israel against targeting dams amid miss\u2026",
@@ -97,6 +64,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 2
+    },
+    {
+      "title": "IRGC claims attack on US radar system in Bahrain, as Manama says it thwarte\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -119,6 +97,28 @@
       "label": "Provide aid",
       "quad": "material cooperation",
       "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Apec and Asean summits live: Trump signs Thai trade deal as protests greet\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Thailand",
+      "code": "061",
+      "label": "Cooperate economically",
+      "quad": "material cooperation",
+      "goldstein": 6.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
