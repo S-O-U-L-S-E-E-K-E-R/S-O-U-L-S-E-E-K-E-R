@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-17 21:20 UTC",
-  "feed_time": "2026-11-17T21:20:19.053532",
-  "total": 866,
-  "coded": 268,
-  "outlets": 66,
+  "updated": "2026-11-17 22:21 UTC",
+  "feed_time": "2026-11-17T22:21:17.195589",
+  "total": 855,
+  "coded": 260,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 111,
     "verbal conflict": 60,
-    "verbal cooperation": 80,
-    "material cooperation": 17
+    "verbal cooperation": 71,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 23
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
       "n": 18
     },
     {
-      "label": "Appeal",
-      "n": 15
+      "label": "Use conventional military force",
+      "n": 16
     },
     {
-      "label": "Use conventional military force",
-      "n": 15
+      "label": "Appeal",
+      "n": 14
     },
     {
       "label": "Employ aerial weapons",
@@ -53,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
@@ -64,6 +64,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "US fighter jets strike missile launch site on Iran\u2019s Qeshm Island",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -78,28 +89,6 @@
       "outlets": 3
     },
     {
-      "title": "US strikes Iran\u2019s Qeshm Island after drones target Bahrain",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
-      "title": "US fighter jets strike missile launch site on Iran\u2019s Qeshm Island",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Pakistan fall to India in SAFF final after late heartbreak",
       "source": "Dawn",
       "risk": 10,
@@ -109,6 +98,17 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
+    },
+    {
+      "title": "Whistleblower: Deadly drone strike in Kuwait could\u2019ve been avoided",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     },
     {
       "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
