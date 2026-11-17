@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-17 19:18 UTC",
-  "feed_time": "2026-11-17T19:18:17.172428",
-  "total": 848,
-  "coded": 259,
-  "outlets": 66,
+  "updated": "2026-11-17 20:19 UTC",
+  "feed_time": "2026-11-17T20:19:17.342387",
+  "total": 873,
+  "coded": 268,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 63,
-    "verbal cooperation": 75,
-    "material cooperation": 16
+    "material conflict": 108,
+    "verbal conflict": 59,
+    "verbal cooperation": 83,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 23
+      "n": 24
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
-    },
-    {
-      "label": "Threaten",
-      "n": 14
+      "n": 17
     },
     {
       "label": "Appeal",
-      "n": 14
+      "n": 17
     },
     {
       "label": "Use conventional military force",
       "n": 14
+    },
+    {
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 5
     },
     {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
@@ -56,28 +56,6 @@
       "outlets": 4
     },
     {
-      "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
-    {
-      "title": "Trump warns Iran over reported \u2018dirty bomb\u2019 threat plans against Washington",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 3
-    },
-    {
       "title": "Iran launches third round of strikes on Bahrain, host of U.S. Navy's 5th Fl\u2026",
       "source": "NPR World",
       "risk": 10,
@@ -86,7 +64,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
+    },
+    {
+      "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
     },
     {
       "title": "UK sanctions Israeli firms helping build West Bank settlements",
@@ -97,18 +86,7 @@
       "label": "Impose embargo, boycott or sa\u2026",
       "quad": "material conflict",
       "goldstein": -4.0,
-      "outlets": 2
-    },
-    {
-      "title": "Bahraini activist Nabeel Rajab dies in Turkey",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
@@ -119,6 +97,28 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Zelenskyy urges allies to send air defence deliveries without delay as Russ\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
