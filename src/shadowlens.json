@@ -1,76 +1,54 @@
 {
-  "updated": "2026-11-17 05:05 UTC",
-  "feed_time": "2026-11-17T05:05:19.064442",
-  "total": 871,
-  "coded": 256,
-  "outlets": 66,
+  "updated": "2026-11-17 06:06 UTC",
+  "feed_time": "2026-11-17T06:06:19.037038",
+  "total": 872,
+  "coded": 260,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 102,
-    "verbal conflict": 57,
-    "verbal cooperation": 77,
-    "material cooperation": 20
+    "verbal conflict": 65,
+    "verbal cooperation": 76,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Consult",
-      "n": 27
-    },
-    {
-      "label": "Threaten",
-      "n": 13
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 26
     },
     {
       "label": "Use conventional military force",
+      "n": 13
+    },
+    {
+      "label": "Threaten",
+      "n": 12
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 12
     }
   ],
   "ticker": [
     {
       "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
-      "source": "BBC Top",
+      "source": "BBC World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 5
+      "outlets": 6
     },
     {
       "title": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes maj\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Vance says US will not fight 'forever war' with Iran, defends Trump's milit\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Iran \u2192 Iran",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -4.4,
-      "outlets": 2
-    },
-    {
-      "title": "Iran planning dirty bomb attack in Washington, US intel warns",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
@@ -119,6 +97,28 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Egypt \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Though Trump is giving him the cold shoulder, Netanyahu is pulling out all\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Israel",
+      "code": "087",
+      "label": "De-escalate military engageme\u2026",
+      "quad": "material cooperation",
+      "goldstein": 5.0,
       "outlets": 1
     }
   ]
