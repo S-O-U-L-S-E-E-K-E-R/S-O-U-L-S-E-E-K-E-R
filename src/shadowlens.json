@@ -1,27 +1,23 @@
 {
-  "updated": "2026-11-17 04:04 UTC",
-  "feed_time": "2026-11-17T04:04:26.494580",
-  "total": 876,
-  "coded": 258,
-  "outlets": 67,
+  "updated": "2026-11-17 05:05 UTC",
+  "feed_time": "2026-11-17T05:05:19.064442",
+  "total": 871,
+  "coded": 256,
+  "outlets": 66,
   "quad_hist": {
     "material conflict": 102,
     "verbal conflict": 57,
-    "verbal cooperation": 80,
-    "material cooperation": 19
+    "verbal cooperation": 77,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 27
     },
     {
       "label": "Consult",
-      "n": 28
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 14
+      "n": 27
     },
     {
       "label": "Threaten",
@@ -30,19 +26,23 @@
     {
       "label": "Arrest, detain or charge",
       "n": 13
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "Iran planning dirty bomb attack in Washington, US intel warns",
-      "source": "Times of India",
+      "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
+      "source": "BBC Top",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
+      "dyad": "Ukraine \u2192 Russia",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 5
     },
     {
       "title": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes maj\u2026",
@@ -56,25 +56,25 @@
       "outlets": 2
     },
     {
-      "title": "Russian strikes hit two key bridges in Kyiv, disrupting water and power sup\u2026",
-      "source": "France24",
+      "title": "Vance says US will not fight 'forever war' with Iran, defends Trump's milit\u2026",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Iran \u2192 Iran",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -4.4,
       "outlets": 2
     },
     {
-      "title": "Third US aircraft carrier reaches Middle East as Trump weighs Iran options",
-      "source": "SCMP",
+      "title": "Iran planning dirty bomb attack in Washington, US intel warns",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "042",
-      "label": "Make a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
