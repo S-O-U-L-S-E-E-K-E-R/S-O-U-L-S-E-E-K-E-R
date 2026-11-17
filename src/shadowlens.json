@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-17 17:16 UTC",
-  "feed_time": "2026-11-17T17:16:09.556053",
-  "total": 845,
-  "coded": 253,
-  "outlets": 63,
+  "updated": "2026-11-17 18:17 UTC",
+  "feed_time": "2026-11-17T18:17:18.090363",
+  "total": 869,
+  "coded": 268,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 61,
-    "verbal cooperation": 78,
+    "material conflict": 106,
+    "verbal conflict": 67,
+    "verbal cooperation": 79,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Use unconventional violence",
       "n": 17
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Appeal",
       "n": 15
     },
     {
-      "label": "Threaten",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 15
     }
   ],
   "ticker": [
     {
-      "title": "Ukraine critically damages Kerch bridge linking occupied Crimea with Russia",
+      "title": "How Ukraine struck the Kerch bridge, a symbol of Putin\u2019s rule",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 5
     },
     {
       "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
@@ -100,17 +100,6 @@
       "outlets": 2
     },
     {
-      "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
       "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Zelenskyy urges allies to send air defence deliveries without delay as Russ\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
       "outlets": 1
     }
   ]
