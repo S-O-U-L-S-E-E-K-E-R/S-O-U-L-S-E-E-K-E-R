@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-16 22:59 UTC",
-  "feed_time": "2026-11-16T22:59:30.680902",
-  "total": 869,
-  "coded": 248,
-  "outlets": 65,
+  "updated": "2026-11-17 00:00 UTC",
+  "feed_time": "2026-11-17T00:00:19.076558",
+  "total": 872,
+  "coded": 257,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 95,
-    "verbal conflict": 59,
-    "verbal cooperation": 72,
+    "material conflict": 99,
+    "verbal conflict": 62,
+    "verbal cooperation": 74,
     "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 34
+      "n": 32
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 24
     },
     {
       "label": "Arrest, detain or charge",
       "n": 15
     },
     {
-      "label": "Investigate",
-      "n": 14
+      "label": "Use conventional military force",
+      "n": 15
     },
     {
-      "label": "Use conventional military force",
-      "n": 13
+      "label": "Investigate",
+      "n": 14
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
+      "outlets": 2
     },
     {
       "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
