@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-17 09:09 UTC",
-  "feed_time": "2026-11-17T09:09:17.145156",
-  "total": 870,
-  "coded": 257,
-  "outlets": 67,
+  "updated": "2026-11-17 10:10 UTC",
+  "feed_time": "2026-11-17T10:10:09.546446",
+  "total": 874,
+  "coded": 253,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 105,
+    "material conflict": 102,
     "verbal conflict": 66,
-    "verbal cooperation": 70,
-    "material cooperation": 16
+    "verbal cooperation": 71,
+    "material cooperation": 14
   },
   "top_labels": [
     {
@@ -17,24 +17,24 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 23
-    },
-    {
-      "label": "Demonstrate or rally",
-      "n": 16
-    },
-    {
-      "label": "Threaten",
-      "n": 14
+      "n": 21
     },
     {
       "label": "Use conventional military force",
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 14
+    },
+    {
+      "label": "Threaten",
       "n": 14
     }
   ],
   "ticker": [
     {
-      "title": "Ukraine hails attack on vital Kerch bridge linking Russia and Crimea \u2013 Euro\u2026",
+      "title": "Ukraine critically damages Kerch bridge linking occupied Crimea with Russia",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 8
+      "outlets": 7
     },
     {
       "title": "Bahrain says it intercepts Iranian air attacks, IRGC says it targets US rad\u2026",
@@ -54,6 +54,28 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
+    },
+    {
+      "title": "Kyiv under attack from Russian ballistic missiles after Ukraine's overnight\u2026",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "FACTBOX: FSB thwarts major Kiev drone attacks in southern Russia, key detai\u2026",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Iran's parliament speaker warns US, Israel against targeting dams amid miss\u2026",
@@ -97,28 +119,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "Jordan \u2192 Greece",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
       "outlets": 1
     }
   ]
