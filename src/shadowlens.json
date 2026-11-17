@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-17 07:07 UTC",
-  "feed_time": "2026-11-17T07:07:18.995730",
-  "total": 872,
-  "coded": 268,
-  "outlets": 67,
+  "updated": "2026-11-17 08:08 UTC",
+  "feed_time": "2026-11-17T08:08:18.962014",
+  "total": 876,
+  "coded": 267,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 69,
-    "verbal cooperation": 74,
-    "material cooperation": 15
+    "material conflict": 114,
+    "verbal conflict": 66,
+    "verbal cooperation": 70,
+    "material cooperation": 17
   },
   "top_labels": [
     {
@@ -17,15 +17,15 @@
     },
     {
       "label": "Consult",
-      "n": 28
+      "n": 29
     },
     {
       "label": "Demonstrate or rally",
-      "n": 13
+      "n": 16
     },
     {
       "label": "Use conventional military force",
-      "n": 13
+      "n": 14
     },
     {
       "label": "Threaten",
@@ -34,15 +34,37 @@
   ],
   "ticker": [
     {
-      "title": "Two major Kyiv bridges hit in Russian attack, mayor says",
-      "source": "BBC World",
+      "title": "Ukraine critically damages Kerch bridge linking occupied Crimea with Russia",
+      "source": "Guardian World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
+      "code": "192",
+      "label": "Occupy territory",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "Kyiv under attack from Russian ballistic missiles after Ukraine's overnight\u2026",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 6
+      "outlets": 4
+    },
+    {
+      "title": "Explosions heard in Bahrain after threat alert, Iran Guards claim US radar\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
     },
     {
       "title": "Apec and Asean summits live: protests await Trump in Manila, as Xi greets l\u2026",
@@ -56,26 +78,15 @@
       "outlets": 2
     },
     {
-      "title": "Ukraine war briefing: Crimea bridge attacked again after Russia strikes maj\u2026",
-      "source": "Guardian Top",
+      "title": "Bahrain thwarts drone attack, Iran claims targeting US military radar",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Iran \u2192 United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Trump is not going to let Iran conflict become a 'forever war', asserts Van\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "110",
-      "label": "Disapprove",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
+      "goldstein": -10.0,
+      "outlets": 1
     },
     {
       "title": "Tankers hit in Strait of Hormuz as drone raises alarm at Iraq gas field",
@@ -100,21 +111,10 @@
       "outlets": 1
     },
     {
-      "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
-      "source": "NYT World",
+      "title": "Iran war live: Bahrain says intercepted Iranian drones, IRGC claims attack",
+      "source": "AlJazeera",
       "risk": 10,
       "dyad": "Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Jordan Sentences 3 to Death Over Greek Orthodox Church Attack",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "Jordan \u2192 Greece",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
