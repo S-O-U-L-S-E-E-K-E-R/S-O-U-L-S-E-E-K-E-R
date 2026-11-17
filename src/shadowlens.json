@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-17 10:10 UTC",
-  "feed_time": "2026-11-17T10:10:09.546446",
-  "total": 874,
+  "updated": "2026-11-17 11:11 UTC",
+  "feed_time": "2026-11-17T11:11:17.171004",
+  "total": 865,
   "coded": 253,
-  "outlets": 66,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 102,
-    "verbal conflict": 66,
+    "material conflict": 101,
+    "verbal conflict": 67,
     "verbal cooperation": 71,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 26
-    },
-    {
-      "label": "Use unconventional violence",
       "n": 21
     },
     {
-      "label": "Use conventional military force",
-      "n": 15
+      "label": "Use unconventional violence",
+      "n": 20
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Use conventional military force",
       "n": 14
     },
     {
       "label": "Threaten",
       "n": 14
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 8
     },
     {
       "title": "Bahrain says it intercepts Iranian air attacks, IRGC says it targets US rad\u2026",
@@ -54,17 +54,6 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
-    },
-    {
-      "title": "Kyiv under attack from Russian ballistic missiles after Ukraine's overnight\u2026",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
     },
     {
       "title": "FACTBOX: FSB thwarts major Kiev drone attacks in southern Russia, key detai\u2026",
@@ -100,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "Yemeni army reports 661 attacks on Houthis as group advances towards Aden",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
       "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
       "source": "NYT World",
       "risk": 10,
@@ -119,6 +97,28 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Egypt \u2192 Palestine",
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
+      "outlets": 1
+    },
+    {
+      "title": "Apec and Asean summits live: protests greet Trump\u2019s arrival in Manila as he\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Philippines",
+      "code": "141",
+      "label": "Demonstrate or rally",
+      "quad": "material conflict",
+      "goldstein": -6.5,
       "outlets": 1
     }
   ]
