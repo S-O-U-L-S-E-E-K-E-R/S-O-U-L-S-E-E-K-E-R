@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-17 15:15 UTC",
-  "feed_time": "2026-11-17T15:15:17.158594",
-  "total": 881,
-  "coded": 268,
-  "outlets": 65,
+  "updated": "2026-11-17 16:16 UTC",
+  "feed_time": "2026-11-17T16:16:09.728159",
+  "total": 879,
+  "coded": 263,
+  "outlets": 64,
   "quad_hist": {
     "material conflict": 100,
     "verbal conflict": 65,
-    "verbal cooperation": 87,
+    "verbal cooperation": 82,
     "material cooperation": 16
   },
   "top_labels": [
@@ -20,15 +20,15 @@
       "n": 18
     },
     {
+      "label": "Employ aerial weapons",
+      "n": 15
+    },
+    {
       "label": "Use unconventional violence",
       "n": 15
     },
     {
       "label": "Threaten",
-      "n": 15
-    },
-    {
-      "label": "Employ aerial weapons",
       "n": 14
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 5
     },
     {
       "title": "UK sanctions Israeli firms helping build West Bank settlements",
@@ -56,6 +56,17 @@
       "outlets": 5
     },
     {
+      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
+    {
       "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
       "source": "DW",
       "risk": 10,
@@ -67,15 +78,15 @@
       "outlets": 4
     },
     {
-      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
-      "source": "NPR World",
+      "title": "Trump warns Iran over reported \u2018dirty bomb\u2019 threat plans against Washington",
+      "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "dyad": "United States \u2192 Iran",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 2
     },
     {
       "title": "Airstrikes on Iran Missile Sites May Shed Light on Justification for Dams",
@@ -86,17 +97,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Lewis Hamilton visits Egypt\u2019s Rafah crossing and Gaza aid facilities",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
       "outlets": 1
     },
     {
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Third US aircraft carrier arrives in the Middle East as Iran targets Bahrain",
-      "source": "France24",
+      "title": "Ethiopia-Eritrea border clashes raise fears of regional war",
+      "source": "DW",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "042",
-      "label": "Make a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "dyad": "",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
