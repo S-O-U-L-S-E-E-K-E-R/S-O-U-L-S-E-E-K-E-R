@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-17 23:22 UTC",
-  "feed_time": "2026-11-17T23:22:09.618552",
-  "total": 860,
+  "updated": "2026-11-18 00:23 UTC",
+  "feed_time": "2026-11-18T00:22:46.547428",
+  "total": 864,
   "coded": 262,
-  "outlets": 68,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 56,
-    "verbal cooperation": 76,
-    "material cooperation": 17
+    "material conflict": 118,
+    "verbal conflict": 50,
+    "verbal cooperation": 80,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 22
+      "n": 27
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 19
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 17
     },
     {
       "label": "Use conventional military force",
       "n": 16
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
-    },
-    {
       "label": "Appeal",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
@@ -45,15 +45,15 @@
       "outlets": 5
     },
     {
-      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
-      "source": "NPR World",
+      "title": "US strikes missile launch site on Iran\u2019s Qeshm Island \u2014 Axios correspondent",
+      "source": "TASS",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "dyad": "United States \u2192 Iran",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 4
     },
     {
       "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
@@ -64,17 +64,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
-      "title": "US fighter jets strike missile launch site on Iran\u2019s Qeshm Island",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -89,6 +78,17 @@
       "outlets": 3
     },
     {
+      "title": "Ukraine strikes major Russian bridge with drones and missiles as aerial att\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
       "title": "Pakistan fall to India in SAFF final after late heartbreak",
       "source": "Dawn",
       "risk": 10,
@@ -100,6 +100,17 @@
       "outlets": 2
     },
     {
+      "title": "Iran war live: Kuwait says intercepting \u2018hostile\u2019 drone attacks",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
       "title": "Whistleblower: Deadly drone strike in Kuwait could\u2019ve been avoided",
       "source": "AlJazeera",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
