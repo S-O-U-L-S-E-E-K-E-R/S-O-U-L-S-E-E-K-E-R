@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-18 09:31 UTC",
-  "feed_time": "2026-11-18T09:31:17.152551",
-  "total": 866,
-  "coded": 262,
-  "outlets": 68,
+  "updated": "2026-11-18 10:32 UTC",
+  "feed_time": "2026-11-18T10:32:09.582158",
+  "total": 873,
+  "coded": 274,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 55,
-    "verbal cooperation": 72,
+    "material conflict": 104,
+    "verbal conflict": 66,
+    "verbal cooperation": 82,
     "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 30
+      "n": 29
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
       "n": 14
     },
     {
-      "label": "Use conventional military force",
-      "n": 13
+      "label": "Demand",
+      "n": 11
     }
   ],
   "ticker": [
@@ -64,7 +64,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Iran's army launches drone attack at Kuwait base used by US military",
@@ -89,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "Germany hits out after US criticises Ukraine\u2019s deep strikes into Russia \u2013 E\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Germany \u2192 Ukraine",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Threaten",
       "quad": "verbal conflict",
       "goldstein": -6.0,
+      "outlets": 1
+    },
+    {
+      "title": "Fresh clashes at the Eritrean border \u2014 is Ethiopia sliding into a regional\u2026",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Ethiopia",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
