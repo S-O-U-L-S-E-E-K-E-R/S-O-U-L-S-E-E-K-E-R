@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-18 17:38 UTC",
-  "feed_time": "2026-11-18T17:38:12.919001",
-  "total": 860,
-  "coded": 243,
-  "outlets": 70,
+  "updated": "2026-11-18 18:39 UTC",
+  "feed_time": "2026-11-18T18:39:17.450704",
+  "total": 855,
+  "coded": 252,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 88,
-    "verbal conflict": 61,
-    "verbal cooperation": 74,
-    "material cooperation": 20
+    "material conflict": 87,
+    "verbal conflict": 63,
+    "verbal cooperation": 81,
+    "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 31
+      "n": 32
     },
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Threaten",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Demand",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -37,11 +37,11 @@
       "title": "US Democrats nominate Hakeem Jeffries to be first Black House speaker",
       "source": "Dawn",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Magazine \u2192 United States",
+      "code": "010",
+      "label": "Make statement",
+      "quad": "verbal cooperation",
+      "goldstein": 0.0,
       "outlets": 13
     },
     {
@@ -78,26 +78,15 @@
       "outlets": 3
     },
     {
-      "title": "India signs $211 million contract with Israel Aerospace Industries to upgra\u2026",
-      "source": "Jerusalem Post",
+      "title": "Israel launches assault targeting residential areas in Gaza despite ceasefi\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Israel",
-      "code": "060",
-      "label": "Engage in material cooperation",
-      "quad": "material cooperation",
-      "goldstein": 6.0,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "194",
+      "label": "Fight with artillery and tanks",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
-    },
-    {
-      "title": "Ukraine mourns mother, athlete and drone operator killed in Russian strike",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "India news: Gandhi gives talk in New York, warns of 'looming crisis'",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "India",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 1
     }
   ]
