@@ -1,48 +1,48 @@
 {
-  "updated": "2026-11-18 05:27 UTC",
-  "feed_time": "2026-11-18T05:27:18.568333",
-  "total": 871,
-  "coded": 277,
+  "updated": "2026-11-18 06:28 UTC",
+  "feed_time": "2026-11-18T06:28:09.843195",
+  "total": 869,
+  "coded": 263,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 51,
-    "verbal cooperation": 83,
+    "material conflict": 115,
+    "verbal conflict": 46,
+    "verbal cooperation": 80,
     "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 32
+      "n": 34
     },
     {
       "label": "Use unconventional violence",
       "n": 21
     },
     {
+      "label": "Arrest, detain or charge",
+      "n": 15
+    },
+    {
       "label": "Employ aerial weapons",
-      "n": 16
+      "n": 14
     },
     {
       "label": "Use conventional military force",
-      "n": 13
-    },
-    {
-      "label": "Threaten",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
     {
-      "title": "Pakistani man gets 27 years in US prison for Trump murder plot",
-      "source": "SCMP",
+      "title": "Xi, Putin meet ahead of historic Trump trilateral summit",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Pakistan \u2192 United States",
-      "code": "186",
-      "label": "Assassinate",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
+      "dyad": "Russia \u2192 United States",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 6
     },
     {
       "title": "How Ukraine struck the Kerch bridge, a symbol of Putin\u2019s rule",
@@ -53,6 +53,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "Pakistani man gets 27 years in US prison for Trump murder plot",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Pakistan \u2192 United States",
+      "code": "186",
+      "label": "Assassinate",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 4
     },
     {
@@ -108,17 +119,6 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
