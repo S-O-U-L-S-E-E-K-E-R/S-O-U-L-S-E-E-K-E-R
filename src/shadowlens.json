@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-18 00:23 UTC",
-  "feed_time": "2026-11-18T00:22:46.547428",
-  "total": 864,
-  "coded": 262,
-  "outlets": 67,
+  "updated": "2026-11-18 03:25 UTC",
+  "feed_time": "2026-11-18T03:25:18.303828",
+  "total": 871,
+  "coded": 276,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 50,
-    "verbal cooperation": 80,
-    "material cooperation": 14
+    "material conflict": 122,
+    "verbal conflict": 52,
+    "verbal cooperation": 81,
+    "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Use unconventional violence",
@@ -24,12 +24,12 @@
       "n": 17
     },
     {
-      "label": "Use conventional military force",
-      "n": 16
+      "label": "Arrest, detain or charge",
+      "n": 15
     },
     {
-      "label": "Appeal",
-      "n": 13
+      "label": "Attack cybernetically",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,17 +42,6 @@
       "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
-    },
-    {
-      "title": "US strikes missile launch site on Iran\u2019s Qeshm Island \u2014 Axios correspondent",
-      "source": "TASS",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 4
     },
     {
@@ -64,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "UK sanctions Israeli firms helping build West Bank settlements",
@@ -89,14 +78,14 @@
       "outlets": 2
     },
     {
-      "title": "Pakistan fall to India in SAFF final after late heartbreak",
-      "source": "Dawn",
+      "title": "Pakistani man gets 27 years in US prison for Trump murder plot",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "United States",
+      "code": "186",
+      "label": "Assassinate",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Whistleblower: Deadly drone strike in Kuwait could\u2019ve been avoided",
-      "source": "AlJazeera",
+      "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
