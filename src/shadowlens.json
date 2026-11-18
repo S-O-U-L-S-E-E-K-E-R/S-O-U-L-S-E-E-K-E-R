@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-18 07:29 UTC",
-  "feed_time": "2026-11-18T07:29:17.226865",
-  "total": 871,
-  "coded": 262,
-  "outlets": 68,
+  "updated": "2026-11-18 08:30 UTC",
+  "feed_time": "2026-11-18T08:30:18.264063",
+  "total": 846,
+  "coded": 263,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 49,
-    "verbal cooperation": 80,
-    "material cooperation": 21
+    "material conflict": 111,
+    "verbal conflict": 54,
+    "verbal cooperation": 78,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 34
+      "n": 33
     },
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 14
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 13
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
       "n": 13
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 7
+      "outlets": 5
     },
     {
       "title": "How Ukraine struck the Kerch bridge, a symbol of Putin\u2019s rule",
@@ -75,7 +75,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Iran's army launches drone attack at Kuwait base used by US military",
