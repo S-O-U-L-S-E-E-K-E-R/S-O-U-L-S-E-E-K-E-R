@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-18 03:25 UTC",
-  "feed_time": "2026-11-18T03:25:18.303828",
+  "updated": "2026-11-18 04:26 UTC",
+  "feed_time": "2026-11-18T04:26:12.410862",
   "total": 871,
-  "coded": 276,
+  "coded": 272,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 122,
+    "material conflict": 119,
     "verbal conflict": 52,
-    "verbal cooperation": 81,
+    "verbal cooperation": 80,
     "material cooperation": 21
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 28
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 19
+      "n": 31
     },
     {
       "label": "Employ aerial weapons",
-      "n": 17
+      "n": 18
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Attack cybernetically",
-      "n": 15
+      "label": "Use conventional military force",
+      "n": 13
     }
   ],
   "ticker": [
@@ -38,22 +38,22 @@
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
-      "code": "192",
-      "label": "Occupy territory",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 4
     },
     {
-      "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
-      "source": "DW",
+      "title": "Pakistani man gets 27 years in US prison for Trump murder plot",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "United States",
+      "code": "186",
+      "label": "Assassinate",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "UK sanctions Israeli firms helping build West Bank settlements",
@@ -78,12 +78,12 @@
       "outlets": 2
     },
     {
-      "title": "Pakistani man gets 27 years in US prison for Trump murder plot",
-      "source": "SCMP",
+      "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
+      "source": "DW",
       "risk": 10,
-      "dyad": "United States",
-      "code": "186",
-      "label": "Assassinate",
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
