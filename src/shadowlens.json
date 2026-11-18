@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-18 08:30 UTC",
-  "feed_time": "2026-11-18T08:30:18.264063",
-  "total": 846,
-  "coded": 263,
-  "outlets": 49,
+  "updated": "2026-11-18 09:31 UTC",
+  "feed_time": "2026-11-18T09:31:17.152551",
+  "total": 866,
+  "coded": 262,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 54,
-    "verbal cooperation": 78,
-    "material cooperation": 20
+    "material conflict": 113,
+    "verbal conflict": 55,
+    "verbal cooperation": 72,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 33
+      "n": 30
     },
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 24
     },
     {
       "label": "Threaten",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 11
+      "label": "Use conventional military force",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
+      "outlets": 8
     },
     {
       "title": "How Ukraine struck the Kerch bridge, a symbol of Putin\u2019s rule",
@@ -67,17 +67,6 @@
       "outlets": 4
     },
     {
-      "title": "Iran dismisses report of alleged 'dirty bomb' attack on Washington",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Iran's army launches drone attack at Kuwait base used by US military",
       "source": "MEE",
       "risk": 10,
@@ -100,14 +89,14 @@
       "outlets": 1
     },
     {
-      "title": "\u2018They were keeping it for a rainy day\u2019: Ukraine\u2019s Kerch bridge attack is pr\u2026",
-      "source": "Guardian World",
+      "title": "Germany hits out after US criticises Ukraine\u2019s deep strikes into Russia \u2013 E\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "Germany \u2192 Ukraine",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 1
     },
     {
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "India news: Gandhi gives talk in New York, warns of 'looming crisis'",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "India",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
       "outlets": 1
     }
   ]
