@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-19 05:50 UTC",
-  "feed_time": "2026-11-19T05:50:18.053109",
-  "total": 851,
-  "coded": 263,
+  "updated": "2026-11-19 06:51 UTC",
+  "feed_time": "2026-11-19T06:51:09.692995",
+  "total": 857,
+  "coded": 264,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 97,
-    "verbal conflict": 59,
-    "verbal cooperation": 86,
-    "material cooperation": 21
+    "material conflict": 98,
+    "verbal conflict": 57,
+    "verbal cooperation": 87,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 25
+      "n": 26
     },
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Threaten",
@@ -28,22 +28,11 @@
       "n": 15
     },
     {
-      "label": "Accuse",
-      "n": 12
+      "label": "Return or release",
+      "n": 13
     }
   ],
   "ticker": [
-    {
-      "title": "Apec summit live: Trump praises \u2018great relationship\u2019 with Putin ahead of hi\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Russia",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.5,
-      "outlets": 8
-    },
     {
       "title": "Trump holds talks with 'friend' Putin ahead of trilateral moot with Xi",
       "source": "Dawn",
@@ -56,26 +45,15 @@
       "outlets": 6
     },
     {
-      "title": "US Democrats nominate Hakeem Jeffries to be first Black House speaker",
-      "source": "Dawn",
+      "title": "Apec summit live: Trump praises \u2018great relationship\u2019 with Putin ahead of hi\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "United States",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 6
-    },
-    {
-      "title": "Iran war live: Trump says Iran seeks new weapons; Houthis target Riyadh",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
+      "dyad": "United States \u2192 Russia",
+      "code": "051",
+      "label": "Praise or endorse",
+      "quad": "verbal cooperation",
+      "goldstein": 3.5,
+      "outlets": 4
     },
     {
       "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
@@ -100,8 +78,30 @@
       "outlets": 1
     },
     {
-      "title": "How Ukraine landed a blow to Putin\u2019s prized bridge - The Latest",
-      "source": "Guardian Top",
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "More missiles, more war: Europe pledges to keep Kiev fighting",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Ukraine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Is another US-Iran war looming?",
+      "source": "RT",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "US strikes Iran in \u2018self-defense\u2019",
+      "source": "RT",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
