@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-19 20:04 UTC",
-  "feed_time": "2026-11-19T20:03:51.257499",
-  "total": 854,
-  "coded": 276,
+  "updated": "2026-11-19 21:05 UTC",
+  "feed_time": "2026-11-19T21:04:47.731133",
+  "total": 850,
+  "coded": 284,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 124,
-    "verbal conflict": 60,
-    "verbal cooperation": 74,
-    "material cooperation": 18
+    "material conflict": 115,
+    "verbal conflict": 65,
+    "verbal cooperation": 85,
+    "material cooperation": 19
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 19
     },
     {
       "label": "Threaten",
       "n": 19
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Attack cybernetically",
       "n": 15
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Employ aerial weapons",
       "n": 14
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 10
+      "outlets": 12
     },
     {
       "title": "Trump, Xi, Putin summit: What was it all about?",
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Somalia expels Emirati envoy, recalls own ambassador over 'open invasion'",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Somalia \u2192 UAE",
-      "code": "161",
-      "label": "Reduce or break diplomatic re\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 2
-    },
-    {
       "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
       "source": "NYT Top",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
