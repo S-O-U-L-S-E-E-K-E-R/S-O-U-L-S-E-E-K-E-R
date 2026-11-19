@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-19 19:03 UTC",
-  "feed_time": "2026-11-19T19:02:36.827024",
-  "total": 856,
-  "coded": 263,
+  "updated": "2026-11-19 20:04 UTC",
+  "feed_time": "2026-11-19T20:03:51.257499",
+  "total": 854,
+  "coded": 276,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 120,
-    "verbal conflict": 57,
-    "verbal cooperation": 71,
-    "material cooperation": 15
+    "material conflict": 124,
+    "verbal conflict": 60,
+    "verbal cooperation": 74,
+    "material cooperation": 18
   },
   "top_labels": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Threaten",
@@ -25,25 +25,14 @@
     },
     {
       "label": "Employ aerial weapons",
-      "n": 13
+      "n": 15
     },
     {
       "label": "Attack cybernetically",
-      "n": 13
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Trump, Xi, Putin summit: What was it all about?",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "United States \u2192 Russia",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 8
-    },
     {
       "title": "US, China, Russia sign \u2018peace declaration\u2019 after historic Trump, Xi, Putin\u2026",
       "source": "Dawn",
@@ -53,7 +42,18 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 5
+      "outlets": 10
+    },
+    {
+      "title": "Trump, Xi, Putin summit: What was it all about?",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "United States \u2192 Russia",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 7
     },
     {
       "title": "Putin vows \u2018painful\u2019 response to Ukraine\u2019s bombing of Kerch bridge",
@@ -64,7 +64,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
       "title": "Top UN court finds Myanmar committed state-sponsored genocide against Musli\u2026",
