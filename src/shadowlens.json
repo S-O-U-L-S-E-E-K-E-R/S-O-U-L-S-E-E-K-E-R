@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-18 23:44 UTC",
-  "feed_time": "2026-11-18T23:44:17.297239",
-  "total": 842,
-  "coded": 256,
+  "updated": "2026-11-19 00:45 UTC",
+  "feed_time": "2026-11-19T00:45:09.576673",
+  "total": 852,
+  "coded": 261,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 97,
-    "verbal conflict": 61,
-    "verbal cooperation": 75,
-    "material cooperation": 23
+    "material conflict": 96,
+    "verbal conflict": 62,
+    "verbal cooperation": 79,
+    "material cooperation": 24
   },
   "top_labels": [
+    {
+      "label": "Consult",
+      "n": 24
+    },
     {
       "label": "Use unconventional violence",
       "n": 23
     },
     {
-      "label": "Consult",
-      "n": 23
+      "label": "Threaten",
+      "n": 14
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
-    },
-    {
-      "label": "Threaten",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Investigate",
-      "n": 12
+      "n": 13
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 10
+      "outlets": 7
     },
     {
       "title": "Israeli forces say ground operation in Gaza to dismantle Hamas tunnels",
@@ -64,7 +64,7 @@
       "label": "Use conventional military for\u2026",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 7
     },
     {
       "title": "Man sentenced to over 27 years in US for plot to assassinate Trump",
@@ -76,6 +76,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
+    },
+    {
+      "title": "Iran war live: Saudi-led coalition strikes Yemen; ships on fire in Hormuz",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
     },
     {
       "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
