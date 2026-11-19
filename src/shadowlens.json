@@ -1,125 +1,15 @@
 {
-  "updated": "2026-11-19 21:05 UTC",
-  "feed_time": "2026-11-19T21:04:47.731133",
-  "total": 850,
-  "coded": 284,
-  "outlets": 68,
+  "updated": "2026-11-19 22:06 UTC",
+  "feed_time": "2026-11-19T22:04:39.004719",
+  "total": 0,
+  "coded": 0,
+  "outlets": 0,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 65,
-    "verbal cooperation": 85,
-    "material cooperation": 19
+    "material conflict": 0,
+    "verbal conflict": 0,
+    "verbal cooperation": 0,
+    "material cooperation": 0
   },
-  "top_labels": [
-    {
-      "label": "Consult",
-      "n": 28
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 19
-    },
-    {
-      "label": "Threaten",
-      "n": 19
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 15
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 14
-    }
-  ],
-  "ticker": [
-    {
-      "title": "US, China, Russia sign \u2018peace declaration\u2019 after historic Trump, Xi, Putin\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States \u2192 China",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 12
-    },
-    {
-      "title": "Trump, Xi, Putin summit: What was it all about?",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "United States \u2192 Russia",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 7
-    },
-    {
-      "title": "Putin vows \u2018painful\u2019 response to Ukraine\u2019s bombing of Kerch bridge",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Top UN court finds Myanmar committed state-sponsored genocide against Musli\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "UN \u2192 Myanmar",
-      "code": "202",
-      "label": "Engage in mass killings",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Houthis hit Saudi Arabia's sovereign wealth fund skyscraper",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
-      "source": "NYT Top",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    }
-  ]
+  "top_labels": [],
+  "ticker": []
 }
