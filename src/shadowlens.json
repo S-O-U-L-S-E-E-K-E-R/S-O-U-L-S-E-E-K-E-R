@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-19 17:01 UTC",
-  "feed_time": "2026-11-19T17:01:17.249003",
-  "total": 847,
-  "coded": 274,
+  "updated": "2026-11-19 18:02 UTC",
+  "feed_time": "2026-11-19T18:02:36.239957",
+  "total": 848,
+  "coded": 262,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 124,
-    "verbal conflict": 61,
-    "verbal cooperation": 73,
-    "material cooperation": 16
+    "material conflict": 122,
+    "verbal conflict": 60,
+    "verbal cooperation": 66,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 27
     },
     {
       "label": "Consult",
-      "n": 26
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 14
+      "n": 18
     },
     {
-      "label": "Engage in mass killings",
-      "n": 13
+      "label": "Attack cybernetically",
+      "n": 15
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 9
-    },
-    {
-      "title": "Denmark buckles under Trump, approves US military expansion deal in Greenla\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Denmark \u2192 Denmark",
-      "code": "051",
-      "label": "Praise or endorse",
-      "quad": "verbal cooperation",
-      "goldstein": 3.4,
-      "outlets": 4
+      "outlets": 8
     },
     {
       "title": "US, China, Russia sign \u2018peace declaration\u2019 after historic Trump, Xi, Putin\u2026",
@@ -65,6 +54,17 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 4
+    },
+    {
+      "title": "Denmark buckles under Trump, approves US military expansion deal in Greenla\u2026",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Denmark",
+      "code": "160",
+      "label": "Reduce relations",
+      "quad": "material conflict",
+      "goldstein": -4.0,
+      "outlets": 3
     },
     {
       "title": "Putin vows \u2018painful\u2019 response to Ukraine\u2019s bombing of Kerch bridge",
@@ -100,17 +100,6 @@
       "outlets": 2
     },
     {
-      "title": "Two Palestinians killed, several injured in Israeli attacks across Gaza",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
       "title": "Somalia expels Emirati envoy, recalls own ambassador over 'open invasion'",
       "source": "MEE",
       "risk": 10,
@@ -120,6 +109,17 @@
       "quad": "material conflict",
       "goldstein": -4.0,
       "outlets": 2
+    },
+    {
+      "title": "Trump Weighs New Strikes on Iran as Israel Presses for Action, Officials Say",
+      "source": "NYT Top",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     }
   ]
 }
