@@ -1,15 +1,125 @@
 {
-  "updated": "2026-11-19 23:07 UTC",
-  "feed_time": "2026-11-19T23:07:38.972978",
-  "total": 0,
-  "coded": 0,
-  "outlets": 0,
+  "updated": "2026-11-20 00:08 UTC",
+  "feed_time": "2026-11-20T00:08:43.641041",
+  "total": 847,
+  "coded": 273,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 0,
-    "verbal conflict": 0,
-    "verbal cooperation": 0,
-    "material cooperation": 0
+    "material conflict": 103,
+    "verbal conflict": 65,
+    "verbal cooperation": 85,
+    "material cooperation": 20
   },
-  "top_labels": [],
-  "ticker": []
+  "top_labels": [
+    {
+      "label": "Consult",
+      "n": 26
+    },
+    {
+      "label": "Threaten",
+      "n": 19
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 18
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 17
+    },
+    {
+      "label": "Engage in mass killings",
+      "n": 13
+    }
+  ],
+  "ticker": [
+    {
+      "title": "US, China, Russia sign \u2018peace declaration\u2019 after historic Trump, Xi, Putin\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States \u2192 China",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 16
+    },
+    {
+      "title": "Putin vows \u2018painful\u2019 response to Ukraine\u2019s bombing of Kerch bridge",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Iranian foreign ministry spokesperson slams US claims about Iran's nuclear\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 3
+    },
+    {
+      "title": "Trump pushes Iran war decision to 2027, says he'll 'see what happens' after\u2026",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "Iran \u2192 Air Force",
+      "code": "010",
+      "label": "Make statement",
+      "quad": "verbal cooperation",
+      "goldstein": 0.0,
+      "outlets": 2
+    },
+    {
+      "title": "Top UN court finds Myanmar committed state-sponsored genocide against Musli\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "UN \u2192 Myanmar",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Senate vote to curb Trump war on Iran fails again",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "120",
+      "label": "Reject",
+      "quad": "verbal conflict",
+      "goldstein": -4.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Egypt",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 1
+    }
+  ]
 }
