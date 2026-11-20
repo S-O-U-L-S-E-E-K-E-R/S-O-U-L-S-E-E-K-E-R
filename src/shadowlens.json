@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-20 10:18 UTC",
-  "feed_time": "2026-11-20T10:17:36.084345",
-  "total": 872,
-  "coded": 279,
-  "outlets": 68,
+  "updated": "2026-11-20 11:19 UTC",
+  "feed_time": "2026-11-20T11:19:43.591352",
+  "total": 870,
+  "coded": 276,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 65,
-    "verbal cooperation": 79,
-    "material cooperation": 19
+    "material conflict": 112,
+    "verbal conflict": 62,
+    "verbal cooperation": 82,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 24
+      "n": 28
     },
     {
       "label": "Use unconventional violence",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 16
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Engage in mass killings",
       "n": 13
     }
   ],
@@ -45,7 +45,7 @@
       "outlets": 5
     },
     {
-      "title": "Israel\u2019s ambassador to US says the decision to strike Iran lies with Trump",
+      "title": "Iranian press review: Pre-emptive strikes on US warships proposed to preven\u2026",
       "source": "MEE",
       "risk": 10,
       "dyad": "Iran \u2192 United States",
