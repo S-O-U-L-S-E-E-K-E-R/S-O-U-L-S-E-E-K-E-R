@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-20 07:15 UTC",
-  "feed_time": "2026-11-20T07:15:43.672657",
-  "total": 855,
-  "coded": 262,
+  "updated": "2026-11-20 08:16 UTC",
+  "feed_time": "2026-11-20T08:16:43.638836",
+  "total": 862,
+  "coded": 263,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 66,
+    "material conflict": 106,
+    "verbal conflict": 63,
     "verbal cooperation": 77,
-    "material cooperation": 20
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 26
+      "n": 25
     },
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Attack cybernetically",
-      "n": 15
+      "n": 17
     },
     {
       "label": "Engage in mass killings",
-      "n": 12
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,18 @@
       "label": "Consult",
       "quad": "verbal cooperation",
       "goldstein": 1.0,
-      "outlets": 14
+      "outlets": 6
+    },
+    {
+      "title": "Three Kyiv bridges hit during major Russian missile attack",
+      "source": "BBC Top",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 5
     },
     {
       "title": "Israel\u2019s ambassador to US says the decision to strike Iran lies with Trump",
@@ -64,18 +75,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Live: Deadly Russian attacks damage two bridges in Kyiv, mayor says",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Houthis hit Saudi Arabia's sovereign wealth fund skyscraper",
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Iran war live: Houthis escalate attacks on Saudi Arabia",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Yemen \u2192 Saudi Arabia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "US warned supplying nuclear-powered submarines to Australia would diminish\u2026",
-      "source": "Guardian Top",
+      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+      "source": "NPR World",
       "risk": 10,
-      "dyad": "Australia",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -4.4,
+      "dyad": "Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
