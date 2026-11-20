@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-20 21:28 UTC",
-  "feed_time": "2026-11-20T21:28:43.585629",
-  "total": 827,
-  "coded": 256,
-  "outlets": 66,
+  "updated": "2026-11-20 22:29 UTC",
+  "feed_time": "2026-11-20T22:29:36.590830",
+  "total": 853,
+  "coded": 267,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 81,
-    "verbal cooperation": 64,
-    "material cooperation": 13
+    "material conflict": 102,
+    "verbal conflict": 82,
+    "verbal cooperation": 67,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 24
+      "label": "Consult",
+      "n": 25
     },
     {
-      "label": "Consult",
-      "n": 22
+      "label": "Use unconventional violence",
+      "n": 24
     },
     {
       "label": "Threaten",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Accuse",
-      "n": 15
+      "n": 16
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 6
+      "outlets": 7
     },
     {
       "title": "'Great, great electricity': Trump describes historic trilateral with Xi, Pu\u2026",
@@ -54,6 +54,17 @@
       "quad": "verbal cooperation",
       "goldstein": 1.0,
       "outlets": 6
+    },
+    {
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Palestinian man killed near Ramallah as Israeli raids sweep occupied West B\u2026",
@@ -108,17 +119,6 @@
       "label": "Demonstrate or rally",
       "quad": "material conflict",
       "goldstein": -6.5,
-      "outlets": 1
-    },
-    {
-      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
