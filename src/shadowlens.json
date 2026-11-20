@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-20 17:25 UTC",
-  "feed_time": "2026-11-20T17:25:43.648384",
+  "updated": "2026-11-20 18:26 UTC",
+  "feed_time": "2026-11-20T18:25:43.770027",
   "total": 873,
   "coded": 259,
-  "outlets": 66,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 76,
-    "verbal cooperation": 69,
-    "material cooperation": 16
+    "material conflict": 104,
+    "verbal conflict": 71,
+    "verbal cooperation": 67,
+    "material cooperation": 17
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 21
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 19
+    },
+    {
+      "label": "Consult",
+      "n": 19
     },
     {
       "label": "Investigate",
-      "n": 16
+      "n": 14
     },
     {
-      "label": "Engage in mass killings",
-      "n": 13
+      "label": "Appeal",
+      "n": 14
     }
   ],
   "ticker": [
@@ -43,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 7
+    },
+    {
+      "title": "Houthis retaliate for coalition strikes with attack on Saudi power station\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Putin proposes second humanitarian ceasefire \u2014 is it a trap?",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
