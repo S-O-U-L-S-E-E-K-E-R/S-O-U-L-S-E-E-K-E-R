@@ -1,40 +1,40 @@
 {
-  "updated": "2026-11-20 16:24 UTC",
-  "feed_time": "2026-11-20T16:23:41.004676",
-  "total": 878,
-  "coded": 270,
+  "updated": "2026-11-20 17:25 UTC",
+  "feed_time": "2026-11-20T17:25:43.648384",
+  "total": 873,
+  "coded": 259,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 70,
-    "verbal cooperation": 77,
-    "material cooperation": 22
+    "material conflict": 98,
+    "verbal conflict": 76,
+    "verbal cooperation": 69,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 22
-    },
-    {
-      "label": "Threaten",
-      "n": 18
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
-      "n": 15
+      "n": 20
+    },
+    {
+      "label": "Threaten",
+      "n": 17
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 16
     },
     {
-      "label": "Attack cybernetically",
-      "n": 14
+      "label": "Engage in mass killings",
+      "n": 13
     }
   ],
   "ticker": [
     {
-      "title": "Russian missiles and drone reportedly hit Poland during attacks on Ukraine",
+      "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
