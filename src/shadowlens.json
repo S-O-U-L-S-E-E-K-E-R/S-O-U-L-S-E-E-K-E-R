@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-20 15:23 UTC",
-  "feed_time": "2026-11-20T15:22:43.585060",
-  "total": 871,
-  "coded": 265,
-  "outlets": 67,
+  "updated": "2026-11-20 16:24 UTC",
+  "feed_time": "2026-11-20T16:23:41.004676",
+  "total": 878,
+  "coded": 270,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 100,
+    "material conflict": 101,
     "verbal conflict": 70,
-    "verbal cooperation": 75,
-    "material cooperation": 20
+    "verbal cooperation": 77,
+    "material cooperation": 22
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 26
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Use unconventional violence",
       "n": 15
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Investigate",
       "n": 14
     },
     {
-      "label": "Engage in mass killings",
-      "n": 12
+      "label": "Attack cybernetically",
+      "n": 14
     }
   ],
   "ticker": [
@@ -67,7 +67,7 @@
       "outlets": 1
     },
     {
-      "title": "How the war in Iran turned the Gulf into a climate catastrophe \u2013 video expl\u2026",
+      "title": "Now get out of that! How can the new James Bond film get around 007\u2019s death\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
@@ -78,7 +78,7 @@
       "outlets": 1
     },
     {
-      "title": "Now get out of that! How can the new James Bond film get around 007\u2019s death\u2026",
+      "title": "How the war in Iran turned the Gulf into a climate catastrophe \u2013 video expl\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
@@ -111,7 +111,7 @@
       "outlets": 1
     },
     {
-      "title": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
+      "title": "Putin proposes second humanitarian ceasefire \u2014 is it a trap?",
       "source": "DW",
       "risk": 10,
       "dyad": "",
