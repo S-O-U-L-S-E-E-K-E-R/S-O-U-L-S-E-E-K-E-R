@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-20 13:21 UTC",
-  "feed_time": "2026-11-20T13:21:43.596909",
-  "total": 873,
-  "coded": 286,
-  "outlets": 67,
+  "updated": "2026-11-20 14:22 UTC",
+  "feed_time": "2026-11-20T14:22:36.106398",
+  "total": 867,
+  "coded": 282,
+  "outlets": 68,
   "quad_hist": {
     "material conflict": 113,
-    "verbal conflict": 71,
-    "verbal cooperation": 83,
-    "material cooperation": 19
+    "verbal conflict": 70,
+    "verbal cooperation": 79,
+    "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 30
+      "n": 28
     },
     {
       "label": "Use unconventional violence",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Attack cybernetically",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Engage in mass killings",
-      "n": 15
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 7
+      "outlets": 8
     },
     {
       "title": "Live: France seeks UN Security Council meeting after Russian strikes hit Eu\u2026",
@@ -89,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "Now get out of that! How can the new James Bond film get around 007\u2019s death\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
       "source": "NPR World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Iran may be working on biological weapons, Trump says",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
