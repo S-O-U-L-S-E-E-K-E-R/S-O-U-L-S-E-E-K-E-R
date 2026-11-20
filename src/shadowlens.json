@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-20 14:22 UTC",
-  "feed_time": "2026-11-20T14:22:36.106398",
-  "total": 867,
-  "coded": 282,
-  "outlets": 68,
+  "updated": "2026-11-20 15:23 UTC",
+  "feed_time": "2026-11-20T15:22:43.585060",
+  "total": 871,
+  "coded": 265,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 113,
+    "material conflict": 100,
     "verbal conflict": 70,
-    "verbal cooperation": 79,
+    "verbal cooperation": 75,
     "material cooperation": 20
   },
   "top_labels": [
     {
       "label": "Consult",
-      "n": 28
-    },
-    {
-      "label": "Use unconventional violence",
-      "n": 23
+      "n": 26
     },
     {
       "label": "Threaten",
-      "n": 21
+      "n": 19
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 15
     },
     {
       "label": "Attack cybernetically",
-      "n": 17
+      "n": 14
     },
     {
       "label": "Engage in mass killings",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 8
-    },
-    {
-      "title": "Live: France seeks UN Security Council meeting after Russian strikes hit Eu\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "France \u2192 UN",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 2
+      "outlets": 7
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
