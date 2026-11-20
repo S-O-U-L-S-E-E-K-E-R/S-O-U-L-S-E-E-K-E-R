@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-20 18:26 UTC",
-  "feed_time": "2026-11-20T18:25:43.770027",
-  "total": 873,
-  "coded": 259,
+  "updated": "2026-11-20 19:26 UTC",
+  "feed_time": "2026-11-20T19:26:43.631487",
+  "total": 852,
+  "coded": 258,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 104,
+    "material conflict": 99,
     "verbal conflict": 71,
-    "verbal cooperation": 67,
-    "material cooperation": 17
+    "verbal cooperation": 70,
+    "material cooperation": 18
   },
   "top_labels": [
     {
@@ -16,33 +16,44 @@
       "n": 24
     },
     {
-      "label": "Threaten",
-      "n": 19
+      "label": "Consult",
+      "n": 21
     },
     {
-      "label": "Consult",
-      "n": 19
+      "label": "Threaten",
+      "n": 18
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 15
     },
     {
-      "label": "Appeal",
+      "label": "Attack cybernetically",
       "n": 14
     }
   ],
   "ticker": [
     {
       "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
-      "source": "Guardian World",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 7
+      "dyad": "Poland \u2192 Russia",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 8
+    },
+    {
+      "title": "'Great, great electricity': Trump describes historic trilateral with Xi, Pu\u2026",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "United States \u2192 China",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
+      "outlets": 6
     },
     {
       "title": "Houthis retaliate for coalition strikes with attack on Saudi power station\u2026",
@@ -79,17 +90,6 @@
     },
     {
       "title": "Now get out of that! How can the new James Bond film get around 007\u2019s death\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "How the war in Iran turned the Gulf into a climate catastrophe \u2013 video expl\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
