@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-20 20:27 UTC",
-  "feed_time": "2026-11-20T20:27:36.169995",
-  "total": 850,
-  "coded": 267,
-  "outlets": 68,
+  "updated": "2026-11-20 21:28 UTC",
+  "feed_time": "2026-11-20T21:28:43.585629",
+  "total": 827,
+  "coded": 256,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 79,
-    "verbal cooperation": 72,
-    "material cooperation": 16
+    "material conflict": 98,
+    "verbal conflict": 81,
+    "verbal cooperation": 64,
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Consult",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Threaten",
       "n": 19
     },
     {
-      "label": "Accuse",
-      "n": 16
+      "label": "Investigate",
+      "n": 17
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Accuse",
       "n": 15
     }
   ],
@@ -37,12 +37,12 @@
       "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Poland \u2192 Russia",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 8
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 6
     },
     {
       "title": "'Great, great electricity': Trump describes historic trilateral with Xi, Pu\u2026",
@@ -56,6 +56,17 @@
       "outlets": 6
     },
     {
+      "title": "Palestinian man killed near Ramallah as Israeli raids sweep occupied West B\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "192",
+      "label": "Occupy territory",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
       "title": "Houthis retaliate for coalition strikes with attack on Saudi power station\u2026",
       "source": "MEE",
       "risk": 10,
@@ -65,6 +76,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
+    },
+    {
+      "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -97,28 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Putin proposes second humanitarian ceasefire \u2014 is it a trap?",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
