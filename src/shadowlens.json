@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 08:38 UTC",
-  "feed_time": "2026-11-21T08:38:43.799841",
-  "total": 864,
-  "coded": 266,
+  "updated": "2026-11-21 09:39 UTC",
+  "feed_time": "2026-11-21T09:39:43.612572",
+  "total": 865,
+  "coded": 260,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 77,
-    "verbal cooperation": 63,
+    "material conflict": 112,
+    "verbal conflict": 72,
+    "verbal cooperation": 61,
     "material cooperation": 15
   },
   "top_labels": [
@@ -21,27 +21,27 @@
     },
     {
       "label": "Threaten",
+      "n": 18
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 17
     },
     {
       "label": "Accuse",
       "n": 16
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 15
     }
   ],
   "ticker": [
     {
-      "title": "What we know about the latest Russian missile strikes on Ukraine",
-      "source": "BBC World",
+      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+      "source": "DW",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -56,14 +56,14 @@
       "outlets": 3
     },
     {
-      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
-      "source": "DW",
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "source": "BBC World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -78,17 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "Loud explosion heard in Riyadh after Saudi civil defence alerts",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Kingdom",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -4.4,
-      "outlets": 2
-    },
-    {
       "title": "Netanyahu is playing with the fire that killed Rabin",
       "source": "AlJazeera",
       "risk": 10,
@@ -100,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +97,28 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "When you see smoke, run: Rohingya who escaped Myanmar\u2019s genocide tell their\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Myanmar",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
