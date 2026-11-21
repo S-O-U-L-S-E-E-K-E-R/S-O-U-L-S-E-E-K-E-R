@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-21 11:41 UTC",
-  "feed_time": "2026-11-21T11:41:36.185138",
-  "total": 860,
-  "coded": 256,
+  "updated": "2026-11-21 12:42 UTC",
+  "feed_time": "2026-11-21T12:41:36.094659",
+  "total": 863,
+  "coded": 246,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 74,
-    "verbal cooperation": 55,
-    "material cooperation": 13
+    "material conflict": 111,
+    "verbal conflict": 68,
+    "verbal cooperation": 53,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Consult",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Threaten",
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Yemen\u2019s Houthis launch strikes on Riyadh after Saudi coalition \u2018special ope\u2026",
@@ -64,18 +64,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Netanyahu is playing with the fire that killed Rabin",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Rabbi \u2192 Israel",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 1
+      "outlets": 2
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -89,28 +78,6 @@
       "outlets": 1
     },
     {
-      "title": "When you see smoke, run: Rohingya who escaped Myanmar\u2019s genocide tell their\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Myanmar",
-      "code": "202",
-      "label": "Engage in mass killings",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Iran's attacks on ships in the Strait of Hormuz escalate",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -119,6 +86,39 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Finland",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Houthis launch strikes on Saudi Arabia",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Yemen \u2192 Saudi Arabia",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russian projectiles hit Poland as NATO tensions rise",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
