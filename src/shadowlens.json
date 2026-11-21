@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-21 00:30 UTC",
-  "feed_time": "2026-11-21T00:29:36.773480",
-  "total": 852,
-  "coded": 268,
-  "outlets": 67,
+  "updated": "2026-11-21 03:33 UTC",
+  "feed_time": "2026-11-21T03:33:36.424235",
+  "total": 837,
+  "coded": 271,
+  "outlets": 48,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 80,
-    "verbal cooperation": 63,
-    "material cooperation": 20
+    "material conflict": 104,
+    "verbal conflict": 85,
+    "verbal cooperation": 64,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Consult",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Accuse",
@@ -29,21 +29,10 @@
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
-    {
-      "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
-    },
     {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
       "source": "BBC World",
@@ -56,25 +45,47 @@
       "outlets": 3
     },
     {
+      "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "Saudi Arabia",
+      "code": "071",
+      "label": "Provide economic aid",
+      "quad": "material cooperation",
+      "goldstein": 7.4,
+      "outlets": 2
+    },
+    {
       "title": "Six Palestinians killed in Israeli strikes on Gaza, civil defence says",
       "source": "MEE",
       "risk": 10,
       "dyad": "Palestine \u2192 Israel",
-      "code": "192",
-      "label": "Occupy territory",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 2
     },
     {
-      "title": "Houthis retaliate for coalition strikes with attack on Saudi power station\u2026",
+      "title": "Loud explosion heard in Riyadh after Saudi civil defence alerts",
       "source": "MEE",
       "risk": 10,
-      "dyad": "Yemen \u2192 Saudi Arabia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "Saudi Arabia \u2192 Kingdom",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -4.4,
       "outlets": 2
     },
     {
@@ -108,17 +119,6 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "Lewis Hamilton is now the apex sports protester as US athletes stay silent",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "141",
-      "label": "Demonstrate or rally",
-      "quad": "material conflict",
-      "goldstein": -6.5,
       "outlets": 1
     }
   ]
