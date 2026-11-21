@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-21 04:34 UTC",
-  "feed_time": "2026-11-21T04:34:44.033778",
-  "total": 858,
-  "coded": 271,
-  "outlets": 68,
+  "updated": "2026-11-21 05:35 UTC",
+  "feed_time": "2026-11-21T05:35:36.116089",
+  "total": 860,
+  "coded": 270,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 80,
-    "verbal cooperation": 62,
-    "material cooperation": 18
+    "material conflict": 113,
+    "verbal conflict": 78,
+    "verbal cooperation": 64,
+    "material cooperation": 15
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Consult",
-      "n": 23
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Accuse",
       "n": 14
     },
     {
-      "label": "Investigate",
+      "label": "Arrest, detain or charge",
       "n": 14
     }
   ],
@@ -45,8 +45,8 @@
       "outlets": 3
     },
     {
-      "title": "Russian missiles and drone hit Poland during attacks on Ukraine",
-      "source": "Guardian Top",
+      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
+      "source": "DW",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "180",
@@ -56,14 +56,14 @@
       "outlets": 3
     },
     {
-      "title": "Saudi Arabia says it intercepts three Houthi missiles targeting Riyadh",
-      "source": "Jerusalem Post",
+      "title": "Saudi-led coalition says Houthi drone intercepted over southern region",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Saudi Arabia",
-      "code": "071",
-      "label": "Provide economic aid",
-      "quad": "material cooperation",
-      "goldstein": 7.4,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 2
     },
     {
