@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-21 22:51 UTC",
-  "feed_time": "2026-11-21T22:51:43.626030",
-  "total": 842,
-  "coded": 253,
-  "outlets": 66,
+  "updated": "2026-11-21 23:52 UTC",
+  "feed_time": "2026-11-21T23:52:43.581210",
+  "total": 845,
+  "coded": 256,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 58,
+    "material conflict": 126,
+    "verbal conflict": 59,
     "verbal cooperation": 56,
-    "material cooperation": 14
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 27
     },
     {
       "label": "Threaten",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
@@ -53,7 +53,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
+      "outlets": 4
     },
     {
       "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
