@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-21 09:39 UTC",
-  "feed_time": "2026-11-21T09:39:43.612572",
-  "total": 865,
-  "coded": 260,
+  "updated": "2026-11-21 10:40 UTC",
+  "feed_time": "2026-11-21T10:40:43.747113",
+  "total": 864,
+  "coded": 256,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 72,
-    "verbal cooperation": 61,
+    "material conflict": 113,
+    "verbal conflict": 70,
+    "verbal cooperation": 58,
     "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Consult",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Arrest, detain or charge",
       "n": 17
     },
     {
       "label": "Accuse",
+      "n": 16
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 16
     }
   ],
@@ -64,17 +64,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Saudi-led coalition says Houthi drone intercepted over southern region",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Saudi Arabia",
-      "code": "042",
-      "label": "Make a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 1.9,
       "outlets": 2
     },
     {
@@ -119,6 +108,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
