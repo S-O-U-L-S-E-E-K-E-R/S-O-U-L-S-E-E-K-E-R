@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-21 20:49 UTC",
-  "feed_time": "2026-11-21T20:49:43.623008",
-  "total": 849,
-  "coded": 257,
+  "updated": "2026-11-21 21:50 UTC",
+  "feed_time": "2026-11-21T21:50:43.765441",
+  "total": 846,
+  "coded": 259,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 122,
-    "verbal conflict": 64,
-    "verbal cooperation": 57,
+    "material conflict": 126,
+    "verbal conflict": 60,
+    "verbal cooperation": 59,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 26
     },
     {
       "label": "Threaten",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Consult",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
@@ -65,6 +65,17 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 4
+    },
+    {
+      "title": "IRGC attacked two US Patriot radars in Bahrain",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
     },
     {
       "title": "US court hands Indian national Nikhil Gupta 20 years for Sikh murder plot",
@@ -108,17 +119,6 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "US pursuit of \u2018Trump-class\u2019 warships has blown cost of new fleet by billion\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
