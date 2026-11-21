@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-21 19:49 UTC",
-  "feed_time": "2026-11-21T19:48:51.081136",
-  "total": 845,
-  "coded": 254,
-  "outlets": 68,
+  "updated": "2026-11-21 20:49 UTC",
+  "feed_time": "2026-11-21T20:49:43.623008",
+  "total": 849,
+  "coded": 257,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 117,
-    "verbal conflict": 70,
-    "verbal cooperation": 53,
+    "material conflict": 122,
+    "verbal conflict": 64,
+    "verbal cooperation": 57,
     "material cooperation": 14
   },
   "top_labels": [
     {
-      "label": "Threaten",
-      "n": 22
+      "label": "Use unconventional violence",
+      "n": 24
     },
     {
-      "label": "Use unconventional violence",
-      "n": 21
+      "label": "Threaten",
+      "n": 23
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Demonstrate or rally",
-      "n": 16
+      "n": 18
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 15
+      "label": "Arrest, detain or charge",
+      "n": 17
     }
   ],
   "ticker": [
@@ -45,17 +45,6 @@
       "outlets": 6
     },
     {
-      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Finland",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 5
-    },
-    {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
       "source": "BBC World",
       "risk": 10,
@@ -64,18 +53,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 5
     },
     {
-      "title": "Yemen\u2019s Houthis launch strikes on Riyadh after Saudi coalition \u2018special ope\u2026",
-      "source": "SCMP",
+      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+      "source": "France24",
       "risk": 10,
-      "dyad": "Yemen \u2192 Saudi Arabia",
+      "dyad": "Russia \u2192 Finland",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 4
     },
     {
       "title": "US court hands Indian national Nikhil Gupta 20 years for Sikh murder plot",
@@ -93,10 +82,10 @@
       "source": "AlJazeera",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "code": "070",
+      "label": "Provide aid",
+      "quad": "material cooperation",
+      "goldstein": 7.0,
       "outlets": 1
     },
     {
@@ -119,6 +108,17 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "US pursuit of \u2018Trump-class\u2019 warships has blown cost of new fleet by billion\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
