@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 21:50 UTC",
-  "feed_time": "2026-11-21T21:50:43.765441",
-  "total": 846,
-  "coded": 259,
-  "outlets": 67,
+  "updated": "2026-11-21 22:51 UTC",
+  "feed_time": "2026-11-21T22:51:43.626030",
+  "total": 842,
+  "coded": 253,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 60,
-    "verbal cooperation": 59,
+    "material conflict": 125,
+    "verbal conflict": 58,
+    "verbal cooperation": 56,
     "material cooperation": 14
   },
   "top_labels": [
@@ -17,19 +17,19 @@
     },
     {
       "label": "Threaten",
-      "n": 22
-    },
-    {
-      "label": "Consult",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
+      "n": 20
+    },
+    {
+      "label": "Consult",
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 16
     }
   ],
   "ticker": [
@@ -64,7 +64,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "IRGC attacked two US Patriot radars in Bahrain",
