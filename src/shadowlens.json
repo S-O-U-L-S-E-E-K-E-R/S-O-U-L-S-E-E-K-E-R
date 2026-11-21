@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-21 10:40 UTC",
-  "feed_time": "2026-11-21T10:40:43.747113",
-  "total": 864,
+  "updated": "2026-11-21 11:41 UTC",
+  "feed_time": "2026-11-21T11:41:36.185138",
+  "total": 860,
   "coded": 256,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 70,
-    "verbal cooperation": 58,
-    "material cooperation": 15
+    "material conflict": 114,
+    "verbal conflict": 74,
+    "verbal cooperation": 55,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 26
     },
     {
       "label": "Consult",
-      "n": 22
+      "n": 19
     },
     {
       "label": "Threaten",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Yemen\u2019s Houthis launch strikes on Riyadh after Saudi coalition \u2018special ope\u2026",
@@ -64,7 +64,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 1
     },
     {
       "title": "Netanyahu is playing with the fire that killed Rabin",
