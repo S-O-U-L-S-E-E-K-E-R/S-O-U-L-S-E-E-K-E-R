@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-21 16:46 UTC",
-  "feed_time": "2026-11-21T16:46:43.615610",
+  "updated": "2026-11-21 17:47 UTC",
+  "feed_time": "2026-11-21T17:47:44.322976",
   "total": 852,
-  "coded": 234,
+  "coded": 238,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 61,
+    "material conflict": 110,
+    "verbal conflict": 66,
     "verbal cooperation": 47,
-    "material cooperation": 14
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 18
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Demonstrate or rally",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
@@ -42,18 +42,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 5
-    },
-    {
-      "title": "Ukraine updates: Russian attack 'one of largest,' Zelenskyy says",
-      "source": "DW",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 6
     },
     {
       "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
@@ -64,7 +53,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
@@ -115,11 +104,22 @@
       "source": "MEE",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 2
+    },
+    {
+      "title": "Russian strike kills two, wounds 60, in Zelenskyy\u2019s hometown",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
     }
   ]
 }
