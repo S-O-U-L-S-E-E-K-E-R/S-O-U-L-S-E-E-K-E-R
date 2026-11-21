@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 05:35 UTC",
-  "feed_time": "2026-11-21T05:35:36.116089",
-  "total": 860,
-  "coded": 270,
+  "updated": "2026-11-21 06:36 UTC",
+  "feed_time": "2026-11-21T06:35:36.138807",
+  "total": 862,
+  "coded": 273,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 78,
-    "verbal cooperation": 64,
+    "material conflict": 114,
+    "verbal conflict": 79,
+    "verbal cooperation": 65,
     "material cooperation": 15
   },
   "top_labels": [
@@ -17,18 +17,18 @@
     },
     {
       "label": "Consult",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
-      "label": "Accuse",
-      "n": 14
+      "label": "Attack cybernetically",
+      "n": 15
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Investigate",
       "n": 14
     }
   ],
@@ -56,25 +56,25 @@
       "outlets": 3
     },
     {
-      "title": "Saudi-led coalition says Houthi drone intercepted over southern region",
-      "source": "MEE",
+      "title": "Yemen\u2019s Houthis launch strikes on Riyadh after Saudi coalition \u2018special ope\u2026",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Six Palestinians killed in Israeli strikes on Gaza, civil defence says",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
+      "dyad": "Yemen \u2192 Saudi Arabia",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Saudi-led coalition says Houthi drone intercepted over southern region",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Saudi Arabia",
+      "code": "042",
+      "label": "Make a visit",
+      "quad": "verbal cooperation",
+      "goldstein": 1.9,
       "outlets": 2
     },
     {
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Netanyahu is playing with the fire that killed Rabin",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Iran war live: Saudi-led coalition downs Houthi missiles",
       "source": "AlJazeera",
       "risk": 10,
@@ -100,7 +111,7 @@
       "outlets": 1
     },
     {
-      "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+      "title": "Three Salvadoran soldiers killed in Haiti while handling explosives",
       "source": "AlJazeera",
       "risk": 10,
       "dyad": "",
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     }
   ]
