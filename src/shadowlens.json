@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 03:33 UTC",
-  "feed_time": "2026-11-21T03:33:36.424235",
-  "total": 837,
+  "updated": "2026-11-21 04:34 UTC",
+  "feed_time": "2026-11-21T04:34:44.033778",
+  "total": 858,
   "coded": 271,
-  "outlets": 48,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 85,
-    "verbal cooperation": 64,
+    "material conflict": 111,
+    "verbal conflict": 80,
+    "verbal cooperation": 62,
     "material cooperation": 18
   },
   "top_labels": [
@@ -21,15 +21,15 @@
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Accuse",
-      "n": 17
+      "n": 14
     },
     {
       "label": "Investigate",
-      "n": 13
+      "n": 14
     }
   ],
   "ticker": [
