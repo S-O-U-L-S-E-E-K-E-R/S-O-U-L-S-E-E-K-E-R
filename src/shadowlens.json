@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-22 15:06 UTC",
-  "feed_time": "2026-11-22T15:05:44.992616",
-  "total": 865,
-  "coded": 261,
-  "outlets": 64,
+  "updated": "2026-11-22 16:07 UTC",
+  "feed_time": "2026-11-22T16:07:44.090469",
+  "total": 860,
+  "coded": 259,
+  "outlets": 65,
   "quad_hist": {
     "material conflict": 113,
-    "verbal conflict": 77,
-    "verbal cooperation": 57,
+    "verbal conflict": 74,
+    "verbal cooperation": 58,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 17
+      "label": "Employ aerial weapons",
+      "n": 16
     },
     {
       "label": "Reject",
       "n": 16
     },
     {
-      "label": "Accuse",
-      "n": 14
+      "label": "Demonstrate or rally",
+      "n": 16
     }
   ],
   "ticker": [
@@ -43,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
+    },
+    {
+      "title": "Israel investigates West Bank fires",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
     },
     {
       "title": "Iran claims attack on US Patriot systems in Bahrain",
@@ -78,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 3 in Ukraine",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "020",
+      "label": "Appeal",
+      "quad": "verbal cooperation",
+      "goldstein": 3.0,
+      "outlets": 1
+    },
+    {
       "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
       "source": "AlJazeera",
       "risk": 10,
@@ -97,28 +119,6 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "Ukraine war briefing: Russian cargo ship hit by drone in Baltic Sea as Finl\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Finland \u2192 Nato",
-      "code": "010",
-      "label": "Make statement",
-      "quad": "verbal cooperation",
-      "goldstein": 0.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
