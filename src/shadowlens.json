@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-22 02:55 UTC",
-  "feed_time": "2026-11-22T02:55:38.283020",
-  "total": 855,
-  "coded": 258,
-  "outlets": 65,
+  "updated": "2026-11-22 03:56 UTC",
+  "feed_time": "2026-11-22T03:56:43.623166",
+  "total": 858,
+  "coded": 254,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 129,
-    "verbal conflict": 56,
-    "verbal cooperation": 56,
-    "material cooperation": 17
+    "material conflict": 126,
+    "verbal conflict": 57,
+    "verbal cooperation": 55,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 26
     },
     {
       "label": "Demonstrate or rally",
@@ -25,11 +25,11 @@
     },
     {
       "label": "Consult",
-      "n": 18
+      "n": 16
     },
     {
       "label": "Use conventional military force",
-      "n": 13
+      "n": 14
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
