@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-22 13:05 UTC",
-  "feed_time": "2026-11-22T13:05:36.395113",
-  "total": 863,
-  "coded": 260,
-  "outlets": 66,
+  "updated": "2026-11-22 14:06 UTC",
+  "feed_time": "2026-11-22T14:05:42.471280",
+  "total": 860,
+  "coded": 257,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 75,
-    "verbal cooperation": 53,
-    "material cooperation": 16
+    "material conflict": 114,
+    "verbal conflict": 74,
+    "verbal cooperation": 54,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Demonstrate or rally",
-      "n": 18
+      "n": 17
     },
     {
-      "label": "Accuse",
-      "n": 15
+      "label": "Reject",
+      "n": 16
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Families frustrated with Pentagon probe of deadly drone strike",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 1
     }
   ]
