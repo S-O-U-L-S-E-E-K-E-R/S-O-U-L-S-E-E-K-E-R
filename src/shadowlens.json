@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-22 08:00 UTC",
-  "feed_time": "2026-11-22T07:59:36.066328",
-  "total": 857,
-  "coded": 250,
+  "updated": "2026-11-22 09:01 UTC",
+  "feed_time": "2026-11-22T09:01:38.886675",
+  "total": 851,
+  "coded": 251,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 57,
+    "material conflict": 120,
+    "verbal conflict": 58,
     "verbal cooperation": 57,
-    "material cooperation": 15
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 25
     },
     {
       "label": "Threaten",
@@ -24,26 +24,15 @@
       "n": 17
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 17
+      "label": "Consult",
+      "n": 15
     },
     {
-      "label": "Consult",
-      "n": 16
+      "label": "Arrest, detain or charge",
+      "n": 15
     }
   ],
   "ticker": [
-    {
-      "title": "Iran claims attack on US Patriot systems in Bahrain",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
     {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
       "source": "BBC World",
@@ -53,7 +42,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
+      "outlets": 3
+    },
+    {
+      "title": "Iran claims attack on US Patriot systems in Bahrain",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -64,17 +64,6 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 1
-    },
-    {
-      "title": "US pursuit of \u2018Trump-class\u2019 warships has blown cost of new fleet by billion\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     },
     {
@@ -119,6 +108,17 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
