@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-22 01:54 UTC",
-  "feed_time": "2026-11-22T01:53:36.098301",
-  "total": 848,
-  "coded": 256,
+  "updated": "2026-11-22 02:55 UTC",
+  "feed_time": "2026-11-22T02:55:38.283020",
+  "total": 855,
+  "coded": 258,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 126,
+    "material conflict": 129,
     "verbal conflict": 56,
     "verbal cooperation": 56,
-    "material cooperation": 18
+    "material cooperation": 17
   },
   "top_labels": [
     {
@@ -21,7 +21,7 @@
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Consult",
@@ -29,7 +29,7 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
@@ -45,17 +45,6 @@
       "outlets": 4
     },
     {
-      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Finland",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
       "title": "IRGC attacked two US Patriot radars in Bahrain",
       "source": "TASS",
       "risk": 10,
@@ -67,15 +56,26 @@
       "outlets": 3
     },
     {
-      "title": "US denies Iran hit F-16 fighter jet",
-      "source": "MEE",
+      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
+      "source": "France24",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "016",
-      "label": "Deny responsibility",
-      "quad": "verbal cooperation",
-      "goldstein": -2.0,
-      "outlets": 3
+      "dyad": "Russia \u2192 Finland",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Trump intends to secure \u2018permanent deal\u2019 with Iran",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "US court hands Indian national Nikhil Gupta 20 years for Sikh murder plot",
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russian strike kills two, wounds 60, in Zelenskyy\u2019s hometown",
-      "source": "AlJazeera",
+      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "Egypt",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 1
     }
   ]
