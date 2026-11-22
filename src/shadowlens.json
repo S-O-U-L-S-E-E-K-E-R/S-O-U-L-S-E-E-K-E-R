@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-22 03:56 UTC",
-  "feed_time": "2026-11-22T03:56:43.623166",
+  "updated": "2026-11-22 04:57 UTC",
+  "feed_time": "2026-11-22T04:57:43.647265",
   "total": 858,
-  "coded": 254,
+  "coded": 253,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 57,
-    "verbal cooperation": 55,
+    "material conflict": 123,
+    "verbal conflict": 58,
+    "verbal cooperation": 56,
     "material cooperation": 16
   },
   "top_labels": [
@@ -16,12 +16,12 @@
       "n": 26
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 22
+      "label": "Threaten",
+      "n": 23
     },
     {
-      "label": "Threaten",
-      "n": 21
+      "label": "Demonstrate or rally",
+      "n": 20
     },
     {
       "label": "Consult",
@@ -78,39 +78,6 @@
       "outlets": 2
     },
     {
-      "title": "US court hands Indian national Nikhil Gupta 20 years for Sikh murder plot",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Iran says it will take \u2018any measure\u2019 to break US blockade",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "191",
-      "label": "Impose blockade",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "070",
-      "label": "Provide aid",
-      "quad": "material cooperation",
-      "goldstein": 7.0,
-      "outlets": 1
-    },
-    {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +86,39 @@
       "label": "Accuse",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "US pursuit of \u2018Trump-class\u2019 warships has blown cost of new fleet by billion\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "When you see smoke, run: Rohingya who escaped Myanmar\u2019s genocide tell their\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Myanmar",
+      "code": "202",
+      "label": "Engage in mass killings",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
