@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-21 23:52 UTC",
-  "feed_time": "2026-11-21T23:52:43.581210",
-  "total": 845,
-  "coded": 256,
+  "updated": "2026-11-22 00:53 UTC",
+  "feed_time": "2026-11-22T00:53:36.316380",
+  "total": 848,
+  "coded": 257,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 59,
-    "verbal cooperation": 56,
+    "material conflict": 128,
+    "verbal conflict": 56,
+    "verbal cooperation": 58,
     "material cooperation": 15
   },
   "top_labels": [
@@ -16,20 +16,20 @@
       "n": 27
     },
     {
+      "label": "Demonstrate or rally",
+      "n": 23
+    },
+    {
       "label": "Threaten",
       "n": 21
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 20
-    },
-    {
       "label": "Consult",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
