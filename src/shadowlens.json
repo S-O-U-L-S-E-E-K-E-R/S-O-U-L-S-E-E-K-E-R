@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-22 16:07 UTC",
-  "feed_time": "2026-11-22T16:07:44.090469",
-  "total": 860,
-  "coded": 259,
+  "updated": "2026-11-22 17:07 UTC",
+  "feed_time": "2026-11-22T17:07:48.028148",
+  "total": 863,
+  "coded": 264,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 74,
-    "verbal cooperation": 58,
+    "material conflict": 116,
+    "verbal conflict": 75,
+    "verbal cooperation": 59,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 30
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 21
     },
     {
       "label": "Employ aerial weapons",
-      "n": 16
-    },
-    {
-      "label": "Reject",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Demonstrate or rally",
       "n": 16
+    },
+    {
+      "label": "Reject",
+      "n": 15
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Israel investigates West Bank fires",
@@ -53,6 +53,17 @@
       "label": "Investigate",
       "quad": "verbal conflict",
       "goldstein": -2.0,
+      "outlets": 4
+    },
+    {
+      "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -78,18 +89,7 @@
       "outlets": 2
     },
     {
-      "title": "Two Palestinians succumb to wounds sustained in Israeli strike on Gaza",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 3 in Ukraine",
+      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
       "source": "AlJazeera",
       "risk": 10,
       "dyad": "Ukraine \u2192 United States",
