@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-22 17:07 UTC",
-  "feed_time": "2026-11-22T17:07:48.028148",
-  "total": 863,
-  "coded": 264,
-  "outlets": 65,
+  "updated": "2026-11-22 18:08 UTC",
+  "feed_time": "2026-11-22T18:07:45.095996",
+  "total": 872,
+  "coded": 257,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 75,
-    "verbal cooperation": 59,
+    "material conflict": 109,
+    "verbal conflict": 74,
+    "verbal cooperation": 60,
     "material cooperation": 14
   },
   "top_labels": [
@@ -17,11 +17,7 @@
     },
     {
       "label": "Threaten",
-      "n": 21
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 17
+      "n": 22
     },
     {
       "label": "Demonstrate or rally",
@@ -30,20 +26,13 @@
     {
       "label": "Reject",
       "n": 15
+    },
+    {
+      "label": "Employ aerial weapons",
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "What we know about the latest Russian missile strikes on Ukraine",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
     {
       "title": "Israel investigates West Bank fires",
       "source": "France24",
@@ -53,7 +42,18 @@
       "label": "Investigate",
       "quad": "verbal conflict",
       "goldstein": -2.0,
-      "outlets": 4
+      "outlets": 3
+    },
+    {
+      "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan auth\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Libya",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
@@ -64,6 +64,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russia launches ballistic missile attack on Zelensky's hometown in central\u2026",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -89,7 +100,7 @@
       "outlets": 2
     },
     {
-      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 5 in Ukraine",
+      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
       "source": "AlJazeera",
       "risk": 10,
       "dyad": "Ukraine \u2192 United States",
@@ -108,17 +119,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     }
   ]
