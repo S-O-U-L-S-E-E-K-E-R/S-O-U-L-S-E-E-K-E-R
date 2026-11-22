@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-22 22:10 UTC",
-  "feed_time": "2026-11-22T22:09:43.671592",
-  "total": 848,
-  "coded": 263,
-  "outlets": 68,
+  "updated": "2026-11-22 23:11 UTC",
+  "feed_time": "2026-11-22T23:11:36.204052",
+  "total": 852,
+  "coded": 257,
+  "outlets": 69,
   "quad_hist": {
     "material conflict": 106,
     "verbal conflict": 79,
-    "verbal cooperation": 61,
-    "material cooperation": 17
+    "verbal cooperation": 56,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 23
     },
     {
       "label": "Threaten",
       "n": 23
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 17
-    },
-    {
       "label": "Reject",
       "n": 16
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Employ aerial weapons",
       "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 4
+    },
     {
       "title": "Trump threatens fresh strikes on Iran after New Year if talks fail",
       "source": "Times of India",
@@ -43,6 +54,17 @@
       "quad": "verbal conflict",
       "goldstein": -6.0,
       "outlets": 4
+    },
+    {
+      "title": "Drone strikes hit homes and UN building in Sudan's Khartoum",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "UN \u2192 Sudan",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Israel investigates West Bank fires",
@@ -56,8 +78,8 @@
       "outlets": 3
     },
     {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
+      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Li\u2026",
+      "source": "France24",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "150",
@@ -98,28 +120,6 @@
       "quad": null,
       "goldstein": null,
       "outlets": 2
-    },
-    {
-      "title": "'Jewish terrorism in every sense': Eisenkot blames Smotrich and Ben Gvir fo\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
     }
   ]
 }
