@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-22 04:57 UTC",
-  "feed_time": "2026-11-22T04:57:43.647265",
-  "total": 858,
-  "coded": 253,
+  "updated": "2026-11-22 05:58 UTC",
+  "feed_time": "2026-11-22T05:58:43.624901",
+  "total": 859,
+  "coded": 248,
   "outlets": 66,
   "quad_hist": {
     "material conflict": 123,
-    "verbal conflict": 58,
-    "verbal cooperation": 56,
+    "verbal conflict": 54,
+    "verbal cooperation": 55,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 23
+      "n": 21
     },
     {
       "label": "Demonstrate or rally",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Consult",
       "n": 16
     },
     {
-      "label": "Use conventional military force",
-      "n": 14
+      "label": "Arrest, detain or charge",
+      "n": 15
     }
   ],
   "ticker": [
@@ -45,37 +45,15 @@
       "outlets": 4
     },
     {
-      "title": "IRGC attacked two US Patriot radars in Bahrain",
-      "source": "TASS",
+      "title": "Iran claims attack on US Patriot systems in Bahrain",
+      "source": "RT",
       "risk": 10,
-      "dyad": "Iran \u2192 United States",
+      "dyad": "United States \u2192 Iran",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
-    },
-    {
-      "title": "Drone attack sets Russian cargo ship ablaze in Gulf of Finland",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Finland",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Trump intends to secure \u2018permanent deal\u2019 with Iran",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
@@ -100,17 +78,6 @@
       "outlets": 1
     },
     {
-      "title": "When you see smoke, run: Rohingya who escaped Myanmar\u2019s genocide tell their\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Myanmar",
-      "code": "202",
-      "label": "Engage in mass killings",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -119,6 +86,39 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Families frustrated with Pentagon probe of deadly drone strike",
+      "source": "CBS News",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russian helicopter suspected of violating Finnish airspace",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "Finland \u2192 Russia",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia attacks Zelensky's hometown, Ukraine reaffirms wish to join NATO",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
