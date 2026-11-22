@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-22 20:09 UTC",
-  "feed_time": "2026-11-22T20:09:40.171086",
-  "total": 862,
+  "updated": "2026-11-22 21:10 UTC",
+  "feed_time": "2026-11-22T21:09:45.493567",
+  "total": 854,
   "coded": 262,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 77,
+    "material conflict": 104,
+    "verbal conflict": 75,
     "verbal cooperation": 66,
-    "material cooperation": 16
+    "material cooperation": 17
   },
   "top_labels": [
     {
@@ -17,7 +17,7 @@
     },
     {
       "label": "Threaten",
-      "n": 24
+      "n": 23
     },
     {
       "label": "Reject",
@@ -29,10 +29,21 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 16
+      "n": 15
     }
   ],
   "ticker": [
+    {
+      "title": "Trump threatens fresh strikes on Iran after New Year if talks fail",
+      "source": "Times of India",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 4
+    },
     {
       "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libya\u2026",
       "source": "Guardian World",
@@ -108,17 +119,6 @@
       "label": "Appeal",
       "quad": "verbal cooperation",
       "goldstein": 3.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
