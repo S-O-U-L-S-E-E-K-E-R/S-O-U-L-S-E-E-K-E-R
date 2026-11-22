@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-22 19:08 UTC",
-  "feed_time": "2026-11-22T19:07:43.786100",
-  "total": 869,
-  "coded": 257,
-  "outlets": 67,
+  "updated": "2026-11-22 20:09 UTC",
+  "feed_time": "2026-11-22T20:09:40.171086",
+  "total": 862,
+  "coded": 262,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 105,
-    "verbal conflict": 75,
-    "verbal cooperation": 63,
-    "material cooperation": 14
+    "material conflict": 103,
+    "verbal conflict": 77,
+    "verbal cooperation": 66,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 23
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 16
+      "n": 24
     },
     {
       "label": "Reject",
+      "n": 17
+    },
+    {
+      "label": "Employ aerial weapons",
       "n": 16
     },
     {
@@ -33,6 +33,17 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libya\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Libya",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
     {
       "title": "Israel investigates West Bank fires",
       "source": "France24",
@@ -45,17 +56,6 @@
       "outlets": 3
     },
     {
-      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libya\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Libya",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
       "source": "France24",
       "risk": 10,
@@ -64,17 +64,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Russia launches ballistic missile attack on Zelensky's hometown in central\u2026",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -119,6 +108,17 @@
       "label": "Appeal",
       "quad": "verbal cooperation",
       "goldstein": 3.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
