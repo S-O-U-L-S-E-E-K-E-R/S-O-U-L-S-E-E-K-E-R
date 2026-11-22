@@ -1,30 +1,30 @@
 {
-  "updated": "2026-11-22 21:10 UTC",
-  "feed_time": "2026-11-22T21:09:45.493567",
-  "total": 854,
-  "coded": 262,
-  "outlets": 69,
+  "updated": "2026-11-22 22:10 UTC",
+  "feed_time": "2026-11-22T22:09:43.671592",
+  "total": 848,
+  "coded": 263,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 75,
-    "verbal cooperation": 66,
+    "material conflict": 106,
+    "verbal conflict": 79,
+    "verbal cooperation": 61,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 24
     },
     {
       "label": "Threaten",
       "n": 23
     },
     {
-      "label": "Reject",
+      "label": "Employ aerial weapons",
       "n": 17
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Reject",
       "n": 16
     },
     {
@@ -45,17 +45,6 @@
       "outlets": 4
     },
     {
-      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libya\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Libya",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
       "title": "Israel investigates West Bank fires",
       "source": "France24",
       "risk": 10,
@@ -65,6 +54,17 @@
       "quad": "verbal conflict",
       "goldstein": -2.0,
       "outlets": 3
+    },
+    {
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 2
     },
     {
       "title": "Live: Ukrainian rescuers search for survivors in rubble after Russian attack",
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "Russian troops liberate Sosnovy Bor community in Kharkov Region over past d\u2026",
-      "source": "TASS",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
       "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
       "source": "SCMP",
       "risk": 10,
@@ -111,14 +100,25 @@
       "outlets": 2
     },
     {
-      "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
-      "source": "AlJazeera",
+      "title": "'Jewish terrorism in every sense': Eisenkot blames Smotrich and Ben Gvir fo\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "020",
-      "label": "Appeal",
-      "quad": "verbal cooperation",
-      "goldstein": 3.0,
+      "dyad": "",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
