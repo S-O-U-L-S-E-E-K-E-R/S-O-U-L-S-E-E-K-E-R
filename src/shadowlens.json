@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-22 00:53 UTC",
-  "feed_time": "2026-11-22T00:53:36.316380",
+  "updated": "2026-11-22 01:54 UTC",
+  "feed_time": "2026-11-22T01:53:36.098301",
   "total": 848,
-  "coded": 257,
+  "coded": 256,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 128,
+    "material conflict": 126,
     "verbal conflict": 56,
-    "verbal cooperation": 58,
-    "material cooperation": 15
+    "verbal cooperation": 56,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 28
     },
     {
       "label": "Demonstrate or rally",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Consult",
       "n": 18
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Use conventional military force",
       "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Iran claims it hit F-16 jet over Gulf, forced emergency landing; US denies\u2026",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "Iran \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 5
-    },
     {
       "title": "What we know about the latest Russian missile strikes on Ukraine",
       "source": "BBC World",
@@ -78,12 +67,34 @@
       "outlets": 3
     },
     {
+      "title": "US denies Iran hit F-16 fighter jet",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "016",
+      "label": "Deny responsibility",
+      "quad": "verbal cooperation",
+      "goldstein": -2.0,
+      "outlets": 3
+    },
+    {
       "title": "US court hands Indian national Nikhil Gupta 20 years for Sikh murder plot",
       "source": "Dawn",
       "risk": 10,
       "dyad": "United States",
       "code": "190",
       "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran says it will take \u2018any measure\u2019 to break US blockade",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Iran \u2192 United States",
+      "code": "191",
+      "label": "Impose blockade",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 2
@@ -108,17 +119,6 @@
       "label": "Use conventional military for\u2026",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Egypt",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     }
   ]
