@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-22 05:58 UTC",
-  "feed_time": "2026-11-22T05:58:43.624901",
-  "total": 859,
-  "coded": 248,
-  "outlets": 66,
+  "updated": "2026-11-22 06:59 UTC",
+  "feed_time": "2026-11-22T06:59:36.240175",
+  "total": 861,
+  "coded": 254,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 123,
-    "verbal conflict": 54,
-    "verbal cooperation": 55,
-    "material cooperation": 16
+    "material conflict": 122,
+    "verbal conflict": 58,
+    "verbal cooperation": 57,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 25
     },
     {
       "label": "Threaten",
@@ -21,7 +21,7 @@
     },
     {
       "label": "Demonstrate or rally",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Consult",
@@ -34,17 +34,6 @@
   ],
   "ticker": [
     {
-      "title": "What we know about the latest Russian missile strikes on Ukraine",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "Iran claims attack on US Patriot systems in Bahrain",
       "source": "RT",
       "risk": 10,
@@ -54,6 +43,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
+    },
+    {
+      "title": "What we know about the latest Russian missile strikes on Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "European Commission accused of sugarcoating figures to release funds to Egy\u2026",
