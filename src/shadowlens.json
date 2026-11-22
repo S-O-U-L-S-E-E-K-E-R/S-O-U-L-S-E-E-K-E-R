@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-22 18:08 UTC",
-  "feed_time": "2026-11-22T18:07:45.095996",
-  "total": 872,
+  "updated": "2026-11-22 19:08 UTC",
+  "feed_time": "2026-11-22T19:07:43.786100",
+  "total": 869,
   "coded": 257,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 109,
-    "verbal conflict": 74,
-    "verbal cooperation": 60,
+    "material conflict": 105,
+    "verbal conflict": 75,
+    "verbal cooperation": 63,
     "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 30
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 22
+      "n": 23
     },
     {
-      "label": "Demonstrate or rally",
+      "label": "Employ aerial weapons",
       "n": 16
     },
     {
       "label": "Reject",
-      "n": 15
+      "n": 16
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 14
+      "label": "Demonstrate or rally",
+      "n": 16
     }
   ],
   "ticker": [
@@ -45,7 +45,7 @@
       "outlets": 3
     },
     {
-      "title": "Blast on Russian ship in Benghazi a suspected drone attack, say Libyan auth\u2026",
+      "title": "Russian ship hit in Benghazi by suspected Ukrainian drone attack, say Libya\u2026",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Russia \u2192 Libya",
@@ -100,6 +100,17 @@
       "outlets": 2
     },
     {
+      "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
       "title": "Zelenskyy urges US to release Patriot missiles as Russia kills 7 in Ukraine",
       "source": "AlJazeera",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Appeal",
       "quad": "verbal cooperation",
       "goldstein": 3.0,
-      "outlets": 1
-    },
-    {
-      "title": "Saudi Arabia intercepts drone, missile as Houthis report attack on Sanaa",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
