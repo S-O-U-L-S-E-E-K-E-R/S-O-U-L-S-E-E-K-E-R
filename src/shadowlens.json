@@ -1,125 +1,15 @@
 {
-  "updated": "2026-11-23 21:29 UTC",
-  "feed_time": "2026-11-23T21:29:44.258707",
-  "total": 847,
-  "coded": 247,
-  "outlets": 64,
+  "updated": "2026-11-23 22:30 UTC",
+  "feed_time": "2026-11-23T22:30:38.972506",
+  "total": 0,
+  "coded": 0,
+  "outlets": 0,
   "quad_hist": {
-    "material conflict": 113,
-    "verbal conflict": 61,
-    "verbal cooperation": 62,
-    "material cooperation": 11
+    "material conflict": 0,
+    "verbal conflict": 0,
+    "verbal cooperation": 0,
+    "material cooperation": 0
   },
-  "top_labels": [
-    {
-      "label": "Use unconventional violence",
-      "n": 23
-    },
-    {
-      "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Employ aerial weapons",
-      "n": 13
-    },
-    {
-      "label": "Consult",
-      "n": 13
-    },
-    {
-      "label": "Use conventional military force",
-      "n": 13
-    }
-  ],
-  "ticker": [
-    {
-      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Libya",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 9
-    },
-    {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 7
-    },
-    {
-      "title": "Ukraine war spilling into NATO territory",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
-      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Gaza mourns UNRWA worker killed in Israeli strike",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "Colombia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "EU sanctions package intended to \u2018keep pressure\u2019 on Russia and \u2018strike hard\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "EU \u2192 Russia",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
-      "outlets": 1
-    }
-  ]
+  "top_labels": [],
+  "ticker": []
 }
