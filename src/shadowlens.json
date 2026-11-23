@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-23 18:28 UTC",
-  "feed_time": "2026-11-23T18:27:44.154337",
-  "total": 857,
-  "coded": 233,
-  "outlets": 66,
+  "updated": "2026-11-23 19:28 UTC",
+  "feed_time": "2026-11-23T19:27:44.126501",
+  "total": 855,
+  "coded": 237,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 52,
-    "verbal cooperation": 54,
-    "material cooperation": 12
+    "material conflict": 109,
+    "verbal conflict": 53,
+    "verbal cooperation": 61,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 23
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Consult",
       "n": 14
     },
     {
-      "label": "Use conventional military force",
+      "label": "Employ aerial weapons",
       "n": 13
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 12
+      "label": "Use conventional military force",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 10
+      "outlets": 9
     },
     {
       "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy\u2026",
@@ -53,7 +53,7 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Ukraine war spilling into NATO territory",
