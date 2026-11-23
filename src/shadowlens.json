@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-23 03:15 UTC",
-  "feed_time": "2026-11-23T03:14:43.660212",
-  "total": 871,
-  "coded": 254,
+  "updated": "2026-11-23 04:15 UTC",
+  "feed_time": "2026-11-23T04:15:43.630424",
+  "total": 883,
+  "coded": 250,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 70,
-    "verbal cooperation": 56,
+    "material conflict": 113,
+    "verbal conflict": 69,
+    "verbal cooperation": 52,
     "material cooperation": 16
   },
   "top_labels": [
@@ -17,11 +17,11 @@
     },
     {
       "label": "Threaten",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Reject",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Employ aerial weapons",
@@ -45,28 +45,6 @@
       "outlets": 3
     },
     {
-      "title": "Israel investigates West Bank fires",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 3
-    },
-    {
-      "title": "Iran claims attack on US Patriot systems in Bahrain",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
       "source": "France24",
       "risk": 10,
@@ -78,14 +56,25 @@
       "outlets": 2
     },
     {
-      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Li\u2026",
+      "title": "Israel investigates West Bank fires",
       "source": "France24",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
+      "dyad": "Israel \u2192 Palestine",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 2
+    },
+    {
+      "title": "Iran claims attack on US Patriot systems in Bahrain",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -7.2,
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -108,6 +97,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new s\u2026",
+      "source": "CNBC World",
+      "risk": 10,
+      "dyad": "Saudi Arabia \u2192 United States",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     },
     {
