@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23 17:27 UTC",
-  "feed_time": "2026-11-23T17:27:44.012518",
-  "total": 852,
-  "coded": 232,
+  "updated": "2026-11-23 18:28 UTC",
+  "feed_time": "2026-11-23T18:27:44.154337",
+  "total": 857,
+  "coded": 233,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 112,
+    "material conflict": 115,
     "verbal conflict": 52,
-    "verbal cooperation": 57,
-    "material cooperation": 11
+    "verbal cooperation": 54,
+    "material cooperation": 12
   },
   "top_labels": [
     {
@@ -21,15 +21,15 @@
     },
     {
       "label": "Consult",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Use conventional military force",
       "n": 13
     },
     {
-      "label": "Demonstrate or rally",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 12
     }
   ],
   "ticker": [
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
+      "title": "Drone Attack Hits Colombian City as Unmanned Explosives Transform Conflict",
+      "source": "NYT World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
+      "dyad": "Colombia",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -7.2,
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
