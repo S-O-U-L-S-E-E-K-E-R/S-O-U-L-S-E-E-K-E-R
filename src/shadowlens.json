@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-23 16:26 UTC",
-  "feed_time": "2026-11-23T16:25:51.303541",
-  "total": 857,
+  "updated": "2026-11-23 17:27 UTC",
+  "feed_time": "2026-11-23T17:27:44.012518",
+  "total": 852,
   "coded": 232,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 55,
-    "verbal cooperation": 54,
-    "material cooperation": 9
+    "material conflict": 112,
+    "verbal conflict": 52,
+    "verbal cooperation": 57,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Consult",
       "n": 17
     },
     {
-      "label": "Reject",
-      "n": 14
+      "label": "Consult",
+      "n": 15
     },
     {
       "label": "Use conventional military force",
+      "n": 13
+    },
+    {
+      "label": "Demonstrate or rally",
       "n": 13
     }
   ],
@@ -42,18 +42,40 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 9
+      "outlets": 10
     },
     {
-      "title": "At least 15 killed in Ukraine\u2019s Kyiv region as Russia intensifies attacks",
+      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 3
+    },
+    {
+      "title": "Ukraine war spilling into NATO territory",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 3
+    },
+    {
+      "title": "Gaza mourns UNRWA worker killed in Israeli strike",
       "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Israel \u2192 The Un",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 7
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Israel kills Palestinians in Gaza as aid blockade and winter floods deepen\u2026",
@@ -97,28 +119,6 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Russia\u2019s war dead: the hidden toll of the Ukraine conflict",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "EU sanctions package intended to \u2018keep pressure\u2019 on Russia and \u2018strike hard\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "EU \u2192 Russia",
-      "code": "163",
-      "label": "Impose embargo, boycott or sa\u2026",
-      "quad": "material conflict",
-      "goldstein": -4.0,
       "outlets": 1
     }
   ]
