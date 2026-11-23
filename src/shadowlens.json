@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-23 14:24 UTC",
-  "feed_time": "2026-11-23T14:24:51.111426",
-  "total": 866,
-  "coded": 252,
-  "outlets": 65,
+  "updated": "2026-11-23 15:25 UTC",
+  "feed_time": "2026-11-23T15:24:51.094526",
+  "total": 853,
+  "coded": 239,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 127,
-    "verbal conflict": 56,
-    "verbal cooperation": 56,
-    "material cooperation": 13
+    "material conflict": 120,
+    "verbal conflict": 55,
+    "verbal cooperation": 52,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 31
+      "n": 29
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 15
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 15
+    },
+    {
+      "label": "Demonstrate or rally",
+      "n": 15
     },
     {
       "label": "Use conventional military force",
-      "n": 13
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 13
+      "outlets": 9
     },
     {
       "title": "At least 15 killed in Ukraine\u2019s Kyiv region as Russia intensifies attacks",
@@ -53,17 +53,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
+      "outlets": 8
     },
     {
-      "title": "Iran claims attack on US Patriot systems in Bahrain",
-      "source": "RT",
+      "title": "Ukraine claims drone strikes that sank Russian warship off Libya",
+      "source": "CBS News",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -89,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "'They were all asleep': Ukrainians describe deadly overnight Russian apartm\u2026",
+      "source": "BBC Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
       "source": "Guardian World",
       "risk": 10,
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Kremlin warns of \u2018escalation\u2019 as Albania denies Ukrainian drones that sank\u2026",
+      "title": "Moscow accuses Estonia of acting \u2018on verge of unleashing open war with Russ\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "130",
-      "label": "Threaten",
+      "dyad": "Russia \u2192 Estonia",
+      "code": "112",
+      "label": "Accuse",
       "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 1
-    },
-    {
-      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy\u2026",
-      "source": "NPR World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Libya",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
+      "goldstein": -2.0,
       "outlets": 1
     }
   ]
