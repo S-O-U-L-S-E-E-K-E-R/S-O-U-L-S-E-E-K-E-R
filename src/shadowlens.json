@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-23 11:22 UTC",
-  "feed_time": "2026-11-23T11:22:43.615628",
-  "total": 869,
-  "coded": 247,
-  "outlets": 68,
+  "updated": "2026-11-23 12:23 UTC",
+  "feed_time": "2026-11-23T12:23:36.174161",
+  "total": 866,
+  "coded": 249,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 119,
-    "verbal conflict": 58,
-    "verbal cooperation": 60,
+    "material conflict": 124,
+    "verbal conflict": 60,
+    "verbal cooperation": 55,
     "material cooperation": 10
   },
   "top_labels": [
@@ -16,11 +16,11 @@
       "n": 29
     },
     {
-      "label": "Consult",
-      "n": 19
+      "label": "Threaten",
+      "n": 18
     },
     {
-      "label": "Threaten",
+      "label": "Consult",
       "n": 17
     },
     {
@@ -28,13 +28,13 @@
       "n": 13
     },
     {
-      "label": "Reject",
-      "n": 12
+      "label": "Arrest, detain or charge",
+      "n": 13
     }
   ],
   "ticker": [
     {
-      "title": "Zelenskyy says Ukraine responsible for sinking Russian warship in Libya \u2013 E\u2026",
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Ukraine \u2192 Libya",
@@ -42,7 +42,7 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 13
+      "outlets": 15
     },
     {
       "title": "At least 15 killed in Ukraine\u2019s Kyiv region as Russia intensifies attacks",
@@ -56,28 +56,6 @@
       "outlets": 4
     },
     {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 3
-    },
-    {
-      "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "UN \u2192 Sudan",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
       "title": "Iran claims attack on US Patriot systems in Bahrain",
       "source": "RT",
       "risk": 10,
@@ -86,17 +64,50 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 2
     },
     {
-      "title": "Monday briefing: What could Andy Burnham\u2019s reset mean for the UK?",
+      "title": "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Albania denies Ukrainian drones that sank Russian ships were launched from\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Ukraine \u2192 Estonia",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 1
+    },
+    {
+      "title": "Ukrainian drones hit a Russian warship at a naval base in Libya, Zelenskyy\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     },
     {
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
