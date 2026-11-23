@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-23 08:19 UTC",
-  "feed_time": "2026-11-23T08:19:43.619669",
-  "total": 883,
-  "coded": 247,
+  "updated": "2026-11-23 09:20 UTC",
+  "feed_time": "2026-11-23T09:20:36.095375",
+  "total": 882,
+  "coded": 242,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 56,
-    "verbal cooperation": 65,
-    "material cooperation": 15
+    "material conflict": 112,
+    "verbal conflict": 55,
+    "verbal cooperation": 63,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
-    },
-    {
-      "label": "Consult",
-      "n": 18
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 18
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 13
+      "label": "Consult",
+      "n": 16
     },
     {
       "label": "Use conventional military force",
       "n": 13
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Zelenskyy says Ukraine responsible for sinking Russian warship in Libya \u2013 E\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 10
+    },
     {
       "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
       "source": "Guardian World",
@@ -42,7 +53,7 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new s\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
