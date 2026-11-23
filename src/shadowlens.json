@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-23 01:13 UTC",
-  "feed_time": "2026-11-23T01:13:43.655667",
-  "total": 845,
-  "coded": 247,
-  "outlets": 68,
+  "updated": "2026-11-23 02:14 UTC",
+  "feed_time": "2026-11-23T02:14:43.670942",
+  "total": 867,
+  "coded": 253,
+  "outlets": 70,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 71,
-    "verbal cooperation": 57,
+    "material conflict": 110,
+    "verbal conflict": 69,
+    "verbal cooperation": 58,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 25
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Reject",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Employ aerial weapons",
-      "n": 13
+      "n": 15
     },
     {
       "label": "Consult",
@@ -34,30 +34,8 @@
   ],
   "ticker": [
     {
-      "title": "Trump threatens fresh strikes on Iran after New Year if talks fail",
-      "source": "Times of India",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
-      "outlets": 4
-    },
-    {
       "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
       "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 3
-    },
-    {
-      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Li\u2026",
-      "source": "France24",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "150",
@@ -78,6 +56,17 @@
       "outlets": 3
     },
     {
+      "title": "Iran claims attack on US Patriot systems in Bahrain",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
+    },
+    {
       "title": "Drone strikes hit homes, United Nations building in Sudan's capital",
       "source": "France24",
       "risk": 10,
@@ -89,25 +78,14 @@
       "outlets": 2
     },
     {
-      "title": "Iran claims attack on US Patriot systems in Bahrain",
-      "source": "RT",
+      "title": "Russian warship hit by suspected Ukrainian drone at Benghazi naval base, Li\u2026",
+      "source": "France24",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
       "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Russian strikes kill 6 in Kyiv region, Ukraine says",
-      "source": "SCMP",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "goldstein": -7.2,
       "outlets": 2
     },
     {
@@ -120,6 +98,28 @@
       "quad": "verbal conflict",
       "goldstein": -2.0,
       "outlets": 2
+    },
+    {
+      "title": "Ukraine war spilling into NATO territory",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
     }
   ]
 }
