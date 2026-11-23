@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-23 09:20 UTC",
-  "feed_time": "2026-11-23T09:20:36.095375",
-  "total": 882,
-  "coded": 242,
-  "outlets": 70,
+  "updated": "2026-11-23 10:21 UTC",
+  "feed_time": "2026-11-23T10:21:43.597418",
+  "total": 849,
+  "coded": 229,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 112,
-    "verbal conflict": 55,
-    "verbal cooperation": 63,
-    "material cooperation": 12
+    "material conflict": 113,
+    "verbal conflict": 52,
+    "verbal cooperation": 53,
+    "material cooperation": 11
   },
   "top_labels": [
     {
@@ -17,19 +17,19 @@
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Consult",
       "n": 16
     },
     {
-      "label": "Use conventional military force",
+      "label": "Arrest, detain or charge",
+      "n": 14
+    },
+    {
+      "label": "Consult",
       "n": 13
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 13
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
@@ -42,7 +42,18 @@
       "label": "Exhibit military posture",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 10
+      "outlets": 14
+    },
+    {
+      "title": "Israel investigates West Bank fires",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "090",
+      "label": "Investigate",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 4
     },
     {
       "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
@@ -64,17 +75,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israel investigates West Bank fires",
-      "source": "France24",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "090",
-      "label": "Investigate",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 2
     },
     {
