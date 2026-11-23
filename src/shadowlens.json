@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-23 06:17 UTC",
-  "feed_time": "2026-11-23T06:17:36.090272",
-  "total": 878,
-  "coded": 245,
+  "updated": "2026-11-23 07:18 UTC",
+  "feed_time": "2026-11-23T07:17:36.038046",
+  "total": 884,
+  "coded": 244,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 59,
-    "verbal cooperation": 60,
+    "material conflict": 110,
+    "verbal conflict": 56,
+    "verbal cooperation": 63,
     "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 26
     },
     {
       "label": "Threaten",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Reject",
       "n": 14
     },
     {
-      "label": "Employ aerial weapons",
+      "label": "Use conventional military force",
       "n": 13
     }
   ],
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Monday briefing: What could Andy Burnham\u2019s reset mean for the UK?",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Ukraine war spilling into NATO territory",
       "source": "NPR World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Yemen's Houthis claim attacks on Saudi oil refinery as Trump warns of new s\u2026",
-      "source": "CNBC World",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 United States",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
