@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-23 02:14 UTC",
-  "feed_time": "2026-11-23T02:14:43.670942",
-  "total": 867,
-  "coded": 253,
+  "updated": "2026-11-23 03:15 UTC",
+  "feed_time": "2026-11-23T03:14:43.660212",
+  "total": 871,
+  "coded": 254,
   "outlets": 70,
   "quad_hist": {
-    "material conflict": 110,
-    "verbal conflict": 69,
-    "verbal cooperation": 58,
+    "material conflict": 112,
+    "verbal conflict": 70,
+    "verbal cooperation": 56,
     "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 25
+      "n": 27
     },
     {
       "label": "Threaten",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Reject",
-      "n": 16
-    },
-    {
-      "label": "Employ aerial weapons",
       "n": 15
     },
     {
-      "label": "Consult",
+      "label": "Employ aerial weapons",
       "n": 13
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 12
     }
   ],
   "ticker": [
@@ -89,17 +89,6 @@
       "outlets": 2
     },
     {
-      "title": "'Jewish terrorism in every sense': Eisenkot blames Smotrich and Ben Gvir fo\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 2
-    },
-    {
       "title": "Ukraine war spilling into NATO territory",
       "source": "NPR World",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Russian helicopter suspected of violating Finnish airspace",
+      "source": "DW",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
