@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-25 17:12 UTC",
-  "feed_time": "2026-11-25T17:12:43.629665",
-  "total": 884,
-  "coded": 249,
+  "updated": "2026-11-25 18:13 UTC",
+  "feed_time": "2026-11-25T18:13:43.658535",
+  "total": 890,
+  "coded": 256,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 114,
-    "verbal conflict": 62,
-    "verbal cooperation": 63,
-    "material cooperation": 10
+    "material conflict": 117,
+    "verbal conflict": 63,
+    "verbal cooperation": 65,
+    "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 20
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 14
     },
     {
       "label": "Investigate",
       "n": 14
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 13
     }
   ],
   "ticker": [
@@ -45,17 +45,6 @@
       "outlets": 5
     },
     {
-      "title": "WATCH: Israel kills second Hamas security chief in Gaza in two days",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "Ukraine tells Putin to \u2018stop complaining\u2019 over oil refinery strikes, says e\u2026",
       "source": "Hindustan Times",
       "risk": 10,
@@ -65,6 +54,28 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
+    },
+    {
+      "title": "WATCH: Israel kills second Hamas security chief in Gaza in two days",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Palestine",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "More on Israeli strike targeting apartment in Gaza City",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Israel",
+      "code": "181",
+      "label": "Abduct, hijack or take hostage",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
     },
     {
       "title": "Five Russian military jets hit in airfield strike, says Ukraine",
@@ -106,17 +117,6 @@
       "dyad": "Russia \u2192 Ukraine",
       "code": "150",
       "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
       "outlets": 1
