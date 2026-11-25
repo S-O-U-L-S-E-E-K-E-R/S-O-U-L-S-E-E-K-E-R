@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-25 06:01 UTC",
-  "feed_time": "2026-11-25T06:01:43.624595",
-  "total": 871,
-  "coded": 261,
+  "updated": "2026-11-25 07:02 UTC",
+  "feed_time": "2026-11-25T07:02:36.119319",
+  "total": 874,
+  "coded": 254,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 64,
-    "verbal cooperation": 60,
-    "material cooperation": 19
+    "material conflict": 120,
+    "verbal conflict": 60,
+    "verbal cooperation": 58,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use conventional military force",
-      "n": 24
-    },
-    {
-      "label": "Threaten",
-      "n": 18
+      "n": 27
     },
     {
       "label": "Use unconventional violence",
       "n": 17
     },
     {
-      "label": "Investigate",
-      "n": 16
+      "label": "Threaten",
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
       "n": 16
+    },
+    {
+      "label": "Investigate",
+      "n": 13
     }
   ],
   "ticker": [
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Eisenkot clinches first coalition agreement in bid to form Israel's governm\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Israel \u2192 Israel",
+      "code": "010",
+      "label": "Make statement",
+      "quad": "verbal cooperation",
+      "goldstein": 0.0,
+      "outlets": 2
+    },
+    {
       "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
       "source": "AlJazeera",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Fight with small arms",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
