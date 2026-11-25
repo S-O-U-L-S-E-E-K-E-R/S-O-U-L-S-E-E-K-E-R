@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-25 22:16 UTC",
-  "feed_time": "2026-11-25T22:16:43.596932",
+  "updated": "2026-11-25 23:17 UTC",
+  "feed_time": "2026-11-25T23:17:36.306886",
   "total": 882,
   "coded": 271,
   "outlets": 65,
   "quad_hist": {
     "material conflict": 116,
-    "verbal conflict": 62,
-    "verbal cooperation": 72,
+    "verbal conflict": 63,
+    "verbal cooperation": 71,
     "material cooperation": 21
   },
   "top_labels": [
@@ -17,19 +17,19 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 19
+    },
+    {
+      "label": "Investigate",
+      "n": 19
     },
     {
       "label": "Use unconventional violence",
       "n": 18
     },
     {
-      "label": "Investigate",
-      "n": 16
-    },
-    {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 15
     }
   ],
   "ticker": [
@@ -100,17 +100,6 @@
       "outlets": 1
     },
     {
-      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Pentagon holding up Patriot missiles for Ukraine \u2013 FT",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
