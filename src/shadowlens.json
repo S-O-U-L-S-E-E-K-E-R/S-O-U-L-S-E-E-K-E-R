@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-25 09:04 UTC",
-  "feed_time": "2026-11-25T09:04:43.605101",
-  "total": 878,
-  "coded": 258,
+  "updated": "2026-11-25 10:05 UTC",
+  "feed_time": "2026-11-25T10:04:43.664319",
+  "total": 882,
+  "coded": 263,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 119,
-    "verbal conflict": 67,
+    "material conflict": 125,
+    "verbal conflict": 65,
     "verbal cooperation": 58,
-    "material cooperation": 14
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
+      "n": 28
     },
     {
       "label": "Use conventional military force",
-      "n": 23
+      "n": 26
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Investigate",
@@ -33,6 +33,28 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Israeli strike kills four people in Gaza",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "All hostages rescued after Colombian security forces storm supermarket, say\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Colombia",
+      "code": "181",
+      "label": "Abduct, hijack or take hostage",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
     {
       "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
       "source": "NPR World",
@@ -43,17 +65,6 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 4
-    },
-    {
-      "title": "Israeli strike kills four people in Gaza",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
     },
     {
       "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
@@ -67,30 +78,8 @@
       "outlets": 3
     },
     {
-      "title": "All hostages freed after Colombian security forces storm supermarket, says\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Colombia",
-      "code": "181",
-      "label": "Abduct, hijack or take hostage",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Pentagon holding up Patriot missiles for Ukraine \u2013 FT",
       "source": "RT",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 3
-    },
-    {
-      "title": "Ukraine war spilling into NATO territory",
-      "source": "NPR World",
       "risk": 10,
       "dyad": "",
       "code": null,
@@ -119,6 +108,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
