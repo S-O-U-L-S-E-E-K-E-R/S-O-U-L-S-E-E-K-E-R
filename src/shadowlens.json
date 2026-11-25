@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-25 11:06 UTC",
-  "feed_time": "2026-11-25T11:06:43.630754",
-  "total": 873,
-  "coded": 267,
-  "outlets": 68,
+  "updated": "2026-11-25 12:07 UTC",
+  "feed_time": "2026-11-25T12:07:43.738779",
+  "total": 879,
+  "coded": 263,
+  "outlets": 67,
   "quad_hist": {
     "material conflict": 121,
-    "verbal conflict": 67,
+    "verbal conflict": 66,
     "verbal cooperation": 62,
-    "material cooperation": 17
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 24
+      "n": 26
     },
     {
       "label": "Use conventional military force",
-      "n": 24
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 14
     }
   ],
   "ticker": [
@@ -45,17 +45,6 @@
       "outlets": 6
     },
     {
-      "title": "Israeli strike kills four people in Gaza",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
       "title": "All hostages rescued after Colombian security forces storm supermarket, say\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -64,7 +53,18 @@
       "label": "Abduct, hijack or take hostage",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 4
+      "outlets": 3
+    },
+    {
+      "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughte\u2026",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
     },
     {
       "title": "Watch: Gaza declares meningitis alert as health ministry blames Israeli res\u2026",
@@ -100,17 +100,6 @@
       "outlets": 1
     },
     {
-      "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
       "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -119,6 +108,17 @@
       "label": "Fight with small arms",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
