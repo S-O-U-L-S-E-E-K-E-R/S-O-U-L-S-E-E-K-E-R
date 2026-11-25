@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-25 19:14 UTC",
-  "feed_time": "2026-11-25T19:13:43.643585",
-  "total": 887,
-  "coded": 260,
+  "updated": "2026-11-25 20:14 UTC",
+  "feed_time": "2026-11-25T20:14:36.125691",
+  "total": 889,
+  "coded": 269,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 116,
-    "verbal conflict": 66,
-    "verbal cooperation": 66,
-    "material cooperation": 12
+    "material conflict": 118,
+    "verbal conflict": 64,
+    "verbal cooperation": 70,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Use unconventional violence",
@@ -45,17 +45,6 @@
       "outlets": 5
     },
     {
-      "title": "Ukraine tells Putin to \u2018stop complaining\u2019 over oil refinery strikes, says e\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
       "title": "Houthis say they attacked Saudi Arabia's largest oil refinery in retaliatio\u2026",
       "source": "MEE",
       "risk": 10,
@@ -75,6 +64,17 @@
       "label": "Host a visit",
       "quad": "verbal cooperation",
       "goldstein": 2.8,
+      "outlets": 1
+    },
+    {
+      "title": "Could renewed strikes on Hodeidah port worsen Yemen\u2019s humanitarian crisis?",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Yemen",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     },
     {
