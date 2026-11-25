@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-25 20:14 UTC",
-  "feed_time": "2026-11-25T20:14:36.125691",
-  "total": 889,
-  "coded": 269,
-  "outlets": 67,
+  "updated": "2026-11-25 21:15 UTC",
+  "feed_time": "2026-11-25T21:14:44.025121",
+  "total": 883,
+  "coded": 271,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 118,
+    "material conflict": 115,
     "verbal conflict": 64,
-    "verbal cooperation": 70,
-    "material cooperation": 17
+    "verbal cooperation": 73,
+    "material cooperation": 19
   },
   "top_labels": [
     {
@@ -16,16 +16,16 @@
       "n": 20
     },
     {
-      "label": "Use conventional military force",
-      "n": 18
-    },
-    {
       "label": "Use unconventional violence",
       "n": 18
     },
     {
+      "label": "Use conventional military force",
+      "n": 17
+    },
+    {
       "label": "Investigate",
-      "n": 16
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
