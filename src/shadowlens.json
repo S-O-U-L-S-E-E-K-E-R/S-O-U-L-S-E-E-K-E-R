@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-25 15:10 UTC",
-  "feed_time": "2026-11-25T15:10:43.659204",
-  "total": 883,
-  "coded": 270,
+  "updated": "2026-11-25 16:11 UTC",
+  "feed_time": "2026-11-25T16:11:43.607303",
+  "total": 885,
+  "coded": 253,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 126,
-    "verbal conflict": 62,
-    "verbal cooperation": 69,
-    "material cooperation": 13
+    "material conflict": 121,
+    "verbal conflict": 54,
+    "verbal cooperation": 68,
+    "material cooperation": 10
   },
   "top_labels": [
     {
@@ -17,15 +17,15 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 17
     },
     {
       "label": "Investigate",
-      "n": 15
+      "n": 14
     },
     {
       "label": "Arrest, detain or charge",
@@ -64,17 +64,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 3
-    },
-    {
-      "title": "Watch: Gaza declares meningitis alert as health ministry blames Israeli res\u2026",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -117,6 +106,17 @@
       "dyad": "Russia \u2192 Ukraine",
       "code": "150",
       "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
       "outlets": 1
