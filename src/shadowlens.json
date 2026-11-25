@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-25 13:08 UTC",
-  "feed_time": "2026-11-25T13:08:36.059506",
-  "total": 878,
-  "coded": 266,
-  "outlets": 67,
+  "updated": "2026-11-25 14:09 UTC",
+  "feed_time": "2026-11-25T14:08:36.195187",
+  "total": 884,
+  "coded": 267,
+  "outlets": 66,
   "quad_hist": {
     "material conflict": 126,
     "verbal conflict": 63,
     "verbal cooperation": 64,
-    "material cooperation": 13
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 29
+      "n": 27
     },
     {
       "label": "Use conventional military force",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Threaten",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Investigate",
@@ -34,8 +34,8 @@
   ],
   "ticker": [
     {
-      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-      "source": "Guardian World",
+      "title": "Libyan Forces Threaten Retaliation Over Ukraine\u2019s Attack on Russian Ships",
+      "source": "NYT World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "195",
@@ -45,14 +45,25 @@
       "outlets": 7
     },
     {
-      "title": "Israeli strike in Gaza kills Hamas security chief, wife and teenage daughte\u2026",
-      "source": "SCMP",
+      "title": "WATCH: Israel kills second Hamas security chief in Gaza in two days",
+      "source": "Jerusalem Post",
       "risk": 10,
       "dyad": "Israel \u2192 Palestine",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 3
     },
     {
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Pentagon holding up Patriot missiles for Ukraine \u2013 FT",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
       "outlets": 1
     }
   ]
