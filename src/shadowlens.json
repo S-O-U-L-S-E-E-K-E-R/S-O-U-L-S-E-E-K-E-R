@@ -1,31 +1,31 @@
 {
-  "updated": "2026-11-25 08:03 UTC",
-  "feed_time": "2026-11-25T08:02:36.068556",
-  "total": 872,
-  "coded": 250,
+  "updated": "2026-11-25 09:04 UTC",
+  "feed_time": "2026-11-25T09:04:43.605101",
+  "total": 878,
+  "coded": 258,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 118,
-    "verbal conflict": 61,
-    "verbal cooperation": 56,
-    "material cooperation": 15
+    "material conflict": 119,
+    "verbal conflict": 67,
+    "verbal cooperation": 58,
+    "material cooperation": 14
   },
   "top_labels": [
     {
-      "label": "Use conventional military force",
-      "n": 25
+      "label": "Use unconventional violence",
+      "n": 23
     },
     {
-      "label": "Use unconventional violence",
-      "n": 21
+      "label": "Use conventional military force",
+      "n": 23
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 17
     },
     {
       "label": "Investigate",
@@ -33,6 +33,17 @@
     }
   ],
   "ticker": [
+    {
+      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
     {
       "title": "Israeli strike kills four people in Gaza",
       "source": "AlJazeera",
@@ -56,12 +67,12 @@
       "outlets": 3
     },
     {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
-      "source": "NPR World",
+      "title": "All hostages freed after Colombian security forces storm supermarket, says\u2026",
+      "source": "Guardian World",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "dyad": "Colombia",
+      "code": "181",
+      "label": "Abduct, hijack or take hostage",
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
@@ -100,25 +111,14 @@
       "outlets": 2
     },
     {
-      "title": "Phone spying to missiles: Why India-Israel strategic ties go beyond Modi",
+      "title": "Saudi-led coalition intercepts Houthi attacks after Hodeidah strike",
       "source": "AlJazeera",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Rebel \u2192 Russia",
-      "code": "193",
-      "label": "Fight with small arms",
+      "dyad": "Yemen",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
