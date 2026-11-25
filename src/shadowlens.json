@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-25 10:05 UTC",
-  "feed_time": "2026-11-25T10:04:43.664319",
-  "total": 882,
-  "coded": 263,
+  "updated": "2026-11-25 11:06 UTC",
+  "feed_time": "2026-11-25T11:06:43.630754",
+  "total": 873,
+  "coded": 267,
   "outlets": 68,
   "quad_hist": {
-    "material conflict": 125,
-    "verbal conflict": 65,
-    "verbal cooperation": 58,
-    "material cooperation": 15
+    "material conflict": 121,
+    "verbal conflict": 67,
+    "verbal cooperation": 62,
+    "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 28
+      "n": 24
     },
     {
       "label": "Use conventional military force",
-      "n": 26
+      "n": 24
     },
     {
       "label": "Threaten",
-      "n": 21
+      "n": 20
     },
     {
       "label": "Arrest, detain or charge",
@@ -29,10 +29,21 @@
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 15
     }
   ],
   "ticker": [
+    {
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 6
+    },
     {
       "title": "Israeli strike kills four people in Gaza",
       "source": "AlJazeera",
@@ -56,25 +67,14 @@
       "outlets": 4
     },
     {
-      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
-      "source": "NPR World",
+      "title": "Watch: Gaza declares meningitis alert as health ministry blames Israeli res\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 4
-    },
-    {
-      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Libya",
-      "code": "150",
-      "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 3
     },
     {
@@ -86,17 +86,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 2
-    },
-    {
-      "title": "Eisenkot clinches first coalition agreement in bid to form Israel's governm\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel \u2192 Israel",
-      "code": "010",
-      "label": "Make statement",
-      "quad": "verbal cooperation",
-      "goldstein": 0.0,
       "outlets": 2
     },
     {
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Rebel \u2192 Russia",
+      "code": "193",
+      "label": "Fight with small arms",
+      "quad": "material conflict",
+      "goldstein": -10.0,
       "outlets": 1
     }
   ]
