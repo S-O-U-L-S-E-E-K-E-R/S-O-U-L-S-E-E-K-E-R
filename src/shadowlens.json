@@ -1,15 +1,125 @@
 {
-  "updated": "2026-11-25 02:58 UTC",
-  "feed_time": "2026-11-25T02:58:38.973616",
-  "total": 0,
-  "coded": 0,
-  "outlets": 0,
+  "updated": "2026-11-25 03:59 UTC",
+  "feed_time": "2026-11-25T03:59:43.632757",
+  "total": 877,
+  "coded": 276,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 0,
-    "verbal conflict": 0,
-    "verbal cooperation": 0,
-    "material cooperation": 0
+    "material conflict": 126,
+    "verbal conflict": 63,
+    "verbal cooperation": 66,
+    "material cooperation": 21
   },
-  "top_labels": [],
-  "ticker": []
+  "top_labels": [
+    {
+      "label": "Use conventional military force",
+      "n": 23
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 19
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 17
+    },
+    {
+      "label": "Threaten",
+      "n": 16
+    },
+    {
+      "label": "Investigate",
+      "n": 15
+    }
+  ],
+  "ticker": [
+    {
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Libya",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 6
+    },
+    {
+      "title": "Pentagon holding up Patriot missiles for Ukraine \u2013 FT",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 3
+    },
+    {
+      "title": "Ukraine war spilling into NATO territory",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Rebel \u2192 Russia",
+      "code": "193",
+      "label": "Fight with small arms",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Russia \u2192 Ukraine",
+      "code": "150",
+      "label": "Exhibit military posture",
+      "quad": "material conflict",
+      "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Italy expresses concern to Ukraine over Libya ship attacks \u2013 as it happened",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "Italy \u2192 Ukraine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "The Ukraine-Russia war is escalating \u2013 and it will go global unless Europe\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Zelenskyy hails Ukraine's attack on a Russian warship docked at a naval bas\u2026",
+      "source": "NPR World",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    }
+  ]
 }
