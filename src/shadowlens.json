@@ -1,27 +1,27 @@
 {
-  "updated": "2026-11-25 16:11 UTC",
-  "feed_time": "2026-11-25T16:11:43.607303",
-  "total": 885,
-  "coded": 253,
+  "updated": "2026-11-25 17:12 UTC",
+  "feed_time": "2026-11-25T17:12:43.629665",
+  "total": 884,
+  "coded": 249,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 121,
-    "verbal conflict": 54,
-    "verbal cooperation": 68,
+    "material conflict": 114,
+    "verbal conflict": 62,
+    "verbal cooperation": 63,
     "material cooperation": 10
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 23
-    },
-    {
-      "label": "Use conventional military force",
       "n": 21
     },
     {
       "label": "Threaten",
-      "n": 17
+      "n": 19
+    },
+    {
+      "label": "Use conventional military force",
+      "n": 19
     },
     {
       "label": "Investigate",
@@ -37,12 +37,12 @@
       "title": "Libyan Forces Threaten Retaliation Over Ukraine\u2019s Attack on Russian Ships",
       "source": "NYT World",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 7
+      "dyad": "Libya \u2192 Ukraine",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 5
     },
     {
       "title": "WATCH: Israel kills second Hamas security chief in Gaza in two days",
@@ -81,11 +81,11 @@
       "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "Rebel \u2192 Russia",
-      "code": "193",
-      "label": "Fight with small arms",
-      "quad": "material conflict",
-      "goldstein": -10.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
