@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-25 21:15 UTC",
-  "feed_time": "2026-11-25T21:14:44.025121",
-  "total": 883,
+  "updated": "2026-11-25 22:16 UTC",
+  "feed_time": "2026-11-25T22:16:43.596932",
+  "total": 882,
   "coded": 271,
-  "outlets": 66,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 115,
-    "verbal conflict": 64,
-    "verbal cooperation": 73,
-    "material cooperation": 19
+    "material conflict": 116,
+    "verbal conflict": 62,
+    "verbal cooperation": 72,
+    "material cooperation": 21
   },
   "top_labels": [
     {
@@ -16,16 +16,16 @@
       "n": 20
     },
     {
+      "label": "Use conventional military force",
+      "n": 18
+    },
+    {
       "label": "Use unconventional violence",
       "n": 18
     },
     {
-      "label": "Use conventional military force",
-      "n": 17
-    },
-    {
       "label": "Investigate",
-      "n": 17
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
@@ -45,7 +45,7 @@
       "outlets": 5
     },
     {
-      "title": "Houthis say they attacked Saudi Arabia's largest oil refinery in retaliatio\u2026",
+      "title": "Loud explosions rock Riyadh as Houthis attack Saudi ports",
       "source": "MEE",
       "risk": 10,
       "dyad": "Saudi Arabia \u2192 Yemen",
