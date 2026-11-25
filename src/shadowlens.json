@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-25 14:09 UTC",
-  "feed_time": "2026-11-25T14:08:36.195187",
-  "total": 884,
-  "coded": 267,
-  "outlets": 66,
+  "updated": "2026-11-25 15:10 UTC",
+  "feed_time": "2026-11-25T15:10:43.659204",
+  "total": 883,
+  "coded": 270,
+  "outlets": 67,
   "quad_hist": {
     "material conflict": 126,
-    "verbal conflict": 63,
-    "verbal cooperation": 64,
-    "material cooperation": 14
+    "verbal conflict": 62,
+    "verbal cooperation": 69,
+    "material cooperation": 13
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 27
+      "n": 23
     },
     {
       "label": "Use conventional military force",
-      "n": 21
+      "n": 22
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 19
     },
     {
       "label": "Investigate",
-      "n": 14
+      "n": 15
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 13
     }
   ],
   "ticker": [
@@ -56,14 +56,14 @@
       "outlets": 4
     },
     {
-      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
-      "source": "Guardian World",
+      "title": "Ukraine tells Putin to \u2018stop complaining\u2019 over oil refinery strikes, says e\u2026",
+      "source": "Hindustan Times",
       "risk": 10,
-      "dyad": "Ukraine \u2192 Libya",
-      "code": "150",
-      "label": "Exhibit military posture",
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -7.2,
+      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -78,6 +78,17 @@
       "outlets": 3
     },
     {
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "043",
+      "label": "Host a visit",
+      "quad": "verbal cooperation",
+      "goldstein": 2.8,
+      "outlets": 1
+    },
+    {
       "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -89,34 +100,23 @@
       "outlets": 1
     },
     {
+      "title": "Ukraine confirms it used naval drones to strike two Russian ships off Libya",
+      "source": "Guardian World",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 1
+    },
+    {
       "title": "Russian warship sinks in Benghazi after suspected Ukrainian drone attack",
       "source": "Guardian World",
       "risk": 10,
       "dyad": "Russia \u2192 Ukraine",
       "code": "150",
       "label": "Exhibit military posture",
-      "quad": "material conflict",
-      "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Italy expresses concern to Ukraine over Libya ship attacks \u2013 as it happened",
-      "source": "Guardian World",
-      "risk": 10,
-      "dyad": "Italy \u2192 Ukraine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
       "outlets": 1
