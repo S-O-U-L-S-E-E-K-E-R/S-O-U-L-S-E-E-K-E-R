@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-26 22:40 UTC",
-  "feed_time": "2026-11-26T22:40:43.722292",
-  "total": 866,
-  "coded": 233,
-  "outlets": 63,
+  "updated": "2026-11-26 23:41 UTC",
+  "feed_time": "2026-11-26T23:41:43.591470",
+  "total": 870,
+  "coded": 238,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 92,
-    "verbal conflict": 66,
-    "verbal cooperation": 61,
+    "material conflict": 93,
+    "verbal conflict": 65,
+    "verbal cooperation": 66,
     "material cooperation": 14
   },
   "top_labels": [
@@ -24,12 +24,12 @@
       "n": 17
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 14
+      "label": "Consult",
+      "n": 15
     },
     {
-      "label": "Consult",
-      "n": 13
+      "label": "Arrest, detain or charge",
+      "n": 14
     }
   ],
   "ticker": [
@@ -78,6 +78,17 @@
       "outlets": 2
     },
     {
+      "title": "Gaza\u2019s health ministry says 19 Palestinians killed by Israeli attacks in 48\u2026",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
       "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     }
   ]
