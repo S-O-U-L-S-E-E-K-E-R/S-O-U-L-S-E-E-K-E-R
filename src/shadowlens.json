@@ -1,20 +1,16 @@
 {
-  "updated": "2026-11-26 14:32 UTC",
-  "feed_time": "2026-11-26T14:32:36.253095",
-  "total": 892,
-  "coded": 272,
-  "outlets": 64,
+  "updated": "2026-11-26 15:33 UTC",
+  "feed_time": "2026-11-26T15:32:36.026375",
+  "total": 874,
+  "coded": 267,
+  "outlets": 49,
   "quad_hist": {
-    "material conflict": 111,
-    "verbal conflict": 71,
-    "verbal cooperation": 74,
+    "material conflict": 114,
+    "verbal conflict": 66,
+    "verbal cooperation": 71,
     "material cooperation": 16
   },
   "top_labels": [
-    {
-      "label": "Threaten",
-      "n": 21
-    },
     {
       "label": "Use unconventional violence",
       "n": 20
@@ -24,12 +20,16 @@
       "n": 19
     },
     {
+      "label": "Threaten",
+      "n": 18
+    },
+    {
       "label": "Consult",
-      "n": 17
+      "n": 15
     },
     {
       "label": "Investigate",
-      "n": 16
+      "n": 14
     }
   ],
   "ticker": [
@@ -56,25 +56,14 @@
       "outlets": 2
     },
     {
-      "title": "Latest Israeli attack in Gaza City reportedly kills three",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
       "title": "Five Russian military jets hit in airfield strike, says Ukraine",
       "source": "BBC World",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "043",
-      "label": "Host a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 2.8,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
@@ -119,6 +108,17 @@
       "label": "Use conventional military for\u2026",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Japan plans new long-range anti-ship missile to bolster naval build-up",
+      "source": "SCMP",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
