@@ -1,47 +1,47 @@
 {
-  "updated": "2026-11-26 16:34 UTC",
-  "feed_time": "2026-11-26T16:34:43.632737",
-  "total": 893,
-  "coded": 247,
+  "updated": "2026-11-26 17:35 UTC",
+  "feed_time": "2026-11-26T17:35:43.642191",
+  "total": 890,
+  "coded": 251,
   "outlets": 62,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 64,
-    "verbal cooperation": 62,
-    "material cooperation": 13
+    "material conflict": 106,
+    "verbal conflict": 71,
+    "verbal cooperation": 59,
+    "material cooperation": 15
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 22
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Threaten",
-      "n": 18
-    },
-    {
-      "label": "Consult",
-      "n": 14
+      "n": 19
     },
     {
       "label": "Investigate",
+      "n": 16
+    },
+    {
+      "label": "Consult",
       "n": 14
     }
   ],
   "ticker": [
     {
-      "title": "Ukraine reports first laser strike against Russian jet drone",
-      "source": "Hindustan Times",
+      "title": "Iran denies responsibility for attack on Kuwait that killed two Italians",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "Russia \u2192 Ukraine",
-      "code": "042",
-      "label": "Make a visit",
-      "quad": "verbal cooperation",
-      "goldstein": 1.9,
+      "dyad": "Iran",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 2
     },
     {
@@ -89,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "NATO involvement in attacks on Russian vessels brings nuclear war closer \u2014\u2026",
+      "source": "TASS",
+      "risk": 10,
+      "dyad": "NATO \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
       "title": "Japan plans new long-range anti-ship missile to bolster naval build-up",
       "source": "SCMP",
       "risk": 10,
@@ -100,19 +111,8 @@
       "outlets": 1
     },
     {
-      "title": "Makkah pact nations to discuss conflict between Saudi Arabia and Yemen's Ho\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Saudi Arabia \u2192 Yemen",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
-      "outlets": 1
-    },
-    {
-      "title": "Bilawal terms PTI a \u2018political reality\u2019, calls for restoring its trust in t\u2026",
-      "source": "Dawn",
+      "title": "India's answer to drone swarms? Bhargavastra clears key trials",
+      "source": "Times of India",
       "risk": 10,
       "dyad": "",
       "code": null,
