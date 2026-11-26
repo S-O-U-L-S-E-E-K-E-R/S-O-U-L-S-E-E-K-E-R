@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-26 20:38 UTC",
-  "feed_time": "2026-11-26T20:38:36.309827",
-  "total": 866,
-  "coded": 238,
-  "outlets": 62,
+  "updated": "2026-11-26 21:39 UTC",
+  "feed_time": "2026-11-26T21:38:35.998166",
+  "total": 870,
+  "coded": 237,
+  "outlets": 63,
   "quad_hist": {
-    "material conflict": 96,
-    "verbal conflict": 69,
-    "verbal cooperation": 62,
-    "material cooperation": 11
+    "material conflict": 97,
+    "verbal conflict": 68,
+    "verbal cooperation": 59,
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -24,8 +24,8 @@
       "n": 17
     },
     {
-      "label": "Accuse",
-      "n": 14
+      "label": "Arrest, detain or charge",
+      "n": 15
     },
     {
       "label": "Consult",
@@ -53,6 +53,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Hamas weighs response after Israel kills 10 people in Gaza",
+      "source": "France24",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Palestine",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
       "outlets": 2
     },
     {
@@ -102,17 +113,6 @@
     {
       "title": "Here's why the Black Sea matters for NATO in the Russia-Ukraine war",
       "source": "CBS News",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Japan plans new long-range anti-ship missile to bolster naval build-up",
-      "source": "SCMP",
       "risk": 10,
       "dyad": "",
       "code": null,
