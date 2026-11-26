@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-26 08:26 UTC",
-  "feed_time": "2026-11-26T08:26:41.734139",
-  "total": 871,
+  "updated": "2026-11-26 09:27 UTC",
+  "feed_time": "2026-11-26T09:26:36.210869",
+  "total": 872,
   "coded": 258,
-  "outlets": 66,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 71,
-    "verbal cooperation": 63,
-    "material cooperation": 16
+    "material conflict": 117,
+    "verbal conflict": 67,
+    "verbal cooperation": 56,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 23
+      "n": 22
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 20
     },
     {
       "label": "Use conventional military force",
       "n": 19
     },
     {
-      "label": "Investigate",
-      "n": 15
-    },
-    {
-      "label": "Use unconventional violence",
+      "label": "Arrest, detain or charge",
       "n": 14
     },
     {
-      "label": "Appeal",
-      "n": 13
+      "label": "Investigate",
+      "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Israeli strike kills Hamas official, wife and daughters",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "Libyan Forces Threaten Retaliation Over Ukraine\u2019s Attack on Russian Ships",
       "source": "NYT World",
@@ -60,6 +49,28 @@
       "source": "Guardian World",
       "risk": 10,
       "dyad": "France \u2192 Russia",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
+      "title": "Israeli strike kills Hamas official, wife and daughters",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
+    },
+    {
+      "title": "Latest Israeli attack in Gaza City reportedly kills three",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Senator Chris Van Hollen blames 'Trump's oil war in Iran' and tariffs for r\u2026",
-      "source": "Hindustan Times",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     }
   ]
