@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-26 06:24 UTC",
-  "feed_time": "2026-11-26T06:24:43.674296",
-  "total": 876,
-  "coded": 261,
-  "outlets": 64,
+  "updated": "2026-11-26 07:25 UTC",
+  "feed_time": "2026-11-26T07:25:43.634546",
+  "total": 871,
+  "coded": 255,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 71,
-    "verbal cooperation": 66,
+    "material conflict": 104,
+    "verbal conflict": 70,
+    "verbal cooperation": 64,
     "material cooperation": 17
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 23
+      "n": 22
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 17
     },
     {
       "label": "Use unconventional violence",
       "n": 16
     },
     {
-      "label": "Appeal",
-      "n": 14
+      "label": "Investigate",
+      "n": 15
     },
     {
-      "label": "Investigate",
+      "label": "Arrest, detain or charge",
       "n": 14
     }
   ],
   "ticker": [
-    {
-      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
     {
       "title": "Israeli strike kills Hamas official, wife and daughters",
       "source": "Dawn",
@@ -78,23 +67,23 @@
       "outlets": 2
     },
     {
-      "title": "Iran war live: Explosion rocks Sanaa; missiles intercepted over Riyadh",
-      "source": "AlJazeera",
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "source": "BBC World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Russia",
+      "code": "043",
+      "label": "Host a visit",
+      "quad": "verbal cooperation",
+      "goldstein": 2.8,
       "outlets": 1
     },
     {
-      "title": "Houthis target Saudi Arabia\u2019s Red Sea ports as strikes escalate",
+      "title": "Sri Lanka mass grave revives quest for answers to forgotten Muslim massacre",
       "source": "AlJazeera",
       "risk": 10,
-      "dyad": "Saudi Arabia",
-      "code": "190",
-      "label": "Use conventional military for\u2026",
+      "dyad": "",
+      "code": "202",
+      "label": "Engage in mass killings",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 1
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Senator Chris Van Hollen blames 'Trump's oil war in Iran' and tariffs for r\u2026",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "112",
+      "label": "Accuse",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
       "outlets": 1
     }
   ]
