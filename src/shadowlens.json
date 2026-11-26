@@ -1,38 +1,49 @@
 {
-  "updated": "2026-11-26 09:27 UTC",
-  "feed_time": "2026-11-26T09:26:36.210869",
-  "total": 872,
-  "coded": 258,
+  "updated": "2026-11-26 10:28 UTC",
+  "feed_time": "2026-11-26T10:28:43.779005",
+  "total": 879,
+  "coded": 257,
   "outlets": 65,
   "quad_hist": {
-    "material conflict": 117,
-    "verbal conflict": 67,
-    "verbal cooperation": 56,
-    "material cooperation": 18
+    "material conflict": 118,
+    "verbal conflict": 60,
+    "verbal cooperation": 59,
+    "material cooperation": 20
   },
   "top_labels": [
     {
-      "label": "Threaten",
-      "n": 22
+      "label": "Use conventional military force",
+      "n": 23
     },
     {
       "label": "Use unconventional violence",
+      "n": 21
+    },
+    {
+      "label": "Threaten",
       "n": 20
     },
     {
-      "label": "Use conventional military force",
-      "n": 19
+      "label": "Investigate",
+      "n": 15
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
-    },
-    {
-      "label": "Investigate",
-      "n": 14
+      "n": 13
     }
   ],
   "ticker": [
+    {
+      "title": "Hamas official and wife among eight Palestinians killed in Israeli strikes\u2026",
+      "source": "BBC Top",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
     {
       "title": "Libyan Forces Threaten Retaliation Over Ukraine\u2019s Attack on Russian Ships",
       "source": "NYT World",
@@ -53,17 +64,6 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israeli strike kills Hamas official, wife and daughters",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
       "outlets": 2
     },
     {
