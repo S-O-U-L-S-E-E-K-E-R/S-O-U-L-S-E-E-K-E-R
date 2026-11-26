@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-26 19:37 UTC",
-  "feed_time": "2026-11-26T19:37:43.810204",
-  "total": 876,
-  "coded": 236,
-  "outlets": 60,
+  "updated": "2026-11-26 20:38 UTC",
+  "feed_time": "2026-11-26T20:38:36.309827",
+  "total": 866,
+  "coded": 238,
+  "outlets": 62,
   "quad_hist": {
-    "material conflict": 95,
-    "verbal conflict": 72,
-    "verbal cooperation": 58,
+    "material conflict": 96,
+    "verbal conflict": 69,
+    "verbal cooperation": 62,
     "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Threaten",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Use conventional military force",
       "n": 17
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 15
+      "label": "Accuse",
+      "n": 14
     },
     {
-      "label": "Accuse",
+      "label": "Consult",
       "n": 14
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 7
     },
     {
       "title": "Hamas political official and wife among eight Palestinians killed in Israel\u2026",
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "NATO involvement in attacks on Russian vessels brings nuclear war closer \u2014\u2026",
-      "source": "TASS",
+      "title": "Japan plans new long-range anti-ship missile to bolster naval build-up",
+      "source": "SCMP",
       "risk": 10,
-      "dyad": "NATO \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
