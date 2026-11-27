@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-27 01:43 UTC",
-  "feed_time": "2026-11-27T01:43:43.606549",
-  "total": 873,
-  "coded": 245,
+  "updated": "2026-11-27 02:44 UTC",
+  "feed_time": "2026-11-27T02:44:36.102947",
+  "total": 849,
+  "coded": 239,
   "outlets": 64,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 64,
-    "verbal cooperation": 66,
-    "material cooperation": 16
+    "material conflict": 102,
+    "verbal conflict": 59,
+    "verbal cooperation": 64,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Threaten",
@@ -21,14 +21,14 @@
     },
     {
       "label": "Use conventional military force",
-      "n": 17
+      "n": 18
+    },
+    {
+      "label": "Arrest, detain or charge",
+      "n": 15
     },
     {
       "label": "Consult",
-      "n": 14
-    },
-    {
-      "label": "Attack cybernetically",
       "n": 14
     }
   ],
@@ -89,6 +89,17 @@
       "outlets": 2
     },
     {
+      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 Russia",
+      "code": "130",
+      "label": "Threaten",
+      "quad": "verbal conflict",
+      "goldstein": -6.0,
+      "outlets": 1
+    },
+    {
       "title": "More than 300 Russians killed as Moscow props up Mali\u2019s junta, leaked data\u2026",
       "source": "Guardian World",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "",
       "quad": null,
       "goldstein": null,
-      "outlets": 1
-    },
-    {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
-      "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
       "outlets": 1
     }
   ]
