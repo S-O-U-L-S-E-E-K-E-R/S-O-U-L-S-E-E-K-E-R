@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-27 22:03 UTC",
-  "feed_time": "2026-11-27T22:02:36.186544",
-  "total": 853,
-  "coded": 228,
+  "updated": "2026-11-27 23:04 UTC",
+  "feed_time": "2026-11-27T23:04:43.567975",
+  "total": 845,
+  "coded": 221,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 56,
-    "verbal cooperation": 54,
+    "material conflict": 108,
+    "verbal conflict": 54,
+    "verbal cooperation": 48,
     "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Consult",
-      "n": 18
-    },
-    {
       "label": "Use conventional military force",
-      "n": 16
+      "n": 17
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 12
+      "label": "Consult",
+      "n": 17
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
       "n": 12
     },
     {
-      "label": "Use unconventional violence",
-      "n": 12
+      "label": "Employ aerial weapons",
+      "n": 11
     }
   ],
   "ticker": [
@@ -45,6 +45,17 @@
       "outlets": 9
     },
     {
+      "title": "Hamas chief Khalil al-Hayya's son survives Israeli drone strike in Gaza City",
+      "source": "Hindustan Times",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 4
+    },
+    {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
       "source": "NYT World",
       "risk": 10,
@@ -53,17 +64,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Israeli attacks across Gaza kill four Palestinians",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 2
     },
     {
