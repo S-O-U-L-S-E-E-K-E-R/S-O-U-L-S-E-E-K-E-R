@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-27 14:56 UTC",
-  "feed_time": "2026-11-27T14:56:36.200546",
-  "total": 872,
-  "coded": 233,
-  "outlets": 66,
+  "updated": "2026-11-27 15:57 UTC",
+  "feed_time": "2026-11-27T15:56:36.103525",
+  "total": 875,
+  "coded": 226,
+  "outlets": 69,
   "quad_hist": {
-    "material conflict": 97,
-    "verbal conflict": 64,
-    "verbal cooperation": 58,
-    "material cooperation": 14
+    "material conflict": 99,
+    "verbal conflict": 61,
+    "verbal cooperation": 53,
+    "material cooperation": 13
   },
   "top_labels": [
     {
@@ -17,15 +17,15 @@
     },
     {
       "label": "Threaten",
-      "n": 20
-    },
-    {
-      "label": "Use unconventional violence",
       "n": 17
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 15
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 14
     },
     {
       "label": "Attack cybernetically",
@@ -42,7 +42,7 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 9
+      "outlets": 11
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -89,6 +89,17 @@
       "outlets": 1
     },
     {
+      "title": "Newly released documents suggest CIA did more post-9/11 waterboarding than\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": "084",
+      "label": "Return or release",
+      "quad": "material cooperation",
+      "goldstein": 5.0,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -97,17 +108,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Iran accused of carrying out drone attack killing 2 Italians in Kuwait",
-      "source": "CBS News",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "112",
-      "label": "Accuse",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
       "outlets": 1
     },
     {
