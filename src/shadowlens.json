@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-26 23:41 UTC",
-  "feed_time": "2026-11-26T23:41:43.591470",
-  "total": 870,
-  "coded": 238,
+  "updated": "2026-11-27 00:42 UTC",
+  "feed_time": "2026-11-27T00:42:43.595953",
+  "total": 871,
+  "coded": 244,
   "outlets": 64,
   "quad_hist": {
-    "material conflict": 93,
-    "verbal conflict": 65,
-    "verbal cooperation": 66,
-    "material cooperation": 14
+    "material conflict": 101,
+    "verbal conflict": 63,
+    "verbal cooperation": 64,
+    "material cooperation": 16
   },
   "top_labels": [
     {
-      "label": "Threaten",
-      "n": 18
-    },
-    {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 20
     },
     {
       "label": "Use conventional military force",
+      "n": 18
+    },
+    {
+      "label": "Threaten",
       "n": 17
     },
     {
-      "label": "Consult",
+      "label": "Arrest, detain or charge",
       "n": 15
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Consult",
       "n": 14
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 7
+      "outlets": 6
     },
     {
       "title": "Hamas political official and wife among eight Palestinians killed in Israel\u2026",
