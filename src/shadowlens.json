@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 08:50 UTC",
-  "feed_time": "2026-11-27T08:50:36.096338",
-  "total": 877,
-  "coded": 221,
-  "outlets": 66,
+  "updated": "2026-11-27 09:51 UTC",
+  "feed_time": "2026-11-27T09:50:42.842100",
+  "total": 878,
+  "coded": 223,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 98,
-    "verbal conflict": 60,
-    "verbal cooperation": 52,
-    "material cooperation": 11
+    "material conflict": 102,
+    "verbal conflict": 58,
+    "verbal cooperation": 51,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 22
+      "n": 21
     },
     {
       "label": "Threaten",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Use conventional military force",
-      "n": 15
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 13
+      "n": 14
     },
     {
-      "label": "Consult",
+      "label": "Attack cybernetically",
       "n": 12
     }
   ],
@@ -42,7 +42,18 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 5
+      "outlets": 3
+    },
+    {
+      "title": "Trump calling Putin \u2018friend\u2019 like declaring friendship with Hitler during W\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
       "title": "Hamas weighs response after Israel kills 10 people in Gaza",
@@ -75,17 +86,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
       "outlets": 1
     },
     {
