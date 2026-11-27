@@ -1,60 +1,38 @@
 {
-  "updated": "2026-11-27 11:53 UTC",
-  "feed_time": "2026-11-27T11:53:43.586672",
-  "total": 852,
-  "coded": 227,
-  "outlets": 64,
+  "updated": "2026-11-27 12:54 UTC",
+  "feed_time": "2026-11-27T12:53:43.604359",
+  "total": 867,
+  "coded": 220,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 99,
+    "material conflict": 100,
     "verbal conflict": 55,
-    "verbal cooperation": 60,
-    "material cooperation": 13
+    "verbal cooperation": 53,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 19
+      "n": 20
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 18
     },
     {
       "label": "Use conventional military force",
       "n": 17
     },
     {
-      "label": "Use unconventional violence",
-      "n": 17
+      "label": "Attack cybernetically",
+      "n": 13
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
-    {
-      "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
-      "source": "NYT World",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
-    },
-    {
-      "title": "Watch: Israeli attack on residential building in Gaza City wounds children",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 3
-    },
     {
       "title": "Hackers breach US Air Force flagship Cloud One computing platform",
       "source": "Dawn",
@@ -64,7 +42,40 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 2
+      "outlets": 4
+    },
+    {
+      "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
+      "source": "NYT World",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 3
+    },
+    {
+      "title": "Israel kills Gaza deputy education minister and wife in fresh attack on Gaza",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Israel \u2192 Palestine",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 3
     },
     {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
@@ -100,25 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Two people killed, five injured in Arabian coalition airstrike on Sanaa",
-      "source": "TASS",
+      "title": "NATO gave Kiev naval strike capability. Then the Ukrainians attacked Libya",
+      "source": "RT",
       "risk": 10,
-      "dyad": "Yemen",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "NATO \u2192 Libya",
+      "code": "180",
+      "label": "Use unconventional violence",
       "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
-    },
-    {
-      "title": "Islamabad set to host Makkah Defence Alliance meeting today; Yemen conflict\u2026",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "Pakistan \u2192 Yemen",
-      "code": "040",
-      "label": "Consult",
-      "quad": "verbal cooperation",
-      "goldstein": 1.0,
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
