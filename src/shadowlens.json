@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 02:44 UTC",
-  "feed_time": "2026-11-27T02:44:36.102947",
-  "total": 849,
-  "coded": 239,
-  "outlets": 64,
+  "updated": "2026-11-27 03:45 UTC",
+  "feed_time": "2026-11-27T03:44:36.160995",
+  "total": 876,
+  "coded": 235,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 102,
+    "material conflict": 100,
     "verbal conflict": 59,
-    "verbal cooperation": 64,
-    "material cooperation": 14
+    "verbal cooperation": 63,
+    "material cooperation": 13
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 21
+      "label": "Threaten",
+      "n": 20
     },
     {
-      "label": "Threaten",
-      "n": 19
+      "label": "Use unconventional violence",
+      "n": 20
     },
     {
       "label": "Use conventional military force",
-      "n": 18
-    },
-    {
-      "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 19
     },
     {
       "label": "Consult",
+      "n": 14
+    },
+    {
+      "label": "Arrest, detain or charge",
       "n": 14
     }
   ],
@@ -37,23 +37,12 @@
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
       "source": "NYT World",
       "risk": 10,
-      "dyad": "Iran",
+      "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 6
-    },
-    {
-      "title": "Hamas political official and wife among eight Palestinians killed in Israel\u2026",
-      "source": "BBC World",
-      "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
     },
     {
       "title": "Hamas weighs response after Israel kills 10 people in Gaza",
@@ -67,17 +56,6 @@
       "outlets": 2
     },
     {
-      "title": "WATCH: IDF strikes dozens of Hezbollah rockets, launchers at Radwan Force t\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
-      "outlets": 2
-    },
-    {
       "title": "Gaza\u2019s health ministry says 19 Palestinians killed by Israeli attacks in 48\u2026",
       "source": "MEE",
       "risk": 10,
@@ -87,6 +65,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 2
+    },
+    {
+      "title": "Hamas political official and wife among eight Palestinians killed in Israel\u2026",
+      "source": "BBC World",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
     },
     {
       "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
