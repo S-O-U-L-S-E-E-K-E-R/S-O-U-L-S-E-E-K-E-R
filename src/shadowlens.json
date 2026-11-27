@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-27 07:49 UTC",
-  "feed_time": "2026-11-27T07:49:43.705271",
-  "total": 875,
-  "coded": 226,
+  "updated": "2026-11-27 08:50 UTC",
+  "feed_time": "2026-11-27T08:50:36.096338",
+  "total": 877,
+  "coded": 221,
   "outlets": 66,
   "quad_hist": {
-    "material conflict": 95,
+    "material conflict": 98,
     "verbal conflict": 60,
-    "verbal cooperation": 55,
-    "material cooperation": 16
+    "verbal cooperation": 52,
+    "material cooperation": 11
   },
   "top_labels": [
     {
-      "label": "Threaten",
-      "n": 21
+      "label": "Use unconventional violence",
+      "n": 22
     },
     {
-      "label": "Use unconventional violence",
-      "n": 18
+      "label": "Threaten",
+      "n": 19
     },
     {
       "label": "Use conventional military force",
-      "n": 16
-    },
-    {
-      "label": "Consult",
-      "n": 14
+      "n": 15
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 14
+      "n": 13
+    },
+    {
+      "label": "Consult",
+      "n": 12
     }
   ],
   "ticker": [
@@ -56,10 +56,10 @@
       "outlets": 2
     },
     {
-      "title": "Gaza\u2019s health ministry says 19 Palestinians killed by Israeli attacks in 48\u2026",
+      "title": "Watch: Israeli attack on residential building in Gaza City wounds children",
       "source": "MEE",
       "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
+      "dyad": "Israel \u2192 Palestine",
       "code": "180",
       "label": "Use unconventional violence",
       "quad": "material conflict",
