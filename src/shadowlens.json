@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-27 16:58 UTC",
-  "feed_time": "2026-11-27T16:58:43.768896",
-  "total": 878,
-  "coded": 219,
-  "outlets": 69,
+  "updated": "2026-11-27 17:59 UTC",
+  "feed_time": "2026-11-27T17:59:43.608566",
+  "total": 879,
+  "coded": 223,
+  "outlets": 68,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 56,
-    "verbal cooperation": 50,
+    "material conflict": 102,
+    "verbal conflict": 58,
+    "verbal cooperation": 51,
     "material cooperation": 12
   },
   "top_labels": [
@@ -17,11 +17,7 @@
     },
     {
       "label": "Consult",
-      "n": 15
-    },
-    {
-      "label": "Threaten",
-      "n": 14
+      "n": 16
     },
     {
       "label": "Arrest, detain or charge",
@@ -29,6 +25,10 @@
     },
     {
       "label": "Use unconventional violence",
+      "n": 12
+    },
+    {
+      "label": "Threaten",
       "n": 12
     }
   ],
@@ -42,24 +42,13 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 10
+      "outlets": 11
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
       "source": "NYT World",
       "risk": 10,
       "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
@@ -119,6 +108,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran points finger at US and Israel over deadly Kuwait strike",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
