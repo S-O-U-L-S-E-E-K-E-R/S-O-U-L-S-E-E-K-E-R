@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 15:57 UTC",
-  "feed_time": "2026-11-27T15:56:36.103525",
-  "total": 875,
-  "coded": 226,
+  "updated": "2026-11-27 16:58 UTC",
+  "feed_time": "2026-11-27T16:58:43.768896",
+  "total": 878,
+  "coded": 219,
   "outlets": 69,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 61,
-    "verbal cooperation": 53,
-    "material cooperation": 13
+    "material conflict": 101,
+    "verbal conflict": 56,
+    "verbal cooperation": 50,
+    "material cooperation": 12
   },
   "top_labels": [
     {
       "label": "Use conventional military force",
-      "n": 21
-    },
-    {
-      "label": "Threaten",
-      "n": 17
+      "n": 22
     },
     {
       "label": "Consult",
       "n": 15
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Threaten",
       "n": 14
     },
     {
-      "label": "Attack cybernetically",
+      "label": "Arrest, detain or charge",
+      "n": 12
+    },
+    {
+      "label": "Use unconventional violence",
       "n": 12
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 11
+      "outlets": 10
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -53,17 +53,6 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Israel kills Gaza deputy education minister and wife in fresh attack on Gaza",
-      "source": "MEE",
-      "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 3
     },
     {
@@ -78,14 +67,25 @@
       "outlets": 2
     },
     {
+      "title": "Hamas says son of leader Khalil al-Hayya survived Israeli attack",
+      "source": "MEE",
+      "risk": 10,
+      "dyad": "Palestine \u2192 Israel",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 2
+    },
+    {
       "title": "\u2018Mass-casualty event\u2019 in Europe possible amid rise in Russian sabotage, say\u2026",
       "source": "Guardian World",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Authorities \u2192 Russia",
+      "code": "173",
+      "label": "Arrest, detain or charge",
+      "quad": "material conflict",
+      "goldstein": -5.0,
       "outlets": 1
     },
     {
@@ -111,14 +111,14 @@
       "outlets": 1
     },
     {
-      "title": "Why is India so afraid of Pakistan's new Netflix series?",
-      "source": "France24",
+      "title": "NATO gave Kiev naval strike capability. Then the Ukrainians attacked Libya",
+      "source": "RT",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "NATO \u2192 Libya",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
