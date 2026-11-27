@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-27 10:52 UTC",
-  "feed_time": "2026-11-27T10:51:51.077308",
-  "total": 878,
-  "coded": 230,
-  "outlets": 65,
+  "updated": "2026-11-27 11:53 UTC",
+  "feed_time": "2026-11-27T11:53:43.586672",
+  "total": 852,
+  "coded": 227,
+  "outlets": 64,
   "quad_hist": {
-    "material conflict": 107,
-    "verbal conflict": 61,
-    "verbal cooperation": 49,
+    "material conflict": 99,
+    "verbal conflict": 55,
+    "verbal cooperation": 60,
     "material cooperation": 13
   },
   "top_labels": [
-    {
-      "label": "Use unconventional violence",
-      "n": 20
-    },
     {
       "label": "Threaten",
       "n": 19
     },
     {
       "label": "Use conventional military force",
-      "n": 18
+      "n": 17
+    },
+    {
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 14
     },
     {
-      "label": "Consult",
-      "n": 12
+      "label": "Attack cybernetically",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 4
     },
     {
       "title": "Watch: Israeli attack on residential building in Gaza City wounds children",
@@ -53,18 +53,18 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
-      "outlets": 2
+      "outlets": 3
     },
     {
-      "title": "Hamas political official and wife among eight Palestinians killed in Israel\u2026",
-      "source": "BBC World",
+      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+      "source": "Dawn",
       "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "United States",
+      "code": "176",
+      "label": "Attack cybernetically",
       "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 1
+      "goldstein": -7.0,
+      "outlets": 2
     },
     {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
@@ -75,17 +75,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Zelenskyy warns of imminent major Russian attack on Ukraine\u2019s power grid",
-      "source": "ABC News",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "130",
-      "label": "Threaten",
-      "quad": "verbal conflict",
-      "goldstein": -6.0,
       "outlets": 1
     },
     {
@@ -111,14 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "Hamas weighs response after Israel kills 10 people in Gaza",
-      "source": "France24",
+      "title": "Two people killed, five injured in Arabian coalition airstrike on Sanaa",
+      "source": "TASS",
       "risk": 10,
-      "dyad": "",
-      "code": null,
-      "label": "",
-      "quad": null,
-      "goldstein": null,
+      "dyad": "Yemen",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 1
+    },
+    {
+      "title": "Islamabad set to host Makkah Defence Alliance meeting today; Yemen conflict\u2026",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Pakistan \u2192 Yemen",
+      "code": "040",
+      "label": "Consult",
+      "quad": "verbal cooperation",
+      "goldstein": 1.0,
       "outlets": 1
     }
   ]
