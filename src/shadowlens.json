@@ -1,23 +1,23 @@
 {
-  "updated": "2026-11-27 04:46 UTC",
-  "feed_time": "2026-11-27T04:46:43.660277",
-  "total": 878,
-  "coded": 232,
-  "outlets": 65,
+  "updated": "2026-11-27 05:47 UTC",
+  "feed_time": "2026-11-27T05:47:43.622399",
+  "total": 875,
+  "coded": 230,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 57,
-    "verbal cooperation": 61,
-    "material cooperation": 13
+    "material conflict": 100,
+    "verbal conflict": 58,
+    "verbal cooperation": 58,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Use unconventional violence",
-      "n": 20
+      "n": 21
     },
     {
       "label": "Use conventional military force",
@@ -25,7 +25,7 @@
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 15
+      "n": 16
     },
     {
       "label": "Consult",
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 5
     },
     {
       "title": "Hamas weighs response after Israel kills 10 people in Gaza",
