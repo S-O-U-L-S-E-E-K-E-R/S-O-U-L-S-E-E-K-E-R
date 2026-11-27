@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-27 12:54 UTC",
-  "feed_time": "2026-11-27T12:53:43.604359",
-  "total": 867,
+  "updated": "2026-11-27 13:55 UTC",
+  "feed_time": "2026-11-27T13:55:43.696361",
+  "total": 862,
   "coded": 220,
-  "outlets": 65,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 55,
-    "verbal cooperation": 53,
-    "material cooperation": 12
+    "material conflict": 95,
+    "verbal conflict": 57,
+    "verbal cooperation": 54,
+    "material cooperation": 14
   },
   "top_labels": [
     {
       "label": "Threaten",
-      "n": 20
+      "n": 19
     },
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 16
     },
     {
       "label": "Use conventional military force",
-      "n": 17
+      "n": 16
     },
     {
-      "label": "Attack cybernetically",
-      "n": 13
+      "label": "Consult",
+      "n": 14
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,18 +42,7 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 4
-    },
-    {
-      "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 7
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -76,6 +65,17 @@
       "quad": "material conflict",
       "goldstein": -9.0,
       "outlets": 3
+    },
+    {
+      "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+      "source": "AlJazeera",
+      "risk": 10,
+      "dyad": "Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 2
     },
     {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
