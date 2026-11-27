@@ -1,34 +1,34 @@
 {
-  "updated": "2026-11-27 20:01 UTC",
-  "feed_time": "2026-11-27T20:01:37.007008",
-  "total": 870,
-  "coded": 225,
-  "outlets": 66,
+  "updated": "2026-11-27 21:02 UTC",
+  "feed_time": "2026-11-27T21:02:36.154438",
+  "total": 857,
+  "coded": 228,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 103,
-    "verbal conflict": 57,
-    "verbal cooperation": 54,
+    "material conflict": 106,
+    "verbal conflict": 58,
+    "verbal cooperation": 53,
     "material cooperation": 11
   },
   "top_labels": [
     {
       "label": "Use conventional military force",
-      "n": 21
+      "n": 19
     },
     {
       "label": "Consult",
-      "n": 17
+      "n": 18
     },
     {
       "label": "Arrest, detain or charge",
-      "n": 12
+      "n": 11
     },
     {
       "label": "Use unconventional violence",
       "n": 11
     },
     {
-      "label": "Criticize or denounce",
+      "label": "Attack cybernetically",
       "n": 11
     }
   ],
@@ -42,7 +42,7 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 11
+      "outlets": 9
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -56,18 +56,7 @@
       "outlets": 2
     },
     {
-      "title": "Ukrainian forces strike Russia's latest Buk-M3 air defense system in occupi\u2026",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "192",
-      "label": "Occupy territory",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 2
-    },
-    {
-      "title": "Hamas says son of leader Khalil al-Hayya survived Israeli attack",
+      "title": "Israeli attacks across Gaza kill four Palestinians",
       "source": "MEE",
       "risk": 10,
       "dyad": "Palestine \u2192 Israel",
@@ -119,6 +108,17 @@
       "label": "Use unconventional violence",
       "quad": "material conflict",
       "goldstein": -9.0,
+      "outlets": 1
+    },
+    {
+      "title": "Iran points finger at US and Israel over deadly Kuwait strike",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
