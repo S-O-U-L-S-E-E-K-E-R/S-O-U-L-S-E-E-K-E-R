@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-28 01:06 UTC",
-  "feed_time": "2026-11-28T01:06:43.570509",
+  "updated": "2026-11-28 03:08 UTC",
+  "feed_time": "2026-11-28T03:08:36.138536",
   "total": 841,
-  "coded": 218,
-  "outlets": 66,
+  "coded": 221,
+  "outlets": 67,
   "quad_hist": {
     "material conflict": 104,
-    "verbal conflict": 51,
-    "verbal cooperation": 47,
-    "material cooperation": 16
+    "verbal conflict": 50,
+    "verbal cooperation": 49,
+    "material cooperation": 18
   },
   "top_labels": [
     {
       "label": "Use conventional military force",
-      "n": 19
+      "n": 20
     },
     {
       "label": "Use unconventional violence",
@@ -24,8 +24,8 @@
       "n": 16
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 12
+      "label": "Employ aerial weapons",
+      "n": 11
     },
     {
       "label": "Threaten",
@@ -42,7 +42,18 @@
       "label": "Attack cybernetically",
       "quad": "material conflict",
       "goldstein": -7.0,
-      "outlets": 10
+      "outlets": 8
+    },
+    {
+      "title": "US base in Bahrain remains low-staffed months after Iranian drone, missile\u2026",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 5
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -60,10 +71,10 @@
       "source": "Hindustan Times",
       "risk": 10,
       "dyad": "Palestine \u2192 Israel",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 4
     },
     {
@@ -86,17 +97,6 @@
       "label": "Arrest, detain or charge",
       "quad": "material conflict",
       "goldstein": -5.0,
-      "outlets": 1
-    },
-    {
-      "title": "Newly released documents suggest CIA did more post-9/11 waterboarding than\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "",
-      "code": "084",
-      "label": "Return or release",
-      "quad": "material cooperation",
-      "goldstein": 5.0,
       "outlets": 1
     },
     {
