@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-28 05:10 UTC",
-  "feed_time": "2026-11-28T05:10:43.687129",
-  "total": 850,
-  "coded": 220,
-  "outlets": 66,
+  "updated": "2026-11-28 06:11 UTC",
+  "feed_time": "2026-11-28T06:11:43.642985",
+  "total": 852,
+  "coded": 229,
+  "outlets": 67,
   "quad_hist": {
-    "material conflict": 100,
-    "verbal conflict": 51,
-    "verbal cooperation": 53,
-    "material cooperation": 16
+    "material conflict": 104,
+    "verbal conflict": 53,
+    "verbal cooperation": 54,
+    "material cooperation": 18
   },
   "top_labels": [
     {
-      "label": "Use conventional military force",
+      "label": "Use unconventional violence",
       "n": 18
     },
     {
-      "label": "Use unconventional violence",
-      "n": 16
+      "label": "Use conventional military force",
+      "n": 18
     },
     {
       "label": "Consult",
       "n": 16
     },
     {
-      "label": "Threaten",
-      "n": 12
+      "label": "Attack cybernetically",
+      "n": 13
     },
     {
-      "label": "Attack cybernetically",
-      "n": 12
+      "label": "Threaten",
+      "n": 13
     }
   ],
   "ticker": [
@@ -42,7 +42,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 3
     },
     {
       "title": "Putin commissions nuclear submarine carrying hypersonic missiles",
@@ -53,6 +53,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 2
+    },
+    {
+      "title": "US military says cyber systems secure after reports of Air Force hack",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "United States",
+      "code": "176",
+      "label": "Attack cybernetically",
+      "quad": "material conflict",
+      "goldstein": -7.0,
       "outlets": 2
     },
     {
@@ -78,17 +89,6 @@
       "outlets": 1
     },
     {
-      "title": "\u2018Mass-casualty event\u2019 in Europe possible amid rise in Russian sabotage, say\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Authorities \u2192 Russia",
-      "code": "173",
-      "label": "Arrest, detain or charge",
-      "quad": "material conflict",
-      "goldstein": -5.0,
-      "outlets": 1
-    },
-    {
       "title": "Ukraine war briefing: Zelenskyy criticises Trump for calling Putin his \u2018fri\u2026",
       "source": "Guardian Top",
       "risk": 10,
@@ -100,6 +100,17 @@
       "outlets": 1
     },
     {
+      "title": "\u2018Mass-casualty event\u2019 in Europe possible amid rise in Russian sabotage, say\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Authorities \u2192 Russia",
+      "code": "173",
+      "label": "Arrest, detain or charge",
+      "quad": "material conflict",
+      "goldstein": -5.0,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Zelensky walks back claim about Libya attack after rebuke from Rome",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "Libya \u2192 Italy",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
