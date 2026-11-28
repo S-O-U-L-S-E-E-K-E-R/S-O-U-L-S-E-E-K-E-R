@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-28 09:14 UTC",
-  "feed_time": "2026-11-28T09:14:36.136237",
-  "total": 846,
-  "coded": 215,
-  "outlets": 65,
+  "updated": "2026-11-28 10:15 UTC",
+  "feed_time": "2026-11-28T10:14:44.399412",
+  "total": 853,
+  "coded": 211,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 99,
-    "verbal conflict": 55,
-    "verbal cooperation": 46,
-    "material cooperation": 15
+    "material conflict": 98,
+    "verbal conflict": 58,
+    "verbal cooperation": 42,
+    "material cooperation": 13
   },
   "top_labels": [
     {
-      "label": "Use unconventional violence",
-      "n": 17
-    },
-    {
       "label": "Use conventional military force",
-      "n": 17
+      "n": 18
     },
     {
-      "label": "Consult",
-      "n": 14
-    },
-    {
-      "label": "Attack cybernetically",
-      "n": 13
+      "label": "Use unconventional violence",
+      "n": 16
     },
     {
       "label": "Threaten",
-      "n": 12
+      "n": 15
+    },
+    {
+      "label": "Consult",
+      "n": 11
+    },
+    {
+      "label": "Attack cybernetically",
+      "n": 10
     }
   ],
   "ticker": [
@@ -53,7 +53,7 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 3
+      "outlets": 2
     },
     {
       "title": "US military says cyber systems secure after reports of Air Force hack",
@@ -67,17 +67,6 @@
       "outlets": 2
     },
     {
-      "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
-      "source": "AlJazeera",
-      "risk": 10,
-      "dyad": "Italy \u2192 Iran",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
-      "outlets": 1
-    },
-    {
       "title": "Ukraine war briefing: Zelenskyy criticises Trump for calling Putin his \u2018fri\u2026",
       "source": "Guardian Top",
       "risk": 10,
@@ -89,7 +78,7 @@
       "outlets": 1
     },
     {
-      "title": "Watching Wild Horse Nine in Santiago brings Pinochet\u2019s tyranny back to drea\u2026",
+      "title": "\u2018Trump is a nightmare\u2019: Bob Woodward on his memoir Secrets and the power of\u2026",
       "source": "Guardian Top",
       "risk": 10,
       "dyad": "",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Zelensky walks back claim about Libya attack after rebuke from Italy",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Libya \u2192 Italy",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
