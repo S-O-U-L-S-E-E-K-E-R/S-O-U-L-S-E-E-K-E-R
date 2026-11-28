@@ -1,35 +1,35 @@
 {
-  "updated": "2026-11-28 06:11 UTC",
-  "feed_time": "2026-11-28T06:11:43.642985",
-  "total": 852,
-  "coded": 229,
-  "outlets": 67,
+  "updated": "2026-11-28 07:12 UTC",
+  "feed_time": "2026-11-28T07:12:43.691870",
+  "total": 855,
+  "coded": 222,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 53,
-    "verbal cooperation": 54,
-    "material cooperation": 18
+    "material conflict": 103,
+    "verbal conflict": 55,
+    "verbal cooperation": 48,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 18
+      "n": 19
     },
     {
       "label": "Use conventional military force",
-      "n": 18
-    },
-    {
-      "label": "Consult",
-      "n": 16
+      "n": 19
     },
     {
       "label": "Attack cybernetically",
       "n": 13
     },
     {
-      "label": "Threaten",
+      "label": "Consult",
       "n": 13
+    },
+    {
+      "label": "Threaten",
+      "n": 12
     }
   ],
   "ticker": [
@@ -70,9 +70,9 @@
       "title": "Doctors Without Borders says two staff killed in Israeli 'direct hit' on Ga\u2026",
       "source": "MEE",
       "risk": 10,
-      "dyad": "Israel \u2192 Palestine",
-      "code": "195",
-      "label": "Employ aerial weapons",
+      "dyad": "Israel \u2192 Doctors Without Bord\u2026",
+      "code": "190",
+      "label": "Use conventional military for\u2026",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 2
@@ -100,25 +100,25 @@
       "outlets": 1
     },
     {
-      "title": "\u2018Mass-casualty event\u2019 in Europe possible amid rise in Russian sabotage, say\u2026",
+      "title": "Watching Wild Horse Nine in Santiago brings Pinochet\u2019s tyranny back to drea\u2026",
       "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Authorities \u2192 Russia",
-      "code": "173",
-      "label": "Arrest, detain or charge",
-      "quad": "material conflict",
-      "goldstein": -5.0,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     },
     {
-      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
-      "source": "CNN Top",
+      "title": "Trinity: Jed Mercurio\u2019s nuclear thriller is a phallus-slapping Freudian nig\u2026",
+      "source": "Guardian Top",
       "risk": 10,
-      "dyad": "Russia",
-      "code": "154",
-      "label": "Mobilize armed forces",
-      "quad": "material conflict",
-      "goldstein": -7.2,
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
       "outlets": 1
     }
   ]
