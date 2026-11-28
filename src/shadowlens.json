@@ -1,49 +1,38 @@
 {
-  "updated": "2026-11-28 04:09 UTC",
-  "feed_time": "2026-11-28T04:08:36.051132",
-  "total": 844,
+  "updated": "2026-11-28 05:10 UTC",
+  "feed_time": "2026-11-28T05:10:43.687129",
+  "total": 850,
   "coded": 220,
-  "outlets": 67,
+  "outlets": 66,
   "quad_hist": {
-    "material conflict": 108,
-    "verbal conflict": 49,
-    "verbal cooperation": 46,
-    "material cooperation": 17
+    "material conflict": 100,
+    "verbal conflict": 51,
+    "verbal cooperation": 53,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use conventional military force",
-      "n": 20
-    },
-    {
-      "label": "Use unconventional violence",
       "n": 18
     },
     {
+      "label": "Use unconventional violence",
+      "n": 16
+    },
+    {
       "label": "Consult",
-      "n": 15
+      "n": 16
     },
     {
-      "label": "Employ aerial weapons",
-      "n": 11
+      "label": "Threaten",
+      "n": 12
     },
     {
-      "label": "Arrest, detain or charge",
-      "n": 11
+      "label": "Attack cybernetically",
+      "n": 12
     }
   ],
   "ticker": [
-    {
-      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
-      "source": "Dawn",
-      "risk": 10,
-      "dyad": "United States",
-      "code": "176",
-      "label": "Attack cybernetically",
-      "quad": "material conflict",
-      "goldstein": -7.0,
-      "outlets": 8
-    },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
       "source": "NYT World",
@@ -56,26 +45,26 @@
       "outlets": 4
     },
     {
-      "title": "Hamas chief Khalil al-Hayya's son survives Israeli drone strike in Gaza City",
-      "source": "Hindustan Times",
+      "title": "Putin commissions nuclear submarine carrying hypersonic missiles",
+      "source": "Times of India",
       "risk": 10,
-      "dyad": "Palestine \u2192 Israel",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 4
+      "dyad": "",
+      "code": null,
+      "label": "",
+      "quad": null,
+      "goldstein": null,
+      "outlets": 2
     },
     {
-      "title": "US base in Bahrain remains low-staffed months after Iranian drone, missile\u2026",
-      "source": "Jerusalem Post",
+      "title": "Doctors Without Borders says two staff killed in Israeli 'direct hit' on Ga\u2026",
+      "source": "MEE",
       "risk": 10,
-      "dyad": "United States \u2192 Iran",
+      "dyad": "Israel \u2192 Palestine",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 4
+      "outlets": 2
     },
     {
       "title": "Iran war live: Italy says drone in deadly Kuwait attack was made in Iran",
@@ -119,6 +108,17 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
+      "outlets": 1
+    },
+    {
+      "title": "Zelensky walks back claim about Libya attack after rebuke from Rome",
+      "source": "RT",
+      "risk": 10,
+      "dyad": "Libya \u2192 Italy",
+      "code": "180",
+      "label": "Use unconventional violence",
+      "quad": "material conflict",
+      "goldstein": -9.0,
       "outlets": 1
     }
   ]
