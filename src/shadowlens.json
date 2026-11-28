@@ -1,14 +1,14 @@
 {
-  "updated": "2026-11-28 03:08 UTC",
-  "feed_time": "2026-11-28T03:08:36.138536",
-  "total": 841,
-  "coded": 221,
+  "updated": "2026-11-28 04:09 UTC",
+  "feed_time": "2026-11-28T04:08:36.051132",
+  "total": 844,
+  "coded": 220,
   "outlets": 67,
   "quad_hist": {
-    "material conflict": 104,
-    "verbal conflict": 50,
-    "verbal cooperation": 49,
-    "material cooperation": 18
+    "material conflict": 108,
+    "verbal conflict": 49,
+    "verbal cooperation": 46,
+    "material cooperation": 17
   },
   "top_labels": [
     {
@@ -17,18 +17,18 @@
     },
     {
       "label": "Use unconventional violence",
-      "n": 16
+      "n": 18
     },
     {
       "label": "Consult",
-      "n": 16
+      "n": 15
     },
     {
       "label": "Employ aerial weapons",
       "n": 11
     },
     {
-      "label": "Threaten",
+      "label": "Arrest, detain or charge",
       "n": 11
     }
   ],
@@ -43,17 +43,6 @@
       "quad": "material conflict",
       "goldstein": -7.0,
       "outlets": 8
-    },
-    {
-      "title": "US base in Bahrain remains low-staffed months after Iranian drone, missile\u2026",
-      "source": "Jerusalem Post",
-      "risk": 10,
-      "dyad": "United States \u2192 Iran",
-      "code": "195",
-      "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 5
     },
     {
       "title": "Two Italians Killed in Iranian Drone Attack on Kuwait, Officials Say",
@@ -71,6 +60,17 @@
       "source": "Hindustan Times",
       "risk": 10,
       "dyad": "Palestine \u2192 Israel",
+      "code": "195",
+      "label": "Employ aerial weapons",
+      "quad": "material conflict",
+      "goldstein": -10.0,
+      "outlets": 4
+    },
+    {
+      "title": "US base in Bahrain remains low-staffed months after Iranian drone, missile\u2026",
+      "source": "Jerusalem Post",
+      "risk": 10,
+      "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
       "quad": "material conflict",
@@ -100,6 +100,17 @@
       "outlets": 1
     },
     {
+      "title": "Ukraine war briefing: Zelenskyy criticises Trump for calling Putin his \u2018fri\u2026",
+      "source": "Guardian Top",
+      "risk": 10,
+      "dyad": "Ukraine \u2192 United States",
+      "code": "111",
+      "label": "Criticize or denounce",
+      "quad": "verbal conflict",
+      "goldstein": -2.0,
+      "outlets": 1
+    },
+    {
       "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
       "source": "CNN Top",
       "risk": 10,
@@ -108,17 +119,6 @@
       "label": "Mobilize armed forces",
       "quad": "material conflict",
       "goldstein": -7.2,
-      "outlets": 1
-    },
-    {
-      "title": "Zelensky walks back claim about Libya attack after rebuke from Rome",
-      "source": "RT",
-      "risk": 10,
-      "dyad": "Libya \u2192 Italy",
-      "code": "180",
-      "label": "Use unconventional violence",
-      "quad": "material conflict",
-      "goldstein": -9.0,
       "outlets": 1
     }
   ]
