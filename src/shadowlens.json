@@ -1,19 +1,19 @@
 {
-  "updated": "2026-11-28 11:16 UTC",
-  "feed_time": "2026-11-28T11:15:51.080016",
-  "total": 840,
-  "coded": 214,
+  "updated": "2026-11-28 12:17 UTC",
+  "feed_time": "2026-11-28T12:16:43.586489",
+  "total": 830,
+  "coded": 211,
   "outlets": 66,
   "quad_hist": {
     "material conflict": 102,
-    "verbal conflict": 59,
-    "verbal cooperation": 41,
-    "material cooperation": 12
+    "verbal conflict": 53,
+    "verbal cooperation": 40,
+    "material cooperation": 16
   },
   "top_labels": [
     {
       "label": "Use unconventional violence",
-      "n": 19
+      "n": 18
     },
     {
       "label": "Threaten",
@@ -24,15 +24,26 @@
       "n": 15
     },
     {
-      "label": "Attack cybernetically",
-      "n": 11
+      "label": "Arrest, detain or charge",
+      "n": 12
     },
     {
-      "label": "Arrest, detain or charge",
+      "label": "Attack cybernetically",
       "n": 11
     }
   ],
   "ticker": [
+    {
+      "title": "Afghanistan school blast kills 7 students, injures up to 99",
+      "source": "Dawn",
+      "risk": 10,
+      "dyad": "Afghanistan",
+      "code": "183",
+      "label": "Conduct bombing",
+      "quad": "material conflict",
+      "goldstein": -9.0,
+      "outlets": 10
+    },
     {
       "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
       "source": "BBC World",
@@ -42,17 +53,17 @@
       "label": "Employ aerial weapons",
       "quad": "material conflict",
       "goldstein": -10.0,
-      "outlets": 6
+      "outlets": 7
     },
     {
-      "title": "Kiev systematically attacks Russian medical workers, making them military t\u2026",
+      "title": "Kiev\u2019s strikes on Russian medical workers trample on humanitarian law \u2014 Mir\u2026",
       "source": "TASS",
       "risk": 10,
       "dyad": "Ukraine \u2192 Russia",
-      "code": "180",
-      "label": "Use unconventional violence",
+      "code": "195",
+      "label": "Employ aerial weapons",
       "quad": "material conflict",
-      "goldstein": -9.0,
+      "goldstein": -10.0,
       "outlets": 2
     },
     {
@@ -65,17 +76,6 @@
       "quad": "material conflict",
       "goldstein": -7.0,
       "outlets": 2
-    },
-    {
-      "title": "Ukraine war briefing: Zelenskyy criticises Trump for calling Putin his \u2018fri\u2026",
-      "source": "Guardian Top",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 United States",
-      "code": "111",
-      "label": "Criticize or denounce",
-      "quad": "verbal conflict",
-      "goldstein": -2.0,
-      "outlets": 1
     },
     {
       "title": "\u2018Trump is a nightmare\u2019: Bob Woodward on his memoir Secrets and the power of\u2026",
