@@ -1,22 +1,22 @@
 {
-  "updated": "2026-11-28 08:13 UTC",
-  "feed_time": "2026-11-28T08:13:43.616544",
-  "total": 855,
-  "coded": 219,
-  "outlets": 66,
+  "updated": "2026-11-28 09:14 UTC",
+  "feed_time": "2026-11-28T09:14:36.136237",
+  "total": 846,
+  "coded": 215,
+  "outlets": 65,
   "quad_hist": {
-    "material conflict": 101,
-    "verbal conflict": 56,
-    "verbal cooperation": 48,
-    "material cooperation": 14
+    "material conflict": 99,
+    "verbal conflict": 55,
+    "verbal cooperation": 46,
+    "material cooperation": 15
   },
   "top_labels": [
     {
-      "label": "Use conventional military force",
-      "n": 18
+      "label": "Use unconventional violence",
+      "n": 17
     },
     {
-      "label": "Use unconventional violence",
+      "label": "Use conventional military force",
       "n": 17
     },
     {
@@ -29,7 +29,7 @@
     },
     {
       "label": "Threaten",
-      "n": 13
+      "n": 12
     }
   ],
   "ticker": [
@@ -51,17 +51,6 @@
       "dyad": "United States \u2192 Iran",
       "code": "195",
       "label": "Employ aerial weapons",
-      "quad": "material conflict",
-      "goldstein": -10.0,
-      "outlets": 3
-    },
-    {
-      "title": "Ukrainian forces strike Russia's latest Buk-M3 air defense system in occupi\u2026",
-      "source": "Ukrinform",
-      "risk": 10,
-      "dyad": "Ukraine \u2192 Russia",
-      "code": "192",
-      "label": "Occupy territory",
       "quad": "material conflict",
       "goldstein": -10.0,
       "outlets": 3
@@ -119,6 +108,17 @@
       "label": "",
       "quad": null,
       "goldstein": null,
+      "outlets": 1
+    },
+    {
+      "title": "Russia is 'going backwards' in equipment and deploying post WWII-era tanks,\u2026",
+      "source": "CNN Top",
+      "risk": 10,
+      "dyad": "Russia",
+      "code": "154",
+      "label": "Mobilize armed forces",
+      "quad": "material conflict",
+      "goldstein": -7.2,
       "outlets": 1
     }
   ]
